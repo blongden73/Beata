@@ -1,0 +1,40 @@
+{
+  "provider": [
+    {
+      "provider": "Pitchfork",
+      "provider_address":"http://www.pitchfork.com"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Donnie Trumpet & the Social Experiment",
+      "albumName": "Surf",
+      "image": "http://cdn.pitchfork.com/albums/21920/list.04db1a45.jpg",
+      "rating": " 8.3 "
+    },
+    {
+      "artist": "Jamie xx",
+      "albumName": "In Colour",
+      "image": "http://cdn2.pitchfork.com/albums/21726/list.8f09545c.jpg",
+      "rating": " 9.3 "
+    },
+    {
+      "artist": "Nao",
+      "albumName": "February 15 EP",
+      "image": "http://cdn4.pitchfork.com/albums/21876/list.fe5f15e3.jpg",
+      "rating": " 8.4 "
+    },
+    {
+      "artist": "Holly Herndon",
+      "albumName": "Platform",
+      "image": "http://cdn2.pitchfork.com/albums/21725/list.cc73984a.jpg",
+      "rating": " 8.7 "
+    },
+    {
+      "artist": "Shamir",
+      "albumName": "Ratchet",
+      "image": "http://cdn3.pitchfork.com/albums/21847/list.611afec6.jpg",
+      "rating": " 8.3 "
+    }
+  ]
+}

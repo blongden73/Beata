@@ -1,0 +1,105 @@
+{
+  "provider": [
+    {
+      "provider": "Time Out"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Muse ",
+      "albumName": " Drones",
+      "image": "http://media.timeout.com/images/102595848/image.jpg",
+      "rating": "1"
+    },
+    {
+      "artist": "Florence And The Machine ",
+      "albumName": " How Big, How Blue, How Beautiful",
+      "image": "http://media.timeout.com/images/102537479/image.jpg",
+      "rating": "5"
+    },
+    {
+      "artist": "Jamie XX ",
+      "albumName": " In Colour",
+      "image": "http://media.timeout.com/images/102529180/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Sun Kil Moon ",
+      "albumName": " Universal Themes",
+      "image": "http://media.timeout.com/images/102526765/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Hot Chip ",
+      "albumName": " Why Make Sense?",
+      "image": "http://media.timeout.com/images/102522867/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Snoop Dogg ",
+      "albumName": " Bush",
+      "image": "http://media.timeout.com/images/102503287/image.jpg",
+      "rating": "2"
+    },
+    {
+      "artist": "Blur ",
+      "albumName": " The Magic Whip",
+      "image": "http://media.timeout.com/images/102431081/image.jpg",
+      "rating": "4"
+    },
+    {
+      "artist": "Waxahatchee ",
+      "albumName": " Ivy Tripp",
+      "image": "http://media.timeout.com/images/102372403/image.jpg",
+      "rating": "4"
+    },
+    {
+      "artist": "East India Youth ",
+      "albumName": " Culture of Volume",
+      "image": "http://media.timeout.com/images/102372197/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Courtney Barnett ",
+      "albumName": " Sometimes I Sit and Think, and Sometimes I Just Sit",
+      "image": "http://media.timeout.com/images/102199319/image.jpg",
+      "rating": "4"
+    },
+    {
+      "artist": "Kendrick Lamar ",
+      "albumName": " To Pimp a Butterfly",
+      "image": "http://media.timeout.com/images/102187439/image.jpg",
+      "rating": "5"
+    },
+    {
+      "artist": "Sufjan Stevens ",
+      "albumName": " Carrie &amp; Lowell",
+      "image": "http://media.timeout.com/images/102169503/image.jpg",
+      "rating": "4"
+    },
+    {
+      "artist": "Madonna ",
+      "albumName": " Rebel Heart",
+      "image": "http://media.timeout.com/images/102080259/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Public Service Broadcasting ",
+      "albumName": " The Race for Space",
+      "image": "http://media.timeout.com/images/102069213/image.jpg",
+      "rating": "3"
+    },
+    {
+      "artist": "Charli XCX ",
+      "albumName": " Sucker",
+      "image": "http://media.timeout.com/images/102055177/image.jpg",
+      "rating": "4"
+    },
+    {
+      "artist": "Father John Misty ",
+      "albumName": " I Love You, Honeybear",
+      "image": "http://media.timeout.com/images/102035067/image.jpg",
+      "rating": "4"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "provider": [
+    {
+      "provider": "Clash"
+      "provider_address":"http://www.clashmusic.com/"
+
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Muse ",
+      "albumName": " Drones",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/MUSE_DRONES_ARTWORK_600.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/muse-drones"
+    },
+    {
+      "artist": "Valet ",
+      "albumName": " Nature",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/NATURE.jpeg",
+      "rating": null,
+      "soundcloud": "/reviews/valet-nature"
+    },
+    {
+      "artist": "John Metcalfe ",
+      "albumName": " The Appearance Of Colour",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/639.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/john-metcalfe-the-appearance-of-colour"
+    },
+    {
+      "artist": "Braille ",
+      "albumName": " Mute Swan",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Braille_Mute_Swan_Album_Cover_Art_750_750_75_s.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/braille-mute-swan"
+    },
+    {
+      "artist": "Kölsch ",
+      "albumName": " 1983",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/1983.jpeg",
+      "rating": null,
+      "soundcloud": "/reviews/k%C3%B6lsch-1983"
+    },
+    {
+      "artist": "Florence & The Machine ",
+      "albumName": " How Big, How Blue, How Beautiful",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/sleeve.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/florence-the-machine-how-big-how-blue-how-beautiful"
+    },
+    {
+      "artist": "PINS ",
+      "albumName": " Wild Nights",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Pins-Wild-Nights.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/pins-wild-nights"
+    },
+    {
+      "artist": "Clap Your Hands Say Yeah ",
+      "albumName": " Clap Your Hands Say Yeah",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/CYHSY.jpeg",
+      "rating": null,
+      "soundcloud": "/reviews/clap-your-hands-say-yeah-clap-your-hands-say-yeah"
+    },
+    {
+      "artist": "A$AP Rocky ",
+      "albumName": " At.Long.Last.A$AP",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/AtLongLastASAPCover.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/aap-rocky-atlonglastaap"
+    }
+  ]
+}

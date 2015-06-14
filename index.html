@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/app.js" type="text/javascript"></script>
+<script src="js/lazy.js" type="text/javascript"></script>
+<script src="js/handlebars-v3.0.3.js"></script>
+<script src="js/modernizr.custom.85180.js" type="text/javascript"></script>
+<link type="style/css" href="Style/style.css" rel="stylesheet">
+<head>
+<title>Beata | New music across the web</title>
+</head>
+
+<body>
+	
+	    <div id="preloader"></div>
+
+	
+	<section id="header"></section>
+	
+	<div id="music__container">
+		<script id="pitchfork__template" type="text/x-handlebars-template">
+		
+			<section class="pitchfork__container">
+			
+				<div class="wrapper">
+				
+					<ul class="album__list">
+						
+						{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+						
+						{{#artists}}
+					
+					
+						<li class="album">
+						<div class="record__wrapper"><img src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+					
+					
+					{{/artists}}<div class="clear"></div></ul>
+				</div>
+			</section>
+		</script>
+	</div>	
+		
+	<div id="music__clash__container">	
+		<script id="clash__template" type="text/x-handlebars-template">
+		
+			<section class="clash__container">
+			
+				<div class="wrapper">
+				
+					<ul class="album__list">
+						
+						{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+						
+						{{#artists}}
+					
+					
+						<li class="album">
+						<div class="record__wrapper"><img class="clash" src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+					
+					
+					{{/artists}}<div class="clear"></div></ul>
+				</div>
+			</section>
+		</script>
+	</div>	
+		
+	<div id="music__rolling__container">	
+			<script id="rolling__template" type="text/x-handlebars-template">
+			
+				<section class="rolling__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>	
+
+	<div id="music__paste__container">	
+			<script id="paste__template" type="text/x-handlebars-template">
+			
+				<section class="paste__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>	
+
+	<div id="music__time__container">	
+			<script id="time__template" type="text/x-handlebars-template">
+			
+				<section class="time__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img class="timeout" src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>	
+
+	<div id="music__COS__container">	
+			<script id="COS__template" type="text/x-handlebars-template">
+			
+				<section class="COS__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>	
+	
+	<div id="music__uncut__container">	
+			<script id="uncut__template" type="text/x-handlebars-template">
+			
+				<section class="uncut__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img class="timeout" src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>
+
+	<div id="music__allMusic__container">	
+			<script id="allMusic__template" type="text/x-handlebars-template">
+			
+				<section class="allMusic__container">
+				
+					<div class="wrapper">
+					
+						<ul class="album__list">
+							
+							{{#provider}}
+							<li class="album"><div class="record__wrapper title"></div><div class="album__title"><h1>{{provider}}</h1></div></li></li>
+							{{/provider}}
+							
+							{{#artists}}
+						
+						
+							<li class="album">
+							<div class="record__wrapper"><img src="{{image}}"></div><div class="album__title"><h1>{{artist}}</h1></div><div class="rating"><h1>{{rating}}</h1></div></li>
+						
+						
+						{{/artists}}<div class="clear"></div></ul>
+					</div>
+				</section>
+			</script>
+	</div>		
+		
+	<footer>
+	</footer>	
+		
+</body>
+
+</html>
+
+
+
