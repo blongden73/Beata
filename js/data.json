@@ -1,8 +1,7 @@
 {
   "provider": [
     {
-      "provider": "Pitchfork",
-      "provider_address":"http://www.pitchfork.com"
+      "provider": "Pitchfork"
     }
   ],
   "artists": [

@@ -1,9 +1,7 @@
 {
   "provider": [
     {
-      "provider": "Consequences of Sound",
-      "provider_address":"http://www.consequenceofsound.net/"
-
+      "provider": "Consequences of Sound"
     }
   ],
   "artists": [

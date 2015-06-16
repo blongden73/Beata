@@ -4,6 +4,7 @@ var request = require("request"),
 
 var jf = require('jsonfile');	
 var file = 'js/data.json';
+var fs  = require('fs');
 
 	
 request(url, function (error, response, body) {
@@ -29,15 +30,18 @@ $("ul.object-list.bnm-list > li").each(function(index){
 	var imageLink = $("a .artwork .lazy", this).data('content').replace(" <img src=\"", "").replace("\" /> ", "");
 	var ratingNo = $(".info .score", this).html();
 	var sClink = $(".info .reveiw-audio ul li .p4k-player-track", this).data('href');
+
 		obj.artists[index] = new albumInfo(artistName, albumName, imageLink, ratingNo, sClink);
 	});
 				
 			
-		console.log(obj);
+		console.log(obj.artists[1].image);
 	} else {
 		console.log("We’ve encountered an error: " + error);
 	}
 	
+
+ 		
 	//write to json
 jf.writeFile(file, obj, function(err) {
 	console.log("this is not working", err)

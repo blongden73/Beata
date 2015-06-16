@@ -6,6 +6,12 @@
   ],
   "artists": [
     {
+      "artist": "My Morning Jacket ",
+      "albumName": " The Waterfall",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/150615MMJ.jpg",
+      "rating": "7"
+    },
+    {
       "artist": "Tom Russell ",
       "albumName": " The Rose Of Roscrae",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/tom_russell.jpg",
@@ -56,12 +62,6 @@
       "artist": "David Corley ",
       "albumName": " Available Light",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/david_corley.jpg",
-      "rating": "9"
-    },
-    {
-      "artist": "Bassekou Kouyaté & Ngoni Ba ",
-      "albumName": " Ba Power",
-      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/Bassekou-0123-bosch-pick.jpg",
       "rating": "9"
     }
   ]

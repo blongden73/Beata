@@ -2,94 +2,92 @@
   "provider": [
     {
       "provider": "Paste"
-      "provider_address":"http://www.pastemagazine.com/"
-
     }
   ],
   "artists": [
     {
+      "artist": "Ryn Weaver",
+      "albumName": " The Fool",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/ryn_weaver_cover-560x560.jpg?635700527900118331",
+      "rating": "7.9"
+    },
+    {
+      "artist": "Active Child",
+      "albumName": " Mercy",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/activechildmercy-560x560.jpg?635700527900118331",
+      "rating": "8.3"
+    },
+    {
       "artist": "Straight From The Horse's Mouth",
       "albumName": " Sean Moeller's Daytrotter Picks for 6/10/15",
-      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635698493811432830",
+      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635700527900128332",
       "rating": null
     },
     {
       "artist": "Jon Regen",
       "albumName": " Stop Time",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635698493811432830",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635700527900128332",
       "rating": "8.0"
     },
     {
       "artist": "Teen Men",
       "albumName": " Teen Men",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635698493811442831",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635700527900138333",
       "rating": "8.9"
     },
     {
       "artist": "Uniform",
       "albumName": " Perfect World",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635698493811442831",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635700527900148334",
       "rating": "7.9"
     },
     {
       "artist": "No Joy",
       "albumName": " More Faithful",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/nojoyalbumcover.jpg?635698493811452832",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/nojoyalbumcover.jpg?635700527900148334",
       "rating": "7.0"
     },
     {
       "artist": "Muse",
       "albumName": " Drones",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/muse-drones-2015-album-art-billboard-510x510.jpg?635698493811452832",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/muse-drones-2015-album-art-billboard-510x510.jpg?635700527900158335",
       "rating": "5.8"
     },
     {
       "artist": "Indigo Girls",
       "albumName": " One Lost Day",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/indigogirls.jpg?635698493811462833",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/indigogirls.jpg?635700527900158335",
       "rating": "9.0"
     },
     {
       "artist": "Willie Nelson & Merle Haggard",
       "albumName": " Django and Jimmie",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/willie-nelson0-merle-haggard-django-and-jimmie.jpg?635698493811472834",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/willie-nelson0-merle-haggard-django-and-jimmie.jpg?635700527900168336",
       "rating": "8.6"
     },
     {
       "artist": "Dawes",
       "albumName": " All Your Favorite Bands",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/allyourfavoritebandscoverjb.jpg?635698493811472834",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/allyourfavoritebandscoverjb.jpg?635700527900168336",
       "rating": "8.3"
     },
     {
       "artist": "Sun Kil Moon",
       "albumName": " Universal Themes",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/sunkilmoon-ut-560x560.jpg?635698493811482835",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/sunkilmoon-ut-560x560.jpg?635700527900178337",
       "rating": "8.4"
     },
     {
       "artist": "Florence + the Machine",
       "albumName": " How Big, How Blue, How Beautiful",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/01/hbhbhb-cover.jpg?635698493811482835",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/01/hbhbhb-cover.jpg?635700527900188338",
       "rating": "8.0"
     },
     {
       "artist": "Joanna Gruesome",
       "albumName": " Peanut Butter",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/jg-peanut-560x560.jpg?635698493811492836",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/jg-peanut-560x560.jpg?635700527900188338",
       "rating": "8.0"
-    },
-    {
-      "artist": "Donnie Trumpet & The Social Experiment",
-      "albumName": " Surf",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/01/surf-artwork1.jpg?635698493811502837",
-      "rating": "8.8"
-    },
-    {
-      "artist": "Girlpool",
-      "albumName": " Before the World Was Big",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/01/girlpool-btwwb-560x560.jpg?635698493811502837",
-      "rating": "7.8"
     }
   ]
 }
