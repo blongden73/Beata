@@ -4,6 +4,7 @@ var request = require("request"),
 
 var jf = require('jsonfile');	
 var file = 'js/AllMusicData.json';
+var fs = require('fs');
 
 	
 request(clashurl, function (error, response, body) {
@@ -14,12 +15,14 @@ request(clashurl, function (error, response, body) {
 	objAllMusic["provider"] = [{provider : 'All Music'}] ;						
 	objAllMusic["artists"] = [];
 	//create new object titles for albums 
-		function albumInfo(artist, albumName, image, rating, soundcloud){
+		function albumInfo(artist, albumName, image, rating, soundcloud, idvalue, imagePath){
     		this.artist = artist
 			this.albumName = albumName
 			this.image = image
 			this.rating = rating
 			this.soundcloud = soundcloud
+			this.idvalue = idvalue
+			this.imagePath = imagePath
 }
 
 //loop through albums list and get individual parts
@@ -33,9 +36,28 @@ $(".featured-rows .row .featured").each(function(index){
 	var ratingsplit =ratingNo.split('-');
 	var rating = ratingsplit[2];
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
-		objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, rating, sClink);
+	var id = artistName.replace(/\s+/g, '').toLowerCase();
+	var imagePath = 'imgs/all__music/' + id + ".jpeg";
+		objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, rating, sClink, id, imagePath);
 	});
 				
+	for(var i = 0; i < objAllMusic.artists.length; i++){
+
+var download = function(uri, filename, callback){
+  request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+  });
+};
+
+download(objAllMusic.artists[i].image, 'imgs/all__music/'+objAllMusic.artists[i].idvalue+'.jpeg', function(){
+  console.log('done');
+  
+});					
+};
+	
 			
 		console.log(objAllMusic);
 	} else {

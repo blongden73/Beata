@@ -98,7 +98,7 @@ body.down header.clone {
 	float: left;
 	position: relative;
 	
-	 @include media("phone") { 
+	 @include media("<=phone") { 
 	width: 100%;
 	float: none;
 	}

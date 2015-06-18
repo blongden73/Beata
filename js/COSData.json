@@ -9,73 +9,97 @@
       "artist": " Sun Kil Moon ",
       "albumName": " Universal Themes",
       "image": "https://consequenceofsound.files.wordpress.com/2015/05/sun-kil-moon-universal-themes1.jpg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "sunkilmoon-universalthemes",
+      "imagePath": "imgs/COS/sunkilmoon-universalthemes.jpeg"
     },
     {
       "artist": " Jamie xx ",
       "albumName": " In Colour",
       "image": "https://consequenceofsound.files.wordpress.com/2015/03/jamie-xx-in-colour.jpg?w=350&h=350&crop=1",
-      "rating": "A"
+      "rating": "A",
+      "idvalue": "jamiexx-incolour",
+      "imagePath": "imgs/COS/jamiexx-incolour.jpeg"
     },
     {
       "artist": " Torres ",
       "albumName": " Sprinter",
       "image": "https://consequenceofsound.files.wordpress.com/2015/01/torres-sprinter-album.jpg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "torres-sprinter",
+      "imagePath": "imgs/COS/torres-sprinter.jpeg"
     },
     {
       "artist": " Polaris ",
       "albumName": " Music from the Adventures of Pete &amp; Pete [Reissue]",
       "image": "https://consequenceofsound.files.wordpress.com/2015/02/polaris-album-coveradve.jpg?w=350&h=350&crop=1",
-      "rating": "A"
+      "rating": "A",
+      "idvalue": "polaris-musicfromtheadventuresofpete&amp;pete[reissue]",
+      "imagePath": "imgs/COS/polaris-musicfromtheadventuresofpete&amp;pete[reissue].jpeg"
     },
     {
       "artist": " Sufjan Stevens ",
       "albumName": " Carrie &amp; Lowell",
       "image": "https://consequenceofsound.files.wordpress.com/2015/01/screen-shot-2015-01-12-at-9-18-17-am.png?w=350&h=350&crop=1",
-      "rating": "A"
+      "rating": "A",
+      "idvalue": "sufjanstevens-carrie&amp;lowell",
+      "imagePath": "imgs/COS/sufjanstevens-carrie&amp;lowell.jpeg"
     },
     {
       "artist": " Kendrick Lamar ",
       "albumName": " To Pimp a Butterfly",
       "image": "https://consequenceofsound.files.wordpress.com/2015/03/kendrick-lamar-to-pimp-a-butterfly.jpg?w=350&h=350&crop=1",
-      "rating": "A+"
+      "rating": "A+",
+      "idvalue": "kendricklamar-topimpabutterfly",
+      "imagePath": "imgs/COS/kendricklamar-topimpabutterfly.jpeg"
     },
     {
       "artist": " Tobias Jesso Jr. ",
       "albumName": " Goon",
       "image": "https://consequenceofsound.files.wordpress.com/2014/12/screen-shot-2014-12-09-at-9-53-01-am.png?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "tobiasjessojr.-goon",
+      "imagePath": "imgs/COS/tobiasjessojr.-goon.jpeg"
     },
     {
       "artist": " Lady Lamb ",
       "albumName": " After",
       "image": "https://consequenceofsound.files.wordpress.com/2014/12/ladylamb_afterlpart.jpg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "ladylamb-after",
+      "imagePath": "imgs/COS/ladylamb-after.jpeg"
     },
     {
       "artist": " Led Zeppelin ",
       "albumName": " Physical Graffiti [Reissue]",
       "image": "https://consequenceofsound.files.wordpress.com/2015/02/led-zeppelin-physical-graffiti.jpeg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "ledzeppelin-physicalgraffiti[reissue]",
+      "imagePath": "imgs/COS/ledzeppelin-physicalgraffiti[reissue].jpeg"
     },
     {
       "artist": " Dan Deacon ",
       "albumName": " Gliss Riffer",
       "image": "https://consequenceofsound.files.wordpress.com/2014/12/dandeaconglissriffercvr2400.jpg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "dandeacon-glissriffer",
+      "imagePath": "imgs/COS/dandeacon-glissriffer.jpeg"
     },
     {
       "artist": " Father John Misty ",
       "albumName": " I Love You, Honeybear",
       "image": "https://consequenceofsound.files.wordpress.com/2015/02/screen-shot-2015-02-04-at-10-07-44-am.png?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "fatherjohnmisty-iloveyou,honeybear",
+      "imagePath": "imgs/COS/fatherjohnmisty-iloveyou,honeybear.jpeg"
     },
     {
       "artist": " The Districts ",
       "albumName": " A Flourish and a Spoil",
       "image": "https://consequenceofsound.files.wordpress.com/2015/01/districts_flourish_lp.jpg?w=350&h=350&crop=1",
-      "rating": "A-"
+      "rating": "A-",
+      "idvalue": "thedistricts-aflourishandaspoil",
+      "imagePath": "imgs/COS/thedistricts-aflourishandaspoil.jpeg"
     }
   ]
 }

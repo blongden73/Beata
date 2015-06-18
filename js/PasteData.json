@@ -6,88 +6,116 @@
   ],
   "artists": [
     {
+      "artist": "John Lennon",
+      "albumName": " Lennon Box Set",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/lennon-vinyl-set.jpg?635701461773310754",
+      "rating": "8.0",
+      "idvalue": "johnlennon",
+      "imagePath": "imgs/paste/johnlennon.jpeg"
+    },
+    {
+      "artist": "Alpine",
+      "albumName": " Yuck",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/cgH9c8E.jpg?635701461773320755",
+      "rating": "7.0",
+      "idvalue": "alpine",
+      "imagePath": "imgs/paste/alpine.jpeg"
+    },
+    {
       "artist": "Ryn Weaver",
       "albumName": " The Fool",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/ryn_weaver_cover-560x560.jpg?635700527900118331",
-      "rating": "7.9"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/ryn_weaver_cover-560x560.jpg?635701461773320755",
+      "rating": "7.9",
+      "idvalue": "rynweaver",
+      "imagePath": "imgs/paste/rynweaver.jpeg"
     },
     {
       "artist": "Active Child",
       "albumName": " Mercy",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/activechildmercy-560x560.jpg?635700527900118331",
-      "rating": "8.3"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/activechildmercy-560x560.jpg?635701461773330756",
+      "rating": "8.3",
+      "idvalue": "activechild",
+      "imagePath": "imgs/paste/activechild.jpeg"
     },
     {
       "artist": "Straight From The Horse's Mouth",
       "albumName": " Sean Moeller's Daytrotter Picks for 6/10/15",
-      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635700527900128332",
-      "rating": null
+      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635701461773340757",
+      "rating": null,
+      "idvalue": "straightfromthehorse'smouth",
+      "imagePath": "imgs/paste/straightfromthehorse'smouth.jpeg"
     },
     {
       "artist": "Jon Regen",
       "albumName": " Stop Time",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635700527900128332",
-      "rating": "8.0"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635701461773340757",
+      "rating": "8.0",
+      "idvalue": "jonregen",
+      "imagePath": "imgs/paste/jonregen.jpeg"
     },
     {
       "artist": "Teen Men",
       "albumName": " Teen Men",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635700527900138333",
-      "rating": "8.9"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635701461773350758",
+      "rating": "8.9",
+      "idvalue": "teenmen",
+      "imagePath": "imgs/paste/teenmen.jpeg"
     },
     {
       "artist": "Uniform",
       "albumName": " Perfect World",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635700527900148334",
-      "rating": "7.9"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635701461773360759",
+      "rating": "7.9",
+      "idvalue": "uniform",
+      "imagePath": "imgs/paste/uniform.jpeg"
     },
     {
       "artist": "No Joy",
       "albumName": " More Faithful",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/nojoyalbumcover.jpg?635700527900148334",
-      "rating": "7.0"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/nojoyalbumcover.jpg?635701461773360759",
+      "rating": "7.0",
+      "idvalue": "nojoy",
+      "imagePath": "imgs/paste/nojoy.jpeg"
     },
     {
       "artist": "Muse",
       "albumName": " Drones",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/muse-drones-2015-album-art-billboard-510x510.jpg?635700527900158335",
-      "rating": "5.8"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/muse-drones-2015-album-art-billboard-510x510.jpg?635701461773370760",
+      "rating": "5.8",
+      "idvalue": "muse",
+      "imagePath": "imgs/paste/muse.jpeg"
     },
     {
       "artist": "Indigo Girls",
       "albumName": " One Lost Day",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/indigogirls.jpg?635700527900158335",
-      "rating": "9.0"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/indigogirls.jpg?635701461773380761",
+      "rating": "9.0",
+      "idvalue": "indigogirls",
+      "imagePath": "imgs/paste/indigogirls.jpeg"
     },
     {
       "artist": "Willie Nelson & Merle Haggard",
       "albumName": " Django and Jimmie",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/willie-nelson0-merle-haggard-django-and-jimmie.jpg?635700527900168336",
-      "rating": "8.6"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/willie-nelson0-merle-haggard-django-and-jimmie.jpg?635701461773380761",
+      "rating": "8.6",
+      "idvalue": "willienelson&merlehaggard",
+      "imagePath": "imgs/paste/willienelson&merlehaggard.jpeg"
     },
     {
       "artist": "Dawes",
       "albumName": " All Your Favorite Bands",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/allyourfavoritebandscoverjb.jpg?635700527900168336",
-      "rating": "8.3"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/allyourfavoritebandscoverjb.jpg?635701461773390762",
+      "rating": "8.3",
+      "idvalue": "dawes",
+      "imagePath": "imgs/paste/dawes.jpeg"
     },
     {
       "artist": "Sun Kil Moon",
       "albumName": " Universal Themes",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/sunkilmoon-ut-560x560.jpg?635700527900178337",
-      "rating": "8.4"
-    },
-    {
-      "artist": "Florence + the Machine",
-      "albumName": " How Big, How Blue, How Beautiful",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/01/hbhbhb-cover.jpg?635700527900188338",
-      "rating": "8.0"
-    },
-    {
-      "artist": "Joanna Gruesome",
-      "albumName": " Peanut Butter",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/jg-peanut-560x560.jpg?635700527900188338",
-      "rating": "8.0"
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/sunkilmoon-ut-560x560.jpg?635701461773400763",
+      "rating": "8.4",
+      "idvalue": "sunkilmoon",
+      "imagePath": "imgs/paste/sunkilmoon.jpeg"
     }
   ]
 }

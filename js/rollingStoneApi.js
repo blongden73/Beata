@@ -4,6 +4,7 @@ var request = require("request"),
 
 var jf = require('jsonfile');	
 var file = 'js/rollingData.json';
+var fs = require('fs');
 
 	
 request(rollingurl, function (error, response, body) {
@@ -14,12 +15,14 @@ request(rollingurl, function (error, response, body) {
 	objRolling["provider"] = [{provider : 'Rolling Stone'}] ;						
 	objRolling["artists"] = [];
 	//create new object titles for albums 
-		function albumInfo(artist, albumName, image, rating, soundcloud){
+		function albumInfo(artist, albumName, image, rating, soundcloud, idvalue, imagePath){
     		this.artist = artist
 			this.albumName = albumName
 			this.image = image
 			this.rating = rating
 			this.soundcloud = soundcloud
+			this.idvalue = idvalue
+			this.imagePath = imagePath
 }
 
 //loop through albums list and get individual parts
@@ -32,10 +35,28 @@ $(".primary ul.primary-list > li").each(function(index){
 	var rating = $(".rating-stars span.full", this).length;
 	var ratingNo = rating.toString();
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
-		objRolling.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink);
+	var id = artist.replace(/\s+/g, '').toLowerCase().replace('?', '').replace('/\,/g', '');
+	var imagePath = 'imgs/rolling__stone/' + id + ".jpeg";
+		objRolling.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink, id, imagePath);
 	});
 				
-			
+	for(var i = 0; i < objRolling.artists.length; i++){
+
+var download = function(uri, filename, callback){
+  request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+  });
+};
+
+download(objRolling.artists[i].image, 'imgs/rolling__stone/'+objRolling.artists[i].idvalue+'.jpeg', function(){
+  console.log('done');
+  
+});					
+};
+		
 		console.log(objRolling);
 	} else {
 		console.log("We’ve encountered an error: " + error);

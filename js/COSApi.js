@@ -4,6 +4,7 @@ var request = require("request"),
 
 var jf = require('jsonfile');	
 var file = 'js/COSData.json';
+var fs = require('fs');
 
 	
 request(clashurl, function (error, response, body) {
@@ -14,12 +15,14 @@ request(clashurl, function (error, response, body) {
 	objCOS["provider"] = [{provider : 'Consequences of Sound'}] ;						
 	objCOS["artists"] = [];
 	//create new object titles for albums 
-		function albumInfo(artist, albumName, image, rating, soundcloud){
+		function albumInfo(artist, albumName, image, rating, soundcloud, idvalue, imagePath){
     		this.artist = artist
 			this.albumName = albumName
 			this.image = image
 			this.rating = rating
 			this.soundcloud = soundcloud
+			this.idvalue = idvalue
+			this.imagePath = imagePath
 }
 
 //loop through albums list and get individual parts
@@ -31,9 +34,28 @@ $(".modules-grid #tab-everything .post").each(function(index){
 	var imageLink = $('a .image img', this).data('lazy-src');
 	var ratingNo = $(".grade-badge", this).html();
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
-		objCOS.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink);
+	var id = artistName.replace(/\s+/g, '').toLowerCase();
+	var imagePath = 'imgs/COS/' + id + ".jpeg";
+		objCOS.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink, id, imagePath);
 	});
-				
+	
+	for(var i = 0; i < objCOS.artists.length; i++){
+
+var download = function(uri, filename, callback){
+  request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+  });
+};
+
+download(objCOS.artists[i].image, 'imgs/COS/'+objCOS.artists[i].idvalue+'.jpeg', function(){
+  console.log('done');
+  
+});					
+};
+			
 			
 		console.log(objCOS);
 	} else {
