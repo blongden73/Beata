@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                     }
                 },
                 src: ['js/**/*.json'],
-                dest: 'src/json.js'
+                dest: 'src/json.json'
             }
         }
     			

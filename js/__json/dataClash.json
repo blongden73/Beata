@@ -1,0 +1,90 @@
+{
+  "provider": [
+    {
+      "provider": "Clash"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Kathryn Williams ",
+      "albumName": " Hypoxia",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Hypoxia.jpeg",
+      "rating": null,
+      "soundcloud": "/reviews/kathryn-williams-hypoxia",
+      "idvalue": "kathrynwilliamshypoxia",
+      "imagePath": "imgs/clash/kathrynwilliamshypoxia.jpeg"
+    },
+    {
+      "artist": "Mbongwana Star ",
+      "albumName": " From Kinshasa",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/from.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/mbongwana-star-from-kinshasa",
+      "idvalue": "mbongwanastarfromkinshasa",
+      "imagePath": "imgs/clash/mbongwanastarfromkinshasa.jpeg"
+    },
+    {
+      "artist": "Slaves ",
+      "albumName": " Are You Satisfied?",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Slaves_1.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/slaves-are-you-satisfied",
+      "idvalue": "slavesareyousatisfied",
+      "imagePath": "imgs/clash/slavesareyousatisfied.jpeg"
+    },
+    {
+      "artist": "Leon Bridges ",
+      "albumName": " Coming Home",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/coming-home.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/leon-bridges-coming-home",
+      "idvalue": "leonbridgescominghome",
+      "imagePath": "imgs/clash/leonbridgescominghome.jpeg"
+    },
+    {
+      "artist": "Everything Everything ",
+      "albumName": " Get To Heaven",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/EverythingEverythingGetToHeavenArtwork2015750.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/everything-everything-get-to-heaven",
+      "idvalue": "everythingeverythinggettoheaven",
+      "imagePath": "imgs/clash/everythingeverythinggettoheaven.jpeg"
+    },
+    {
+      "artist": "FFS ",
+      "albumName": " FFS",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/ffs.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/ffs-ffs",
+      "idvalue": "ffsffs",
+      "imagePath": "imgs/clash/ffsffs.jpeg"
+    },
+    {
+      "artist": "Gengahr ",
+      "albumName": " A Dream Outside",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/70bd0047-c336-4bb2-be3f-5742a29e83c2__large.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/gengahr-a-dream-outside",
+      "idvalue": "gengahradreamoutside",
+      "imagePath": "imgs/clash/gengahradreamoutside.jpeg"
+    },
+    {
+      "artist": "Muse ",
+      "albumName": " Drones",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/MUSE_DRONES_ARTWORK_600.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/muse-drones",
+      "idvalue": "musedrones",
+      "imagePath": "imgs/clash/musedrones.jpeg"
+    },
+    {
+      "artist": "Valet ",
+      "albumName": " Nature",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/NATURE.jpeg",
+      "rating": null,
+      "soundcloud": "/reviews/valet-nature",
+      "idvalue": "valetnature",
+      "imagePath": "imgs/clash/valetnature.jpeg"
+    }
+  ]
+}

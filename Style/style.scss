@@ -41,7 +41,7 @@ font-size: 24px;
 
 .wrapper{
 	
-	width: 1630px;
+	width: 1260px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 120px;
@@ -93,8 +93,8 @@ body.down header.clone {
 
 @mixin col{
 	
-	width: 250px;
-	margin-right: 0.5%;
+	width: 200px;
+	margin-right: 10px;
 	float: left;
 	position: relative;
 	
@@ -106,28 +106,6 @@ body.down header.clone {
 
 .album{
 	@include col;
-	@include transition;
-
-	&:hover .rating{
-		opacity: 1;
-	}
-
-	
-	&:hover{
-		margin-left: 2%;
-		margin-right: 2.5%;
-		
-	}
-	
-	&:hover img{
-		opacity: 0.2;
-
-	}	
-	
-	&:hover .record__wrapper{
-		background-color:#373438;
-			@include transition_fade;
-	}
 	
 	& .arrow{
 		font-family: arial;
@@ -152,10 +130,9 @@ body.down header.clone {
 }
 
 .record__wrapper{
-	width: 270px;
-	height: 270px;
+	width: 200px;
+	height: 200px;
 	overflow: hidden;
-	border-radius: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -183,26 +160,29 @@ body.down header.clone {
 		
 	
 	&.title{
-	background-color:#373438;
+		
+		& h1{
+			@include h1;
+			
+		}
 			}
 			
 			
 }
 
 .rating {
-	width: 100%;
+	width: 50px;
 	height: 50px;
-	padding-top: 45%;
-	position: absolute;
-	top: 0;
-	text-align: center;
     color: white;
-    margin-top: 90px;
-    margin-left: 8px;
-    opacity: 0;
+	border: 2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 10px;
+	position: absolute;
 	
 	& h1{
 		@include h1;
+		margin-top: 13px;
 	}
 	
 }
@@ -210,27 +190,19 @@ body.down header.clone {
 
 
 .album__title{
-	width: 100%;
-	height: 50px;
-	padding-top: 8%;
-	position: absolute;
-	top: 0;
-	text-align: center;
+	width: 190px;
+	height: 190px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
     color: white;
-    margin-top: 23px;
-    margin-left: 8px;
     
     & h1{
 	    @include h1;
     }
         
 }
-
-.album_title_provider{
-	    margin-top: 100px !important;
-    }
     
-
 .pitchfork__container{
 	padding-bottom: 20px;
 }

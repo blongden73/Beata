@@ -1,0 +1,1 @@
+$('.music__container').jscroll();
