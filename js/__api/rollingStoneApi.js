@@ -40,34 +40,19 @@ $(".primary ul.primary-list > li").each(function(index){
 	var ratingRound = Math.round(ratingNo);
 	var StarRating;
 	if (ratingRound == 1){
-		StarRating = 'half'
+		StarRating = 'one'
 	}
 	else if(ratingRound == 2){
-		StarRating = 'one'
+		StarRating = 'two'
 	}
 	
 	else if (ratingRound == 3){
-		StarRating = 'oneHalf'
-	}
-	else if (ratingRound == 4){
-		StarRating = 'two'
-	}
-	else if (ratingRound == 5){
-		StarRating = 'twoHalf'
-	}
-	else if (ratingRound == 6){
 		StarRating = 'three'
 	}
-	else if (ratingRound == 7){
-		StarRating = 'threeHalf'
-	}
-	else if (ratingRound == 8){
+	else if (ratingRound == 4){
 		StarRating = 'four'
 	}
-	else if (ratingRound == 9){
-		StarRating = 'fourHalf'
-	}
-	else if (ratingRound == 10){
+	else if (ratingRound == 5){
 		StarRating = 'five'
 	}
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
@@ -80,22 +65,6 @@ $(".primary ul.primary-list > li").each(function(index){
 	objRolling.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, StarRating, sClink, id, imagePath, colour);
 	});
 				
-	for(var i = 0; i < objRolling.artists.length; i++){
-
-var download = function(uri, filename, callback){
-  request.head(uri, function(err, res, body){
-    console.log('content-type:', res.headers['content-type']);
-    console.log('content-length:', res.headers['content-length']);
-
-    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
-  });
-};
-
-download(objRolling.artists[i].image, 'imgs/rolling__stone/'+objRolling.artists[i].idvalue+'.jpeg', function(){
-  console.log('done');
-  
-});					
-};
 		
 		console.log(objRolling);
 	} else {

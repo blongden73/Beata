@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 		
 		execute: {
         target: {
-            src: ['js/__api/api.js', 'js/__api/clashApi.js', 'js/__api/COSApi.js', 'js/__api/pasteApi.js', 'js/__api/rollingStoneApi.js', 'js/__api/TimeOutApiImages.js', 'js/__api/TimeOutApi.js', 'js/__api/UncutApi.js', 'js/__api/AllMusicApiImages.js', 'js/__api/AllMusicApi.js', 'js/__api/__ADM.js']
+            src: ['js/__api/apiImages.js', 'js/__api/api.js', 'js/__api/clashApi.js', 'js/__api/COSApiImages.js', 'js/__api/COSApi.js', 'js/__api/pasteApiImages.js', 'js/__api/pasteApi.js', 'js/__api/rollingStoneApiImages.js', 'js/__api/rollingStoneApi.js', 'js/__api/TimeOutApiImages.js', 'js/__api/TimeOutApi.js', 'js/__api/UncutApiImages.js', 'js/__api/UncutApi.js', 'js/__api/AllMusicApiImages.js', 'js/__api/AllMusicApiImages.js', 'js/__api/AllMusicApi.js', 'js/__api/__ADMImage.js', 'js/__api/__ADM.js']
         		}
     	},
     	

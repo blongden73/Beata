@@ -16,7 +16,7 @@ request(clashurl, function (error, response, body) {
 				objAllMusic["provider"] = [{provider : 'Any Decent Music', url : 'http://www.anydecentmusic.com'}] ;						
 				objAllMusic["artists"] = [];
 				//create new object titles for albums 
-				function albumInfo(artist, albumName, image, stars, fullimage, rating, soundcloud, idvalue, imagePath, colour){
+				function albumInfo(artist, albumName, image, fullimage, rating, stars, soundcloud, idvalue, imagePath, colour){
 					this.artist = artist
 					this.albumName = albumName
 					this.image = image
@@ -87,23 +87,7 @@ request(clashurl, function (error, response, body) {
 			objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, fullImage, rating, StarRating, sClink, id, imagePath, colour);
 			}
 		});
-		
-		//Loop through object to download images 		
-		for(var i = 0; i < objAllMusic.artists.length; i++){
-			//Set up function for the download
-			var download = function(uri, filename, callback){
-				request.head(uri, function(err, res, body){
-					console.log('content-type:', res.headers['content-type']);
-					console.log('content-length:', res.headers['content-length']);
-					request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
-  				});
-			};
-		//Download file from url in object and set file name to ID
-		download(objAllMusic.artists[i].fullimage, 'imgs/any__decent__music/'+objAllMusic.artists[i].idvalue+'.jpeg', function(){
-			console.log('done');
-			});					
-		};
-	
+			
 			
 		console.log(objAllMusic);
 		} else {
