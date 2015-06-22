@@ -36,6 +36,7 @@ $("ul.article-preview-list > li").each(function(index){
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
 	var id = artistName.replace(/\s+/g, '').toLowerCase().replace('?', '').replace('-', '');
 	var imagePath = 'imgs/clash/' + id + ".jpeg";
+	
 		objClash.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink, id, imagePath);
 	});
 	
@@ -62,11 +63,11 @@ download(objClash.artists[i].image, 'imgs/clash/'+objClash.artists[i].idvalue+'.
 	} else {
 		console.log("We’ve encountered an error: " + error);
 	}
+		
 	
 	//write to json
 jf.writeFile(file, objClash, function(err) {
 	console.log("this is not working", err)
 })
-	
 	
 });

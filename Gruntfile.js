@@ -20,21 +20,20 @@ module.exports = function(grunt) {
 		
 		execute: {
         target: {
-            src: ['js/api.js', 'js/clashApi.js', 'js/COSApi.js', 'js/pasteApi.js', 'js/rollingStoneApi.js', 'js/TimeOutApi.js', 'js/UncutApi.js', 'js/AllMusicApi.js']
+            src: ['js/__api/api.js', 'js/__api/clashApi.js', 'js/__api/COSApi.js', 'js/__api/pasteApi.js', 'js/__api/rollingStoneApi.js', 'js/__api/TimeOutApiImages.js', 'js/__api/TimeOutApi.js', 'js/__api/UncutApi.js', 'js/__api/AllMusicApiImages.js', 'js/__api/AllMusicApi.js', 'js/__api/__ADM.js']
         		}
     	},
     	
     	json: {
             prod: {
                 options: {
-                    namespace: 'JSON_DATA',
                     includePath: false,
                     processName: function(filename) {
                         return filename.toLowerCase();
                     }
                 },
-                src: ['js/**/*.json'],
-                dest: 'src/json.json'
+                src: ['js/__json/**/*.json'],
+                dest: 'src/Datajson.json'
             }
         }
     			

@@ -1,0 +1,28 @@
+{
+	"providers": [
+		{
+		  "provider": "Pitchfork"
+      	},
+       	{
+	      "provider": "Any Decent Music"
+	   	},
+	  	{
+		  "provider": "All Music"
+		},
+		{
+	      "provider": "Consequences of Sound"
+	    },
+		{
+	      "provider": "Paste"
+	    },
+		{
+	      "provider": "Rolling Stone"
+	    },
+		{
+	      "provider": "Time Out"
+	    },
+		{
+	      "provider": "Uncut"
+	    } 
+    ]
+}

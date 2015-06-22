@@ -6,6 +6,15 @@
   ],
   "artists": [
     {
+      "artist": "Sarah Cracknell ",
+      "albumName": " Red Kite",
+      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Sarah_Cracknell_Red_Kite-799x800.jpg",
+      "rating": null,
+      "soundcloud": "/reviews/sarah-cracknell-red-kite",
+      "idvalue": "sarahcracknellredkite",
+      "imagePath": "imgs/clash/sarahcracknellredkite.jpeg"
+    },
+    {
       "artist": "Kathryn Williams ",
       "albumName": " Hypoxia",
       "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/Hypoxia.jpeg",
@@ -76,15 +85,6 @@
       "soundcloud": "/reviews/muse-drones",
       "idvalue": "musedrones",
       "imagePath": "imgs/clash/musedrones.jpeg"
-    },
-    {
-      "artist": "Valet ",
-      "albumName": " Nature",
-      "image": "http://www.clashmusic.com/sites/default/files/styles/preview/public/field/image/NATURE.jpeg",
-      "rating": null,
-      "soundcloud": "/reviews/valet-nature",
-      "idvalue": "valetnature",
-      "imagePath": "imgs/clash/valetnature.jpeg"
     }
   ]
 }

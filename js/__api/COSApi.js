@@ -5,6 +5,7 @@ var request = require("request"),
 var jf = require('jsonfile');	
 var file = 'js/__json/COSData.json';
 var fs = require('fs');
+var ColorThief = require('color-thief');
 
 	
 request(clashurl, function (error, response, body) {
@@ -15,14 +16,16 @@ request(clashurl, function (error, response, body) {
 	objCOS["provider"] = [{provider : 'Consequences of Sound'}] ;						
 	objCOS["artists"] = [];
 	//create new object titles for albums 
-		function albumInfo(artist, albumName, image, rating, soundcloud, idvalue, imagePath){
+		function albumInfo(artist, albumName, image, rating, stars, soundcloud, idvalue, imagePath, colour){
     		this.artist = artist
 			this.albumName = albumName
 			this.image = image
 			this.rating = rating
+			this.stars = stars
 			this.soundcloud = soundcloud
 			this.idvalue = idvalue
 			this.imagePath = imagePath
+			this.colour = colour
 }
 
 //loop through albums list and get individual parts
@@ -33,10 +36,26 @@ $(".modules-grid #tab-everything .post").each(function(index){
 	var albumName = artistSplit[1];
 	var imageLink = $('a .image img', this).data('lazy-src');
 	var ratingNo = $(".grade-badge", this).html();
+		var StarRating;
+		if (ratingNo == 'A-'){
+			StarRating = 'fourHalf'
+		}
+		else if(ratingNo == 'A'){
+			StarRating = 'four'
+		}
+		
+		else if (ratingNo == 'A+'){
+			StarRating = 'five'
+		}
+
 	var sClink = $(".text-wrap .node-title a", this).attr('href');
 	var id = artistName.replace(/\s+/g, '').toLowerCase();
 	var imagePath = 'imgs/COS/' + id + ".jpeg";
-		objCOS.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, sClink, id, imagePath);
+	//get colours
+	var colorThief = new ColorThief();
+	var colourObj = colorThief.getColor(imagePath);
+	var colour = colourObj.toString();
+	objCOS.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, StarRating, sClink, id, imagePath, colour);
 	});
 	
 	for(var i = 0; i < objCOS.artists.length; i++){

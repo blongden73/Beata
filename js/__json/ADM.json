@@ -1,0 +1,110 @@
+{
+  "provider": [
+    {
+      "provider": "Any Decent Music",
+      "url": "http://www.anydecentmusic.com"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "No Joy",
+      "albumName": "More Faithful",
+      "image": "/Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
+      "rating": "9.0",
+      "idvalue": "nojoy",
+      "imagePath": "imgs/any__decent__music/nojoy.jpeg",
+      "colour": "26,30,30"
+    },
+    {
+      "artist": "Dawes",
+      "albumName": "All Your Favorite Bands",
+      "image": "/Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
+      "rating": "9.0",
+      "idvalue": "dawes",
+      "imagePath": "imgs/any__decent__music/dawes.jpeg",
+      "colour": "204,196,178"
+    },
+    {
+      "artist": "Adam Lambert",
+      "albumName": "The Original High",
+      "image": "/Resources/Images/dfi8nJ2YtUGcrbvVuyxOdwTheOriginalHigh.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/dfi8nJ2YtUGcrbvVuyxOdwTheOriginalHigh.jpg",
+      "rating": "8.0",
+      "idvalue": "adamlambert",
+      "imagePath": "imgs/any__decent__music/adamlambert.jpeg",
+      "colour": "226,226,226"
+    },
+    {
+      "artist": "High On Fire",
+      "albumName": "Luminiferous",
+      "image": "/Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
+      "rating": "8.0",
+      "idvalue": "highonfire",
+      "imagePath": "imgs/any__decent__music/highonfire.jpeg",
+      "colour": "64,50,24"
+    },
+    {
+      "artist": "Heartless Bastards",
+      "albumName": "Restless Ones",
+      "image": "/Resources/Images/vRFo2-VqFk-t-b1VzUxjxg817bOJSDawL._SL1500_.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/vRFo2-VqFk-t-b1VzUxjxg817bOJSDawL._SL1500_.jpg",
+      "rating": "8.0",
+      "idvalue": "heartlessbastards",
+      "imagePath": "imgs/any__decent__music/heartlessbastards.jpeg",
+      "colour": "102,95,69"
+    },
+    {
+      "artist": "Sharon Van Etten",
+      "albumName": "I Don't Want To Let You Down",
+      "image": "/Resources/Images/Be1xlYvh6USr9qAXCOJIkQIDon'tWantToLetYouDown.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Be1xlYvh6USr9qAXCOJIkQIDon'tWantToLetYouDown.jpg",
+      "rating": "8.0",
+      "idvalue": "sharonvanetten",
+      "imagePath": "imgs/any__decent__music/sharonvanetten.jpeg",
+      "colour": "231,235,225"
+    },
+    {
+      "artist": "The Fall",
+      "albumName": "Sub-Lingual Tablet",
+      "image": "/Resources/Images/CbLAOJOdcUCQgFHxkdHu8wSub-LingualTablet.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/CbLAOJOdcUCQgFHxkdHu8wSub-LingualTablet.jpg",
+      "rating": "8.0",
+      "idvalue": "thefall",
+      "imagePath": "imgs/any__decent__music/thefall.jpeg",
+      "colour": "57,57,131"
+    },
+    {
+      "artist": "FFS",
+      "albumName": "FFS",
+      "image": "/Resources/Images/QpMssxai50ucXdOufy6jOQFFS.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/QpMssxai50ucXdOufy6jOQFFS.jpg",
+      "rating": "8.0",
+      "idvalue": "ffs",
+      "imagePath": "imgs/any__decent__music/ffs.jpeg",
+      "colour": "212,212,212"
+    },
+    {
+      "artist": "Algiers",
+      "albumName": "Algiers",
+      "image": "/Resources/Images/eAkzWXT0E0mr6_DCvpQCRQAlgiers.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/eAkzWXT0E0mr6_DCvpQCRQAlgiers.jpg",
+      "rating": "8.0",
+      "idvalue": "algiers",
+      "imagePath": "imgs/any__decent__music/algiers.jpeg",
+      "colour": "37,34,36"
+    },
+    {
+      "artist": "Goatsnake",
+      "albumName": "Black Age Blues",
+      "image": "/Resources/Images/ZmBs10YoqEyti_flEbo4QABlackAgeBlues.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ZmBs10YoqEyti_flEbo4QABlackAgeBlues.jpg",
+      "rating": "8.0",
+      "idvalue": "goatsnake",
+      "imagePath": "imgs/any__decent__music/goatsnake.jpeg",
+      "colour": "36,42,61"
+    }
+  ]
+}

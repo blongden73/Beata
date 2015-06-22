@@ -1,9 +1,9 @@
 var request = require("request"),
 	cheerio = require("cheerio"),
-	clashurl = "http://www.allmusic.com/newreleases";
+	clashurl = "http://www.anydecentmusic.com/source/All+Music.aspx";
 
 var jf = require('jsonfile');	
-var file = 'js/__json/AllMusicData.json';
+var file = 'js/__json/ADM.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 
@@ -13,13 +13,14 @@ request(clashurl, function (error, response, body) {
 		var $ = cheerio.load(body),
 			//Set up output object
 				objAllMusic = {};
-				objAllMusic["provider"] = [{provider : 'All Music'}] ;						
+				objAllMusic["provider"] = [{provider : 'Any Decent Music', url : 'http://www.anydecentmusic.com'}] ;						
 				objAllMusic["artists"] = [];
 				//create new object titles for albums 
-				function albumInfo(artist, albumName, image, rating, stars, soundcloud, idvalue, imagePath, colour){
+				function albumInfo(artist, albumName, image, stars, fullimage, rating, soundcloud, idvalue, imagePath, colour){
 					this.artist = artist
 					this.albumName = albumName
 					this.image = image
+					this.fullimage = fullimage
 					this.rating = rating
 					this.stars = stars
 					this.soundcloud = soundcloud
@@ -29,15 +30,17 @@ request(clashurl, function (error, response, body) {
 				}
 
 		//loop through albums list and get individual parts
-		$(".featured-rows .row .featured").each(function(index){
-		var artistName = $(".artist a" , this).html();
-		if (artistName == null) {artistName = 'Various Artists'}; 
-		if (artistName == "Anima Music&#xE6; Chamber Orchestra") {artistName = "Anima Musicæ Chamber Orchestra"};
-		var albumName = $(".title a" , this).html().replace('&#xE4;', 'ä');
-		var imageLink = $(".album-cover a img.lazy", this).data('original');
-		var ratingNo = $(".rating.allmusic span", this).attr('class').replace('allmusic-rating', '');
-		var ratingsplit =ratingNo.split('-');
-		var rating = ratingsplit[2];
+		$(".article ol.album_chart li").each(function(index){
+		var artistName = $(".album_detail h4 a" , this).html();
+		var albumName = $(".album_detail h5 a" , this).html().replace('&apos;', "'");
+		var imageLink = $(".album_detail a img", this).attr('src');
+		var fullImage = 'http://www.anydecentmusic.com/'+imageLink;
+		var imageflag ;
+		//If image doesn't exist can it
+		if (imageLink == undefined){
+			imageflag = false
+			}
+		var rating = $(".album_detail .score_wrap p.score", this).html();
 		var ratingRound = Math.round(rating);
 		var StarRating;
 		if (ratingRound == 1){
@@ -71,17 +74,23 @@ request(clashurl, function (error, response, body) {
 		else if (ratingRound == 10){
 			StarRating = 'five'
 		}
+
 		var sClink = $(".text-wrap .node-title a", this).attr('href');
 		var id = artistName.replace(/\s+/g, '').toLowerCase();
-		var imagePath = 'imgs/all__music/' + id + ".jpeg";
-		//get colours
-		var colorThief = new ColorThief();
-		var colourObj = colorThief.getColor(imagePath);
-		var colour = colourObj.toString();
-		objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, rating, StarRating, sClink, id, imagePath, colour);
+		var imagePath = 'imgs/any__decent__music/' + id + ".jpeg";
+		// Only write to object if image exists otherwise can the info
+		if(imageflag !=false){
+			//get colours
+			var colorThief = new ColorThief();
+			var colourObj = colorThief.getColor(imagePath);
+			var colour = colourObj.toString();
+			objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, fullImage, rating, StarRating, sClink, id, imagePath, colour);
+			}
 		});
-				
+		
+		//Loop through object to download images 		
 		for(var i = 0; i < objAllMusic.artists.length; i++){
+			//Set up function for the download
 			var download = function(uri, filename, callback){
 				request.head(uri, function(err, res, body){
 					console.log('content-type:', res.headers['content-type']);
@@ -89,8 +98,8 @@ request(clashurl, function (error, response, body) {
 					request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
   				});
 			};
-
-		download(objAllMusic.artists[i].image, 'imgs/all__music/'+objAllMusic.artists[i].idvalue+'.jpeg', function(){
+		//Download file from url in object and set file name to ID
+		download(objAllMusic.artists[i].fullimage, 'imgs/any__decent__music/'+objAllMusic.artists[i].idvalue+'.jpeg', function(){
 			console.log('done');
 			});					
 		};

@@ -39,7 +39,7 @@ body.down header.clone {
   transform: translateY(0); }
 
 #music__container {
-  margin-top: 100px; }
+  margin-top: 20px; }
   #music__container.sticky {
     position: sticky !important;
     position: webkit-sticky !important;
@@ -86,13 +86,13 @@ body.down header.clone {
     .record__wrapper img.timeout {
       width: 200% !important;
       height: auto !important;
-      margin-left: -120px !important; }
+      margin-left: -98px !important; }
     .record__wrapper img.clash {
       width: 120% !important;
       height: auto !important; }
   .record__wrapper.title h1 {
     font-family: 'brandon_grotesquebold';
-    font-size: 24px; }
+    font-size: 20px; }
 
 .rating {
   width: 50px;
@@ -102,10 +102,11 @@ body.down header.clone {
   border-radius: 50%;
   text-align: center;
   bottom: 10px;
-  position: absolute; }
+  position: absolute;
+  float: left; }
   .rating h1 {
     font-family: 'brandon_grotesquebold';
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 13px; }
 
 .album__title {
@@ -117,7 +118,26 @@ body.down header.clone {
   color: white; }
   .album__title h1 {
     font-family: 'brandon_grotesquebold';
-    font-size: 24px; }
+    font-size: 20px; }
+  .album__title h2 {
+    font-family: 'brandon_grotesque_regularRg';
+    font-size: 20px;
+    color: white; }
+  .album__title .stars {
+    width: 100px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-position: right center;
+    background-repeat: no-repeat; }
+    .album__title .stars.four {
+      background-image: url("../assets/stars-four.svg"); }
+    .album__title .stars.fourHalf {
+      background-image: url("../assets/stars-fourHalf.svg"); }
+    .album__title .stars.five {
+      background-image: url("../assets/stars-five.svg"); }
 
 .pitchfork__container {
   padding-bottom: 20px; }
@@ -163,7 +183,11 @@ body.down header.clone {
     text-align: center; }
     #top__banner #description h1 {
       font-family: 'brandon_grotesquebold';
-      font-size: 24px;
+      font-size: 20px;
+      color: white; }
+    #top__banner #description h2 {
+      font-family: 'brandon_grotesque_regularRg';
+      font-size: 20px;
       color: white; }
 
 .top_logo {
@@ -172,9 +196,16 @@ body.down header.clone {
 #logo_wrapper {
   margin-left: auto;
   margin-right: auto;
-  width: 1560px;
+  width: 1260px;
   padding-left: 20px;
   padding-right: 20px; }
+
+#menu__container {
+  float: right; }
+  #menu__container ul.list__container {
+    float: left; }
+  #menu__container li {
+    float: left; }
 
 @font-face {
   font-family: 'brandon_grotesquebold';

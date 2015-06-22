@@ -10,79 +10,99 @@
       "albumName": " Saturns Pattern",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/saturnspattern110215w.jpg",
       "rating": "9",
+      "stars": "fourHalf",
       "idvalue": "paulwellersaturnspattern",
-      "imagePath": "imgs/uncut/paulwellersaturnspattern.jpeg"
+      "imagePath": "imgs/uncut/paulwellersaturnspattern.jpeg",
+      "colour": "14,13,73"
     },
     {
       "artist": "My Morning Jacket ",
       "albumName": " The Waterfall",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/150615MMJ.jpg",
       "rating": "7",
+      "stars": "threeHalf",
       "idvalue": "mymorningjacketthewaterfall",
-      "imagePath": "imgs/uncut/mymorningjacketthewaterfall.jpeg"
+      "imagePath": "imgs/uncut/mymorningjacketthewaterfall.jpeg",
+      "colour": "38,22,23"
     },
     {
       "artist": "Tom Russell ",
       "albumName": " The Rose Of Roscrae",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/tom_russell.jpg",
       "rating": "8",
+      "stars": "four",
       "idvalue": "tomrusselltheroseofroscrae",
-      "imagePath": "imgs/uncut/tomrusselltheroseofroscrae.jpeg"
+      "imagePath": "imgs/uncut/tomrusselltheroseofroscrae.jpeg",
+      "colour": "50,43,42"
     },
     {
       "artist": "Holly Herndon ",
       "albumName": " Platform",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/holly_herndon.jpg",
       "rating": "9",
+      "stars": "fourHalf",
       "idvalue": "hollyherndonplatform",
-      "imagePath": "imgs/uncut/hollyherndonplatform.jpeg"
+      "imagePath": "imgs/uncut/hollyherndonplatform.jpeg",
+      "colour": "170,105,90"
     },
     {
       "artist": "The Rolling Stones ",
       "albumName": " Sticky Fingers deluxe edition",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/stonesdm310315.jpg",
       "rating": "10",
+      "stars": "five",
       "idvalue": "therollingstonesstickyfingersdeluxeedition",
-      "imagePath": "imgs/uncut/therollingstonesstickyfingersdeluxeedition.jpeg"
+      "imagePath": "imgs/uncut/therollingstonesstickyfingersdeluxeedition.jpeg",
+      "colour": "203,177,166"
     },
     {
       "artist": "Emmylou Harris & Rodney Crowell ",
       "albumName": " The Traveling Kind",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/Emmylou-Harris-Rodney-Crowell-1268-CREDIT-David-McClister.jpg",
       "rating": "6",
+      "stars": "three",
       "idvalue": "emmylouharris&rodneycrowellthetravelingkind",
-      "imagePath": "imgs/uncut/emmylouharris&rodneycrowellthetravelingkind.jpeg"
+      "imagePath": "imgs/uncut/emmylouharris&rodneycrowellthetravelingkind.jpeg",
+      "colour": "40,38,35"
     },
     {
       "artist": "Leonard Cohen ",
       "albumName": " Can&#x2019;t Forget: A Souvenir Of The Grand Tour",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/03/cohenlive170315-569x400.jpg",
       "rating": "7",
+      "stars": "threeHalf",
       "idvalue": "leonardcohencantforgetasouvenirofthegrandtour",
-      "imagePath": "imgs/uncut/leonardcohencantforgetasouvenirofthegrandtour.jpeg"
+      "imagePath": "imgs/uncut/leonardcohencantforgetasouvenirofthegrandtour.jpeg",
+      "colour": "156,207,199"
     },
     {
       "artist": "Unknown Mortal Orchestra ",
       "albumName": " Multi",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/Unknown-Mortal-Orchestra3_Dusdin-Condren-599x400.jpg",
       "rating": "9",
+      "stars": "fourHalf",
       "idvalue": "unknownmortalorchestramultilove",
-      "imagePath": "imgs/uncut/unknownmortalorchestramultilove.jpeg"
+      "imagePath": "imgs/uncut/unknownmortalorchestramultilove.jpeg",
+      "colour": "43,44,34"
     },
     {
       "artist": "Red House Painters ",
       "albumName": " Boxset",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/280515redhouse.jpg",
       "rating": "8",
+      "stars": "four",
       "idvalue": "redhousepaintersboxset",
-      "imagePath": "imgs/uncut/redhousepaintersboxset.jpeg"
+      "imagePath": "imgs/uncut/redhousepaintersboxset.jpeg",
+      "colour": "192,190,190"
     },
     {
       "artist": "The Complete Stax/Volt Soul Singles Vol 2 & 3",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/stax_Hayes_Porter.jpg",
       "rating": "8",
+      "stars": "four",
       "idvalue": "thecompletestaxvoltsoulsinglesvol2&3",
-      "imagePath": "imgs/uncut/thecompletestaxvoltsoulsinglesvol2&3.jpeg"
+      "imagePath": "imgs/uncut/thecompletestaxvoltsoulsinglesvol2&3.jpeg",
+      "colour": "54,58,52"
     }
   ]
 }

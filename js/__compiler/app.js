@@ -12,17 +12,17 @@ $.getJSON("js/__json/data.json", function(json) {
 	
 });
 
-$.getJSON("js/__json/dataClash.json", function(json) {
+$.getJSON("js/__json/ADM.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
-	localStorage.setItem('clash', JSON.stringify(json));
+	localStorage.setItem('ADM', JSON.stringify(json));
 		
 	var clash__data = json;
-	var source   = $("#clash__template").html();
+	var source   = $("#ADM__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__clash__container").html(template(data));
+	$("#music__ADM__container").html(template(data));
 	
 });
 
@@ -109,4 +109,20 @@ $.getJSON("js/__json/AllMusicData.json", function(json) {
 	$("#music__allMusic__container").html(template(data));
 	
 });
+
+$.getJSON("js/__json/allProviders.json", function(json) {
+	console.log(json);
+	
+	// Put the object into storage
+	localStorage.setItem('AllMusic', JSON.stringify(json));
+		
+	var clash__data = json;
+	var source   = $("#menu__template").html();
+	var template = Handlebars.compile(source);
+	var data = clash__data;
+	$("#menu__container").html(template(data));
+	
+});
+
+
 
