@@ -1,7 +1,8 @@
 {
   "provider": [
     {
-      "provider": "Time Out"
+      "provider": "Time Out",
+      "url": "http://www.timeout.com"
     }
   ],
   "artists": [
@@ -14,16 +15,6 @@
       "idvalue": "wolfalice",
       "imagePath": "imgs/time__out/wolfalice.jpeg",
       "colour": "29,20,20"
-    },
-    {
-      "artist": "Muse ",
-      "albumName": " Drones",
-      "image": "http://media.timeout.com/images/102595848/image.jpg",
-      "rating": "1",
-      "stars": "half",
-      "idvalue": "muse",
-      "imagePath": "imgs/time__out/muse.jpeg",
-      "colour": "53,57,53"
     },
     {
       "artist": "Florence And The Machine ",
@@ -64,16 +55,6 @@
       "idvalue": "hotchip",
       "imagePath": "imgs/time__out/hotchip.jpeg",
       "colour": "249,85,123"
-    },
-    {
-      "artist": "Snoop Dogg ",
-      "albumName": " Bush",
-      "image": "http://media.timeout.com/images/102503287/image.jpg",
-      "rating": "2",
-      "stars": "one",
-      "idvalue": "snoopdogg",
-      "imagePath": "imgs/time__out/snoopdogg.jpeg",
-      "colour": "48,190,133"
     },
     {
       "artist": "Blur ",

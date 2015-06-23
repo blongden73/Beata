@@ -6,9 +6,59 @@
   ],
   "artists": [
     {
+      "artist": "The Cairo Gang",
+      "albumName": " Goes Missing",
+      "image": "http://cdn.pastemagazine.com/www/articles/The%20Cairo%20Gang%20Goes%20Missing.jpg?635706571378165042",
+      "rating": "9.1",
+      "stars": "fourHalf",
+      "idvalue": "thecairogang",
+      "imagePath": "imgs/paste/thecairogang.jpeg",
+      "colour": "33,48,62"
+    },
+    {
+      "artist": "Son Lux",
+      "albumName": " Bones",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/bones.jpg?635706571378175043",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "sonlux",
+      "imagePath": "imgs/paste/sonlux.jpeg",
+      "colour": "193,85,96"
+    },
+    {
+      "artist": "Leon Bridges",
+      "albumName": " Coming Home",
+      "image": "http://cdn.pastemagazine.com/www/articles/Leon%20Bridges%20Coming%20Home.jpg?635706571378175043",
+      "rating": "9.5",
+      "stars": "five",
+      "idvalue": "leonbridges",
+      "imagePath": "imgs/paste/leonbridges.jpeg",
+      "colour": "194,49,37"
+    },
+    {
+      "artist": "Bully",
+      "albumName": " Feels Like",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/bully-feels-like.jpg?635706571378185044",
+      "rating": "9.2",
+      "stars": "fourHalf",
+      "idvalue": "bully",
+      "imagePath": "imgs/paste/bully.jpeg",
+      "colour": "201,203,201"
+    },
+    {
+      "artist": "Cayucas",
+      "albumName": " Dancing at the Blue Lagoon",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/cayu_DATBL-cover-front-FINAL.jpg?635706571378185044",
+      "rating": "7.6",
+      "stars": "four",
+      "idvalue": "cayucas",
+      "imagePath": "imgs/paste/cayucas.jpeg",
+      "colour": "185,200,202"
+    },
+    {
       "artist": "Bill Mallonee",
       "albumName": " Lands & Peoples",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/19/0004998135_10.jpg?635705821868816719",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/19/0004998135_10.jpg?635706571378195045",
       "rating": "7.3",
       "stars": "threeHalf",
       "idvalue": "billmallonee",
@@ -18,7 +68,7 @@
     {
       "artist": "John Lennon",
       "albumName": " Lennon Box Set",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/lennon-vinyl-set.jpg?635705821868816719",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/lennon-vinyl-set.jpg?635706571378195045",
       "rating": "8.0",
       "stars": "four",
       "idvalue": "johnlennon",
@@ -28,7 +78,7 @@
     {
       "artist": "Alpine",
       "albumName": " Yuck",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/cgH9c8E.jpg?635705821868826720",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/cgH9c8E.jpg?635706571378205046",
       "rating": "7.0",
       "stars": "threeHalf",
       "idvalue": "alpine",
@@ -38,7 +88,7 @@
     {
       "artist": "Ryn Weaver",
       "albumName": " The Fool",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/ryn_weaver_cover-560x560.jpg?635705821868826720",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/ryn_weaver_cover-560x560.jpg?635706571378215047",
       "rating": "7.9",
       "stars": "four",
       "idvalue": "rynweaver",
@@ -48,7 +98,7 @@
     {
       "artist": "Active Child",
       "albumName": " Mercy",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/activechildmercy-560x560.jpg?635705821868836721",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/activechildmercy-560x560.jpg?635706571378215047",
       "rating": "8.3",
       "stars": "four",
       "idvalue": "activechild",
@@ -58,7 +108,7 @@
     {
       "artist": "Straight From The Horse's Mouth",
       "albumName": " Sean Moeller's Daytrotter Picks for 6/10/15",
-      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635705821868846722",
+      "image": "http://cdn.pastemagazine.com/www/articles/2014/07/14/daytrotterlead.jpg?635706571378225048",
       "rating": null,
       "idvalue": "straightfromthehorse'smouth",
       "imagePath": "imgs/paste/straightfromthehorse'smouth.jpeg",
@@ -67,7 +117,7 @@
     {
       "artist": "Jon Regen",
       "albumName": " Stop Time",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635705821868846722",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/79dkXwU.jpg?635706571378225048",
       "rating": "8.0",
       "stars": "four",
       "idvalue": "jonregen",
@@ -77,7 +127,7 @@
     {
       "artist": "Teen Men",
       "albumName": " Teen Men",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635705821868856723",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/TeenMen300.jpg?635706571378235049",
       "rating": "8.9",
       "stars": "fourHalf",
       "idvalue": "teenmen",
@@ -87,62 +137,12 @@
     {
       "artist": "Uniform",
       "albumName": " Perfect World",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635705821868856723",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/uniformalbumcover.jpg?635706571378235049",
       "rating": "7.9",
       "stars": "four",
       "idvalue": "uniform",
       "imagePath": "imgs/paste/uniform.jpeg",
       "colour": "5,5,5"
-    },
-    {
-      "artist": "No Joy",
-      "albumName": " More Faithful",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/nojoyalbumcover.jpg?635705821868866724",
-      "rating": "7.0",
-      "stars": "threeHalf",
-      "idvalue": "nojoy",
-      "imagePath": "imgs/paste/nojoy.jpeg",
-      "colour": "22,24,23"
-    },
-    {
-      "artist": "Muse",
-      "albumName": " Drones",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/09/muse-drones-2015-album-art-billboard-510x510.jpg?635705821868866724",
-      "rating": "5.8",
-      "stars": "three",
-      "idvalue": "muse",
-      "imagePath": "imgs/paste/muse.jpeg",
-      "colour": "53,56,53"
-    },
-    {
-      "artist": "Indigo Girls",
-      "albumName": " One Lost Day",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/indigogirls.jpg?635705821868876725",
-      "rating": "9.0",
-      "stars": "fourHalf",
-      "idvalue": "indigogirls",
-      "imagePath": "imgs/paste/indigogirls.jpeg",
-      "colour": "187,202,164"
-    },
-    {
-      "artist": "Willie Nelson & Merle Haggard",
-      "albumName": " Django and Jimmie",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/willie-nelson0-merle-haggard-django-and-jimmie.jpg?635705821868886726",
-      "rating": "8.6",
-      "stars": "fourHalf",
-      "idvalue": "willienelson&merlehaggard",
-      "imagePath": "imgs/paste/willienelson&merlehaggard.jpeg",
-      "colour": "198,198,198"
-    },
-    {
-      "artist": "Dawes",
-      "albumName": " All Your Favorite Bands",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/02/allyourfavoritebandscoverjb.jpg?635705821868886726",
-      "rating": "8.3",
-      "stars": "four",
-      "idvalue": "dawes",
-      "imagePath": "imgs/paste/dawes.jpeg",
-      "colour": "202,191,175"
     }
   ]
 }

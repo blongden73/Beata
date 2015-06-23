@@ -166,6 +166,8 @@ body.down header.clone {
 	
 	&.title{
 		
+		background-color: aqua;
+		
 		& h1{
 			@include h1;
 			

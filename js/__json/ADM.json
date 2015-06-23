@@ -29,15 +29,59 @@
       "colour": "204,196,178"
     },
     {
-      "artist": "High On Fire",
-      "albumName": "Luminiferous",
-      "image": "/Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
+      "artist": "Son Lux",
+      "albumName": "Bones",
+      "image": "/Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
       "rating": "8.0",
       "stars": "four",
-      "idvalue": "highonfire",
-      "imagePath": "imgs/any__decent__music/highonfire.jpeg",
-      "colour": "64,50,24"
+      "idvalue": "sonlux",
+      "imagePath": "imgs/any__decent__music/sonlux.jpeg",
+      "colour": "214,133,132"
+    },
+    {
+      "artist": "Desaparecidos",
+      "albumName": "Payola",
+      "image": "/Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "desaparecidos",
+      "imagePath": "imgs/any__decent__music/desaparecidos.jpeg",
+      "colour": "19,19,19"
+    },
+    {
+      "artist": "The Orb",
+      "albumName": "Moonbuilding 2703 AD",
+      "image": "/Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "theorb",
+      "imagePath": "imgs/any__decent__music/theorb.jpeg",
+      "colour": "212,218,237"
+    },
+    {
+      "artist": "Meg Baird",
+      "albumName": "Don't Weigh Down the Light",
+      "image": "/Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "megbaird",
+      "imagePath": "imgs/any__decent__music/megbaird.jpeg",
+      "colour": "38,30,46"
+    },
+    {
+      "artist": "Kacey Musgraves",
+      "albumName": "Pageant Material",
+      "image": "/Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "kaceymusgraves",
+      "imagePath": "imgs/any__decent__music/kaceymusgraves.jpeg",
+      "colour": "113,52,45"
     },
     {
       "artist": "Heartless Bastards",
@@ -62,59 +106,15 @@
       "colour": "226,226,226"
     },
     {
-      "artist": "FFS",
-      "albumName": "FFS",
-      "image": "/Resources/Images/QpMssxai50ucXdOufy6jOQFFS.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/QpMssxai50ucXdOufy6jOQFFS.jpg",
+      "artist": "High On Fire",
+      "albumName": "Luminiferous",
+      "image": "/Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
       "rating": "8.0",
       "stars": "four",
-      "idvalue": "ffs",
-      "imagePath": "imgs/any__decent__music/ffs.jpeg",
-      "colour": "212,212,212"
-    },
-    {
-      "artist": "Sharon Van Etten",
-      "albumName": "I Don't Want To Let You Down",
-      "image": "/Resources/Images/Be1xlYvh6USr9qAXCOJIkQIDon'tWantToLetYouDown.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Be1xlYvh6USr9qAXCOJIkQIDon'tWantToLetYouDown.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "sharonvanetten",
-      "imagePath": "imgs/any__decent__music/sharonvanetten.jpeg",
-      "colour": "231,235,225"
-    },
-    {
-      "artist": "The Fall",
-      "albumName": "Sub-Lingual Tablet",
-      "image": "/Resources/Images/CbLAOJOdcUCQgFHxkdHu8wSub-LingualTablet.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/CbLAOJOdcUCQgFHxkdHu8wSub-LingualTablet.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "thefall",
-      "imagePath": "imgs/any__decent__music/thefall.jpeg",
-      "colour": "57,57,131"
-    },
-    {
-      "artist": "Algiers",
-      "albumName": "Algiers",
-      "image": "/Resources/Images/eAkzWXT0E0mr6_DCvpQCRQAlgiers.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/eAkzWXT0E0mr6_DCvpQCRQAlgiers.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "algiers",
-      "imagePath": "imgs/any__decent__music/algiers.jpeg",
-      "colour": "37,34,36"
-    },
-    {
-      "artist": "Goatsnake",
-      "albumName": "Black Age Blues",
-      "image": "/Resources/Images/ZmBs10YoqEyti_flEbo4QABlackAgeBlues.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ZmBs10YoqEyti_flEbo4QABlackAgeBlues.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "goatsnake",
-      "imagePath": "imgs/any__decent__music/goatsnake.jpeg",
-      "colour": "36,42,61"
+      "idvalue": "highonfire",
+      "imagePath": "imgs/any__decent__music/highonfire.jpeg",
+      "colour": "64,50,24"
     }
   ]
 }

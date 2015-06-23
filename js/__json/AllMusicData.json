@@ -6,444 +6,353 @@
   ],
   "artists": [
     {
-      "artist": "James Taylor",
-      "albumName": "Before This World",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/854/MI0003854932.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "jamestaylor",
-      "imagePath": "imgs/all__music/jamestaylor.jpeg",
-      "colour": "41,52,51"
-    },
-    {
-      "artist": "Nate Ruess",
-      "albumName": "Grand Romantic",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/873/MI0003873687.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "nateruess",
-      "imagePath": "imgs/all__music/nateruess.jpeg",
-      "colour": "214,187,155"
-    },
-    {
-      "artist": "Adam Lambert",
-      "albumName": "The Original High",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/877/MI0003877187.jpg?partner=allrovi.com",
+      "artist": "Kacey Musgraves",
+      "albumName": "Pageant Material",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868249.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "adamlambert",
-      "imagePath": "imgs/all__music/adamlambert.jpeg",
-      "colour": "215,212,215"
+      "idvalue": "kaceymusgraves",
+      "imagePath": "imgs/all__music/kaceymusgraves.jpeg",
+      "colour": "124,62,59"
     },
     {
-      "artist": "Giorgio Moroder",
-      "albumName": "D&#xE9;j&#xE0;-Vu",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/863/MI0003863269.jpg?partner=allrovi.com",
+      "artist": "Richard Thompson",
+      "albumName": "Still",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/876/MI0003876357.jpg?partner=allrovi.com",
+      "rating": "7",
+      "stars": "threeHalf",
+      "idvalue": "richardthompson",
+      "imagePath": "imgs/all__music/richardthompson.jpeg",
+      "colour": "32,31,23"
+    },
+    {
+      "artist": "Bully",
+      "albumName": "Feels Like",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861425.jpg?partner=allrovi.com",
       "rating": "5",
       "stars": "twoHalf",
-      "idvalue": "giorgiomoroder",
-      "imagePath": "imgs/all__music/giorgiomoroder.jpeg",
-      "colour": "221,49,81"
+      "idvalue": "bully",
+      "imagePath": "imgs/all__music/bully.jpeg",
+      "colour": "202,202,199"
     },
     {
-      "artist": "Hudson Mohawke",
-      "albumName": "Lantern",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/877/MI0003877155.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "hudsonmohawke",
-      "imagePath": "imgs/all__music/hudsonmohawke.jpeg",
-      "colour": "8,9,15"
-    },
-    {
-      "artist": "Heartless Bastards",
-      "albumName": "Restless Ones",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874309.jpg?partner=allrovi.com",
+      "artist": "Son Lux",
+      "albumName": "Bones",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875655.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "heartlessbastards",
-      "imagePath": "imgs/all__music/heartlessbastards.jpeg",
-      "colour": "102,97,82"
+      "idvalue": "sonlux",
+      "imagePath": "imgs/all__music/sonlux.jpeg",
+      "colour": "212,125,125"
     },
     {
-      "artist": "Robert Glasper",
-      "albumName": "Covered: The Robert Glasper Trio Recorded Live at Capitol Studios",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875540.jpg?partner=allrovi.com",
-      "rating": "7",
-      "stars": "threeHalf",
-      "idvalue": "robertglasper",
-      "imagePath": "imgs/all__music/robertglasper.jpeg",
-      "colour": "239,235,235"
-    },
-    {
-      "artist": "Walk Off the Earth",
-      "albumName": "Sing It All Away",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/863/MI0003863022.jpg?partner=allrovi.com",
+      "artist": "Leon Bridges",
+      "albumName": "Coming Home",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/862/MI0003862033.jpg?partner=allrovi.com",
       "rating": "5",
       "stars": "twoHalf",
-      "idvalue": "walkofftheearth",
-      "imagePath": "imgs/all__music/walkofftheearth.jpeg",
-      "colour": "222,210,193"
+      "idvalue": "leonbridges",
+      "imagePath": "imgs/all__music/leonbridges.jpeg",
+      "colour": "179,61,55"
     },
     {
-      "artist": "Mika",
-      "albumName": "No Place in Heaven",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/867/MI0003867063.jpg?partner=allrovi.com",
+      "artist": "Cairo Gang",
+      "albumName": "Goes Missing",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/873/MI0003873581.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "mika",
-      "imagePath": "imgs/all__music/mika.jpeg",
-      "colour": "198,154,71"
+      "idvalue": "cairogang",
+      "imagePath": "imgs/all__music/cairogang.jpeg",
+      "colour": "50,57,68"
     },
     {
-      "artist": "Ryn Weaver",
-      "albumName": "The Fool",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/863/MI0003863131.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "rynweaver",
-      "imagePath": "imgs/all__music/rynweaver.jpeg",
-      "colour": "40,41,37"
-    },
-    {
-      "artist": "Jill Scott",
-      "albumName": "Golden Moments",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/871/MI0003871467.jpg?partner=allrovi.com",
-      "rating": "8",
-      "stars": "four",
-      "idvalue": "jillscott",
-      "imagePath": "imgs/all__music/jillscott.jpeg",
-      "colour": "123,89,60"
-    },
-    {
-      "artist": "The Dream Syndicate",
-      "albumName": "Days of Wine and Roses [Bonus Tracks]",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860135.jpg?partner=allrovi.com",
-      "rating": "9",
-      "stars": "fourHalf",
-      "idvalue": "thedreamsyndicate",
-      "imagePath": "imgs/all__music/thedreamsyndicate.jpeg",
-      "colour": "74,162,175"
-    },
-    {
-      "artist": "High on Fire",
-      "albumName": "Luminiferous",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861860.jpg?partner=allrovi.com",
+      "artist": "Linden",
+      "albumName": "Rest and Be Thankful",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/862/MI0003862369.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "highonfire",
-      "imagePath": "imgs/all__music/highonfire.jpeg",
-      "colour": "59,46,22"
+      "idvalue": "linden",
+      "imagePath": "imgs/all__music/linden.jpeg",
+      "colour": "191,191,187"
     },
     {
-      "artist": "BABYMETAL",
-      "albumName": "BABYMETAL [Bonus Tracks]",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/720/MI0003720318.jpg?partner=allrovi.com",
+      "artist": "Trey Songz",
+      "albumName": "Trigga Reloaded",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/862/MI0003862348.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "babymetal",
-      "imagePath": "imgs/all__music/babymetal.jpeg",
-      "colour": "40,10,8"
+      "idvalue": "treysongz",
+      "imagePath": "imgs/all__music/treysongz.jpeg",
+      "colour": "142,142,142"
     },
     {
-      "artist": "Sarah Cracknell",
-      "albumName": "Red Kite",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874597.jpg?partner=allrovi.com",
+      "artist": "The Orb",
+      "albumName": "Moonbuilding 2703 AD",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/857/MI0003857736.jpg?partner=allrovi.com",
+      "rating": "7",
+      "stars": "threeHalf",
+      "idvalue": "theorb",
+      "imagePath": "imgs/all__music/theorb.jpeg",
+      "colour": "71,72,117"
+    },
+    {
+      "artist": "The Royal Jesters",
+      "albumName": "English Oldies",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860330.jpg?partner=allrovi.com",
+      "rating": "7",
+      "stars": "threeHalf",
+      "idvalue": "theroyaljesters",
+      "imagePath": "imgs/all__music/theroyaljesters.jpeg",
+      "colour": "67,70,63"
+    },
+    {
+      "artist": "Meg Baird",
+      "albumName": "Don&apos;t Weigh Down the Light",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/880/MI0003880385.jpg?partner=allrovi.com",
+      "rating": "7",
+      "stars": "threeHalf",
+      "idvalue": "megbaird",
+      "imagePath": "imgs/all__music/megbaird.jpeg",
+      "colour": "22,27,56"
+    },
+    {
+      "artist": "Smokey",
+      "albumName": "How Far Will You Go: The S&amp;M Recordings, 1973-81",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/840/MI0003840318.jpg?partner=allrovi.com",
       "rating": "6",
       "stars": "three",
-      "idvalue": "sarahcracknell",
-      "imagePath": "imgs/all__music/sarahcracknell.jpeg",
-      "colour": "226,227,206"
+      "idvalue": "smokey",
+      "imagePath": "imgs/all__music/smokey.jpeg",
+      "colour": "216,192,171"
     },
     {
-      "artist": "Calvin Love",
-      "albumName": "Super Future",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/859/MI0003859854.jpg?partner=allrovi.com",
+      "artist": "Parlour Tricks",
+      "albumName": "Broken Hearts/Bones",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860340.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "parlourtricks",
+      "imagePath": "imgs/all__music/parlourtricks.jpeg",
+      "colour": "139,115,53"
+    },
+    {
+      "artist": "The Acorn",
+      "albumName": "Vieux Loup",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/878/MI0003878400.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "theacorn",
+      "imagePath": "imgs/all__music/theacorn.jpeg",
+      "colour": "44,44,44"
+    },
+    {
+      "artist": "Wolf Alice",
+      "albumName": "My Love Is Cool",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861426.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "wolfalice",
+      "imagePath": "imgs/all__music/wolfalice.jpeg",
+      "colour": "22,21,19"
+    },
+    {
+      "artist": "Jamison Ross",
+      "albumName": "Jamison",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874884.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "jamisonross",
+      "imagePath": "imgs/all__music/jamisonross.jpeg",
+      "colour": "44,38,34"
+    },
+    {
+      "artist": "Breaking Benjamin",
+      "albumName": "Dark Before Dawn [Bonus Track]",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868246.jpg?partner=allrovi.com",
       "rating": "5",
       "stars": "twoHalf",
-      "idvalue": "calvinlove",
-      "imagePath": "imgs/all__music/calvinlove.jpeg",
-      "colour": "211,199,187"
+      "idvalue": "breakingbenjamin",
+      "imagePath": "imgs/all__music/breakingbenjamin.jpeg",
+      "colour": "224,202,91"
     },
     {
-      "artist": "KEN mode",
-      "albumName": "Success",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/859/MI0003859106.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "kenmode",
-      "imagePath": "imgs/all__music/kenmode.jpeg",
-      "colour": "43,109,149"
-    },
-    {
-      "artist": "Hilary Duff",
-      "albumName": "Breathe In. Breathe Out.",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868192.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "hilaryduff",
-      "imagePath": "imgs/all__music/hilaryduff.jpeg",
-      "colour": "230,231,231"
-    },
-    {
-      "artist": "David Benoit",
-      "albumName": "2 in Love",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/872/MI0003872611.jpg?partner=allrovi.com",
+      "artist": "Desaparecidos",
+      "albumName": "Payola",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860244.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "davidbenoit",
-      "imagePath": "imgs/all__music/davidbenoit.jpeg",
-      "colour": "182,169,156"
+      "idvalue": "desaparecidos",
+      "imagePath": "imgs/all__music/desaparecidos.jpeg",
+      "colour": "8,8,8"
     },
     {
-      "artist": "Aaron Diehl",
-      "albumName": "Space Time Continuum",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874024.jpg?partner=allrovi.com",
+      "artist": "Elijah Blake",
+      "albumName": "Shadows &amp; Diamonds",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/869/MI0003869034.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "elijahblake",
+      "imagePath": "imgs/all__music/elijahblake.jpeg",
+      "colour": "30,18,29"
+    },
+    {
+      "artist": "Larry Campbell",
+      "albumName": "Larry Campbell and Teresa Williams",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861583.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "aarondiehl",
-      "imagePath": "imgs/all__music/aarondiehl.jpeg",
-      "colour": "223,215,212"
+      "idvalue": "larrycampbell",
+      "imagePath": "imgs/all__music/larrycampbell.jpeg",
+      "colour": "32,31,29"
     },
     {
-      "artist": "Active Child",
-      "albumName": "Mercy",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/867/MI0003867104.jpg?partner=allrovi.com",
+      "artist": "Fist City",
+      "albumName": "Everything Is a Mess",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/873/MI0003873610.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "fistcity",
+      "imagePath": "imgs/all__music/fistcity.jpeg",
+      "colour": "228,227,223"
+    },
+    {
+      "artist": "The Units",
+      "albumName": "Digital Stimulation",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/880/MI0003880315.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "activechild",
-      "imagePath": "imgs/all__music/activechild.jpeg",
-      "colour": "25,30,21"
+      "idvalue": "theunits",
+      "imagePath": "imgs/all__music/theunits.jpeg",
+      "colour": "61,104,123"
     },
     {
-      "artist": "Evan Caminiti",
-      "albumName": "Meridian",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868953.jpg?partner=allrovi.com",
+      "artist": "White Poppy",
+      "albumName": "Natural Phenomena",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/857/MI0003857445.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "evancaminiti",
-      "imagePath": "imgs/all__music/evancaminiti.jpeg",
-      "colour": "6,5,6"
+      "idvalue": "whitepoppy",
+      "imagePath": "imgs/all__music/whitepoppy.jpeg",
+      "colour": "143,136,140"
     },
     {
-      "artist": "Fucked Up",
-      "albumName": "Year of the Hare",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/859/MI0003859864.jpg?partner=allrovi.com",
+      "artist": "Cayucas",
+      "albumName": "Dancing at the Blue Lagoon",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860334.jpg?partner=allrovi.com",
+      "rating": "5",
+      "stars": "twoHalf",
+      "idvalue": "cayucas",
+      "imagePath": "imgs/all__music/cayucas.jpeg",
+      "colour": "182,194,196"
+    },
+    {
+      "artist": "Citizen",
+      "albumName": "Everybody Is Going to Heaven",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/876/MI0003876633.jpg?partner=allrovi.com",
       "rating": "6",
       "stars": "three",
-      "idvalue": "fuckedup",
-      "imagePath": "imgs/all__music/fuckedup.jpeg",
-      "colour": "60,54,49"
+      "idvalue": "citizen",
+      "imagePath": "imgs/all__music/citizen.jpeg",
+      "colour": "194,187,165"
     },
     {
-      "artist": "Dog Party",
-      "albumName": "Vol. 4",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874609.jpg?partner=allrovi.com",
+      "artist": "Class Actress",
+      "albumName": "Movies",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/878/MI0003878528.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "classactress",
+      "imagePath": "imgs/all__music/classactress.jpeg",
+      "colour": "184,102,79"
+    },
+    {
+      "artist": "Creepoid",
+      "albumName": "Cemetery Highrise Slum",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/876/MI0003876630.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "creepoid",
+      "imagePath": "imgs/all__music/creepoid.jpeg",
+      "colour": "67,61,70"
+    },
+    {
+      "artist": "Dave Douglas",
+      "albumName": "High Risk",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875413.jpg?partner=allrovi.com",
       "rating": "7",
       "stars": "threeHalf",
-      "idvalue": "dogparty",
-      "imagePath": "imgs/all__music/dogparty.jpeg",
-      "colour": "67,48,77"
+      "idvalue": "davedouglas",
+      "imagePath": "imgs/all__music/davedouglas.jpeg",
+      "colour": "165,163,143"
     },
     {
-      "artist": "Amos Lee",
-      "albumName": "Live at Red Rocks with the Colorado Symphony",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868814.jpg?partner=allrovi.com",
-      "rating": "7",
-      "stars": "threeHalf",
-      "idvalue": "amoslee",
-      "imagePath": "imgs/all__music/amoslee.jpeg",
-      "colour": "219,206,183"
+      "artist": "De Lux",
+      "albumName": "Generation",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860325.jpg?partner=allrovi.com",
+      "rating": "0",
+      "idvalue": "delux",
+      "imagePath": "imgs/all__music/delux.jpeg",
+      "colour": "42,42,42"
     },
     {
-      "artist": "Azure Blue",
-      "albumName": "Beneath the Hill I Smell the Sea",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875640.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "azureblue",
-      "imagePath": "imgs/all__music/azureblue.jpeg",
-      "colour": "244,195,169"
-    },
-    {
-      "artist": "Bob Collins and the Full Nelson",
-      "albumName": "Telescopic Victory Kiss",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874601.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "bobcollinsandthefullnelson",
-      "imagePath": "imgs/all__music/bobcollinsandthefullnelson.jpeg",
-      "colour": "11,7,15"
-    },
-    {
-      "artist": "Christopher Paul Stelling",
-      "albumName": "Labor Against Waste",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874303.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "christopherpaulstelling",
-      "imagePath": "imgs/all__music/christopherpaulstelling.jpeg",
-      "colour": "112,128,106"
-    },
-    {
-      "artist": "Hank Williams, Jr.",
-      "albumName": "35 Biggest Hits",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/860/MI0003860381.jpg?partner=allrovi.com",
-      "rating": "9",
-      "stars": "fourHalf",
-      "idvalue": "hankwilliams,jr.",
-      "imagePath": "imgs/all__music/hankwilliams,jr..jpeg",
-      "colour": "24,29,31"
-    },
-    {
-      "artist": "Ken Camden",
-      "albumName": "Dream Memory",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875007.jpg?partner=allrovi.com",
-      "rating": "7",
-      "stars": "threeHalf",
-      "idvalue": "kencamden",
-      "imagePath": "imgs/all__music/kencamden.jpeg",
-      "colour": "176,178,129"
-    },
-    {
-      "artist": "Left Lane Cruiser",
-      "albumName": "Dirty Spliff Blues",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/863/MI0003863062.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "leftlanecruiser",
-      "imagePath": "imgs/all__music/leftlanecruiser.jpeg",
-      "colour": "191,158,103"
-    },
-    {
-      "artist": "Mates of State",
-      "albumName": "You&apos;re Going to Make It",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/877/MI0003877176.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "matesofstate",
-      "imagePath": "imgs/all__music/matesofstate.jpeg",
-      "colour": "140,125,106"
-    },
-    {
-      "artist": "mewithoutYou",
-      "albumName": "Pale Horses",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874352.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "mewithoutyou",
-      "imagePath": "imgs/all__music/mewithoutyou.jpeg",
-      "colour": "124,121,122"
-    },
-    {
-      "artist": "Part Time",
-      "albumName": "Virgo&apos;s Maze",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/877/MI0003877174.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "parttime",
-      "imagePath": "imgs/all__music/parttime.jpeg",
-      "colour": "208,208,203"
-    },
-    {
-      "artist": "The Silver Lake Chorus",
-      "albumName": "The Silver Lake Chorus",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/871/MI0003871413.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "thesilverlakechorus",
-      "imagePath": "imgs/all__music/thesilverlakechorus.jpeg",
-      "colour": "68,60,41"
-    },
-    {
-      "artist": "The SteelDrivers",
-      "albumName": "The Muscle Shoals Recordings",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/877/MI0003877195.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "thesteeldrivers",
-      "imagePath": "imgs/all__music/thesteeldrivers.jpeg",
-      "colour": "56,57,56"
-    },
-    {
-      "artist": "Yukon Blonde",
-      "albumName": "On Blonde",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/862/MI0003862177.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "yukonblonde",
-      "imagePath": "imgs/all__music/yukonblonde.jpeg",
-      "colour": "98,70,83"
-    },
-    {
-      "artist": "The Wooden Sky",
-      "albumName": "Let&apos;s Be Ready",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/871/MI0003871414.jpg?partner=allrovi.com",
-      "rating": "6",
-      "stars": "three",
-      "idvalue": "thewoodensky",
-      "imagePath": "imgs/all__music/thewoodensky.jpeg",
-      "colour": "194,202,201"
-    },
-    {
-      "artist": "Nick Van Bloss",
-      "albumName": "Beethoven: Diabelli Variations; Sonata &quot;Appassionata&quot;",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868189.jpg?partner=allrovi.com",
+      "artist": "Susanna Ogata",
+      "albumName": "Beethoven: Sonatas for Fortepiano and Violin, Vol. 1",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868196.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "nickvanbloss",
-      "imagePath": "imgs/all__music/nickvanbloss.jpeg",
-      "colour": "50,34,54"
+      "idvalue": "susannaogata",
+      "imagePath": "imgs/all__music/susannaogata.jpeg",
+      "colour": "53,47,46"
     },
     {
-      "artist": "Budapest Festival Orchestra",
-      "albumName": "Mahler: Symphony No. 9",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/859/MI0003859820.jpg?partner=allrovi.com",
+      "artist": "Alina Ibragimova",
+      "albumName": "Ysa&#xFF;e: Sonatas for Solo Violin",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868433.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "budapestfestivalorchestra",
-      "imagePath": "imgs/all__music/budapestfestivalorchestra.jpeg",
-      "colour": "206,195,186"
+      "idvalue": "alinaibragimova",
+      "imagePath": "imgs/all__music/alinaibragimova.jpeg",
+      "colour": "201,190,187"
     },
     {
-      "artist": "Kansas City Symphony",
-      "albumName": "Saint-Sa&#xEB;ns: Symphony No. 3 &quot;Organ&quot;; Introduction and Rondo capriccioso; La muse et le po&#xE8;te",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/869/MI0003869078.jpg?partner=allrovi.com",
+      "artist": "Simon Gaudenz",
+      "albumName": "Schumann: Symphonies",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/867/MI0003867737.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "kansascitysymphony",
-      "imagePath": "imgs/all__music/kansascitysymphony.jpeg",
-      "colour": "53,44,43"
+      "idvalue": "simongaudenz",
+      "imagePath": "imgs/all__music/simongaudenz.jpeg",
+      "colour": "88,90,114"
     },
     {
-      "artist": "Michael Habermann",
-      "albumName": "Sorabji: Piano Music",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/867/MI0003867766.jpg?partner=allrovi.com",
+      "artist": "Mahan Esfahani",
+      "albumName": "Time Present and Time Past",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868708.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "mahanesfahani",
+      "imagePath": "imgs/all__music/mahanesfahani.jpeg",
+      "colour": "53,54,74"
+    },
+    {
+      "artist": "Philippe Jordan",
+      "albumName": "Ravel: Daphnis et Chlo&#xE9;; La Valse",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/844/MI0003844074.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "michaelhabermann",
-      "imagePath": "imgs/all__music/michaelhabermann.jpeg",
-      "colour": "106,85,75"
+      "idvalue": "philippejordan",
+      "imagePath": "imgs/all__music/philippejordan.jpeg",
+      "colour": "195,156,130"
     },
     {
-      "artist": "Penelope Crawford",
-      "albumName": "Mozart: Clarinet Quintet, K. 581; &quot;Kegelstatt&quot; Trio, K. 498",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861345.jpg?partner=allrovi.com",
-      "rating": "7",
-      "stars": "threeHalf",
-      "idvalue": "penelopecrawford",
-      "imagePath": "imgs/all__music/penelopecrawford.jpeg",
-      "colour": "34,27,17"
-    },
-    {
-      "artist": "Gabriela Montero",
-      "albumName": "Rachmaninov: Piano Concerto No. 2; Montero: Ex Patria; Improvisations",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/867/MI0003867746.jpg?partner=allrovi.com",
-      "rating": "7",
-      "stars": "threeHalf",
-      "idvalue": "gabrielamontero",
-      "imagePath": "imgs/all__music/gabrielamontero.jpeg",
-      "colour": "41,40,41"
+      "artist": "ZOFO Duet",
+      "albumName": "ZOFO Plays Terry Riley",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861742.jpg?partner=allrovi.com",
+      "rating": "6",
+      "stars": "three",
+      "idvalue": "zofoduet",
+      "imagePath": "imgs/all__music/zofoduet.jpeg",
+      "colour": "198,184,180"
     }
   ]
 }

@@ -90,9 +90,11 @@ body.down header.clone {
     .record__wrapper img.clash {
       width: 120% !important;
       height: auto !important; }
-  .record__wrapper.title h1 {
-    font-family: 'brandon_grotesquebold';
-    font-size: 20px; }
+  .record__wrapper.title {
+    background-color: aqua; }
+    .record__wrapper.title h1 {
+      font-family: 'brandon_grotesquebold';
+      font-size: 20px; }
 
 .rating {
   width: 50px;

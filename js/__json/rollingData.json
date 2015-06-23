@@ -1,120 +1,11 @@
 {
   "provider": [
     {
-      "provider": "Rolling Stone"
+      "provider": "Rolling Stone",
+      "url": "http://www.rollingstone.com"
     }
   ],
   "artists": [
-    {
-      "artist": "James Taylor",
-      "albumName": " Before This World",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/james-taylor-before-this-world-20150616/199626/large_square/1434396035/200x200-63dd7b12cad44d3f84ac36c8feb.JPG",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "jamestaylor",
-      "imagePath": "imgs/rolling__stone/jamestaylor.jpeg",
-      "colour": "19,20,29"
-    },
-    {
-      "artist": "Adam Lambert",
-      "albumName": " The Original High",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/adam-lambert-the-original-high-20150616/199458/large_square/1434325223/200x200-photo-credit-david-roemer-extralarge_1432071439823.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "adamlambert",
-      "imagePath": "imgs/rolling__stone/adamlambert.jpeg",
-      "colour": "232,228,227"
-    },
-    {
-      "artist": "Nate Ruess",
-      "albumName": " Grand Romantic",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/nate-ruess-grand-romantic-20150616/199459/large_square/1434325365/200x200-nate-ruess1.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "nateruess",
-      "imagePath": "imgs/rolling__stone/nateruess.jpeg",
-      "colour": "48,40,34"
-    },
-    {
-      "artist": "Hudson Mohawke",
-      "albumName": " Lantern",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/hudson-mohawke-lantern-20150616/199627/large_square/1434396248/200x200-GettyImages-452468262.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "hudsonmohawke",
-      "imagePath": "imgs/rolling__stone/hudsonmohawke.jpeg",
-      "colour": "205,188,190"
-    },
-    {
-      "artist": "Hot Chip",
-      "albumName": " Why Make Sense?",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/hot-chip-why-make-sense-20150616/199727/large_square/1434457589/200x200-HotChip1.jpeg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "hotchip",
-      "imagePath": "imgs/rolling__stone/hotchip.jpeg",
-      "colour": "36,21,13"
-    },
-    {
-      "artist": "Neil Young and Promise of the Real",
-      "albumName": " The Monsanto Years",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/neil-young-and-promise-of-the-real-the-monsanto-years-20150616/199726/large_square/1434457476/200x200-neilyoungbandimagehires.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "neilyoungandpromiseofthereal",
-      "imagePath": "imgs/rolling__stone/neilyoungandpromiseofthereal.jpeg",
-      "colour": "201,206,220"
-    },
-    {
-      "artist": "Palma Violets",
-      "albumName": " Danger in the Club",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/palma-violets-danger-in-the-club-20150616/199725/large_square/1434457247/200x200-PALMA_VIOLETS_026_COLOR_EdMiles.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "palmaviolets",
-      "imagePath": "imgs/rolling__stone/palmaviolets.jpeg",
-      "colour": "56,37,29"
-    },
-    {
-      "artist": "Donnie Trumpet and the Social Experiment",
-      "albumName": " Surf",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/donnie-trumpet-and-the-social-experiment-surf-20150616/199724/large_square/1434456962/200x200-sox6.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "donnietrumpetandthesocialexperiment",
-      "imagePath": "imgs/rolling__stone/donnietrumpetandthesocialexperiment.jpeg",
-      "colour": "48,48,48"
-    },
-    {
-      "artist": "Jenny Hval",
-      "albumName": " Apocalypse",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/jenny-hval-apocalypse-girl-20150612/199280/large_square/1434057922/200x200-Export1.2-small.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "jennyhval",
-      "imagePath": "imgs/rolling__stone/jennyhval.jpeg",
-      "colour": "56,31,20"
-    },
-    {
-      "artist": "Lil Durk",
-      "albumName": " Remember My Name",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/lil-durk-remember-my-name-20150612/200094/large_square/1434650424/200x200-GettyImages-453975984.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "lildurk",
-      "imagePath": "imgs/rolling__stone/lildurk.jpeg",
-      "colour": "25,29,31"
-    },
-    {
-      "artist": "FFS",
-      "albumName": " FFS",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/ffs-ffs-20150609/198726/large_square/1433783234/200x200-la-ca-ms-franz-ferdinand-sparks-ffs-band-20150-001.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "ffs",
-      "imagePath": "imgs/rolling__stone/ffs.jpeg",
-      "colour": "195,185,180"
-    },
     {
       "artist": "The Rolling Stones",
       "albumName": " Sticky Fingers: Deluxe Edition",
@@ -124,16 +15,6 @@
       "idvalue": "therollingstones",
       "imagePath": "imgs/rolling__stone/therollingstones.jpeg",
       "colour": "143,143,143"
-    },
-    {
-      "artist": "Sharon Van Etten",
-      "albumName": " I Dont Want to Let You Down&apos;",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/sharon-van-etten-i-dont-want-to-let-you-down-20150609/198723/large_square/1433782783/200x200-09_sve_ny_minetta_231__FL.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "sharonvanetten",
-      "imagePath": "imgs/rolling__stone/sharonvanetten.jpeg",
-      "colour": "31,54,61"
     },
     {
       "artist": "Muse",
@@ -146,46 +27,6 @@
       "colour": "27,35,41"
     },
     {
-      "artist": "Death",
-      "albumName": " N.E.W.",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/death-n-e-w-20150608/197932/large_square/1433189890/200x200-BobbyHackney_BobbieDuncan_DannisHackney_Death_bySamdarkoElotsam.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "death",
-      "imagePath": "imgs/rolling__stone/death.jpeg",
-      "colour": "62,48,57"
-    },
-    {
-      "artist": "Girlpool",
-      "albumName": " Before the World Was Big",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/girlpool-before-the-world-was-big-20150602/197934/large_square/1433190311/200x200-ZrHQQtgVRUvAX14ek7xfYLyVFJ72TVPD_IRnsqi1YlU.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "girlpool",
-      "imagePath": "imgs/rolling__stone/girlpool.jpeg",
-      "colour": "41,32,35"
-    },
-    {
-      "artist": "Jason Derulo",
-      "albumName": " Everything Is 4",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/jason-derulo-everything-is-4-20150602/196765/large_square/1432072309/200x200-photo-credit-brian-bowen-smith-extralarge_1426101360234.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "jasonderulo",
-      "imagePath": "imgs/rolling__stone/jasonderulo.jpeg",
-      "colour": "97,104,113"
-    },
-    {
-      "artist": "Willie Nelson",
-      "albumName": " Merle Haggard",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/willie-nelson-merle-haggard-django-and-jimmie-20150602/196763/large_square/1432072197/200x200-464914567.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "willienelson",
-      "imagePath": "imgs/rolling__stone/willienelson.jpeg",
-      "colour": "27,20,18"
-    },
-    {
       "artist": "Jamie xx",
       "albumName": " In Colour",
       "image": "http://assets.rollingstone.com/assets/2015/albumreview/jamie-xx-in-colour-20150602/196762/large_square/1432072181/200x200-FlavienPrioreauJamiexx.jpeg",
@@ -194,16 +35,6 @@
       "idvalue": "jamiexx",
       "imagePath": "imgs/rolling__stone/jamiexx.jpeg",
       "colour": "192,172,173"
-    },
-    {
-      "artist": "Florence and the Machine",
-      "albumName": " How Big How Blue How Beautiful",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/florence-and-the-machine-how-big-how-blue-how-beautiful-20150602/196849/large_square/1432147496/200x200-IMG_5548-copy.jpg",
-      "rating": "3",
-      "stars": "three",
-      "idvalue": "florenceandthemachine",
-      "imagePath": "imgs/rolling__stone/florenceandthemachine.jpeg",
-      "colour": "226,214,203"
     }
   ]
 }
