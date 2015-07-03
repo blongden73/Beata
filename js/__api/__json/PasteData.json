@@ -1,0 +1,141 @@
+{
+  "provider": [
+    {
+      "provider": "Paste",
+      "url": "http://www.pastemagazine.com"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Martin House Brewing Company Bockslider",
+      "image": "http://cdn.pastemagazine.com/www/articles/Toadies%20Bockslider.jpg?635713947801296693",
+      "rating": "8.4",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "martinhousebrewingcompanybockslider",
+      "imagePath": "imgs/paste/martinhousebrewingcompanybockslider.jpeg",
+      "colour": "46,44,45"
+    },
+    {
+      "artist": "Neil Young",
+      "albumName": " <i>The Monsanto Years</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/30/neil-young-the-monsanto-years.jpg?635713947801296693",
+      "rating": "9.2",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "neilyoung",
+      "imagePath": "imgs/paste/neilyoung.jpeg",
+      "colour": "36,37,30"
+    },
+    {
+      "artist": "Radioactivity",
+      "albumName": " <i>Silent Kill</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/30/32336-silent-kill.jpg?635713947801306694",
+      "rating": "7.8",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "radioactivity",
+      "imagePath": "imgs/paste/radioactivity.jpeg",
+      "colour": "88,89,91"
+    },
+    {
+      "artist": "Chuck Johnson",
+      "albumName": " <i>Blood Moon Boulder</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/30/chuckjohnsonbloodmoon.jpg?635713947801316695",
+      "rating": "8.7",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "chuckjohnson",
+      "imagePath": "imgs/paste/chuckjohnson.jpeg",
+      "colour": "227,219,212"
+    },
+    {
+      "artist": "Christopher Paul Stelling",
+      "albumName": " <i>Labor Against Waste</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/cps%20labor%20against%20waste.main.jpg?635713947801326696",
+      "rating": "9.2",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "christopherpaulstelling",
+      "imagePath": "imgs/paste/christopherpaulstelling.jpeg",
+      "colour": "115,132,111"
+    },
+    {
+      "artist": "Desaparecidos",
+      "albumName": " <i>Payola</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/Desaparecidos%20Payola.jpg?635713947801326696",
+      "rating": "8.8",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "desaparecidos",
+      "imagePath": "imgs/paste/desaparecidos.jpeg",
+      "colour": "218,218,218"
+    },
+    {
+      "artist": "The Cairo Gang",
+      "albumName": " <i>Goes Missing</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/The%20Cairo%20Gang%20Goes%20Missing.jpg?635713947801336697",
+      "rating": "9.1",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "thecairogang",
+      "imagePath": "imgs/paste/thecairogang.jpeg",
+      "colour": "33,48,62"
+    },
+    {
+      "artist": "Son Lux",
+      "albumName": " <i>Bones</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/bones.jpg?635713947801336697",
+      "rating": "8.0",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "sonlux",
+      "imagePath": "imgs/paste/sonlux.jpeg",
+      "colour": "193,85,96"
+    },
+    {
+      "artist": "Leon Bridges",
+      "albumName": " <i>Coming Home</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/Leon%20Bridges%20Coming%20Home.jpg?635713947801346698",
+      "rating": "9.5",
+      "ratingRound": 10,
+      "stars": "five",
+      "idvalue": "leonbridges",
+      "imagePath": "imgs/paste/leonbridges.jpeg",
+      "colour": "194,49,37"
+    },
+    {
+      "artist": "Bully",
+      "albumName": " <i>Feels Like</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/bully-feels-like.jpg?635713947801346698",
+      "rating": "9.2",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "bully",
+      "imagePath": "imgs/paste/bully.jpeg",
+      "colour": "201,203,201"
+    },
+    {
+      "artist": "Cayucas",
+      "albumName": " <i>Dancing at the Blue Lagoon</i>",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/23/cayu_DATBL-cover-front-FINAL.jpg?635713947801356699",
+      "rating": "7.6",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "cayucas",
+      "imagePath": "imgs/paste/cayucas.jpeg",
+      "colour": "185,200,202"
+    },
+    {
+      "artist": "John Lennon",
+      "albumName": " <i>Lennon</i> Box Set",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/16/lennon-vinyl-set.jpg?635713947801366700",
+      "rating": "8.0",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "johnlennon",
+      "imagePath": "imgs/paste/johnlennon.jpeg",
+      "colour": "218,220,212"
+    }
+  ]
+}

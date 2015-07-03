@@ -11,7 +11,7 @@ body{
 	background-color: #ececec;
 }
 
-$time:0.9s;
+$time:0.5s;
 $time_fade:0.5s;
 
 @mixin h1{
@@ -22,6 +22,11 @@ font-size: 20px;
 @mixin h2{
 font-family: 'brandon_grotesque_regularRg';
 font-size: 20px;
+}
+
+@mixin h3{
+font-family: 'brandon_grotesquebold';
+font-size: 28px;
 }
 
 @mixin transition{
@@ -71,6 +76,7 @@ header {
     color: #666;
     z-index: 10000;
     opacity: 0;
+    background-color: black;
 }
 header.clone {
     position: fixed;
@@ -109,6 +115,34 @@ body.down header.clone {
 	}
 }
 
+	li{
+		
+	&.album{
+		margin-bottom: 10px;
+		
+		& .player__container{
+			
+			position: absolute;
+			
+			button.play{
+				background-color: none;
+				border: 2px solid white;
+			}
+		}
+		
+	}
+	
+	&.album:nth-child(7) {
+	margin-left: 210px;
+	}
+	
+	&.album:nth-child(12) {
+	margin-left: 210px;
+	}
+	
+	
+	
+}
 .album{
 	@include col;
 	
@@ -124,6 +158,8 @@ body.down header.clone {
 		background-color: transparent;
 		margin-top: 50px;
 	}
+	
+
 	
 }
 
@@ -165,13 +201,27 @@ body.down header.clone {
 		
 	
 	&.title{
-		
-		background-color: aqua;
-		
-		& h1{
-			@include h1;
-			
+		width: 190px !important;
+		padding-right:  10px;
+
+		&:hover{
+			background-color: #ef4135;
 		}
+		
+		&:hover h3{
+			color: white;
+		}
+		
+			& h3{
+		@include h3;
+		color: black;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		@include transition;
+
+		}
+		
 			}
 			
 			
@@ -181,7 +231,6 @@ body.down header.clone {
 	width: 50px;
 	height: 50px;
     color: white;
-	border: 2px solid white;
     border-radius: 50%;
     text-align: center;
     bottom: 10px;
@@ -191,6 +240,14 @@ body.down header.clone {
 	& h1{
 		@include h1;
 		margin-top: 13px;
+	}
+	
+	& button.play{
+		background-color: transparent;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
 	}
 	
 }
@@ -212,6 +269,7 @@ body.down header.clone {
 		@include h2;
 		color: white;
 	}
+	
     
     & .stars{
 	    
@@ -281,18 +339,14 @@ body.down header.clone {
 	position: absolute;
 	left: 40%;
 	top:460px;
-	width: 400px;
-	text-align: center;
+	width: 410px;
 	
 	& h1{
 		@include h1;
 		color: white;
 	}
 	
-	& h2{
-		@include h2;
-		color: white;
-	}
+
 }
 
 }
@@ -307,6 +361,15 @@ body.down header.clone {
 	width: 1260px;
 	padding-left: 20px;
 	padding-right: 20px;
+	
+	& .beata{
+	font-family: 'Beata';
+	font-size: 134px;
+	margin-top: 29px;
+	color: white;
+	margin-bottom: -32px;
+	height: 0;
+	}
 }
 
 #menu__container{
@@ -323,11 +386,38 @@ body.down header.clone {
 	
 }
 
+#top__banner{
+	
+		& .beata{
+	font-family: 'Beata';
+	font-size: 270px;
+	color: white;
+	z-index: 100000;
+	position: absolute;
+	left: 40%;
+	top:150px;
+	}
+	
+}
+
+
 
 
 	
 	
 // fonts
+
+@font-face {
+    font-family: 'Beata';
+    src: url('../assets/__typeface/Beata-Regular.eot');
+    src: url('../assets/__typeface/Beata-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/Beata-Regular.woff2') format('woff2'),
+         url('../assets/__typeface/Beata-Regular.woff') format('woff'),
+         url('../assets/__typeface/Beata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: 'brandon_grotesquebold';

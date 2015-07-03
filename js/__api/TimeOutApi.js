@@ -3,7 +3,7 @@ var request = require("request"),
 	clashurl = "http://www.timeout.com/london/music/album-reviews";
 
 var jf = require('jsonfile');	
-var file = 'js/__json/TimeOutData.json';
+var file = 'js/__api/__json/TimeOutData.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 
@@ -40,34 +40,19 @@ var ColorThief = require('color-thief');
 		var ratingRound = Math.round(ratingNo);
 		var StarRating;
 		if (ratingRound == 1){
-			StarRating = 'half'
+			StarRating = 'one'
 		}
 		else if(ratingRound == 2){
-			StarRating = 'one'
+			StarRating = 'two'
 		}
 		
 		else if (ratingRound == 3){
-			StarRating = 'oneHalf'
-		}
-		else if (ratingRound == 4){
-			StarRating = 'two'
-		}
-		else if (ratingRound == 5){
-			StarRating = 'twoHalf'
-		}
-		else if (ratingRound == 6){
 			StarRating = 'three'
 		}
-		else if (ratingRound == 7){
-			StarRating = 'threeHalf'
-		}
-		else if (ratingRound == 8){
+		else if (ratingRound == 4){
 			StarRating = 'four'
 		}
-		else if (ratingRound == 9){
-			StarRating = 'fourHalf'
-		}
-		else if (ratingRound == 10){
+		else if (ratingRound == 5){
 			StarRating = 'five'
 		}
 		var sClink = $(".text-wrap .node-title a", this).attr('href');
@@ -86,10 +71,7 @@ var ColorThief = require('color-thief');
 	objBestTime["artists"] = [];
 			
 	for(var i = 0; i < objTimeOut.artists.length; i++){
-		if(objTimeOut.artists[i].rating == "3"){	
-		objBestTime.artists.push(objTimeOut.artists[i]);
-		}
-		else if(objTimeOut.artists[i].rating == "4"){	
+		if(objTimeOut.artists[i].rating == "4"){	
 		objBestTime.artists.push(objTimeOut.artists[i]);
 		}
 		else if(objTimeOut.artists[i].rating == "5"){	

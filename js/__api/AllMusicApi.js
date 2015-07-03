@@ -3,7 +3,7 @@ var request = require("request"),
     clashurl = "http://www.allmusic.com/newreleases";
 
 var jf = require('jsonfile');
-var file = 'js/__json/AllMusicData.json';
+var file = 'js/__api/__json/AllMusicData.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 
@@ -77,28 +77,29 @@ request(clashurl, function(error, response, body) {
             objAllMusic.artists[index] = new albumInfo(artistName, albumName, imageLink, rating, StarRating, sClink, id, imagePath, colour);
         });
 
-        for (var i = 0; i < objAllMusic.artists.length; i++) {
-            var download = function(uri, filename, callback) {
-                request.head(uri, function(err, res, body) {
-                    console.log('content-type:', res.headers['content-type']);
-                    console.log('content-length:', res.headers['content-length']);
-                    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
-                });
-            };
-
-            download(objAllMusic.artists[i].image, 'imgs/all__music/' + objAllMusic.artists[i].idvalue + '.jpeg', function() {
-                console.log('done');
-            });
-        };
-
-
+       objUncut = {};
+	objUncut["provider"] = [{provider : 'All Music', url : 'http://www.allmusic.com'}];
+	objUncut["artists"] = [];
+			
+	for(var i = 0; i < objAllMusic.artists.length; i++){
+		if(objAllMusic.artists[i].rating == "8"){	
+		objUncut.artists.push(objAllMusic.artists[i]);
+		}
+		else if(objAllMusic.artists[i].rating == "9"){	
+		objUncut.artists.push(objAllMusic.artists[i]);
+		}
+		else if(objAllMusic.artists[i].rating == "10"){	
+		objUncut.artists.push(objAllMusic.artists[i]);
+		}
+		
+	}		
         console.log(objAllMusic);
     } else {
         console.log("We’ve encountered an error: " + error);
     }
 
     //write to json
-    jf.writeFile(file, objAllMusic, function(err) {
+    jf.writeFile(file, objUncut, function(err) {
         console.log("this is not working", err)
     })
 });

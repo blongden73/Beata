@@ -3,7 +3,7 @@ var request = require("request"),
     clashurl = "http://www.pastemagazine.com/articles/music/reviews/";
 
 var jf = require('jsonfile');
-var file = 'js/__json/PasteData.json';
+var file = 'js/__api/__json/PasteData.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 
@@ -18,11 +18,12 @@ request(clashurl, function(error, response, body) {
         }];
         objPaste["artists"] = [];
         //create new object titles for albums 
-        function albumInfo(artist, albumName, image, rating, stars, soundcloud, idvalue, imagePath, colour) {
+        function albumInfo(artist, albumName, image, rating, ratingRound, stars, soundcloud, idvalue, imagePath, colour) {
             this.artist = artist
             this.albumName = albumName
             this.image = image
             this.rating = rating
+            this.ratingRound = ratingRound
             this.stars = stars
             this.soundcloud = soundcloud
             this.idvalue = idvalue
@@ -36,7 +37,7 @@ request(clashurl, function(error, response, body) {
             var artistName = $("a.title", this).html().replace('&amp;', '&').replace('&apos;', "'").replace('&#x2019;', "'");
             var artistNameSplit = artistName.split(':');
             var artist = artistNameSplit[0];
-            var albumName = artistNameSplit[1].replace('<i>', '').replace('</i>', '');
+            var albumName = artistNameSplit[1];
             var imageLink = $("a.image img", this).attr('src').replace('\r\n        ', '').replace('\\', '');
             var ratingNo = $("a.rating i.number", this).html();
             var ratingRound = Math.round(ratingNo);
@@ -61,8 +62,9 @@ request(clashurl, function(error, response, body) {
                 StarRating = 'fourHalf'
             } else if (ratingRound == 10) {
                 StarRating = 'five'
+            }  if (ratingNo == null) {
+                ratingNo = "0"
             }
-
             var sClink = $(".text-wrap .node-title a", this).attr('href');
             var id = artist.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/paste/' + id + ".jpeg";
@@ -70,31 +72,33 @@ request(clashurl, function(error, response, body) {
             var colorThief = new ColorThief();
             var colourObj = colorThief.getColor(imagePath);
             var colour = colourObj.toString();
-            objPaste.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, StarRating, sClink, id, imagePath, colour);
+            objPaste.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, ratingRound, StarRating, sClink, id, imagePath, colour);
         });
 
-        for (var i = 0; i < objPaste.artists.length; i++) {
+       objUncut = {};
+	objUncut["provider"] = [{provider : 'Paste', url : 'http://www.pastemagazine.com'}];
+	objUncut["artists"] = [];
+			
+	for(var i = 0; i < objPaste.artists.length; i++){
+		if(objPaste.artists[i].ratingRound == "8"){	
+		objUncut.artists.push(objPaste.artists[i]);
+		}
+		else if(objPaste.artists[i].ratingRound == "9"){	
+		objUncut.artists.push(objPaste.artists[i]);
+		}
+		else if(objPaste.artists[i].ratingRound == "10"){	
+		objUncut.artists.push(objPaste.artists[i]);
+		}
+		
+	}		
 
-            var download = function(uri, filename, callback) {
-                request.head(uri, function(err, res, body) {
-                    console.log('content-type:', res.headers['content-type']);
-                    console.log('content-length:', res.headers['content-length']);
-                    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
-                });
-            };
-
-            download(objPaste.artists[i].image, 'imgs/paste/' + objPaste.artists[i].idvalue + '.jpeg', function() {
-                console.log('done');
-            });
-        };
-
-        console.log(objPaste);
+        console.log(objUncut);
     } else {
         console.log("We’ve encountered an error: " + error);
     }
 
     //write to json
-    jf.writeFile(file, objPaste, function(err) {
+    jf.writeFile(file, objUncut, function(err) {
         console.log("this is not working", err)
     })
 });

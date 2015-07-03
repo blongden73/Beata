@@ -1,4 +1,4 @@
-$.getJSON("js/__json/data.json", function(json) {
+$.getJSON("js/__json/dataSpotify.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -12,7 +12,8 @@ $.getJSON("js/__json/data.json", function(json) {
 	
 });
 
-$.getJSON("js/__json/ADM.json", function(json) {
+
+$.getJSON("js/__json/dataSpotifyADM.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -26,7 +27,7 @@ $.getJSON("js/__json/ADM.json", function(json) {
 	
 });
 
-$.getJSON("js/__json/rollingData.json", function(json) {
+$.getJSON("js/__json/dataSpotifyRolling.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -109,20 +110,4 @@ $.getJSON("js/__json/AllMusicData.json", function(json) {
 	$("#music__allMusic__container").html(template(data));
 	
 });
-
-$.getJSON("js/__json/allProviders.json", function(json) {
-	console.log(json);
-	
-	// Put the object into storage
-	localStorage.setItem('AllMusic', JSON.stringify(json));
-		
-	var clash__data = json;
-	var source   = $("#menu__template").html();
-	var template = Handlebars.compile(source);
-	var data = clash__data;
-	$("#menu__container").html(template(data));
-	
-});
-
-
 

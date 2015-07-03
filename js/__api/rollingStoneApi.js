@@ -3,7 +3,7 @@ var request = require("request"),
     rollingurl = "http://www.rollingstone.com/music/new-albums";
 
 var jf = require('jsonfile');
-var file = 'js/__json/rollingData.json';
+var file = 'js/__api/__json/rollingData.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 
@@ -79,7 +79,7 @@ request(rollingurl, function(error, response, body) {
 
         }
 
-        console.log(objBestRolling);
+        console.log(objRolling);
     } else {
         console.log("We’ve encountered an error: " + error);
     }

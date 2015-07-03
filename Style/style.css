@@ -24,7 +24,8 @@ header {
   background: white;
   color: #666;
   z-index: 10000;
-  opacity: 0; }
+  opacity: 0;
+  background-color: black; }
 
 header.clone {
   position: fixed;
@@ -44,6 +45,20 @@ body.down header.clone {
     position: sticky !important;
     position: webkit-sticky !important;
     top: 10px; }
+
+li.album {
+  margin-bottom: 10px; }
+  li.album .player__container {
+    position: absolute; }
+    li.album .player__container button.play {
+      background-color: none;
+      border: 2px solid white; }
+
+li.album:nth-child(7) {
+  margin-left: 210px; }
+
+li.album:nth-child(12) {
+  margin-left: 210px; }
 
 .album {
   width: 200px;
@@ -76,10 +91,10 @@ body.down header.clone {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  -webkit-transition: all 0.9s ease-in-out;
-  -moz-transition: all 0.9s ease-in-out;
-  -o-transition: all 0.9s ease-in-out;
-  transition: all 0.9s ease-in-out; }
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
   .record__wrapper img {
     width: 105%;
     margin-left: -10px; }
@@ -91,16 +106,28 @@ body.down header.clone {
       width: 120% !important;
       height: auto !important; }
   .record__wrapper.title {
-    background-color: aqua; }
-    .record__wrapper.title h1 {
+    width: 190px !important;
+    padding-right: 10px; }
+    .record__wrapper.title:hover {
+      background-color: #ef4135; }
+    .record__wrapper.title:hover h3 {
+      color: white; }
+    .record__wrapper.title h3 {
       font-family: 'brandon_grotesquebold';
-      font-size: 20px; }
+      font-size: 28px;
+      color: black;
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 10px;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out; }
 
 .rating {
   width: 50px;
   height: 50px;
   color: white;
-  border: 2px solid white;
   border-radius: 50%;
   text-align: center;
   bottom: 10px;
@@ -110,6 +137,12 @@ body.down header.clone {
     font-family: 'brandon_grotesquebold';
     font-size: 20px;
     margin-top: 13px; }
+  .rating button.play {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; }
 
 .album__title {
   width: 190px;
@@ -181,14 +214,9 @@ body.down header.clone {
     position: absolute;
     left: 40%;
     top: 460px;
-    width: 400px;
-    text-align: center; }
+    width: 410px; }
     #top__banner #description h1 {
       font-family: 'brandon_grotesquebold';
-      font-size: 20px;
-      color: white; }
-    #top__banner #description h2 {
-      font-family: 'brandon_grotesque_regularRg';
       font-size: 20px;
       color: white; }
 
@@ -201,6 +229,13 @@ body.down header.clone {
   width: 1260px;
   padding-left: 20px;
   padding-right: 20px; }
+  #logo_wrapper .beata {
+    font-family: 'Beata';
+    font-size: 134px;
+    margin-top: 29px;
+    color: white;
+    margin-bottom: -32px;
+    height: 0; }
 
 #menu__container {
   float: right; }
@@ -208,6 +243,22 @@ body.down header.clone {
     float: left; }
   #menu__container li {
     float: left; }
+
+#top__banner .beata {
+  font-family: 'Beata';
+  font-size: 270px;
+  color: white;
+  z-index: 100000;
+  position: absolute;
+  left: 40%;
+  top: 150px; }
+
+@font-face {
+  font-family: 'Beata';
+  src: url("../assets/__typeface/Beata-Regular.eot");
+  src: url("../assets/__typeface/Beata-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/__typeface/Beata-Regular.woff2") format("woff2"), url("../assets/__typeface/Beata-Regular.woff") format("woff"), url("../assets/__typeface/Beata-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
   font-family: 'brandon_grotesquebold';

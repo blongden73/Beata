@@ -1,37 +1,24 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<!--
-<li>randomTitle One</li>
-<li>randomTitle two</li>
-<li>randomTitle three</li>
-<li>randomTitle four</li>
-<li>randomTitle five</li>
-
 <script>
-		
-	var obj = {};
-	obj["artists"] = [];
-	function albumTitle(id){
-    this.id = id
+function aud_play_pause() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
 }
-
-	$("li").each(function(index){
-		var lists = $(this).html();	
-		console.log(index);
-		console.log(lists);
-		obj.artists[index] = new albumTitle(lists);
-	
-		});
-
-		
-
-	
-
-	console.log(obj.artists);
-	//console.log(obj.names[1]);
-	
-</script> -->
-
-<script src="js/__json/data.json"></script>
-<script type="text/javascript">
-	console.log(obj);
 </script>
+
+<style>
+	audio{
+		height: 50px;
+		width: 50px;
+		background-color: aqua;
+	}
+</style>
+
+<button type="button" onclick="aud_play_pause()">Play/Pause</button>
+
+<audio controls id="myTune">
+	<source src="https://p.scdn.co/mp3-preview/e3f318db29fadebfbb53fcad5232f740c5cdde83" type="audio/mpeg">	
+</audio>

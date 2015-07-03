@@ -3,7 +3,7 @@ var request = require("request"),
     clashurl = "http://consequenceofsound.net/category/reviews/album-reviews/cos-top-rated/";
 
 var jf = require('jsonfile');
-var file = 'js/__json/COSData.json';
+var file = 'js/__api/__json/COSData.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 

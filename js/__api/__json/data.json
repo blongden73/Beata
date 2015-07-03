@@ -1,0 +1,61 @@
+{
+  "provider": [
+    {
+      "provider": "Pitchfork",
+      "url": "http://www.pitchfork.com",
+      "colour": "#ef4135"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Miguel",
+      "albumName": "Wildheart",
+      "image": "http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg",
+      "rating": " 8.9 ",
+      "stars": "fourHalf",
+      "idvalue": "miguel",
+      "imagePath": "imgs/pitchfork/miguel.jpeg",
+      "colour": "32,41,46"
+    },
+    {
+      "artist": "Vince Staples",
+      "albumName": "Summertime &apos;06",
+      "image": "http://cdn4.pitchfork.com/albums/21977/list.97efc203.jpg",
+      "rating": " 8.8 ",
+      "stars": "fourHalf",
+      "idvalue": "vincestaples",
+      "imagePath": "imgs/pitchfork/vincestaples.jpeg",
+      "colour": "215,212,195"
+    },
+    {
+      "artist": "Thundercat",
+      "albumName": "The Beyond / Where the Giants Roam",
+      "image": "http://cdn.pitchfork.com/albums/22019/list.fa076f40.jpg",
+      "rating": " 8.3 ",
+      "stars": "four",
+      "idvalue": "thundercat",
+      "imagePath": "imgs/pitchfork/thundercat.jpeg",
+      "colour": "59,73,60"
+    },
+    {
+      "artist": "Donnie Trumpet & the Social Experiment",
+      "albumName": "Surf",
+      "image": "http://cdn.pitchfork.com/albums/21920/list.04db1a45.jpg",
+      "rating": " 8.3 ",
+      "stars": "four",
+      "idvalue": "donnietrumpet&thesocialexperiment",
+      "imagePath": "imgs/pitchfork/donnietrumpet&thesocialexperiment.jpeg",
+      "colour": "206,206,206"
+    },
+    {
+      "artist": "Jamie xx",
+      "albumName": "In Colour",
+      "image": "http://cdn2.pitchfork.com/albums/21726/list.8f09545c.jpg",
+      "rating": " 9.3 ",
+      "stars": "fourHalf",
+      "idvalue": "jamiexx",
+      "imagePath": "imgs/pitchfork/jamiexx.jpeg",
+      "colour": "220,59,70"
+    }
+  ]
+}

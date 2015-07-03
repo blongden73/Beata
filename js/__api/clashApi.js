@@ -3,7 +3,7 @@ var request = require("request"),
 	clashurl = "http://www.clashmusic.com/reviews/album";
 
 var jf = require('jsonfile');	
-var file = 'js/__json/dataClash.json';
+var file = 'js/__api/__json/dataClash.json';
 var fs = require('fs');
 
 	

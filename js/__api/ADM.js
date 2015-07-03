@@ -3,7 +3,7 @@ var request = require("request"),
     clashurl = "http://www.anydecentmusic.com/source/All+Music.aspx";
 
 var jf = require('jsonfile');
-var file = 'js/__json/ADM.json';
+var file = 'js/__api/__json/ADM.json';
 var fs = require('fs');
 var ColorThief = require('color-thief');
 

@@ -16,7 +16,7 @@
 
 <header>
 	<div id="logo_wrapper">
-		<img class="top_logo" src="assets/logo_black.svg">
+		<div class="beata">b</div>
 		<section id="menu__container">			
 				<script id="menu__template" type="text/x-handlebars-template">
 						<ul class="list__container">
@@ -31,7 +31,7 @@
 </header>
 	
 	<section id="top__banner">
-		<img class="logo" src="assets/logo.svg">
+		<div class="beata">b</div>
 		<div id="description"><h1>Serving up the best new music from around the web</h1></div>
 		<video autoplay id="bgvid">
 			<source src="assets/ink.mov" type="video/mp4">
@@ -39,7 +39,6 @@
 	</section>
 		<div id="music__container">
 			<script id="pitchfork__template" type="text/x-handlebars-template">
-			
 				<section class="pitchfork__container">
 				
 					<div class="wrapper">
@@ -47,7 +46,7 @@
 						<ul class="album__list">
 							
 							{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 							
 							{{#artists}}
@@ -61,20 +60,24 @@
 									<h1>{{artist}}</h1>
 									<h2>{{albumName}}</h2>
 									<div class="rating">
-										<h1>{{rating}}</h1>
+										<button class="play"><img src="assets/play-01.svg"></button>
 									</div>
 									<div class="stars {{stars}}">
 									</div>
 								</div>
-							</li>
+								<div class="player__container">
+									<audio class="player" preload="true" >
+									<source src="{{previewURL}}" type="audio/mpeg">	
+									</audio>
+									</li>
 							
-						
+									
 						{{/artists}}<div class="clear"></div></ul>
 					</div>
 				</section>
 			</script>
 		</div>	
-			
+						
 		<div id="music__ADM__container">	
 			<script id="ADM__template" type="text/x-handlebars-template">
 			
@@ -85,7 +88,7 @@
 						<ul class="album__list">
 							
 								{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 							
 							{{#artists}}
@@ -99,11 +102,15 @@
 									<h1>{{artist}}</h1>
 									<h2>{{albumName}}</h2>
 										<div class="rating">
-										<h1>{{rating}}</h1>
+										<button class="play"><img src="assets/play-01.svg"></button>
 									</div>
 									<div class="stars {{stars}}">
 									</div>
 								</div>
+								<div class="player__container">
+									<audio class="player" preload="true" >
+									<source src="{{previewURL}}" type="audio/mpeg">	
+									</audio>
 							</li>
 							
 						{{/artists}}<div class="clear"></div></ul>
@@ -122,7 +129,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -135,11 +142,14 @@
 										<h1>{{artist}}</h1>
 										<h2>{{albumName}}</h2>
 										<div class="rating">
-										<h1>{{rating}}</h1>
+										<button class="play"><img src="assets/play-01.svg"></button>
 									</div>
 									<div class="stars {{stars}}">
 									</div>
 									</div>
+									<audio class="player" preload="true" controls>
+									<source src="{{previewURL}}" type="audio/mpeg">	
+									</audio>
 								</li>
 									
 							{{/artists}}<div class="clear"></div></ul>
@@ -158,7 +168,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -195,7 +205,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -232,7 +242,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -268,7 +278,7 @@
 							<ul class="album__list">
 								
 								{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -304,7 +314,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -341,7 +351,7 @@
 							<ul class="album__list">
 								
 									{{#provider}}
-								<li class="album"><div class="record__wrapper title"><h1>{{provider}}</h1></div></li>
+								<li class="album"><div class="record__wrapper title"><h3>{{provider}}</h3></div></li>
 								{{/provider}}
 								
 								{{#artists}}
@@ -367,9 +377,12 @@
 					</section>
 				</script>
 		</div>		
+		
+		
 
 	<footer>
 		<script src="js/__compiler/app.js" type="text/javascript"></script>
+		<script src="js/__functions/play.js" type="text/javascript"></script>
 	</footer>	
 		
 </body>
