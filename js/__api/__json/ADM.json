@@ -73,17 +73,6 @@
       "colour": "48,76,98"
     },
     {
-      "artist": "The Orb",
-      "albumName": "Moonbuilding 2703 AD",
-      "image": "/Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "theorb",
-      "imagePath": "imgs/any__decent__music/theorb.jpeg",
-      "colour": "212,218,237"
-    },
-    {
       "artist": "Meg Baird",
       "albumName": "Don't Weigh Down the Light",
       "image": "/Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
@@ -106,15 +95,26 @@
       "colour": "113,52,45"
     },
     {
-      "artist": "Son Lux",
-      "albumName": "Bones",
-      "image": "/Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
+      "artist": "Desaparecidos",
+      "albumName": "Payola",
+      "image": "/Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
       "rating": "8.0",
       "stars": "four",
-      "idvalue": "sonlux",
-      "imagePath": "imgs/any__decent__music/sonlux.jpeg",
-      "colour": "214,133,132"
+      "idvalue": "desaparecidos",
+      "imagePath": "imgs/any__decent__music/desaparecidos.jpeg",
+      "colour": "19,19,19"
+    },
+    {
+      "artist": "The Orb",
+      "albumName": "Moonbuilding 2703 AD",
+      "image": "/Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "theorb",
+      "imagePath": "imgs/any__decent__music/theorb.jpeg",
+      "colour": "212,218,237"
     }
   ]
 }

@@ -34,7 +34,7 @@ request(clashurl, function(error, response, body) {
         $("#keystone-query-widget-id-2 .sections .section-style-grid-large .type-review").each(function(index) {
             var artistName = $(".entry-header h2 a", this).html().replace('&#x2013;', '-').replace('&#x2013;', '-').replace('&amp;', '&').replace('&#xE9;', 'é').replace('&#x2028;','');
             var artistNameSplit = artistName.split('-');
-            var artist = artistNameSplit[0];
+            var artist = artistNameSplit[0].trim();
             var albumName = artistNameSplit[1];
             var imageLink = $(".entry-media a img", this).attr('src');
             var ratingNo = $(".out-of-ten .out-of-ten-rating", this).html();

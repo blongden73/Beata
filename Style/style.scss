@@ -54,7 +54,6 @@ font-size: 28px;
 	width: 1260px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 120px;
 	
 	 @include media("<desktop") { 
 	width: 960px;
@@ -228,14 +227,14 @@ body.down header.clone {
 }
 
 .rating {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 40px;
     color: white;
-    border-radius: 50%;
     text-align: center;
     bottom: 10px;
 	position: absolute;
 	float: left;
+	padding-top: 10px;
 	
 	& h1{
 		@include h1;
@@ -246,8 +245,19 @@ body.down header.clone {
 		background-color: transparent;
 		border: 2px solid white;
 		border-radius: 50%;
-		width: 50px;
-		height: 50px;
+		width: 35px;
+		height: 35px;
+		float: left;
+	}
+	
+	& .artist__link{
+		background-color: transparent;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin-left: 5px;
 	}
 	
 }
@@ -311,7 +321,7 @@ body.down header.clone {
 #top__banner{
 	width: 100%;
 	height: 600px;
-	background-color:white;
+	background-color:black;
 	overflow: hidden;
 	margin-top: -130px;
 
@@ -364,8 +374,8 @@ body.down header.clone {
 	
 	& .beata{
 	font-family: 'Beata';
-	font-size: 134px;
-	margin-top: 29px;
+	font-size: 74px;
+	margin-top: 22px;
 	color: white;
 	margin-bottom: -32px;
 	height: 0;
@@ -378,11 +388,17 @@ body.down header.clone {
 	
 	& ul.list__container{
 		float: left;
+		margin-top: 10px;
 	}
 	
 	& li{
 		float: left;
+	    font-family: 'brandon_grotesqueblack';
+	    margin-left: 15px;
+
 	}
+	
+	
 	
 }
 

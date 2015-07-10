@@ -6,8 +6,7 @@ body {
 .wrapper {
   width: 1260px;
   margin-left: auto;
-  margin-right: auto;
-  padding-top: 120px; }
+  margin-right: auto; }
   @media (max-width: 1023px) {
     .wrapper {
       width: 960px; } }
@@ -125,14 +124,14 @@ li.album:nth-child(12) {
       transition: all 0.5s ease-in-out; }
 
 .rating {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 40px;
   color: white;
-  border-radius: 50%;
   text-align: center;
   bottom: 10px;
   position: absolute;
-  float: left; }
+  float: left;
+  padding-top: 10px; }
   .rating h1 {
     font-family: 'brandon_grotesquebold';
     font-size: 20px;
@@ -141,8 +140,17 @@ li.album:nth-child(12) {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px; }
+    width: 35px;
+    height: 35px;
+    float: left; }
+  .rating .artist__link {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 5px; }
 
 .album__title {
   width: 190px;
@@ -193,7 +201,7 @@ li.album:nth-child(12) {
 #top__banner {
   width: 100%;
   height: 600px;
-  background-color: white;
+  background-color: black;
   overflow: hidden;
   margin-top: -130px; }
   #top__banner video {
@@ -231,8 +239,8 @@ li.album:nth-child(12) {
   padding-right: 20px; }
   #logo_wrapper .beata {
     font-family: 'Beata';
-    font-size: 134px;
-    margin-top: 29px;
+    font-size: 74px;
+    margin-top: 22px;
     color: white;
     margin-bottom: -32px;
     height: 0; }
@@ -240,9 +248,12 @@ li.album:nth-child(12) {
 #menu__container {
   float: right; }
   #menu__container ul.list__container {
-    float: left; }
+    float: left;
+    margin-top: 10px; }
   #menu__container li {
-    float: left; }
+    float: left;
+    font-family: 'brandon_grotesqueblack';
+    margin-left: 15px; }
 
 #top__banner .beata {
   font-family: 'Beata';

@@ -38,6 +38,12 @@ request(clashurl, function(error, response, body) {
             var artistNameSplit = artistName.split(':');
             var artist = artistNameSplit[0];
             var albumName = artistNameSplit[1];
+            if (albumName == undefined){
+	            albumName = " "
+            }
+            if (albumName.search('<i>') == "1"){
+	         albumName = artistNameSplit[1].replace('<i>','').replace('</i>','');  
+            }
             var imageLink = $("a.image img", this).attr('src').replace('\r\n        ', '').replace('\\', '');
             var ratingNo = $("a.rating i.number", this).html();
             var ratingRound = Math.round(ratingNo);
@@ -73,6 +79,7 @@ request(clashurl, function(error, response, body) {
             var colourObj = colorThief.getColor(imagePath);
             var colour = colourObj.toString();
             objPaste.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, ratingRound, StarRating, sClink, id, imagePath, colour);
+            
         });
 
        objUncut = {};

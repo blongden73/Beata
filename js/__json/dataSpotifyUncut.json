@@ -1,0 +1,111 @@
+{
+  "provider": [
+    {
+      "provider": "Uncut",
+      "url": "http://www.uncut.co.uk"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Rickie Lee Jones",
+      "albumName": " The Other Side Of Desire",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/060715rickielj.jpg",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "rickieleejonestheothersideofdesire",
+      "imagePath": "imgs/uncut/rickieleejonestheothersideofdesire.jpeg",
+      "colour": "110,110,110"
+    },
+    {
+      "artist": "Richard Thompson",
+      "albumName": " Still",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/04/Thompson-and-Tweedy_PhotoCredit_Zoran-Orlic.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "richardthompsonstill",
+      "imagePath": "imgs/uncut/richardthompsonstill.jpeg",
+      "colour": "227,182,147",
+      "previewURL": "https://p.scdn.co/mp3-preview/dacc9a624634ac60990dac979910bfe34915963d",
+      "Id": "5w75MoT8FfcGOMgjgrj1cz",
+      "Spotnames": "Richard Thompson"
+    },
+    {
+      "artist": "Little Richard",
+      "albumName": " Directly From My Heart: The Best Of The Speciality & Vee",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/LittleRichard_78229_PR.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "littlericharddirectlyfrommyheartthebestofthespeciality&veejayyears",
+      "imagePath": "imgs/uncut/littlericharddirectlyfrommyheartthebestofthespeciality&veejayyears.jpeg",
+      "colour": "44,46,41",
+      "Id": "4xls23Ye9WR9yy3yYMpAMm",
+      "Spotnames": "Little Richard",
+      "previewURL": "https://p.scdn.co/mp3-preview/45c8f69ac4683fc076055c24ecd6e465b387ef14"
+    },
+    {
+      "artist": "Robin Gibb",
+      "albumName": " Saved By The Bell ",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/RobinGibb_1.jpg",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "robingibbsavedbythebellthecollectedworksofrobingibb1968-1970",
+      "imagePath": "imgs/uncut/robingibbsavedbythebellthecollectedworksofrobingibb1968-1970.jpeg",
+      "colour": "28,28,28",
+      "previewURL": "https://p.scdn.co/mp3-preview/1342c81bd76cbda480aa10cae14d6fcf3bc594ff",
+      "Id": "4vZduJO8Uukqzx64de5JxV",
+      "Spotnames": "Robin Gibb"
+    },
+    {
+      "artist": "Paul Weller",
+      "albumName": " Saturns Pattern",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/saturnspattern110215w.jpg",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "paulwellersaturnspattern",
+      "imagePath": "imgs/uncut/paulwellersaturnspattern.jpeg",
+      "colour": "14,13,73",
+      "previewURL": "https://p.scdn.co/mp3-preview/b14836e936abe939f3f09c5c994b70d8188d1330",
+      "Id": "7Lf3LOZp3U3u2f6cWMd3AH",
+      "Spotnames": "Paul Weller"
+    },
+    {
+      "artist": "Tom Russell",
+      "albumName": " The Rose Of Roscrae",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/tom_russell.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "tomrusselltheroseofroscrae",
+      "imagePath": "imgs/uncut/tomrusselltheroseofroscrae.jpeg",
+      "colour": "50,43,42",
+      "Id": "3M2S7bYzQt6h4KrnoihzLS",
+      "Spotnames": "Tom Russell",
+      "previewURL": "https://p.scdn.co/mp3-preview/d384813a70dbd640ecfc260f7e6583c85353b573"
+    },
+    {
+      "artist": "Holly Herndon",
+      "albumName": " Platform",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/holly_herndon.jpg",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "hollyherndonplatform",
+      "imagePath": "imgs/uncut/hollyherndonplatform.jpeg",
+      "colour": "170,105,90",
+      "previewURL": "https://p.scdn.co/mp3-preview/453447d10dbabbbd97b2b932cab6cbba08b6bafb",
+      "Id": "2c9yn5DJQd5es7YMY92ikZ",
+      "Spotnames": "Holly Herndon"
+    },
+    {
+      "artist": "The Rolling Stones",
+      "albumName": " Sticky Fingers deluxe edition",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/stonesdm310315.jpg",
+      "rating": "10",
+      "stars": "five",
+      "idvalue": "therollingstonesstickyfingersdeluxeedition",
+      "imagePath": "imgs/uncut/therollingstonesstickyfingersdeluxeedition.jpeg",
+      "colour": "203,177,166",
+      "previewURL": "https://p.scdn.co/mp3-preview/7a6109a4c94488dadde946d245a152cdb42a1831",
+      "Id": "22bE4uQ6baNwSHPVcDxLCe",
+      "Spotnames": "The Rolling Stones"
+    }
+  ]
+}

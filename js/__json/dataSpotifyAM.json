@@ -1,0 +1,47 @@
+{
+  "provider": [
+    {
+      "provider": "All Music",
+      "url": "http://www.allmusic.com"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Bilal",
+      "albumName": "In Another Life",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868084.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "bilal",
+      "imagePath": "imgs/all__music/bilal.jpeg",
+      "colour": "67,56,62",
+      "previewURL": "https://p.scdn.co/mp3-preview/b19e513ebb17feefd46a2a9ab6d6869a4398aafb",
+      "Id": "4jCbgl5Dmt3uOh8WRQfpPs",
+      "Spotnames": "Bilal"
+    },
+    {
+      "artist": "Alan Gilbert",
+      "albumName": "Carl Nielsen: The Symphonies &amp; Concertos",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874869.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "alangilbert",
+      "imagePath": "imgs/all__music/alangilbert.jpeg",
+      "colour": "41,39,32",
+      "Id": "50qd7mKJ6SenQX15s6Fk0o",
+      "Spotnames": "Alan Gilbert"
+    },
+    {
+      "artist": "Phantasm",
+      "albumName": "William Lawes: The Royal Consort",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/846/MI0003846269.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "phantasm",
+      "imagePath": "imgs/all__music/phantasm.jpeg",
+      "colour": "55,48,49",
+      "Id": "4tApluztlcir8bcgv2jyzg",
+      "Spotnames": "Phantasm"
+    }
+  ]
+}

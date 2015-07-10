@@ -24,9 +24,9 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $(".four_column_grid .tiles .tile").each(function(index) {
-            var artistName = $(".tile__content .tile__body .tile__text h3.tile__title", this).html().replace('\n\t\t\t\t\t\t', '').replace('&#x2013;', '-').replace('&#x2018;', '').replace('&#x2019;', '').replace('\n\t\t\t\t\t', '');
+            var artistName = $(".tile__content .tile__body .tile__text h3.tile__title", this).html().replace('\n\t\t\t\t\t\t', '').replace('&#x2013;', '-').replace('&#x2018;', '').replace('&#x2019;', '').replace('\n\t\t\t\t\t', '').replace('&amp;','&').replace('+', 'And').replace('/^\s\s*/', '');
             var artistNameSplit = artistName.split('-');
-            var artist = artistNameSplit[0];
+            var artist = artistNameSplit[0].trim();
             var imageLink = $(".tile__content .image_wrapper img", this).attr('src');
             var id = artist.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/time__out/' + id + ".jpeg";

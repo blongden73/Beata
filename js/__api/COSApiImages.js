@@ -27,7 +27,7 @@ request(clashurl, function(error, response, body) {
         $(".modules-grid #tab-everything .post").each(function(index) {
             var artistName = $(".content > h1 > a", this).html().replace('Album Review:', '').replace('&#x2013;', '-').replace('&#xA0;', ' ').replace('&#xF6;', 'ö');
             var artistSplit = artistName.split('-');
-            var artist = artistSplit[0];
+            var artist = artistSplit[0].trim();
             var imageLink = $('a .image img', this).data('lazy-src');
             var id = artistName.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/COS/' + id + ".jpeg";

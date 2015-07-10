@@ -7,7 +7,17 @@
   ],
   "artists": [
     {
-      "artist": "Richard Thompson ",
+      "artist": "Rickie Lee Jones",
+      "albumName": " The Other Side Of Desire",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/060715rickielj.jpg",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "rickieleejonestheothersideofdesire",
+      "imagePath": "imgs/uncut/rickieleejonestheothersideofdesire.jpeg",
+      "colour": "110,110,110"
+    },
+    {
+      "artist": "Richard Thompson",
       "albumName": " Still",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/04/Thompson-and-Tweedy_PhotoCredit_Zoran-Orlic.jpg",
       "rating": "8",
@@ -17,7 +27,7 @@
       "colour": "227,182,147"
     },
     {
-      "artist": "Little Richard ",
+      "artist": "Little Richard",
       "albumName": " Directly From My Heart: The Best Of The Speciality & Vee",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/LittleRichard_78229_PR.jpg",
       "rating": "8",
@@ -27,7 +37,7 @@
       "colour": "44,46,41"
     },
     {
-      "artist": "Robin Gibb ",
+      "artist": "Robin Gibb",
       "albumName": " Saved By The Bell ",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/RobinGibb_1.jpg",
       "rating": "9",
@@ -37,7 +47,7 @@
       "colour": "28,28,28"
     },
     {
-      "artist": "Paul Weller ",
+      "artist": "Paul Weller",
       "albumName": " Saturns Pattern",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/05/saturnspattern110215w.jpg",
       "rating": "9",
@@ -47,7 +57,7 @@
       "colour": "14,13,73"
     },
     {
-      "artist": "Tom Russell ",
+      "artist": "Tom Russell",
       "albumName": " The Rose Of Roscrae",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/tom_russell.jpg",
       "rating": "8",
@@ -57,7 +67,7 @@
       "colour": "50,43,42"
     },
     {
-      "artist": "Holly Herndon ",
+      "artist": "Holly Herndon",
       "albumName": " Platform",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/holly_herndon.jpg",
       "rating": "9",
@@ -67,7 +77,7 @@
       "colour": "170,105,90"
     },
     {
-      "artist": "The Rolling Stones ",
+      "artist": "The Rolling Stones",
       "albumName": " Sticky Fingers deluxe edition",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/stonesdm310315.jpg",
       "rating": "10",

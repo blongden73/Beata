@@ -1,5 +1,6 @@
 $(document).ready(function(){
-$('#music__container').on("mouseenter", "img", function () {
+$('body').on("mouseenter", "img", function () {
+	console.log("i've reached the top");
 	var $players = $('.player');
     var $playButtons = $('.play');
     
@@ -21,7 +22,7 @@ $('#music__container').on("mouseenter", "img", function () {
     }   
 
 });
-$('#music__container').on("mouseleave", "img", function () {
+$('body').on("mouseleave", "img", function () {
    console.log('ive left the top');
 });
 }); 
