@@ -7,15 +7,37 @@
   ],
   "artists": [
     {
-      "artist": "No Joy",
-      "albumName": "More Faithful",
-      "image": "/Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
-      "rating": "9.0",
-      "stars": "fourHalf",
-      "idvalue": "nojoy",
-      "imagePath": "imgs/any__decent__music/nojoy.jpeg",
-      "colour": "26,30,30"
+      "artist": "Ratatat",
+      "albumName": "Magnifique",
+      "image": "/Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "ratatat",
+      "imagePath": "imgs/any__decent__music/ratatat.jpeg",
+      "colour": "138,140,139"
+    },
+    {
+      "artist": "Flying Saucer Attack",
+      "albumName": "Instrumentals 2015",
+      "image": "/Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "flyingsaucerattack",
+      "imagePath": "imgs/any__decent__music/flyingsaucerattack.jpeg",
+      "colour": "74,73,82"
+    },
+    {
+      "artist": "White Reaper",
+      "albumName": "White Reaper Does It Again",
+      "image": "/Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "whitereaper",
+      "imagePath": "imgs/any__decent__music/whitereaper.jpeg",
+      "colour": "35,26,15"
     },
     {
       "artist": "Matrixxman",
@@ -93,28 +115,6 @@
       "idvalue": "novella",
       "imagePath": "imgs/any__decent__music/novella.jpeg",
       "colour": "48,76,98"
-    },
-    {
-      "artist": "Meg Baird",
-      "albumName": "Don't Weigh Down the Light",
-      "image": "/Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "megbaird",
-      "imagePath": "imgs/any__decent__music/megbaird.jpeg",
-      "colour": "38,30,46"
-    },
-    {
-      "artist": "Kacey Musgraves",
-      "albumName": "Pageant Material",
-      "image": "/Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "kaceymusgraves",
-      "imagePath": "imgs/any__decent__music/kaceymusgraves.jpeg",
-      "colour": "113,52,45"
     }
   ]
 }

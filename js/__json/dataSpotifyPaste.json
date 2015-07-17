@@ -9,7 +9,7 @@
     {
       "artist": "Tame Impala",
       "albumName": " Currents",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/04192b63.jpg?635726535174307492",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/04192b63.jpg?635727423309352865",
       "rating": "9.4",
       "ratingRound": 9,
       "stars": "fourHalf",
@@ -17,34 +17,41 @@
       "imagePath": "imgs/paste/tameimpala.jpeg",
       "colour": "44,33,49",
       "Id": "5INjqkS1o8h1imAzPqGZBb",
-      "Spotnames": "Tame Impala"
+      "Spotnames": "Tame Impala",
+      "previewURL": "https://p.scdn.co/mp3-preview/5950a129e671f747ba69ede2070bd72423b6a27b"
     },
     {
       "artist": "Joss Stone",
       "albumName": " Water For Your Soul",
-      "image": "http://cdn.pastemagazine.com/www/articles/Joss%20Stone%20Water%20For%20Your%20Soul.jpg?635726535174317493",
+      "image": "http://cdn.pastemagazine.com/www/articles/Joss%20Stone%20Water%20For%20Your%20Soul.jpg?635727423309352865",
       "rating": "8.3",
       "ratingRound": 8,
       "stars": "four",
       "idvalue": "jossstone",
       "imagePath": "imgs/paste/jossstone.jpeg",
-      "colour": "224,213,207"
+      "colour": "224,213,207",
+      "previewURL": "https://p.scdn.co/mp3-preview/77517a7ae891a6172db649abf1a3aec3301a1ab6",
+      "Id": "7bvcQXJHkFiN1ppIN3q4fi",
+      "Spotnames": "Joss Stone"
     },
     {
       "artist": "Bad Bad Hats",
       "albumName": " Psychic Reader",
-      "image": "http://cdn.pastemagazine.com/www/articles/Bad%20Bad%20Hats%20cover.jpg?635726535174327494",
+      "image": "http://cdn.pastemagazine.com/www/articles/Bad%20Bad%20Hats%20cover.jpg?635727423309362866",
       "rating": "9.0",
       "ratingRound": 9,
       "stars": "fourHalf",
       "idvalue": "badbadhats",
       "imagePath": "imgs/paste/badbadhats.jpeg",
-      "colour": "203,224,224"
+      "colour": "203,224,224",
+      "previewURL": "https://p.scdn.co/mp3-preview/11f376e157ccaa6b9425ac22727980b58ae8905c",
+      "Id": "2bstapBmz5M83elQvPnwp6",
+      "Spotnames": "Bad Bad Hats"
     },
     {
       "artist": "Iron & Wine and Ben Bridwell",
       "albumName": " Sing Into My Mouth",
-      "image": "http://cdn.pastemagazine.com/www/articles/Sing%20Into%20My%20Mouth%20cover.jpg?635726535174327494",
+      "image": "http://cdn.pastemagazine.com/www/articles/Sing%20Into%20My%20Mouth%20cover.jpg?635727423309372867",
       "rating": "8.0",
       "ratingRound": 8,
       "stars": "four",
@@ -55,29 +62,34 @@
     {
       "artist": "Jason Isbell",
       "albumName": " Something More Than Free",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/jason-isbell-something-more-than-free-560x560.jpg?635726535174337495",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/jason-isbell-something-more-than-free-560x560.jpg?635727423309372867",
       "rating": "8.6",
       "ratingRound": 9,
       "stars": "fourHalf",
       "idvalue": "jasonisbell",
       "imagePath": "imgs/paste/jasonisbell.jpeg",
-      "colour": "33,32,32"
+      "colour": "33,32,32",
+      "Id": "3Q8wgwyVVv0z4UEh1HB0KY",
+      "Spotnames": "Jason Isbell"
     },
     {
       "artist": "White Reaper",
       "albumName": " White Reaper Does It Again",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/whitereaper.jpg?635726535174347496",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/whitereaper.jpg?635727423309382868",
       "rating": "8.8",
       "ratingRound": 9,
       "stars": "fourHalf",
       "idvalue": "whitereaper",
       "imagePath": "imgs/paste/whitereaper.jpeg",
-      "colour": "28,22,14"
+      "colour": "28,22,14",
+      "previewURL": "https://p.scdn.co/mp3-preview/b176ef850afcc143f1dab287cdcc57ef4bae353b",
+      "Id": "75klPfIVnyYcyEGaicRUSF",
+      "Spotnames": "White Reaper"
     },
     {
       "artist": "Screature",
       "albumName": " Four Columns",
-      "image": "http://cdn.pastemagazine.com/www/articles/Screture%20Four%20Columns.jpg?635726535174347496",
+      "image": "http://cdn.pastemagazine.com/www/articles/Screture%20Four%20Columns.jpg?635727423309392869",
       "rating": "7.5",
       "ratingRound": 8,
       "stars": "four",
@@ -88,29 +100,34 @@
     {
       "artist": "Veruca Salt",
       "albumName": " Ghost Notes",
-      "image": "http://cdn.pastemagazine.com/www/articles/veruca%20salt%20ghost%20notes.jpg?635726535174357497",
+      "image": "http://cdn.pastemagazine.com/www/articles/veruca%20salt%20ghost%20notes.jpg?635727423309392869",
       "rating": "9.1",
       "ratingRound": 9,
       "stars": "fourHalf",
       "idvalue": "verucasalt",
       "imagePath": "imgs/paste/verucasalt.jpeg",
-      "colour": "192,176,133"
+      "colour": "192,176,133",
+      "Id": "2QwJQuBekTA4qF7N7uLHDP",
+      "Spotnames": "Veruca Salt",
+      "previewURL": "https://p.scdn.co/mp3-preview/67e233e538e2316131cdfce56416c1603e444838"
     },
     {
       "artist": "Miguel",
       "albumName": " Wildheart",
-      "image": "http://cdn.pastemagazine.com/www/articles/Miguel%20Wildheart.jpg?635726535174367498",
+      "image": "http://cdn.pastemagazine.com/www/articles/Miguel%20Wildheart.jpg?635727423309412871",
       "rating": "8.1",
       "ratingRound": 8,
       "stars": "four",
       "idvalue": "miguel",
       "imagePath": "imgs/paste/miguel.jpeg",
-      "colour": "35,41,47"
+      "colour": "35,41,47",
+      "Id": "360IAlyVv4PCEVjgyMZrxK",
+      "Spotnames": "Miguel"
     },
     {
       "artist": "Martin House Brewing Company Bockslider",
       "albumName": " ",
-      "image": "http://cdn.pastemagazine.com/www/articles/Toadies%20Bockslider.jpg?635726535174377499",
+      "image": "http://cdn.pastemagazine.com/www/articles/Toadies%20Bockslider.jpg?635727423309412871",
       "rating": "8.4",
       "ratingRound": 8,
       "stars": "four",
@@ -121,13 +138,15 @@
     {
       "artist": "Neil Young",
       "albumName": " The Monsanto Years",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/30/neil-young-the-monsanto-years.jpg?635726535174387500",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/06/30/neil-young-the-monsanto-years.jpg?635727423309422872",
       "rating": "9.2",
       "ratingRound": 9,
       "stars": "fourHalf",
       "idvalue": "neilyoung",
       "imagePath": "imgs/paste/neilyoung.jpeg",
-      "colour": "36,37,30"
+      "colour": "36,37,30",
+      "Id": "6v8FB84lnmJs434UJf2Mrm",
+      "Spotnames": "Neil Young"
     }
   ]
 }

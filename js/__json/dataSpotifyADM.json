@@ -7,15 +7,46 @@
   ],
   "artists": [
     {
-      "artist": "No Joy",
-      "albumName": "More Faithful",
-      "image": "/Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/m_gEXOZVPECRVOnhPjE51gMoreFaithful.jpg",
-      "rating": "9.0",
-      "stars": "fourHalf",
-      "idvalue": "nojoy",
-      "imagePath": "imgs/any__decent__music/nojoy.jpeg",
-      "colour": "26,30,30"
+      "artist": "Ratatat",
+      "albumName": "Magnifique",
+      "image": "/Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "ratatat",
+      "imagePath": "imgs/any__decent__music/ratatat.jpeg",
+      "colour": "138,140,139",
+      "Id": "57dN52uHvrHOxijzpIgu3E",
+      "Spotnames": "Ratatat",
+      "previewURL": "https://p.scdn.co/mp3-preview/20b28863a1b3c66f9273667c461f9db959d5dcb4"
+    },
+    {
+      "artist": "Flying Saucer Attack",
+      "albumName": "Instrumentals 2015",
+      "image": "/Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "flyingsaucerattack",
+      "imagePath": "imgs/any__decent__music/flyingsaucerattack.jpeg",
+      "colour": "74,73,82",
+      "Id": "336fB3AJgK8AvHX5bD8d9A",
+      "Spotnames": "Flying Saucer Attack",
+      "previewURL": "https://p.scdn.co/mp3-preview/fcfc03626539f27ad36b05d1ba921bc791e73d6f"
+    },
+    {
+      "artist": "White Reaper",
+      "albumName": "White Reaper Does It Again",
+      "image": "/Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "whitereaper",
+      "imagePath": "imgs/any__decent__music/whitereaper.jpeg",
+      "colour": "35,26,15",
+      "Id": "75klPfIVnyYcyEGaicRUSF",
+      "Spotnames": "White Reaper",
+      "previewURL": "https://p.scdn.co/mp3-preview/bd2655a62d122b6dde16e9c4343302128ca7efaa"
     },
     {
       "artist": "Matrixxman",
@@ -37,7 +68,10 @@
       "stars": "four",
       "idvalue": "eztv",
       "imagePath": "imgs/any__decent__music/eztv.jpeg",
-      "colour": "29,29,28"
+      "colour": "29,29,28",
+      "previewURL": "https://p.scdn.co/mp3-preview/d7f9dc383a382da2fa3f965d4bc459eda5d000d8",
+      "Id": "34S3YvCj4dDuVG4pYToIuf",
+      "Spotnames": "EZTV"
     },
     {
       "artist": "Best Friends",
@@ -48,7 +82,10 @@
       "stars": "four",
       "idvalue": "bestfriends",
       "imagePath": "imgs/any__decent__music/bestfriends.jpeg",
-      "colour": "174,79,69"
+      "colour": "174,79,69",
+      "previewURL": "https://p.scdn.co/mp3-preview/e2a58402f3203b359ecc31cf8cc1d1f6de19f2e8",
+      "Id": "71cXoRNeG8HbXsyv0GUPVD",
+      "Spotnames": "Best Friends"
     },
     {
       "artist": "Miguel",
@@ -59,7 +96,10 @@
       "stars": "four",
       "idvalue": "miguel",
       "imagePath": "imgs/any__decent__music/miguel.jpeg",
-      "colour": "39,46,50"
+      "colour": "39,46,50",
+      "previewURL": "https://p.scdn.co/mp3-preview/e0edc795207ae3167db635b170370b3624430bad",
+      "Id": "360IAlyVv4PCEVjgyMZrxK",
+      "Spotnames": "Miguel"
     },
     {
       "artist": "Refused",
@@ -70,7 +110,10 @@
       "stars": "four",
       "idvalue": "refused",
       "imagePath": "imgs/any__decent__music/refused.jpeg",
-      "colour": "167,154,134"
+      "colour": "167,154,134",
+      "Id": "5sdxGvwxI1TkTA6Pu2jnTb",
+      "Spotnames": "Refused",
+      "previewURL": "https://p.scdn.co/mp3-preview/6a5aa8529fb9307c13d8d01085cb42332fad68d9"
     },
     {
       "artist": "Richard Thompson",
@@ -82,6 +125,7 @@
       "idvalue": "richardthompson",
       "imagePath": "imgs/any__decent__music/richardthompson.jpeg",
       "colour": "184,177,170",
+      "previewURL": "https://p.scdn.co/mp3-preview/6ac88d9202155e568a5366139c8bc6cb426a568f",
       "Id": "5w75MoT8FfcGOMgjgrj1cz",
       "Spotnames": "Richard Thompson"
     },
@@ -94,29 +138,10 @@
       "stars": "four",
       "idvalue": "novella",
       "imagePath": "imgs/any__decent__music/novella.jpeg",
-      "colour": "48,76,98"
-    },
-    {
-      "artist": "Meg Baird",
-      "albumName": "Don't Weigh Down the Light",
-      "image": "/Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/PixHY76QUUKTiZbXdUUm_w31g67KiWapL._SY355_.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "megbaird",
-      "imagePath": "imgs/any__decent__music/megbaird.jpeg",
-      "colour": "38,30,46"
-    },
-    {
-      "artist": "Kacey Musgraves",
-      "albumName": "Pageant Material",
-      "image": "/Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ZXI-sfYWBUSaC-TdYOo2IgPageantMaterial.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "kaceymusgraves",
-      "imagePath": "imgs/any__decent__music/kaceymusgraves.jpeg",
-      "colour": "113,52,45"
+      "colour": "48,76,98",
+      "previewURL": "https://p.scdn.co/mp3-preview/ead9d7b2b7d5abacfc4a0bfb73d50257d87b8ad4",
+      "Id": "3QkWT3I8AqtmvhT5eXifNi",
+      "Spotnames": "Novella"
     }
   ]
 }

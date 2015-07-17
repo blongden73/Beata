@@ -15,6 +15,7 @@
       "idvalue": "miguel",
       "imagePath": "imgs/rolling__stone/miguel.jpeg",
       "colour": "32,25,35",
+      "previewURL": "https://p.scdn.co/mp3-preview/f32c5f693c5dcc2fc7ad64e6ef0a92691e33c699",
       "Id": "360IAlyVv4PCEVjgyMZrxK",
       "Spotnames": "Miguel"
     },
@@ -26,7 +27,10 @@
       "stars": "four",
       "idvalue": "theramones",
       "imagePath": "imgs/rolling__stone/theramones.jpeg",
-      "colour": "211,161,118"
+      "colour": "211,161,118",
+      "Id": "1co4F2pPNH8JjTutZkmgSm",
+      "Spotnames": "Ramones",
+      "previewURL": "https://p.scdn.co/mp3-preview/a544af494cfe8a82e07a684e84f5ecb18b2910e7"
     }
   ]
 }

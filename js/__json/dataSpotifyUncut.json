@@ -14,7 +14,10 @@
       "stars": "four",
       "idvalue": "kaceymusgravespageantmaterial",
       "imagePath": "imgs/uncut/kaceymusgravespageantmaterial.jpeg",
-      "colour": "220,195,162"
+      "colour": "220,195,162",
+      "Id": "70kkdajctXSbqSMJbQO424",
+      "Spotnames": "Kacey Musgraves",
+      "previewURL": "https://p.scdn.co/mp3-preview/3925e2914f4139dd2a4ed93ae4e8b2f893c1be37"
     },
     {
       "artist": "Rickie Lee Jones",
@@ -24,7 +27,10 @@
       "stars": "fourHalf",
       "idvalue": "rickieleejonestheothersideofdesire",
       "imagePath": "imgs/uncut/rickieleejonestheothersideofdesire.jpeg",
-      "colour": "110,110,110"
+      "colour": "110,110,110",
+      "Id": "0dYkMe3wK29DulSa0uR8Rq",
+      "Spotnames": "Rickie Lee Jones",
+      "previewURL": "https://p.scdn.co/mp3-preview/6e15bd99d2fc700d27ddf35fe282558f2a555af8"
     },
     {
       "artist": "Richard Thompson",
@@ -34,7 +40,9 @@
       "stars": "four",
       "idvalue": "richardthompsonstill",
       "imagePath": "imgs/uncut/richardthompsonstill.jpeg",
-      "colour": "227,182,147"
+      "colour": "227,182,147",
+      "Id": "5w75MoT8FfcGOMgjgrj1cz",
+      "Spotnames": "Richard Thompson"
     },
     {
       "artist": "Little Richard",
@@ -44,7 +52,10 @@
       "stars": "four",
       "idvalue": "littlericharddirectlyfrommyheartthebestofthespeciality&veejayyears",
       "imagePath": "imgs/uncut/littlericharddirectlyfrommyheartthebestofthespeciality&veejayyears.jpeg",
-      "colour": "44,46,41"
+      "colour": "44,46,41",
+      "previewURL": "https://p.scdn.co/mp3-preview/c0790934959946e1a32c21e4d64164069b10aaa5",
+      "Id": "4xls23Ye9WR9yy3yYMpAMm",
+      "Spotnames": "Little Richard"
     },
     {
       "artist": "Robin Gibb",
@@ -54,7 +65,10 @@
       "stars": "fourHalf",
       "idvalue": "robingibbsavedbythebellthecollectedworksofrobingibb1968-1970",
       "imagePath": "imgs/uncut/robingibbsavedbythebellthecollectedworksofrobingibb1968-1970.jpeg",
-      "colour": "28,28,28"
+      "colour": "28,28,28",
+      "Id": "4vZduJO8Uukqzx64de5JxV",
+      "Spotnames": "Robin Gibb",
+      "previewURL": "https://p.scdn.co/mp3-preview/486e2ba69f0b31de7ed194646494bed028a22657"
     },
     {
       "artist": "Paul Weller",
@@ -64,7 +78,10 @@
       "stars": "fourHalf",
       "idvalue": "paulwellersaturnspattern",
       "imagePath": "imgs/uncut/paulwellersaturnspattern.jpeg",
-      "colour": "14,13,73"
+      "colour": "14,13,73",
+      "Id": "7Lf3LOZp3U3u2f6cWMd3AH",
+      "Spotnames": "Paul Weller",
+      "previewURL": "https://p.scdn.co/mp3-preview/854c3f971d507349a68dac78b297a4fceb22dbb6"
     },
     {
       "artist": "Tom Russell",
@@ -74,7 +91,10 @@
       "stars": "four",
       "idvalue": "tomrusselltheroseofroscrae",
       "imagePath": "imgs/uncut/tomrusselltheroseofroscrae.jpeg",
-      "colour": "50,43,42"
+      "colour": "50,43,42",
+      "previewURL": "https://p.scdn.co/mp3-preview/d384813a70dbd640ecfc260f7e6583c85353b573",
+      "Id": "3M2S7bYzQt6h4KrnoihzLS",
+      "Spotnames": "Tom Russell"
     },
     {
       "artist": "Holly Herndon",
@@ -84,7 +104,10 @@
       "stars": "fourHalf",
       "idvalue": "hollyherndonplatform",
       "imagePath": "imgs/uncut/hollyherndonplatform.jpeg",
-      "colour": "170,105,90"
+      "colour": "170,105,90",
+      "Id": "2c9yn5DJQd5es7YMY92ikZ",
+      "Spotnames": "Holly Herndon",
+      "previewURL": "https://p.scdn.co/mp3-preview/6733aed0ce24e9411b0402322909319104b67aa3"
     },
     {
       "artist": "The Rolling Stones",
@@ -94,7 +117,10 @@
       "stars": "five",
       "idvalue": "therollingstonesstickyfingersdeluxeedition",
       "imagePath": "imgs/uncut/therollingstonesstickyfingersdeluxeedition.jpeg",
-      "colour": "203,177,166"
+      "colour": "203,177,166",
+      "Id": "22bE4uQ6baNwSHPVcDxLCe",
+      "Spotnames": "The Rolling Stones",
+      "previewURL": "https://p.scdn.co/mp3-preview/16e812da27ee6b281dba6f83b2810998d98da560"
     }
   ]
 }

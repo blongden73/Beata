@@ -7,6 +7,19 @@
   ],
   "artists": [
     {
+      "artist": "The Chemical Brothers",
+      "albumName": " Born in the Echoes",
+      "image": "http://media.timeout.com/images/102782693/image.jpg",
+      "rating": "4",
+      "stars": "four",
+      "idvalue": "thechemicalbrothers",
+      "imagePath": "imgs/time__out/thechemicalbrothers.jpeg",
+      "colour": "21,21,21",
+      "previewURL": "https://p.scdn.co/mp3-preview/1f5ebb275cadedfb8f9d35d0aea57bd20d533c1e",
+      "Id": "1GhPHrq36VKCY3ucVaZCfo",
+      "Spotnames": "The Chemical Brothers"
+    },
+    {
       "artist": "Years & Years",
       "albumName": " Communion",
       "image": "http://media.timeout.com/images/102761858/image.jpg",
@@ -14,7 +27,10 @@
       "stars": "four",
       "idvalue": "years&years",
       "imagePath": "imgs/time__out/years&years.jpeg",
-      "colour": "189,162,101"
+      "colour": "189,162,101",
+      "previewURL": "https://p.scdn.co/mp3-preview/4dced6667faa4a14298b775912bbf8df24dfe740",
+      "Id": "5vBSrE1xujD2FXYRarbAXc",
+      "Spotnames": "Years & Years"
     },
     {
       "artist": "Wolf Alice",
@@ -24,7 +40,10 @@
       "stars": "five",
       "idvalue": "wolfalice",
       "imagePath": "imgs/time__out/wolfalice.jpeg",
-      "colour": "29,20,20"
+      "colour": "29,20,20",
+      "Id": "3btzEQD6sugImIHPMRgkwV",
+      "Spotnames": "Wolf Alice",
+      "previewURL": "https://p.scdn.co/mp3-preview/f972bdabc925c9f123ab86958d1600addc263bf6"
     },
     {
       "artist": "Florence And The Machine",

@@ -7,6 +7,16 @@
   ],
   "artists": [
     {
+      "artist": "The Chemical Brothers",
+      "albumName": " Born in the Echoes",
+      "image": "http://media.timeout.com/images/102782693/image.jpg",
+      "rating": "4",
+      "stars": "four",
+      "idvalue": "thechemicalbrothers",
+      "imagePath": "imgs/time__out/thechemicalbrothers.jpeg",
+      "colour": "21,21,21"
+    },
+    {
       "artist": "Years & Years",
       "albumName": " Communion",
       "image": "http://media.timeout.com/images/102761858/image.jpg",
