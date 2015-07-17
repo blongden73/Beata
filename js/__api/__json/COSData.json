@@ -6,6 +6,16 @@
   ],
   "artists": [
     {
+      "artist": "Tame Impala",
+      "albumName": " Currents",
+      "image": "https://consequenceofsound.files.wordpress.com/2015/04/tame-impala-currents.jpg?w=350&h=350&crop=1",
+      "rating": "A-",
+      "stars": "fourHalf",
+      "idvalue": "tameimpala-currents",
+      "imagePath": "imgs/COS/tameimpala-currents.jpeg",
+      "colour": "59,43,64"
+    },
+    {
       "artist": "Sun Kil Moon",
       "albumName": " Universal Themes",
       "image": "https://consequenceofsound.files.wordpress.com/2015/05/sun-kil-moon-universal-themes1.jpg?w=350&h=350&crop=1",
@@ -114,16 +124,6 @@
       "idvalue": "fatherjohnmisty-iloveyou,honeybear",
       "imagePath": "imgs/COS/fatherjohnmisty-iloveyou,honeybear.jpeg",
       "colour": "217,182,167"
-    },
-    {
-      "artist": "The Districts",
-      "albumName": " A Flourish and a Spoil",
-      "image": "https://consequenceofsound.files.wordpress.com/2015/01/districts_flourish_lp.jpg?w=350&h=350&crop=1",
-      "rating": "A-",
-      "stars": "fourHalf",
-      "idvalue": "thedistricts-aflourishandaspoil",
-      "imagePath": "imgs/COS/thedistricts-aflourishandaspoil.jpeg",
-      "colour": "29,29,31"
     }
   ]
 }

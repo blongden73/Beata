@@ -7,6 +7,16 @@
   ],
   "artists": [
     {
+      "artist": "Kacey Musgraves",
+      "albumName": " Pageant Material",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/130715kmusgraves.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "kaceymusgravespageantmaterial",
+      "imagePath": "imgs/uncut/kaceymusgravespageantmaterial.jpeg",
+      "colour": "220,195,162"
+    },
+    {
       "artist": "Rickie Lee Jones",
       "albumName": " The Other Side Of Desire",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/060715rickielj.jpg",

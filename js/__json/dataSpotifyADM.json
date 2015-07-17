@@ -15,24 +15,62 @@
       "stars": "fourHalf",
       "idvalue": "nojoy",
       "imagePath": "imgs/any__decent__music/nojoy.jpeg",
-      "colour": "26,30,30",
-      "previewURL": "https://p.scdn.co/mp3-preview/89e1aaf28d2ca4e727f255a5a1549d0cd50c30a3",
-      "Id": "5N7DAaXV1EVXS8h2wyYrx2",
-      "Spotnames": "No Joy"
+      "colour": "26,30,30"
     },
     {
-      "artist": "Dawes",
-      "albumName": "All Your Favorite Bands",
-      "image": "/Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
-      "rating": "9.0",
-      "stars": "fourHalf",
-      "idvalue": "dawes",
-      "imagePath": "imgs/any__decent__music/dawes.jpeg",
-      "colour": "204,196,178",
-      "previewURL": "https://p.scdn.co/mp3-preview/15fa28bf5b7f3cbb0bd4092562056798a51ba60a",
-      "Id": "0CDUUM6KNRvgBFYIbWxJwV",
-      "Spotnames": "Dawes"
+      "artist": "Matrixxman",
+      "albumName": "Homesick ",
+      "image": "/Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "matrixxman",
+      "imagePath": "imgs/any__decent__music/matrixxman.jpeg",
+      "colour": "58,59,59"
+    },
+    {
+      "artist": "EZTV",
+      "albumName": "Calling Out",
+      "image": "/Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "eztv",
+      "imagePath": "imgs/any__decent__music/eztv.jpeg",
+      "colour": "29,29,28"
+    },
+    {
+      "artist": "Best Friends",
+      "albumName": "Hot. Reckless. Totally Insane.",
+      "image": "/Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "bestfriends",
+      "imagePath": "imgs/any__decent__music/bestfriends.jpeg",
+      "colour": "174,79,69"
+    },
+    {
+      "artist": "Miguel",
+      "albumName": "Wildheart",
+      "image": "/Resources/Images/k895nT_yp0-tMJqG1jOulwWildheart.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/k895nT_yp0-tMJqG1jOulwWildheart.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "miguel",
+      "imagePath": "imgs/any__decent__music/miguel.jpeg",
+      "colour": "39,46,50"
+    },
+    {
+      "artist": "Refused",
+      "albumName": "Freedom",
+      "image": "/Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "refused",
+      "imagePath": "imgs/any__decent__music/refused.jpeg",
+      "colour": "167,154,134"
     },
     {
       "artist": "Richard Thompson",
@@ -44,23 +82,19 @@
       "idvalue": "richardthompson",
       "imagePath": "imgs/any__decent__music/richardthompson.jpeg",
       "colour": "184,177,170",
-      "previewURL": "https://p.scdn.co/mp3-preview/e6ea25da10a9ba384bce80facaa1ff31c6b25b98",
       "Id": "5w75MoT8FfcGOMgjgrj1cz",
       "Spotnames": "Richard Thompson"
     },
     {
-      "artist": "Desaparecidos",
-      "albumName": "Payola",
-      "image": "/Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
+      "artist": "Novella",
+      "albumName": "Land",
+      "image": "/Resources/Images/wibsFf4T1UK_-cf3n5KJQALand.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/wibsFf4T1UK_-cf3n5KJQALand.jpg",
       "rating": "8.0",
       "stars": "four",
-      "idvalue": "desaparecidos",
-      "imagePath": "imgs/any__decent__music/desaparecidos.jpeg",
-      "colour": "19,19,19",
-      "previewURL": "https://p.scdn.co/mp3-preview/1a2acdec615fc363fa596733e4eedecd821a90e8",
-      "Id": "1H8myCcRyST1S5CcXNHiYM",
-      "Spotnames": "Desaparecidos"
+      "idvalue": "novella",
+      "imagePath": "imgs/any__decent__music/novella.jpeg",
+      "colour": "48,76,98"
     },
     {
       "artist": "Meg Baird",
@@ -71,38 +105,7 @@
       "stars": "four",
       "idvalue": "megbaird",
       "imagePath": "imgs/any__decent__music/megbaird.jpeg",
-      "colour": "38,30,46",
-      "Id": "4NkfNPTsDtbPntbU1pBYVt",
-      "Spotnames": "Meg Baird",
-      "previewURL": "https://p.scdn.co/mp3-preview/3b8d9a269b5511ef023d55bced85836edb732e4d"
-    },
-    {
-      "artist": "The Orb",
-      "albumName": "Moonbuilding 2703 AD",
-      "image": "/Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "theorb",
-      "imagePath": "imgs/any__decent__music/theorb.jpeg",
-      "colour": "212,218,237",
-      "Id": "5HAtRoEPUvGSA7ziTGB1cF",
-      "Spotnames": "The Orb",
-      "previewURL": "https://p.scdn.co/mp3-preview/ddedef39b0b77b2e4352c0bf75e562ab8c0cedd0"
-    },
-    {
-      "artist": "Son Lux",
-      "albumName": "Bones",
-      "image": "/Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/hR3ro_2op0CVGZBvBxJC5ABones.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "sonlux",
-      "imagePath": "imgs/any__decent__music/sonlux.jpeg",
-      "colour": "214,133,132",
-      "previewURL": "https://p.scdn.co/mp3-preview/c1f8f25054b3be2c7cbeefc31ebe5848482e474c",
-      "Id": "3kZdsaTYgaaolNxpnJ4iDe",
-      "Spotnames": "Son Lux"
+      "colour": "38,30,46"
     },
     {
       "artist": "Kacey Musgraves",
@@ -113,38 +116,7 @@
       "stars": "four",
       "idvalue": "kaceymusgraves",
       "imagePath": "imgs/any__decent__music/kaceymusgraves.jpeg",
-      "colour": "113,52,45",
-      "Id": "70kkdajctXSbqSMJbQO424",
-      "Spotnames": "Kacey Musgraves",
-      "previewURL": "https://p.scdn.co/mp3-preview/16ed9058026fbe552ca0bc9eaaf23e96554a8ee5"
-    },
-    {
-      "artist": "High On Fire",
-      "albumName": "Luminiferous",
-      "image": "/Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/ySkD4lLvEEWU_BUZDC7OQALuminiferous.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "highonfire",
-      "imagePath": "imgs/any__decent__music/highonfire.jpeg",
-      "colour": "64,50,24",
-      "Id": "1eiIIImNeUj3vpaocWqoOf",
-      "Spotnames": "High On Fire",
-      "previewURL": "https://p.scdn.co/mp3-preview/d682259733986d7cbd7f756a71cf0ee0b0f7d399"
-    },
-    {
-      "artist": "Heartless Bastards",
-      "albumName": "Restless Ones",
-      "image": "/Resources/Images/vRFo2-VqFk-t-b1VzUxjxg817bOJSDawL._SL1500_.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/vRFo2-VqFk-t-b1VzUxjxg817bOJSDawL._SL1500_.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "heartlessbastards",
-      "imagePath": "imgs/any__decent__music/heartlessbastards.jpeg",
-      "colour": "102,95,69",
-      "Id": "2wwMTLM2da1sa2JcJslf8W",
-      "Spotnames": "Heartless Bastards",
-      "previewURL": "https://p.scdn.co/mp3-preview/b5ef7dd61dca5ff2311e930e4031883989c6c519"
+      "colour": "113,52,45"
     }
   ]
 }

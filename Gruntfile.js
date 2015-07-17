@@ -20,7 +20,30 @@ module.exports = function(grunt) {
 		
 		execute: {
         target: {
-            src: ['js/__api/ADMimage.js', 'js/__api/ADM.js', 'js/__api/apiImages.js', 'js/__api/api.js', 'js/__api/COSApiImages.js', 'js/__api/COSApi.js', 'js/__api/pasteApiImages.js', 'js/__api/pasteApi.js', 'js/__api/rollingStoneApiImages.js', 'js/__api/rollingStoneApi.js', 'js/__api/TimeOutApiImages.js', 'js/__api/TimeOutApi.js', 'js/__api/UncutApiImages.js', 'js/__api/UncutApi.js', 'js/__api/AllMusicApiImages.js', 'js/__api/AllMusicApi.js'
+            src: [
+            'js/__api/ADMimage.js', 
+            'js/__api/ADM.js', 
+            'js/__api/apiImages.js', 
+            'js/__api/api.js', 
+            'js/__api/COSApiImages.js', 
+            'js/__api/COSApi.js', 
+            'js/__api/pasteApiImages.js', 
+            'js/__api/pasteApi.js', 
+            'js/__api/rollingStoneApiImages.js', 
+            'js/__api/rollingStoneApi.js', 
+            'js/__api/TimeOutApiImages.js', 
+            'js/__api/TimeOutApi.js', 
+            'js/__api/UncutApiImages.js', 
+            'js/__api/UncutApi.js', 
+            'js/__api/AllMusicApiImages.js', 
+            'js/__api/AllMusicApi.js',
+            'js/__api/spotifyADM.js',
+            'js/__api/spotifyAM.js',
+            'js/__api/spotifyCOS.js',
+            'js/__api/spotifyPaste.js',
+            'js/__api/spotifyRolling.js',
+            'js/__api/spotifyTimeOut.js',
+            'js/__api/spotifyUncut.js',
             ]
         		}
     	},
@@ -34,7 +57,7 @@ module.exports = function(grunt) {
                     }
                 },
                 src: ['js/__json/**/*.json'],
-                dest: 'src/Datajson.json'
+                dest: 'src/Datajson.js'
             }
         }
     			

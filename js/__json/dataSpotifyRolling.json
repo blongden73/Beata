@@ -7,6 +7,18 @@
   ],
   "artists": [
     {
+      "artist": "Miguel",
+      "albumName": " Wildheart",
+      "image": "http://assets.rollingstone.com/assets/2015/albumreview/miguel-wildheart-20150630/199955/large_square/1434565682/200x200-M-150401_DS_PRESS.jpg",
+      "rating": "4",
+      "stars": "four",
+      "idvalue": "miguel",
+      "imagePath": "imgs/rolling__stone/miguel.jpeg",
+      "colour": "32,25,35",
+      "Id": "360IAlyVv4PCEVjgyMZrxK",
+      "Spotnames": "Miguel"
+    },
+    {
       "artist": "The Ramones",
       "albumName": " Live at German Television: The Musikladen Recordings",
       "image": "http://assets.rollingstone.com/assets/2015/albumreview/the-ramones-live-at-german-television-the-musikladen-recordings-20150618/199952/large_square/1434565326/200x200-GettyImages-86131109.jpg",
@@ -14,10 +26,7 @@
       "stars": "four",
       "idvalue": "theramones",
       "imagePath": "imgs/rolling__stone/theramones.jpeg",
-      "colour": "211,161,118",
-      "previewURL": "https://p.scdn.co/mp3-preview/6f4e77c05dacda6e4c98087f0b8573f9c84425eb",
-      "Id": "1co4F2pPNH8JjTutZkmgSm",
-      "Spotnames": "Ramones"
+      "colour": "211,161,118"
     }
   ]
 }

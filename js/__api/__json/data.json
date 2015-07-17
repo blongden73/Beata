@@ -8,6 +8,16 @@
   ],
   "artists": [
     {
+      "artist": "Tame Impala",
+      "albumName": "Currents",
+      "image": "\n                               http://cdn3.pitchfork.com/albums/21842/list.04192b63.jpg\" />\n                            ",
+      "rating": "\n        9.3\n    ",
+      "stars": "fourHalf",
+      "idvalue": "tameimpala",
+      "imagePath": "imgs/pitchfork/tameimpala.jpeg",
+      "colour": "98,82,103"
+    },
+    {
       "artist": "Miguel",
       "albumName": "Wildheart",
       "image": "\n                               http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg\" />\n                            ",
@@ -46,16 +56,6 @@
       "idvalue": "donnietrumpet&thesocialexperiment",
       "imagePath": "imgs/pitchfork/donnietrumpet&thesocialexperiment.jpeg",
       "colour": "206,206,206"
-    },
-    {
-      "artist": "Jamie xx",
-      "albumName": "In Colour",
-      "image": "\n                               http://cdn2.pitchfork.com/albums/21726/list.8f09545c.jpg\" />\n                            ",
-      "rating": "\n        9.3\n    ",
-      "stars": "fourHalf",
-      "idvalue": "jamiexx",
-      "imagePath": "imgs/pitchfork/jamiexx.jpeg",
-      "colour": "220,59,70"
     }
   ]
 }

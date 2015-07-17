@@ -6,16 +6,14 @@
   ],
   "artists": [
     {
-      "artist": "Jason Isbell",
-      "albumName": " Something More Than Free",
-      "image": "https://consequenceofsound.files.wordpress.com/2015/06/jason-isbell-something-more.jpg?w=350&h=350&crop=1",
-      "rating": "B+",
-      "idvalue": "jasonisbell-somethingmorethanfree",
-      "imagePath": "imgs/COS/jasonisbell-somethingmorethanfree.jpeg",
-      "colour": "33,33,32",
-      "Id": "3Q8wgwyVVv0z4UEh1HB0KY",
-      "Spotnames": "Jason Isbell",
-      "previewURL": "https://p.scdn.co/mp3-preview/a8c209a96956b02d8740505f2d5c38ea82e468db"
+      "artist": "Tame Impala",
+      "albumName": " Currents",
+      "image": "https://consequenceofsound.files.wordpress.com/2015/04/tame-impala-currents.jpg?w=350&h=350&crop=1",
+      "rating": "A-",
+      "stars": "fourHalf",
+      "idvalue": "tameimpala-currents",
+      "imagePath": "imgs/COS/tameimpala-currents.jpeg",
+      "colour": "59,43,64"
     },
     {
       "artist": "Sun Kil Moon",
@@ -25,10 +23,7 @@
       "stars": "fourHalf",
       "idvalue": "sunkilmoon-universalthemes",
       "imagePath": "imgs/COS/sunkilmoon-universalthemes.jpeg",
-      "colour": "186,183,188",
-      "Id": "4G0XDEk7RbA4BBCTs917U9",
-      "Spotnames": "Sun Kil Moon",
-      "previewURL": "https://p.scdn.co/mp3-preview/ce875df99170d7cad1e1479b5653602b5f9825dc"
+      "colour": "186,183,188"
     },
     {
       "artist": "Jamie xx",
@@ -38,10 +33,7 @@
       "stars": "four",
       "idvalue": "jamiexx-incolour",
       "imagePath": "imgs/COS/jamiexx-incolour.jpeg",
-      "colour": "215,38,83",
-      "previewURL": "https://p.scdn.co/mp3-preview/61f0bdf9d29e5c17622562ab2849187231bb9ba7",
-      "Id": "7A0awCXkE1FtSU8B0qwOJQ",
-      "Spotnames": "Jamie xx"
+      "colour": "215,38,83"
     },
     {
       "artist": "Torres",
@@ -61,9 +53,7 @@
       "stars": "four",
       "idvalue": "polaris-musicfromtheadventuresofpete&amp;pete[reissue]",
       "imagePath": "imgs/COS/polaris-musicfromtheadventuresofpete&amp;pete[reissue].jpeg",
-      "colour": "46,47,128",
-      "Id": "74Thw32zn6pnbFEoeiZ1J4",
-      "Spotnames": "Polaris"
+      "colour": "46,47,128"
     },
     {
       "artist": "Sufjan Stevens",
@@ -73,10 +63,7 @@
       "stars": "four",
       "idvalue": "sufjanstevens-carrie&amp;lowell",
       "imagePath": "imgs/COS/sufjanstevens-carrie&amp;lowell.jpeg",
-      "colour": "62,71,73",
-      "Id": "4MXUO7sVCaFgFjoTI5ox5c",
-      "Spotnames": "Sufjan Stevens",
-      "previewURL": "https://p.scdn.co/mp3-preview/97880a953d4c26d6a2e09f89eb41ec94f4b4be98"
+      "colour": "62,71,73"
     },
     {
       "artist": "Kendrick Lamar",
@@ -86,10 +73,7 @@
       "stars": "five",
       "idvalue": "kendricklamar-topimpabutterfly",
       "imagePath": "imgs/COS/kendricklamar-topimpabutterfly.jpeg",
-      "colour": "202,200,200",
-      "previewURL": "https://p.scdn.co/mp3-preview/4526bd0dbe3d14782bc2b422f5700e90edc64218",
-      "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
-      "Spotnames": "Kendrick Lamar"
+      "colour": "202,200,200"
     },
     {
       "artist": "Tobias Jesso Jr.",
@@ -99,10 +83,7 @@
       "stars": "fourHalf",
       "idvalue": "tobiasjessojr.-goon",
       "imagePath": "imgs/COS/tobiasjessojr.-goon.jpeg",
-      "colour": "36,49,44",
-      "Id": "3RosuARXNIOfNYoJXR7fzA",
-      "Spotnames": "Tobias Jesso Jr.",
-      "previewURL": "https://p.scdn.co/mp3-preview/c1971331cbd846f1634f845383bb314c22e32db0"
+      "colour": "36,49,44"
     },
     {
       "artist": "Lady Lamb",
@@ -112,10 +93,7 @@
       "stars": "fourHalf",
       "idvalue": "ladylamb-after",
       "imagePath": "imgs/COS/ladylamb-after.jpeg",
-      "colour": "196,144,73",
-      "previewURL": "https://p.scdn.co/mp3-preview/0b9276f366e1670ba8ae4eed5b3060b57a7f85a9",
-      "Id": "2wunbYU5KWrpI7RCRBkwF0",
-      "Spotnames": "Lady Lamb"
+      "colour": "196,144,73"
     },
     {
       "artist": "Led Zeppelin",
@@ -125,10 +103,7 @@
       "stars": "fourHalf",
       "idvalue": "ledzeppelin-physicalgraffiti[reissue]",
       "imagePath": "imgs/COS/ledzeppelin-physicalgraffiti[reissue].jpeg",
-      "colour": "66,66,66",
-      "previewURL": "https://p.scdn.co/mp3-preview/8b0ec73bf116e78c32f58ebb6d41a8b0a02a9ac7",
-      "Id": "36QJpDe2go2KgaRleHCDTp",
-      "Spotnames": "Led Zeppelin"
+      "colour": "66,66,66"
     },
     {
       "artist": "Dan Deacon",
@@ -138,10 +113,7 @@
       "stars": "fourHalf",
       "idvalue": "dandeacon-glissriffer",
       "imagePath": "imgs/COS/dandeacon-glissriffer.jpeg",
-      "colour": "224,202,178",
-      "previewURL": "https://p.scdn.co/mp3-preview/3355117efc0b74e0edd44b2d82718a22667eef85",
-      "Id": "5Z3IWpvwOvoaWodujHw7xh",
-      "Spotnames": "Dan Deacon"
+      "colour": "224,202,178"
     },
     {
       "artist": "Father John Misty",
@@ -151,10 +123,7 @@
       "stars": "fourHalf",
       "idvalue": "fatherjohnmisty-iloveyou,honeybear",
       "imagePath": "imgs/COS/fatherjohnmisty-iloveyou,honeybear.jpeg",
-      "colour": "217,182,167",
-      "previewURL": "https://p.scdn.co/mp3-preview/5c95dcf3d1e132befd6027f9475d320087a971d4",
-      "Id": "2kGBy2WHvF0VdZyqiVCkDT",
-      "Spotnames": "Father John Misty"
+      "colour": "217,182,167"
     }
   ]
 }

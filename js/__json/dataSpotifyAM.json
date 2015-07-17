@@ -7,41 +7,54 @@
   ],
   "artists": [
     {
-      "artist": "Bilal",
-      "albumName": "In Another Life",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868084.jpg?partner=allrovi.com",
+      "artist": "The Smoking Trees",
+      "albumName": "TST",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/880/MI0003880336.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "bilal",
-      "imagePath": "imgs/all__music/bilal.jpeg",
-      "colour": "67,56,62",
-      "previewURL": "https://p.scdn.co/mp3-preview/b19e513ebb17feefd46a2a9ab6d6869a4398aafb",
-      "Id": "4jCbgl5Dmt3uOh8WRQfpPs",
-      "Spotnames": "Bilal"
+      "idvalue": "thesmokingtrees",
+      "imagePath": "imgs/all__music/thesmokingtrees.jpeg",
+      "colour": "224,194,162"
+    },
+    {
+      "artist": "Stephen Hough",
+      "albumName": "Mendelssohn, Grieg, Hough: Cello Sonatas",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868441.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "stephenhough",
+      "imagePath": "imgs/all__music/stephenhough.jpeg",
+      "colour": "220,222,219"
+    },
+    {
+      "artist": "Harry Christophers",
+      "albumName": "Giovanni Pierluigi da Palestrina, Vol. 6",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868184.jpg?partner=allrovi.com",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "harrychristophers",
+      "imagePath": "imgs/all__music/harrychristophers.jpeg",
+      "colour": "50,50,50"
+    },
+    {
+      "artist": "Arcangelo",
+      "albumName": "Haydn: Sinfonia concertante; Mozart: Concertos",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/868/MI0003868454.jpg?partner=allrovi.com",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "arcangelo",
+      "imagePath": "imgs/all__music/arcangelo.jpeg",
+      "colour": "52,52,50"
     },
     {
       "artist": "Alan Gilbert",
-      "albumName": "Carl Nielsen: The Symphonies &amp; Concertos",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874869.jpg?partner=allrovi.com",
+      "albumName": "Carl Nielsen: Violin Concerto; Flute Concerto; Clarinet Concerto",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874985.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
       "idvalue": "alangilbert",
       "imagePath": "imgs/all__music/alangilbert.jpeg",
-      "colour": "41,39,32",
-      "Id": "50qd7mKJ6SenQX15s6Fk0o",
-      "Spotnames": "Alan Gilbert"
-    },
-    {
-      "artist": "Phantasm",
-      "albumName": "William Lawes: The Royal Consort",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/846/MI0003846269.jpg?partner=allrovi.com",
-      "rating": "8",
-      "stars": "four",
-      "idvalue": "phantasm",
-      "imagePath": "imgs/all__music/phantasm.jpeg",
-      "colour": "55,48,49",
-      "Id": "4tApluztlcir8bcgv2jyzg",
-      "Spotnames": "Phantasm"
+      "colour": "50,40,41"
     }
   ]
 }

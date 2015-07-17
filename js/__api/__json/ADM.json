@@ -18,26 +18,37 @@
       "colour": "26,30,30"
     },
     {
-      "artist": "Dawes",
-      "albumName": "All Your Favorite Bands",
-      "image": "/Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/q0O6srzpl0uF-IWGXN0QowAllYourFavoriteBands.jpg",
-      "rating": "9.0",
-      "stars": "fourHalf",
-      "idvalue": "dawes",
-      "imagePath": "imgs/any__decent__music/dawes.jpeg",
-      "colour": "204,196,178"
-    },
-    {
-      "artist": "Refused",
-      "albumName": "Freedom",
-      "image": "/Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
+      "artist": "Matrixxman",
+      "albumName": "Homesick ",
+      "image": "/Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
       "rating": "8.0",
       "stars": "four",
-      "idvalue": "refused",
-      "imagePath": "imgs/any__decent__music/refused.jpeg",
-      "colour": "167,154,134"
+      "idvalue": "matrixxman",
+      "imagePath": "imgs/any__decent__music/matrixxman.jpeg",
+      "colour": "58,59,59"
+    },
+    {
+      "artist": "EZTV",
+      "albumName": "Calling Out",
+      "image": "/Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "eztv",
+      "imagePath": "imgs/any__decent__music/eztv.jpeg",
+      "colour": "29,29,28"
+    },
+    {
+      "artist": "Best Friends",
+      "albumName": "Hot. Reckless. Totally Insane.",
+      "image": "/Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "bestfriends",
+      "imagePath": "imgs/any__decent__music/bestfriends.jpeg",
+      "colour": "174,79,69"
     },
     {
       "artist": "Miguel",
@@ -49,6 +60,17 @@
       "idvalue": "miguel",
       "imagePath": "imgs/any__decent__music/miguel.jpeg",
       "colour": "39,46,50"
+    },
+    {
+      "artist": "Refused",
+      "albumName": "Freedom",
+      "image": "/Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "refused",
+      "imagePath": "imgs/any__decent__music/refused.jpeg",
+      "colour": "167,154,134"
     },
     {
       "artist": "Richard Thompson",
@@ -93,28 +115,6 @@
       "idvalue": "kaceymusgraves",
       "imagePath": "imgs/any__decent__music/kaceymusgraves.jpeg",
       "colour": "113,52,45"
-    },
-    {
-      "artist": "Desaparecidos",
-      "albumName": "Payola",
-      "image": "/Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/Y5Vjpg8ZdE-2Fd19DOnpCgPayola.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "desaparecidos",
-      "imagePath": "imgs/any__decent__music/desaparecidos.jpeg",
-      "colour": "19,19,19"
-    },
-    {
-      "artist": "The Orb",
-      "albumName": "Moonbuilding 2703 AD",
-      "image": "/Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HaRfIDW-LkSlA3kTkUjDxAMoonbuilding2703AD.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "theorb",
-      "imagePath": "imgs/any__decent__music/theorb.jpeg",
-      "colour": "212,218,237"
     }
   ]
 }
