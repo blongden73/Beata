@@ -1,43 +1,207 @@
 <!DOCTYPE html>
 <html>
 <script src="js/__libs/jquery-2.1.4.js"></script>
-<script src="js/__functions/sticky.js" type="text/javascript"></script>
 <script src="js/__libs/handlebars-v3.0.3.js"></script>
 <script src="js/__libs/modernizr.custom.85180.js" type="text/javascript"></script>
-<script src="src/Datajson.js" type="text/javascript"></script>
-<script src="js/__functions/featured.js" type="text/javascript"></script>
+<!--<script src="src/Datajson.js" type="text/javascript"></script>-->
+<!--<script src="js/__functions/featured.js" type="text/javascript"></script>-->
 <link type="style/css" href="Style/style.css" rel="stylesheet">
 <head>
 <title>Beata | New music across the web</title>
 </head>
 
 <body>
-	
-
-<header>
-	<div id="logo_wrapper">
-		<div class="beata">b</div>
-		<section id="menu__container">			
-				<script id="menu__template" type="text/x-handlebars-template">
-						<ul class="list__container">
-							{{#providers}}
-							<li>{{provider}}</li>
-							{{/providers}}
-						</ul>
-				</script>	
-			</section>		
-
+	<div id="intro__section" class="wrapper">
+		<div id="intro__left">
+			<h1>Beata.</h1>
+			<h2>Serving the best music around.</h2>
+		</div>
+		<div id="intro__right">
+		
+		</div>
 	</div>
-</header>
-	
-	<!--<section id="top__banner">
-		<div class="beata">b</div>
-		<div id="description"><h1>Serving up the best new music from around the web</h1></div>
-		<video autoplay id="bgvid">
-			<source src="assets/ink.mov" type="video/mp4">
-		</video>
-	</section> -->
-		<div id="music__container">
+		
+		<ul id="music__container">
+			<script id="pitchfork__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true">
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+				
+			{{/artists}}
+			</script>
+		</ul>	
+			<script id="ADM__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="rolling__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="paste__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover paste"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="time__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover timeout"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="COS__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li  class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="uncut__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover timeout"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+			<script id="allMusic__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					<span class="play"><img src="assets/play-01.svg"></span>
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				<audio class="player" preload="true" controls>
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				</li>
+			{{/artists}}
+			</script>
+		
+		<!--<div id="music__container">
 			<script id="pitchfork__template" type="text/x-handlebars-template">
 				<section class="pitchfork__container">
 				
@@ -355,12 +519,13 @@
 						</div>
 					</section>
 				</script>
-		</div>		
+		</div> -->
 					
 
 	<footer>
 		<script src="js/__compiler/app.js" type="text/javascript"></script>
 		<script src="js/__functions/play.js" type="text/javascript"></script>
+		<script src="js/__functions/brightness.js" type="text/javascript"></script>
 	</footer>	
 		
 </body>

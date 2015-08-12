@@ -6,6 +6,16 @@
   ],
   "artists": [
     {
+      "artist": "Titus Andronicus",
+      "albumName": " The Most Lamentable Tragedy",
+      "image": "https://consequenceofsound.files.wordpress.com/2015/07/screen-shot-2015-07-20-at-12-54-51-pm.png?w=350&h=350&crop=1",
+      "rating": "A",
+      "stars": "four",
+      "idvalue": "titusandronicus-themostlamentabletragedy",
+      "imagePath": "imgs/COS/titusandronicus-themostlamentabletragedy.jpeg",
+      "colour": "141,157,91"
+    },
+    {
       "artist": "Tame Impala",
       "albumName": " Currents",
       "image": "https://consequenceofsound.files.wordpress.com/2015/04/tame-impala-currents.jpg?w=350&h=350&crop=1",
@@ -13,10 +23,7 @@
       "stars": "fourHalf",
       "idvalue": "tameimpala-currents",
       "imagePath": "imgs/COS/tameimpala-currents.jpeg",
-      "colour": "59,43,64",
-      "Id": "5INjqkS1o8h1imAzPqGZBb",
-      "Spotnames": "Tame Impala",
-      "previewURL": "https://p.scdn.co/mp3-preview/57e70af4a162f2e7fe50d95f12a47eed11c78845"
+      "colour": "59,43,64"
     },
     {
       "artist": "Sun Kil Moon",
@@ -26,10 +33,7 @@
       "stars": "fourHalf",
       "idvalue": "sunkilmoon-universalthemes",
       "imagePath": "imgs/COS/sunkilmoon-universalthemes.jpeg",
-      "colour": "186,183,188",
-      "previewURL": "https://p.scdn.co/mp3-preview/67b2af2d3becbf91e2614b45dc2bc65c7a9794ae",
-      "Id": "4G0XDEk7RbA4BBCTs917U9",
-      "Spotnames": "Sun Kil Moon"
+      "colour": "186,183,188"
     },
     {
       "artist": "Jamie xx",
@@ -39,10 +43,7 @@
       "stars": "four",
       "idvalue": "jamiexx-incolour",
       "imagePath": "imgs/COS/jamiexx-incolour.jpeg",
-      "colour": "215,38,83",
-      "Id": "7A0awCXkE1FtSU8B0qwOJQ",
-      "Spotnames": "Jamie xx",
-      "previewURL": "https://p.scdn.co/mp3-preview/210f174bbe65d87ee6adfc7dacaf98f1259c5b27"
+      "colour": "215,38,83"
     },
     {
       "artist": "Torres",
@@ -62,10 +63,7 @@
       "stars": "four",
       "idvalue": "polaris-musicfromtheadventuresofpete&amp;pete[reissue]",
       "imagePath": "imgs/COS/polaris-musicfromtheadventuresofpete&amp;pete[reissue].jpeg",
-      "colour": "46,47,128",
-      "Id": "74Thw32zn6pnbFEoeiZ1J4",
-      "Spotnames": "Polaris",
-      "previewURL": "https://p.scdn.co/mp3-preview/7bb90914d7477daa1711bad7a318dda90e090ba9"
+      "colour": "46,47,128"
     },
     {
       "artist": "Sufjan Stevens",
@@ -75,10 +73,7 @@
       "stars": "four",
       "idvalue": "sufjanstevens-carrie&amp;lowell",
       "imagePath": "imgs/COS/sufjanstevens-carrie&amp;lowell.jpeg",
-      "colour": "62,71,73",
-      "previewURL": "https://p.scdn.co/mp3-preview/0672c0dc9f34822d0f0bd25e92e00d14f1be8965",
-      "Id": "4MXUO7sVCaFgFjoTI5ox5c",
-      "Spotnames": "Sufjan Stevens"
+      "colour": "62,71,73"
     },
     {
       "artist": "Kendrick Lamar",
@@ -88,10 +83,7 @@
       "stars": "five",
       "idvalue": "kendricklamar-topimpabutterfly",
       "imagePath": "imgs/COS/kendricklamar-topimpabutterfly.jpeg",
-      "colour": "202,200,200",
-      "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
-      "Spotnames": "Kendrick Lamar",
-      "previewURL": "https://p.scdn.co/mp3-preview/4526bd0dbe3d14782bc2b422f5700e90edc64218"
+      "colour": "202,200,200"
     },
     {
       "artist": "Tobias Jesso Jr.",
@@ -101,9 +93,7 @@
       "stars": "fourHalf",
       "idvalue": "tobiasjessojr.-goon",
       "imagePath": "imgs/COS/tobiasjessojr.-goon.jpeg",
-      "colour": "36,49,44",
-      "Id": "3RosuARXNIOfNYoJXR7fzA",
-      "Spotnames": "Tobias Jesso Jr."
+      "colour": "36,49,44"
     },
     {
       "artist": "Lady Lamb",
@@ -113,10 +103,7 @@
       "stars": "fourHalf",
       "idvalue": "ladylamb-after",
       "imagePath": "imgs/COS/ladylamb-after.jpeg",
-      "colour": "196,144,73",
-      "previewURL": "https://p.scdn.co/mp3-preview/97c7b9f4c461ad1a4e0c831ce996769463cbe9ac",
-      "Id": "2wunbYU5KWrpI7RCRBkwF0",
-      "Spotnames": "Lady Lamb"
+      "colour": "196,144,73"
     },
     {
       "artist": "Led Zeppelin",
@@ -126,10 +113,7 @@
       "stars": "fourHalf",
       "idvalue": "ledzeppelin-physicalgraffiti[reissue]",
       "imagePath": "imgs/COS/ledzeppelin-physicalgraffiti[reissue].jpeg",
-      "colour": "66,66,66",
-      "previewURL": "https://p.scdn.co/mp3-preview/80730039a88661a239a95ff2d93c4d5557902b65",
-      "Id": "36QJpDe2go2KgaRleHCDTp",
-      "Spotnames": "Led Zeppelin"
+      "colour": "66,66,66"
     },
     {
       "artist": "Dan Deacon",
@@ -139,23 +123,7 @@
       "stars": "fourHalf",
       "idvalue": "dandeacon-glissriffer",
       "imagePath": "imgs/COS/dandeacon-glissriffer.jpeg",
-      "colour": "224,202,178",
-      "Id": "5Z3IWpvwOvoaWodujHw7xh",
-      "Spotnames": "Dan Deacon",
-      "previewURL": "https://p.scdn.co/mp3-preview/fbd95d67b4f716b91f470bf82c283b16eb16f1d9"
-    },
-    {
-      "artist": "Father John Misty",
-      "albumName": " I Love You, Honeybear",
-      "image": "https://consequenceofsound.files.wordpress.com/2015/02/screen-shot-2015-02-04-at-10-07-44-am.png?w=350&h=350&crop=1",
-      "rating": "A-",
-      "stars": "fourHalf",
-      "idvalue": "fatherjohnmisty-iloveyou,honeybear",
-      "imagePath": "imgs/COS/fatherjohnmisty-iloveyou,honeybear.jpeg",
-      "colour": "217,182,167",
-      "previewURL": "https://p.scdn.co/mp3-preview/3dafb2c2f88ab37b403cdf819ee5699c9f3dfed4",
-      "Id": "2kGBy2WHvF0VdZyqiVCkDT",
-      "Spotnames": "Father John Misty"
+      "colour": "224,202,178"
     }
   ]
 }

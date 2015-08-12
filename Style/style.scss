@@ -13,20 +13,29 @@ body{
 
 $time:0.5s;
 $time_fade:0.5s;
+$lines-to-show: 3;
 
 @mixin h1{
-font-family: 'brandon_grotesquebold';
-font-size: 20px;
+font-family: 'biko__bold';
+font-size: 16px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;
 }
 
 @mixin h2{
-font-family: 'brandon_grotesque_regularRg';
-font-size: 20px;
+font-family: 'biko';
+font-size: 16px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;
 }
 
 @mixin h3{
-font-family: 'brandon_grotesquebold';
+font-family: 'galano_grotesque';
 font-size: 28px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 @mixin transition{
@@ -49,6 +58,13 @@ font-size: 28px;
 	box-shadow: -5px 0px 2px rgba(0, 0, 0, 0.1);
 }
 
+@mixin card{
+	width: 100px;
+	height: 100px;
+	background-color:fuchsia;
+	float: left;
+}
+
 .wrapper{
 	
 	width: 1260px;
@@ -66,7 +82,6 @@ font-size: 28px;
 }
 
 header {
-    position: relative;
     width: 100%;
     height: 80px;
     padding-bottom: 20px;
@@ -77,29 +92,194 @@ header {
     opacity: 0;
     background-color: black;
 }
-header.clone {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    transform: translateY(-100%);
-    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
-    opacity: 1;
+
+#intro__section{
+	height: 150px;
+	width: 77.8%;
+	padding-top: 20px;
+	
+	& #intro__left{
+	width: 50%;
+	float: left;
+	@include h1;
+	
+	& h1, h2{
+		font-size: 30px;
+	}
+	
+	& h2{
+		color: #2c38dc;
+		width: 240px;
+	}
+	
+	
+	
+	}
+	
+	& #intro__right{
+	width: 50%;
+	height: 100px;
+	float: left;
+	@include h1;
+	background-color: aqua;
 }
 
-body.down header.clone {
-    transform: translateY(0);
 }
 
 
 #music__container{
-	margin-top: 20px;
-		&.sticky{
-		position: sticky !important;
-		position: webkit-sticky !important;
-		top: 10px;
+	float: left;
+	
+	
+	& li{
+		float: left;
+		width: 14.25%;
+		height: 14.25vw;
+		color: white;
+		
+		@include media("<desktop") { 
+		width: 20%;
+		height: 20vw;
+		}	
+		
+		@include media("<tablet") { 
+		width: 33.3%;
+		height: 33.3vw;
+		}
+		
+		@include media("<=phone") { 
+		width: 90%;
+		height: 90vw;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+		&.provider{
+		background-color: #ef4135;
+		text-align: center;
+		line-height: 11.11vw;
+		
+		& h1{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;		
+		}
+		
+		}
+		
+		&.cover{
+			overflow: hidden;
+		}
+		
+		&.album__details{
+			position: relative;
+		}
+		
+		&.cover img{
+		width: 105%;
+		}
+		
+		&.timeout img{
+		width: 180% !important;
+		margin-left: -40%;
+		}
+		
+		&.paste img{			
+		margin-left: -4px;
+		margin-top: -4px;
+		}
+		
+		& h1{
+			margin: 5px 5px 0 5px;
+			@include h1;
+			
+		}
+		
+		& h2{
+			margin: 0px 5px;
+			-webkit-line-clamp: $lines-to-show;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;  
+			height: 50px;
+			overflow: hidden;
+			@include h2;
+		}
+		
+		& .stars{
+	    
+	    width: 100px;
+	    height: 30px;
+	    bottom: 40px;
+	    left: 5px;
+	    background-position: right center;
+		background-repeat: no-repeat;
+		position: absolute;
+		    
+	    
+	    &.four{
+		    background-image: url('../assets/stars-four.svg');
+		 
+	    }
+	    
+	    &.fourHalf{
+		    background-image: url('../assets/stars-fourHalf.svg');
+	    }
+	    
+	    &.five{
+		    background-image: url('../assets/stars-five.svg');
+	    }
+		}       
+
+		& .links{
+		height: 30px;
+		position: absolute;
+		bottom: 10px;
+		left: 5px;
+		
+		& .play, .share, .social{
+			border-radius: 50%;
+			width: 30px;
+			height: 30px;
+			border: 1px solid white;
+			float: left;
+			margin-right: 4px;
+			
+			& img{
+				display: block;
+				margin-left: auto;
+				margin-right:auto;
+				margin-top: 6px; 
+			}
+
+			
+			&:hover{
+				background-color: white;
+			}
+		}
+		
+		}
+		
+	}
+	
+	
+	& .artist__card{
+	@include card;
 	}
 }
+
+#ADM__music__container{
+	background-color: aqua;
+	float: left;
+	
+	& .artist__card{
+		display: inline-block;
+	}
+}
+	
+
+
 
 @mixin col{
 	
@@ -202,18 +382,12 @@ body.down header.clone {
 	&.title{
 		width: 190px !important;
 		padding-right:  10px;
+		background-color: #ef4135;
+		color: white;
 
-		&:hover{
-			background-color: #ef4135;
-		}
-		
-		&:hover h3{
-			color: white;
-		}
 		
 			& h3{
 		@include h3;
-		color: black;
 		text-align: left;
 		margin-top: 10px;
 		margin-left: 10px;
@@ -323,7 +497,6 @@ body.down header.clone {
 	height: 600px;
 	background-color:black;
 	overflow: hidden;
-	margin-top: -130px;
 
 & video{
 	width: 100%;
@@ -435,65 +608,29 @@ body.down header.clone {
 
 }
 
+
 @font-face {
-    font-family: 'brandon_grotesquebold';
-    src: url('fonts/brandon_bld-webfont.eot');
-    src: url('fonts/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brandon_bld-webfont.woff2') format('woff2'),
-         url('fonts/brandon_bld-webfont.woff') format('woff'),
-         url('fonts/brandon_bld-webfont.ttf') format('truetype'),
-         url('fonts/brandon_bld-webfont.svg#brandon_grotesquebold') format('svg');
+    font-family: 'biko';
+    src: url('../assets/__typeface/biko_regular-webfont.eot');
+    src: url('../assets/__typeface/biko_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/biko_regular-webfont.woff2') format('woff2'),
+         url('../assets/__typeface/biko_regular-webfont.woff') format('woff'),
+         url('../assets/__typeface/biko_regular-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/biko_regular-webfont.svgbiko') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-
-
 @font-face {
-    font-family: 'brandon_grotesqueblack';
-    src: url('fonts/brandon_blk-webfont.eot');
-    src: url('fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brandon_blk-webfont.woff2') format('woff2'),
-         url('fonts/brandon_blk-webfont.woff') format('woff'),
-         url('fonts/brandon_blk-webfont.ttf') format('truetype'),
-         url('fonts/brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-family: 'biko__bold';
+    src: url('../assets/__typeface/biko_bold-webfont.eot');
+    src: url('../assets/__typeface/biko_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/biko_bold-webfont.woff2') format('woff2'),
+         url('../assets/__typeface/biko_bold-webfont.woff') format('woff'),
+         url('../assets/__typeface/biko_bold-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/biko_bold-webfont.svgbiko__bold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesquemedium';
-    src: url('fonts/brandon_med-webfont.eot');
-    src: url('fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brandon_med-webfont.woff2') format('woff2'),
-         url('fonts/brandon_med-webfont.woff') format('woff'),
-         url('fonts/brandon_med-webfont.ttf') format('truetype'),
-         url('fonts/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'brandon_grotesque_regularRg';
-    src: url('fonts/brandon_reg-webfont.eot');
-    src: url('fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/brandon_reg-webfont.woff2') format('woff2'),
-         url('fonts/brandon_reg-webfont.woff') format('woff'),
-         url('fonts/brandon_reg-webfont.ttf') format('truetype'),
-         url('fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-	
-	

@@ -8,66 +8,69 @@
   ],
   "artists": [
     {
+      "artist": "Future",
+      "albumName": "Dirty Sprite 2",
+      "image": "http://cdn4.pitchfork.com/albums/22071/list.3d56dd9d.jpg",
+      "rating": "8.4",
+      "stars": "four",
+      "idvalue": "future",
+      "imagePath": "imgs/pitchfork/future.jpeg",
+      "colour": "38,81,126",
+      "Id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "Spotnames": "Future",
+      "previewURL": "https://p.scdn.co/mp3-preview/f59dd5c487b110d87a109712f2da224980688571"
+    },
+    {
+      "artist": "Tame Impala",
+      "albumName": "Currents",
+      "image": "http://cdn3.pitchfork.com/albums/21842/list.04192b63.jpg",
+      "rating": "9.3",
+      "stars": "fourHalf",
+      "idvalue": "tameimpala",
+      "imagePath": "imgs/pitchfork/tameimpala.jpeg",
+      "colour": "98,82,103",
+      "Id": "5INjqkS1o8h1imAzPqGZBb",
+      "Spotnames": "Tame Impala",
+      "previewURL": "https://p.scdn.co/mp3-preview/7198ae2b0c4b7bdd595194d181d1c47c3814757d"
+    },
+    {
       "artist": "Miguel",
       "albumName": "Wildheart",
       "image": "http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg",
-      "rating": " 8.9 ",
+      "rating": "8.9",
       "stars": "fourHalf",
       "idvalue": "miguel",
       "imagePath": "imgs/pitchfork/miguel.jpeg",
       "colour": "32,41,46",
-      "previewURL": "https://p.scdn.co/mp3-preview/57e23066c3e678cde859ab8e4cf22eacf2bb03a8",
       "Id": "360IAlyVv4PCEVjgyMZrxK",
-      "Spotnames": "Miguel"
+      "Spotnames": "Miguel",
+      "previewURL": "https://p.scdn.co/mp3-preview/d3f867fb1b2d631e4142ba72ee734ebc1304c28d"
     },
     {
       "artist": "Vince Staples",
       "albumName": "Summertime &apos;06",
       "image": "http://cdn4.pitchfork.com/albums/21977/list.97efc203.jpg",
-      "rating": " 8.8 ",
+      "rating": "8.8",
       "stars": "fourHalf",
       "idvalue": "vincestaples",
       "imagePath": "imgs/pitchfork/vincestaples.jpeg",
       "colour": "215,212,195",
-      "previewURL": "https://p.scdn.co/mp3-preview/25355143298e591e85cf0c30b0bb614df10d4f53",
       "Id": "68kEuyFKyqrdQQLLsmiatm",
-      "Spotnames": "Vince Staples"
+      "Spotnames": "Vince Staples",
+      "previewURL": "https://p.scdn.co/mp3-preview/6bb1ceaf0fd579acc9d660f5e706ba50aea8f275"
     },
     {
       "artist": "Thundercat",
       "albumName": "The Beyond / Where the Giants Roam",
       "image": "http://cdn.pitchfork.com/albums/22019/list.fa076f40.jpg",
-      "rating": " 8.3 ",
+      "rating": "8.3",
       "stars": "four",
       "idvalue": "thundercat",
       "imagePath": "imgs/pitchfork/thundercat.jpeg",
       "colour": "59,73,60",
       "Id": "4frXpPxQQZwbCu3eTGnZEw",
       "Spotnames": "Thundercat",
-      "previewURL": "https://p.scdn.co/mp3-preview/16af3cac298a20193c6cf4e22d392b2ba9e1eb38"
-    },
-    {
-      "artist": "Donnie Trumpet & the Social Experiment",
-      "albumName": "Surf",
-      "image": "http://cdn.pitchfork.com/albums/21920/list.04db1a45.jpg",
-      "rating": " 8.3 ",
-      "stars": "four",
-      "idvalue": "donnietrumpet&thesocialexperiment",
-      "imagePath": "imgs/pitchfork/donnietrumpet&thesocialexperiment.jpeg",
-      "colour": "206,206,206"
-    },
-    {
-      "artist": "Jamie xx",
-      "albumName": "In Colour",
-      "image": "http://cdn2.pitchfork.com/albums/21726/list.8f09545c.jpg",
-      "rating": " 9.3 ",
-      "stars": "fourHalf",
-      "idvalue": "jamiexx",
-      "imagePath": "imgs/pitchfork/jamiexx.jpeg",
-      "colour": "220,59,70",
-      "previewURL": "https://p.scdn.co/mp3-preview/f9683a778cfd8f0c2f4c97248e6e82b2c82dc0d4",
-      "Id": "7A0awCXkE1FtSU8B0qwOJQ",
-      "Spotnames": "Jamie xx"
+      "previewURL": "https://p.scdn.co/mp3-preview/78d337cb16c0373d90744c210a9ebe5e4742025a"
     }
   ]
 }

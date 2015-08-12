@@ -37,8 +37,8 @@ request(url, function(error, response, body) {
         $("ul.object-list.bnm-list > li").each(function(index) {
             var artistName = $(".info h1", this).html().replace("&apos;", "'").replace('&amp;', '&');
             var albumName = $(".info h2", this).html();
-            var imageLink = $("a .artwork .lazy", this).data('content').replace(" <img src=\"", "").replace("\" /> ", "");
-            var ratingNo = $(".info .score", this).html();
+            var imageLink = $("a .artwork .lazy", this).data('content').replace(" <img src=\"", "").replace("\" /> ", "").replace('\n', '').replace('" />\n','').trim();
+            var ratingNo = $(".info .score", this).html().replace('\n', '').replace('" />\n','').trim();
             var ratingRound = Math.round(ratingNo);
             var StarRating;
             if (ratingRound == 1) {

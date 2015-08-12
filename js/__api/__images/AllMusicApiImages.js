@@ -24,7 +24,7 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $(".featured-rows .row .featured").each(function(index) {
-            var artistName = $(".artist a", this).html();
+            var artistName = $(".artist a", this).html().replace('&#xF6;', 'ö');;
             if (artistName == null) {
                 artistName = 'Various Artists'
             };

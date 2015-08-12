@@ -13,7 +13,7 @@ $.getJSON("js/__json/dataSpotify.json", function(json) {
 });
 
 
-$.getJSON("js/__json/dataSpotifyADM.json", function(json) {
+$.getJSON("js/__json/dataADMSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -23,11 +23,11 @@ $.getJSON("js/__json/dataSpotifyADM.json", function(json) {
 	var source   = $("#ADM__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__ADM__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyRolling.json", function(json) {
+$.getJSON("js/__json/dataRollingSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -37,11 +37,11 @@ $.getJSON("js/__json/dataSpotifyRolling.json", function(json) {
 	var source   = $("#rolling__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__rolling__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyPaste.json", function(json) {
+$.getJSON("js/__json/dataPasteSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -51,11 +51,11 @@ $.getJSON("js/__json/dataSpotifyPaste.json", function(json) {
 	var source   = $("#paste__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__paste__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyTime.json", function(json) {
+$.getJSON("js/__json/dataTimeSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -65,11 +65,11 @@ $.getJSON("js/__json/dataSpotifyTime.json", function(json) {
 	var source   = $("#time__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__time__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyCOS.json", function(json) {
+$.getJSON("js/__json/dataCOSSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -79,11 +79,11 @@ $.getJSON("js/__json/dataSpotifyCOS.json", function(json) {
 	var source   = $("#COS__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__COS__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyUncut.json", function(json) {
+$.getJSON("js/__json/dataUncutSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -93,11 +93,11 @@ $.getJSON("js/__json/dataSpotifyUncut.json", function(json) {
 	var source   = $("#uncut__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__uncut__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/dataSpotifyAM.json", function(json) {
+$.getJSON("js/__json/dataAMSpotifyPreveiw.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -107,11 +107,11 @@ $.getJSON("js/__json/dataSpotifyAM.json", function(json) {
 	var source   = $("#allMusic__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#music__allMusic__container").html(template(data));
+	$("#music__container").append(template(data));
 	
 });
 
-$.getJSON("js/__json/allProviders.json", function(json) {
+/*$.getJSON("js/__json/allProviders.json", function(json) {
 	console.log(json);
 	
 	// Put the object into storage
@@ -121,9 +121,11 @@ $.getJSON("js/__json/allProviders.json", function(json) {
 	var source   = $("#menu__template").html();
 	var template = Handlebars.compile(source);
 	var data = clash__data;
-	$("#menu__container").html(template(data));
+	$("#menu__container").append(template(data));
 	
-});
+});*/
+
+
 
 
 

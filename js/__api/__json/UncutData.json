@@ -7,6 +7,36 @@
   ],
   "artists": [
     {
+      "artist": "Jamie XX",
+      "albumName": " In Colour",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/JamieXX-credit-Tom-Beard_NEW.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "jamiexxincolour",
+      "imagePath": "imgs/uncut/jamiexxincolour.jpeg",
+      "colour": "36,32,23"
+    },
+    {
+      "artist": "Graham Parker & The Rumour",
+      "albumName": " Mystery Glue",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/graham_parker-Lawrence_Watson.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "grahamparker&therumourmysteryglue",
+      "imagePath": "imgs/uncut/grahamparker&therumourmysteryglue.jpeg",
+      "colour": "24,16,13"
+    },
+    {
+      "artist": "Leon Bridges",
+      "albumName": " Coming Home",
+      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/leonbridges_window.jpg",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "leonbridgescominghome",
+      "imagePath": "imgs/uncut/leonbridgescominghome.jpeg",
+      "colour": "62,62,62"
+    },
+    {
       "artist": "Kacey Musgraves",
       "albumName": " Pageant Material",
       "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/07/130715kmusgraves.jpg",
@@ -65,36 +95,6 @@
       "idvalue": "paulwellersaturnspattern",
       "imagePath": "imgs/uncut/paulwellersaturnspattern.jpeg",
       "colour": "14,13,73"
-    },
-    {
-      "artist": "Tom Russell",
-      "albumName": " The Rose Of Roscrae",
-      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/tom_russell.jpg",
-      "rating": "8",
-      "stars": "four",
-      "idvalue": "tomrusselltheroseofroscrae",
-      "imagePath": "imgs/uncut/tomrusselltheroseofroscrae.jpeg",
-      "colour": "50,43,42"
-    },
-    {
-      "artist": "Holly Herndon",
-      "albumName": " Platform",
-      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/holly_herndon.jpg",
-      "rating": "9",
-      "stars": "fourHalf",
-      "idvalue": "hollyherndonplatform",
-      "imagePath": "imgs/uncut/hollyherndonplatform.jpeg",
-      "colour": "170,105,90"
-    },
-    {
-      "artist": "The Rolling Stones",
-      "albumName": " Sticky Fingers deluxe edition",
-      "image": "http://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/28/2015/06/stonesdm310315.jpg",
-      "rating": "10",
-      "stars": "five",
-      "idvalue": "therollingstonesstickyfingersdeluxeedition",
-      "imagePath": "imgs/uncut/therollingstonesstickyfingersdeluxeedition.jpeg",
-      "colour": "203,177,166"
     }
   ]
 }

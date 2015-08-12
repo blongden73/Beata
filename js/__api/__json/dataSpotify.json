@@ -1,0 +1,71 @@
+{
+  "provider": [
+    {
+      "provider": "Pitchfork",
+      "url": "http://www.pitchfork.com",
+      "colour": "#ef4135"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Future",
+      "albumName": "Dirty Sprite 2",
+      "image": "http://cdn4.pitchfork.com/albums/22071/list.3d56dd9d.jpg",
+      "rating": "8.4",
+      "stars": "four",
+      "idvalue": "future",
+      "imagePath": "imgs/pitchfork/future.jpeg",
+      "colour": "38,81,126",
+      "Id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "Spotnames": "Future"
+    },
+    {
+      "artist": "Tame Impala",
+      "albumName": "Currents",
+      "image": "http://cdn3.pitchfork.com/albums/21842/list.04192b63.jpg",
+      "rating": "9.3",
+      "stars": "fourHalf",
+      "idvalue": "tameimpala",
+      "imagePath": "imgs/pitchfork/tameimpala.jpeg",
+      "colour": "98,82,103",
+      "Id": "5INjqkS1o8h1imAzPqGZBb",
+      "Spotnames": "Tame Impala"
+    },
+    {
+      "artist": "Miguel",
+      "albumName": "Wildheart",
+      "image": "http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg",
+      "rating": "8.9",
+      "stars": "fourHalf",
+      "idvalue": "miguel",
+      "imagePath": "imgs/pitchfork/miguel.jpeg",
+      "colour": "32,41,46",
+      "Id": "360IAlyVv4PCEVjgyMZrxK",
+      "Spotnames": "Miguel"
+    },
+    {
+      "artist": "Vince Staples",
+      "albumName": "Summertime &apos;06",
+      "image": "http://cdn4.pitchfork.com/albums/21977/list.97efc203.jpg",
+      "rating": "8.8",
+      "stars": "fourHalf",
+      "idvalue": "vincestaples",
+      "imagePath": "imgs/pitchfork/vincestaples.jpeg",
+      "colour": "215,212,195",
+      "Id": "68kEuyFKyqrdQQLLsmiatm",
+      "Spotnames": "Vince Staples"
+    },
+    {
+      "artist": "Thundercat",
+      "albumName": "The Beyond / Where the Giants Roam",
+      "image": "http://cdn.pitchfork.com/albums/22019/list.fa076f40.jpg",
+      "rating": "8.3",
+      "stars": "four",
+      "idvalue": "thundercat",
+      "imagePath": "imgs/pitchfork/thundercat.jpeg",
+      "colour": "59,73,60",
+      "Id": "4frXpPxQQZwbCu3eTGnZEw",
+      "Spotnames": "Thundercat"
+    }
+  ]
+}

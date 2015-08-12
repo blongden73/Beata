@@ -7,6 +7,61 @@
   ],
   "artists": [
     {
+      "artist": "Ducktails",
+      "albumName": "St. Catherine",
+      "image": "/Resources/Images/BlCqjvVj-E2JcBp1QHfcbQSt.Catherine.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/BlCqjvVj-E2JcBp1QHfcbQSt.Catherine.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "ducktails",
+      "imagePath": "imgs/any__decent__music/ducktails.jpeg",
+      "colour": "97,134,86"
+    },
+    {
+      "artist": "Wilco",
+      "albumName": "Star Wars",
+      "image": "/Resources/Images/YY7wmjVUAkSZFYzM5IA90gStarWars.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/YY7wmjVUAkSZFYzM5IA90gStarWars.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "wilco",
+      "imagePath": "imgs/any__decent__music/wilco.jpeg",
+      "colour": "191,176,164"
+    },
+    {
+      "artist": "Gwenno",
+      "albumName": "Y Dydd Olaf",
+      "image": "/Resources/Images/CErn0OFoh0i3_pbyrnn18AYDyddOlaf.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/CErn0OFoh0i3_pbyrnn18AYDyddOlaf.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "gwenno",
+      "imagePath": "imgs/any__decent__music/gwenno.jpeg",
+      "colour": "98,95,87"
+    },
+    {
+      "artist": "Lamb Of God",
+      "albumName": "VII:Sturm Und Drang",
+      "image": "/Resources/Images/6xXWfymkgU6MKbhwYeRj8wVII SturmUndDrang.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/6xXWfymkgU6MKbhwYeRj8wVII SturmUndDrang.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "lambofgod",
+      "imagePath": "imgs/any__decent__music/lambofgod.jpeg",
+      "colour": "113,97,72"
+    },
+    {
+      "artist": "Vinyl Williams",
+      "albumName": "Into",
+      "image": "/Resources/Images/LFI0G2mnxUqC4ZiVbhEIZQInto.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/LFI0G2mnxUqC4ZiVbhEIZQInto.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "vinylwilliams",
+      "imagePath": "imgs/any__decent__music/vinylwilliams.jpeg",
+      "colour": "41,42,45"
+    },
+    {
       "artist": "Ratatat",
       "albumName": "Magnifique",
       "image": "/Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
@@ -60,61 +115,6 @@
       "idvalue": "eztv",
       "imagePath": "imgs/any__decent__music/eztv.jpeg",
       "colour": "29,29,28"
-    },
-    {
-      "artist": "Best Friends",
-      "albumName": "Hot. Reckless. Totally Insane.",
-      "image": "/Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/7V8tVqpIIUa-4w-HzjUfEwHot.Reckless.TotallyInsane..jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "bestfriends",
-      "imagePath": "imgs/any__decent__music/bestfriends.jpeg",
-      "colour": "174,79,69"
-    },
-    {
-      "artist": "Miguel",
-      "albumName": "Wildheart",
-      "image": "/Resources/Images/k895nT_yp0-tMJqG1jOulwWildheart.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/k895nT_yp0-tMJqG1jOulwWildheart.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "miguel",
-      "imagePath": "imgs/any__decent__music/miguel.jpeg",
-      "colour": "39,46,50"
-    },
-    {
-      "artist": "Refused",
-      "albumName": "Freedom",
-      "image": "/Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/HZi6VJj5F0eE7RmVkBTPcwFreedom.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "refused",
-      "imagePath": "imgs/any__decent__music/refused.jpeg",
-      "colour": "167,154,134"
-    },
-    {
-      "artist": "Richard Thompson",
-      "albumName": "Still",
-      "image": "/Resources/Images/SAzwFSZR0km8aQdjqS5ilQStill.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/SAzwFSZR0km8aQdjqS5ilQStill.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "richardthompson",
-      "imagePath": "imgs/any__decent__music/richardthompson.jpeg",
-      "colour": "184,177,170"
-    },
-    {
-      "artist": "Novella",
-      "albumName": "Land",
-      "image": "/Resources/Images/wibsFf4T1UK_-cf3n5KJQALand.jpg",
-      "fullimage": "http://www.anydecentmusic.com//Resources/Images/wibsFf4T1UK_-cf3n5KJQALand.jpg",
-      "rating": "8.0",
-      "stars": "four",
-      "idvalue": "novella",
-      "imagePath": "imgs/any__decent__music/novella.jpeg",
-      "colour": "48,76,98"
     }
   ]
 }

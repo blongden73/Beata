@@ -32,14 +32,14 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $(".featured-rows .row .featured").each(function(index) {
-            var artistName = $(".artist a", this).html();
+            var artistName = $(".artist a", this).html().replace('&#xF6;', 'ö');
             if (artistName == null) {
                 artistName = 'Various Artists'
             };
             if (artistName == "Anima Music&#xE6; Chamber Orchestra") {
                 artistName = "Anima Musicæ Chamber Orchestra"
             };
-            var albumName = $(".title a", this).html().replace('&#xE4;', 'ä');
+            var albumName = $(".title a", this).html().replace('&#xE4;', 'ä').replace('&#xF6;', 'ö');
             var imageLink = $(".album-cover a img.lazy", this).data('original');
             var ratingNo = $(".rating.allmusic span", this).attr('class').replace('allmusic-rating', '');
             var ratingsplit = ratingNo.split('-');

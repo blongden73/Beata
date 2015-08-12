@@ -7,40 +7,74 @@
   ],
   "artists": [
     {
-      "artist": "Joseph Moog",
-      "albumName": "Grieg &amp; Moszkowski: Piano Concertos",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/862/MI0003862289.jpg?partner=allrovi.com",
+      "artist": "Locrian",
+      "albumName": "Infinite Dissolution",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874302.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "josephmoog",
-      "imagePath": "imgs/all__music/josephmoog.jpeg",
-      "colour": "22,23,25",
-      "Id": "24kGrCKxX5OW1eq0mNk15V",
-      "Spotnames": "Joseph Moog"
+      "idvalue": "locrian",
+      "imagePath": "imgs/all__music/locrian.jpeg",
+      "colour": "108,117,135"
     },
     {
-      "artist": "Armonico Consort",
-      "albumName": "Purcell: Dido &amp; Aeneas",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/861/MI0003861714.jpg?partner=allrovi.com",
+      "artist": "Goldberg",
+      "albumName": "Misty Flats",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/892/MI0003892545.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "armonicoconsort",
-      "imagePath": "imgs/all__music/armonicoconsort.jpeg",
-      "colour": "55,40,37",
-      "Id": "6pkQmg2GtB75nUYUVidpt3",
-      "Spotnames": "Armonico Consort"
+      "idvalue": "goldberg",
+      "imagePath": "imgs/all__music/goldberg.jpeg",
+      "colour": "220,195,163"
     },
     {
-      "artist": "BBC Philharmonic Orchestra",
-      "albumName": "Nielsen: Complete Symphonies",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/871/MI0003871411.jpg?partner=allrovi.com",
+      "artist": "Hamburg State Philharmonic Orchestra",
+      "albumName": "Bruckner: Sinfonie No. 9",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882627.jpg?partner=allrovi.com",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "hamburgstatephilharmonicorchestra",
+      "imagePath": "imgs/all__music/hamburgstatephilharmonicorchestra.jpeg",
+      "colour": "212,208,209"
+    },
+    {
+      "artist": "Mark Elder",
+      "albumName": "Vaughan Williams: Pastoral Symphony; Fantasia on a Theme by Thomas Tallis; Five Variants of &quot;Dives and Lazarus&quot;; Overture &quot;The Wasps&quot;",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/870/MI0003870350.jpg?partner=allrovi.com",
+      "rating": "9",
+      "stars": "fourHalf",
+      "idvalue": "markelder",
+      "imagePath": "imgs/all__music/markelder.jpeg",
+      "colour": "230,224,217"
+    },
+    {
+      "artist": "Iveta Apkalna",
+      "albumName": "Bach, Glass",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882140.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "bbcphilharmonicorchestra",
-      "imagePath": "imgs/all__music/bbcphilharmonicorchestra.jpeg",
-      "colour": "224,219,220",
-      "Id": "1z9u3vLr7gw6IBS8CP8c2X",
-      "Spotnames": "BBC Philharmonic Orchestra"
+      "idvalue": "ivetaapkalna",
+      "imagePath": "imgs/all__music/ivetaapkalna.jpeg",
+      "colour": "44,33,38"
+    },
+    {
+      "artist": "Tobias Berndt",
+      "albumName": "Fanny Hensel: Goethe-Lieder",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/869/MI0003869119.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "tobiasberndt",
+      "imagePath": "imgs/all__music/tobiasberndt.jpeg",
+      "colour": "47,45,45"
+    },
+    {
+      "artist": "Roland Pöntinen",
+      "albumName": "Liszt: Works for Violin and Piano",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882631.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "rolandpöntinen",
+      "imagePath": "imgs/all__music/rolandpöntinen.jpeg",
+      "colour": "244,235,227"
     }
   ]
 }

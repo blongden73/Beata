@@ -6,6 +6,16 @@
   ],
   "artists": [
     {
+      "artist": "Titus Andronicus",
+      "albumName": " The Most Lamentable Tragedy",
+      "image": "https://consequenceofsound.files.wordpress.com/2015/07/screen-shot-2015-07-20-at-12-54-51-pm.png?w=350&h=350&crop=1",
+      "rating": "A",
+      "stars": "four",
+      "idvalue": "titusandronicus-themostlamentabletragedy",
+      "imagePath": "imgs/COS/titusandronicus-themostlamentabletragedy.jpeg",
+      "colour": "141,157,91"
+    },
+    {
       "artist": "Tame Impala",
       "albumName": " Currents",
       "image": "https://consequenceofsound.files.wordpress.com/2015/04/tame-impala-currents.jpg?w=350&h=350&crop=1",
@@ -114,16 +124,6 @@
       "idvalue": "dandeacon-glissriffer",
       "imagePath": "imgs/COS/dandeacon-glissriffer.jpeg",
       "colour": "224,202,178"
-    },
-    {
-      "artist": "Father John Misty",
-      "albumName": " I Love You, Honeybear",
-      "image": "https://consequenceofsound.files.wordpress.com/2015/02/screen-shot-2015-02-04-at-10-07-44-am.png?w=350&h=350&crop=1",
-      "rating": "A-",
-      "stars": "fourHalf",
-      "idvalue": "fatherjohnmisty-iloveyou,honeybear",
-      "imagePath": "imgs/COS/fatherjohnmisty-iloveyou,honeybear.jpeg",
-      "colour": "217,182,167"
     }
   ]
 }

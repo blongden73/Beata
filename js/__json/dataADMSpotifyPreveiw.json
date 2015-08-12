@@ -1,0 +1,144 @@
+{
+  "provider": [
+    {
+      "provider": "Any Decent Music",
+      "url": "http://www.anydecentmusic.com"
+    }
+  ],
+  "artists": [
+    {
+      "artist": "Ducktails",
+      "albumName": "St. Catherine",
+      "image": "/Resources/Images/BlCqjvVj-E2JcBp1QHfcbQSt.Catherine.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/BlCqjvVj-E2JcBp1QHfcbQSt.Catherine.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "ducktails",
+      "imagePath": "imgs/any__decent__music/ducktails.jpeg",
+      "colour": "97,134,86",
+      "Id": "5FQbU5Lrb4pFcW45ZgZzMx",
+      "Spotnames": "Ducktails",
+      "previewURL": "https://p.scdn.co/mp3-preview/10790ef4c4165d06be9773955193cfd05bacacfa"
+    },
+    {
+      "artist": "Wilco",
+      "albumName": "Star Wars",
+      "image": "/Resources/Images/YY7wmjVUAkSZFYzM5IA90gStarWars.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/YY7wmjVUAkSZFYzM5IA90gStarWars.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "wilco",
+      "imagePath": "imgs/any__decent__music/wilco.jpeg",
+      "colour": "191,176,164",
+      "Id": "2QoU3awHVdcHS8LrZEKvSM",
+      "Spotnames": "Wilco",
+      "previewURL": "https://p.scdn.co/mp3-preview/3ef686e90f708a1f620dd294ea31dfc998924815"
+    },
+    {
+      "artist": "Gwenno",
+      "albumName": "Y Dydd Olaf",
+      "image": "/Resources/Images/CErn0OFoh0i3_pbyrnn18AYDyddOlaf.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/CErn0OFoh0i3_pbyrnn18AYDyddOlaf.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "gwenno",
+      "imagePath": "imgs/any__decent__music/gwenno.jpeg",
+      "colour": "98,95,87",
+      "Id": "44mRrrRjaV8iu1VLIKuwty",
+      "Spotnames": "Gwenno",
+      "previewURL": "https://p.scdn.co/mp3-preview/d86db294a0edc808f4d35f843168ac75a5a82cbd"
+    },
+    {
+      "artist": "Lamb Of God",
+      "albumName": "VII:Sturm Und Drang",
+      "image": "/Resources/Images/6xXWfymkgU6MKbhwYeRj8wVII SturmUndDrang.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/6xXWfymkgU6MKbhwYeRj8wVII SturmUndDrang.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "lambofgod",
+      "imagePath": "imgs/any__decent__music/lambofgod.jpeg",
+      "colour": "113,97,72"
+    },
+    {
+      "artist": "Vinyl Williams",
+      "albumName": "Into",
+      "image": "/Resources/Images/LFI0G2mnxUqC4ZiVbhEIZQInto.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/LFI0G2mnxUqC4ZiVbhEIZQInto.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "vinylwilliams",
+      "imagePath": "imgs/any__decent__music/vinylwilliams.jpeg",
+      "colour": "41,42,45",
+      "Id": "7GJ7lI9jmrNOuxBEcNQHPT",
+      "Spotnames": "Vinyl Williams",
+      "previewURL": "https://p.scdn.co/mp3-preview/4d68be3a2c3c74baf5bce416e4a4463c441a4451"
+    },
+    {
+      "artist": "Ratatat",
+      "albumName": "Magnifique",
+      "image": "/Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/IMuKrd89NkSSaxPpZh9m5wMagnifique.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "ratatat",
+      "imagePath": "imgs/any__decent__music/ratatat.jpeg",
+      "colour": "138,140,139",
+      "Id": "57dN52uHvrHOxijzpIgu3E",
+      "Spotnames": "Ratatat",
+      "previewURL": "https://p.scdn.co/mp3-preview/1a4d5866fa8a8c75c2f5f7738c9d3addc2974c52"
+    },
+    {
+      "artist": "Flying Saucer Attack",
+      "albumName": "Instrumentals 2015",
+      "image": "/Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/MgXwcGawHESzK_xXqaKQqAInstrumentals.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "flyingsaucerattack",
+      "imagePath": "imgs/any__decent__music/flyingsaucerattack.jpeg",
+      "colour": "74,73,82",
+      "Id": "336fB3AJgK8AvHX5bD8d9A",
+      "Spotnames": "Flying Saucer Attack",
+      "previewURL": "https://p.scdn.co/mp3-preview/fcfc03626539f27ad36b05d1ba921bc791e73d6f"
+    },
+    {
+      "artist": "White Reaper",
+      "albumName": "White Reaper Does It Again",
+      "image": "/Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/v3UgTeGkkkSHhU0f0zc9mQWhiteReaperDoesItAgain.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "whitereaper",
+      "imagePath": "imgs/any__decent__music/whitereaper.jpeg",
+      "colour": "35,26,15",
+      "Id": "75klPfIVnyYcyEGaicRUSF",
+      "Spotnames": "White Reaper",
+      "previewURL": "https://p.scdn.co/mp3-preview/84a7d3dfdc37954ca18d055b05fe6dda6b081405"
+    },
+    {
+      "artist": "Matrixxman",
+      "albumName": "Homesick ",
+      "image": "/Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/4W8WgjzMCEK0siRSzUlN3wHomesick.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "matrixxman",
+      "imagePath": "imgs/any__decent__music/matrixxman.jpeg",
+      "colour": "58,59,59"
+    },
+    {
+      "artist": "EZTV",
+      "albumName": "Calling Out",
+      "image": "/Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "fullimage": "http://www.anydecentmusic.com//Resources/Images/364-tJ17wkSPdqSUP5IzSACallingOut.jpg",
+      "rating": "8.0",
+      "stars": "four",
+      "idvalue": "eztv",
+      "imagePath": "imgs/any__decent__music/eztv.jpeg",
+      "colour": "29,29,28",
+      "Id": "34S3YvCj4dDuVG4pYToIuf",
+      "Spotnames": "EZTV",
+      "previewURL": "https://p.scdn.co/mp3-preview/2e365c09212fa38df0b65a26414cfbdb8bda34df"
+    }
+  ]
+}
