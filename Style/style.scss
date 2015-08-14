@@ -174,12 +174,22 @@ header {
 			position: relative;
 			
 			& .playing{
-				background-color: aqua;
-				color: black;
-				position: absolute;
-				z-index: 1000;
-				top: 10px;
-				display: none;
+			background-color: white;
+			position: absolute;
+			z-index: 1000;
+			bottom: 10px;
+			right: 10px;
+			border-radius: 50%;
+			width: 30px;
+			height: 22px;
+			border: 1px solid white;
+			margin-right: 4px;
+			@include h1;
+			text-align: center;
+			padding-top: 8px;
+			opacity: 0.5;
+				
+				//display: none;
 			}
 		}
 		

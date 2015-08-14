@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 		execute: {
         target: {
             src: [
-            'js/__api/__images/ADMimage.js', 
+          /*  'js/__api/__images/ADMimage.js', 
             'js/__api/__data/ADM.js', 
             'js/__api/spotifyADM.js',
             'js/__api/spotifyADMPreveiw.js',
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
             'js/__api/__images/AllMusicApiImages.js', 
             'js/__api/__data/AllMusicApi.js',
             'js/__api/spotifyAM.js',
-            'js/__api/spotifyAMPreview.js'
+            'js/__api/spotifyAMPreview.js' */
             ]
         		}
     	},
