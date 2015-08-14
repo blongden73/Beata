@@ -85,7 +85,15 @@ header {
         vertical-align: middle;
         line-height: normal; }
     #music__container li.cover {
-      overflow: hidden; }
+      overflow: hidden;
+      position: relative; }
+      #music__container li.cover .playing {
+        background-color: aqua;
+        color: black;
+        position: absolute;
+        z-index: 1000;
+        top: 10px;
+        display: none; }
     #music__container li.album__details {
       position: relative; }
     #music__container li.cover img {

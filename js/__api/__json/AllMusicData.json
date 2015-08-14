@@ -7,74 +7,54 @@
   ],
   "artists": [
     {
-      "artist": "Locrian",
-      "albumName": "Infinite Dissolution",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/874/MI0003874302.jpg?partner=allrovi.com",
-      "rating": "8",
-      "stars": "four",
-      "idvalue": "locrian",
-      "imagePath": "imgs/all__music/locrian.jpeg",
-      "colour": "108,117,135"
-    },
-    {
-      "artist": "Goldberg",
-      "albumName": "Misty Flats",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/892/MI0003892545.jpg?partner=allrovi.com",
-      "rating": "8",
-      "stars": "four",
-      "idvalue": "goldberg",
-      "imagePath": "imgs/all__music/goldberg.jpeg",
-      "colour": "220,195,163"
-    },
-    {
-      "artist": "Hamburg State Philharmonic Orchestra",
-      "albumName": "Bruckner: Sinfonie No. 9",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882627.jpg?partner=allrovi.com",
+      "artist": "Mikhail Pletnev",
+      "albumName": "Scriabin: Symphony No. 1; The Poem of Ecstasy",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882508.jpg?partner=allrovi.com",
       "rating": "9",
       "stars": "fourHalf",
-      "idvalue": "hamburgstatephilharmonicorchestra",
-      "imagePath": "imgs/all__music/hamburgstatephilharmonicorchestra.jpeg",
-      "colour": "212,208,209"
+      "idvalue": "mikhailpletnev",
+      "imagePath": "imgs/all__music/mikhailpletnev.jpeg",
+      "colour": "54,59,109"
     },
     {
-      "artist": "Mark Elder",
-      "albumName": "Vaughan Williams: Pastoral Symphony; Fantasia on a Theme by Thomas Tallis; Five Variants of &quot;Dives and Lazarus&quot;; Overture &quot;The Wasps&quot;",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/870/MI0003870350.jpg?partner=allrovi.com",
-      "rating": "9",
-      "stars": "fourHalf",
-      "idvalue": "markelder",
-      "imagePath": "imgs/all__music/markelder.jpeg",
-      "colour": "230,224,217"
-    },
-    {
-      "artist": "Iveta Apkalna",
-      "albumName": "Bach, Glass",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882140.jpg?partner=allrovi.com",
+      "artist": "Balthasar-Neumann-Chor",
+      "albumName": "Praetorius",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/884/MI0003884974.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "ivetaapkalna",
-      "imagePath": "imgs/all__music/ivetaapkalna.jpeg",
-      "colour": "44,33,38"
+      "idvalue": "balthasar-neumann-chor",
+      "imagePath": "imgs/all__music/balthasar-neumann-chor.jpeg",
+      "colour": "93,120,108"
     },
     {
-      "artist": "Tobias Berndt",
-      "albumName": "Fanny Hensel: Goethe-Lieder",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/869/MI0003869119.jpg?partner=allrovi.com",
+      "artist": "Garrick Ohlsson",
+      "albumName": "Debussy, Bart&#xF3;k, Prokofiev: &#xC9;tudes",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/875/MI0003875948.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "tobiasberndt",
-      "imagePath": "imgs/all__music/tobiasberndt.jpeg",
-      "colour": "47,45,45"
+      "idvalue": "garrickohlsson",
+      "imagePath": "imgs/all__music/garrickohlsson.jpeg",
+      "colour": "206,195,114"
     },
     {
-      "artist": "Roland Pöntinen",
-      "albumName": "Liszt: Works for Violin and Piano",
-      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882631.jpg?partner=allrovi.com",
+      "artist": "Steven Mayer",
+      "albumName": "Louis Moreau Gottschalk: A Night in the Tropics - Solo Piano Music",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882131.jpg?partner=allrovi.com",
       "rating": "8",
       "stars": "four",
-      "idvalue": "rolandpöntinen",
-      "imagePath": "imgs/all__music/rolandpöntinen.jpeg",
-      "colour": "244,235,227"
+      "idvalue": "stevenmayer",
+      "imagePath": "imgs/all__music/stevenmayer.jpeg",
+      "colour": "53,51,67"
+    },
+    {
+      "artist": "Pia Pajala",
+      "albumName": "Sibelius: Belshazzar&apos;s Feast; Overture in E; Sc&#xE8;ne de Ballet; Wedding March; Cort&#xE8;ge; Menuetto; Processional",
+      "image": "http://cps-static.rovicorp.com/3/JPG_170/MI0003/882/MI0003882522.jpg?partner=allrovi.com",
+      "rating": "8",
+      "stars": "four",
+      "idvalue": "piapajala",
+      "imagePath": "imgs/all__music/piapajala.jpeg",
+      "colour": "122,105,124"
     }
   ]
 }

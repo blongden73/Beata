@@ -8,6 +8,19 @@
   ],
   "artists": [
     {
+      "artist": "Dr. Dre",
+      "albumName": "Compton",
+      "image": "http://cdn3.pitchfork.com/albums/22197/list.8ef1a836.jpg",
+      "rating": "8.8",
+      "stars": "fourHalf",
+      "idvalue": "dr.dre",
+      "imagePath": "imgs/pitchfork/dr.dre.jpeg",
+      "colour": "114,109,103",
+      "Id": "6DPYiyq5kWVQS4RGwxzPC7",
+      "Spotnames": "Dr. Dre",
+      "previewURL": "https://p.scdn.co/mp3-preview/70b2b5adb595c1aa1102e435df24535284d447a7"
+    },
+    {
       "artist": "Future",
       "albumName": "Dirty Sprite 2",
       "image": "http://cdn4.pitchfork.com/albums/22071/list.3d56dd9d.jpg",
@@ -58,19 +71,6 @@
       "Id": "68kEuyFKyqrdQQLLsmiatm",
       "Spotnames": "Vince Staples",
       "previewURL": "https://p.scdn.co/mp3-preview/6bb1ceaf0fd579acc9d660f5e706ba50aea8f275"
-    },
-    {
-      "artist": "Thundercat",
-      "albumName": "The Beyond / Where the Giants Roam",
-      "image": "http://cdn.pitchfork.com/albums/22019/list.fa076f40.jpg",
-      "rating": "8.3",
-      "stars": "four",
-      "idvalue": "thundercat",
-      "imagePath": "imgs/pitchfork/thundercat.jpeg",
-      "colour": "59,73,60",
-      "Id": "4frXpPxQQZwbCu3eTGnZEw",
-      "Spotnames": "Thundercat",
-      "previewURL": "https://p.scdn.co/mp3-preview/78d337cb16c0373d90744c210a9ebe5e4742025a"
     }
   ]
 }

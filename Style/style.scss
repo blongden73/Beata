@@ -171,6 +171,16 @@ header {
 		
 		&.cover{
 			overflow: hidden;
+			position: relative;
+			
+			& .playing{
+				background-color: aqua;
+				color: black;
+				position: absolute;
+				z-index: 1000;
+				top: 10px;
+				display: none;
+			}
 		}
 		
 		&.album__details{

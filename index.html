@@ -27,7 +27,11 @@
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="cover"><img src="{{imagePath}}">
+					<div class="playing">
+						<p>playing</p>
+					</div>
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -38,7 +42,7 @@
 					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				<audio class="player" preload="true" controls>
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
 				</li>

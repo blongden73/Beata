@@ -7,40 +7,52 @@
   ],
   "artists": [
     {
-      "artist": "Jason Isbell",
-      "albumName": " Something More Than Free",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/jason-isbell-something-more-than-free-20150717/203121/large_square/1437066506/200x200-JasonIsbell_300dpi_Photo04.jpg",
+      "artist": "Ashley Monroe",
+      "albumName": " The Blade",
+      "image": "http://assets.rollingstone.com/assets/2015/albumreview/ashley-monroe-the-blade-20150812/205864/large_square/1439316903/200x200-GettyImages-481621888.jpg",
       "rating": "4",
       "stars": "four",
-      "idvalue": "jasonisbell",
-      "imagePath": "imgs/rolling__stone/jasonisbell.jpeg",
-      "colour": "38,26,26",
-      "Id": "3Q8wgwyVVv0z4UEh1HB0KY",
-      "Spotnames": "Jason Isbell"
+      "idvalue": "ashleymonroe",
+      "imagePath": "imgs/rolling__stone/ashleymonroe.jpeg",
+      "colour": "230,143,169",
+      "Id": "37BiX28I6pF104F92U1hDP",
+      "Spotnames": "Ashley Monroe"
     },
     {
-      "artist": "Miles Davis",
-      "albumName": " Miles Davis at Newport 1955-1975: The Bootleg Series Vol. 4",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/miles-davis-miles-davis-at-newport-1955-1975-the-bootleg-series-vol-4-20150717/203125/large_square/1437067538/200x200-GettyImages-97330562.jpg",
+      "artist": "Pavement",
+      "albumName": " The Secret History Vol. 1",
+      "image": "http://assets.rollingstone.com/assets/2015/albumreview/pavement-the-secret-history-vol-1-20150812/205870/large_square/1439318337/200x200-527977c4a3965.jpg",
       "rating": "4",
       "stars": "four",
-      "idvalue": "milesdavis",
-      "imagePath": "imgs/rolling__stone/milesdavis.jpeg",
-      "colour": "200,200,200",
-      "Id": "0kbYTNQb4Pb1rPbbaF0pT4",
-      "Spotnames": "Miles Davis"
+      "idvalue": "pavement",
+      "imagePath": "imgs/rolling__stone/pavement.jpeg",
+      "colour": "190,149,100",
+      "Id": "3inCNiUr4R6XQ3W43s9Aqi",
+      "Spotnames": "Pavement"
     },
     {
-      "artist": "Miguel",
-      "albumName": " Wildheart",
-      "image": "http://assets.rollingstone.com/assets/2015/albumreview/miguel-wildheart-20150630/199955/large_square/1434565682/200x200-M-150401_DS_PRESS.jpg",
+      "artist": "Dr. Dre",
+      "albumName": " Compton",
+      "image": "http://assets.rollingstone.com/assets/2015/albumreview/dr-dre-compton-20150806/205446/large_square/1438897841/200x200-GettyImages-463351620.jpg",
       "rating": "4",
       "stars": "four",
-      "idvalue": "miguel",
-      "imagePath": "imgs/rolling__stone/miguel.jpeg",
-      "colour": "32,25,35",
-      "Id": "360IAlyVv4PCEVjgyMZrxK",
-      "Spotnames": "Miguel"
+      "idvalue": "dr.dre",
+      "imagePath": "imgs/rolling__stone/dr.dre.jpeg",
+      "colour": "5,59,119",
+      "Id": "6DPYiyq5kWVQS4RGwxzPC7",
+      "Spotnames": "Dr. Dre"
+    },
+    {
+      "artist": "Led Zeppelin",
+      "albumName": " Coda (Reissue)",
+      "image": "http://assets.rollingstone.com/assets/2015/albumreview/led-zeppelin-coda-reissue-20150731/204613/large_square/1438286032/200x200-GettyImages-88428387.jpg",
+      "rating": "4",
+      "stars": "four",
+      "idvalue": "ledzeppelin",
+      "imagePath": "imgs/rolling__stone/ledzeppelin.jpeg",
+      "colour": "42,37,30",
+      "Id": "36QJpDe2go2KgaRleHCDTp",
+      "Spotnames": "Led Zeppelin"
     }
   ]
 }

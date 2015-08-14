@@ -7,6 +7,19 @@
   ],
   "artists": [
     {
+      "artist": "Julio Bashmore",
+      "albumName": " Knockin Boots&#x2019;",
+      "image": "http://media.timeout.com/images/102802171/image.jpg",
+      "rating": "5",
+      "stars": "five",
+      "idvalue": "juliobashmore",
+      "imagePath": "imgs/time__out/juliobashmore.jpeg",
+      "colour": "228,223,222",
+      "Id": "0WAZJYudbUpl0EOjvdrnRG",
+      "Spotnames": "Julio Bashmore",
+      "previewURL": "https://p.scdn.co/mp3-preview/0addfa6f5d0a7bd76327b0dfb69446214719ce9e"
+    },
+    {
       "artist": "The Chemical Brothers",
       "albumName": " Born in the Echoes",
       "image": "http://media.timeout.com/images/102782693/image.jpg",

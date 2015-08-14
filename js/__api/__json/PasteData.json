@@ -7,9 +7,86 @@
   ],
   "artists": [
     {
+      "artist": "Led Zeppelin",
+      "albumName": " Presence, <i>In Through the Out Door</i> and <i>Coda</i> Reissues",
+      "image": "http://cdn.pastemagazine.com/www/articles/zeppelin%20reissues.jpg?635750725177242369",
+      "rating": "7.8",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "ledzeppelin",
+      "imagePath": "imgs/paste/ledzeppelin.jpeg",
+      "colour": "194,177,170"
+    },
+    {
+      "artist": "Salim Nourallah",
+      "albumName": " Skeleton Closet",
+      "image": "http://cdn.pastemagazine.com/www/articles/Salim%20Nourallah%20Skeleton%20Closet.jpg?635750725177242369",
+      "rating": "8.3",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "salimnourallah",
+      "imagePath": "imgs/paste/salimnourallah.jpeg",
+      "colour": "235,197,182"
+    },
+    {
+      "artist": "Bill Evans",
+      "albumName": " The Complete Fantasy Recordings",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/08/11/513jUT7uWlL.jpg?635750725177252370",
+      "rating": "9.3",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "idvalue": "billevans",
+      "imagePath": "imgs/paste/billevans.jpeg",
+      "colour": "59,89,99"
+    },
+    {
+      "artist": "La Luz",
+      "albumName": " Weirdo Shrine",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/08/04/la-luz-weirdo-shine.jpg?635750725177272372",
+      "rating": "8.3",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "laluz",
+      "imagePath": "imgs/paste/laluz.jpeg",
+      "colour": "7,6,6"
+    },
+    {
+      "artist": "Mac Demarco",
+      "albumName": " Another One",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/08/04/a4fea4593f0148e6ad0e02815fe5e6bb.500x500x1.jpg?635750725177272372",
+      "rating": "8.3",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "macdemarco",
+      "imagePath": "imgs/paste/macdemarco.jpeg",
+      "colour": "53,52,48"
+    },
+    {
+      "artist": "Roger Waters",
+      "albumName": " Amused to Death Reissue",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/28/waters1.jpg?635750725177292374",
+      "rating": "8.0",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "rogerwaters",
+      "imagePath": "imgs/paste/rogerwaters.jpeg",
+      "colour": "24,24,23"
+    },
+    {
+      "artist": "Wilco",
+      "albumName": " Star Wars",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/28/wilco-starwars.jpg?635750725177302375",
+      "rating": "8.0",
+      "ratingRound": 8,
+      "stars": "four",
+      "idvalue": "wilco",
+      "imagePath": "imgs/paste/wilco.jpeg",
+      "colour": "189,173,163"
+    },
+    {
       "artist": "Watkins Family Hour",
       "albumName": " Watkins Family Hour",
-      "image": "http://cdn.pastemagazine.com/www/articles/Watkins%20Family%20Hour.jpg?635735005116262230",
+      "image": "http://cdn.pastemagazine.com/www/articles/Watkins%20Family%20Hour.jpg?635750725177302375",
       "rating": "8.8",
       "ratingRound": 9,
       "stars": "fourHalf",
@@ -20,7 +97,7 @@
     {
       "artist": "Eleventh Dream Day",
       "albumName": " Works For Tomorrow",
-      "image": "http://cdn.pastemagazine.com/www/articles/Eleventh%20Dream%20Day%20LP.jpg?635735005116262230",
+      "image": "http://cdn.pastemagazine.com/www/articles/Eleventh%20Dream%20Day%20LP.jpg?635750725177312376",
       "rating": "8.7",
       "ratingRound": 9,
       "stars": "fourHalf",
@@ -31,123 +108,13 @@
     {
       "artist": "Strange Wilds",
       "albumName": " Subjective Concepts",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/21/strangewilds.jpg?635735005116272231",
+      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/21/strangewilds.jpg?635750725177322377",
       "rating": "8.4",
       "ratingRound": 8,
       "stars": "four",
       "idvalue": "strangewilds",
       "imagePath": "imgs/paste/strangewilds.jpeg",
       "colour": "214,209,211"
-    },
-    {
-      "artist": "Titus Andronicus",
-      "albumName": " The Most Lamentable Tragedy",
-      "image": "http://cdn.pastemagazine.com/www/articles/titus-andronicus-the-most-lamentable-tragedy.jpg?635735005116272231",
-      "rating": "9.1",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "titusandronicus",
-      "imagePath": "imgs/paste/titusandronicus.jpeg",
-      "colour": "142,159,93"
-    },
-    {
-      "artist": "Ashley Monroe",
-      "albumName": " The Blade",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/21/AM_Cover_TheBlade-FNL-560x560-560x560.jpg?635735005116282232",
-      "rating": "8.9",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "ashleymonroe",
-      "imagePath": "imgs/paste/ashleymonroe.jpeg",
-      "colour": "53,53,53"
-    },
-    {
-      "artist": "Tame Impala",
-      "albumName": " Currents",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/04192b63.jpg?635735005116292233",
-      "rating": "9.4",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "tameimpala",
-      "imagePath": "imgs/paste/tameimpala.jpeg",
-      "colour": "44,33,49"
-    },
-    {
-      "artist": "Joss Stone",
-      "albumName": " Water For Your Soul",
-      "image": "http://cdn.pastemagazine.com/www/articles/Joss%20Stone%20Water%20For%20Your%20Soul.jpg?635735005116302234",
-      "rating": "8.3",
-      "ratingRound": 8,
-      "stars": "four",
-      "idvalue": "jossstone",
-      "imagePath": "imgs/paste/jossstone.jpeg",
-      "colour": "224,213,207"
-    },
-    {
-      "artist": "Bad Bad Hats",
-      "albumName": " Psychic Reader",
-      "image": "http://cdn.pastemagazine.com/www/articles/Bad%20Bad%20Hats%20cover.jpg?635735005116302234",
-      "rating": "9.0",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "badbadhats",
-      "imagePath": "imgs/paste/badbadhats.jpeg",
-      "colour": "203,224,224"
-    },
-    {
-      "artist": "Iron & Wine and Ben Bridwell",
-      "albumName": " Sing Into My Mouth",
-      "image": "http://cdn.pastemagazine.com/www/articles/Sing%20Into%20My%20Mouth%20cover.jpg?635735005116312235",
-      "rating": "8.0",
-      "ratingRound": 8,
-      "stars": "four",
-      "idvalue": "iron&wineandbenbridwell",
-      "imagePath": "imgs/paste/iron&wineandbenbridwell.jpeg",
-      "colour": "203,161,174"
-    },
-    {
-      "artist": "Jason Isbell",
-      "albumName": " Something More Than Free",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/jason-isbell-something-more-than-free-560x560.jpg?635735005116322236",
-      "rating": "8.6",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "jasonisbell",
-      "imagePath": "imgs/paste/jasonisbell.jpeg",
-      "colour": "33,32,32"
-    },
-    {
-      "artist": "White Reaper",
-      "albumName": " White Reaper Does It Again",
-      "image": "http://cdn.pastemagazine.com/www/articles/2015/07/14/whitereaper.jpg?635735005116322236",
-      "rating": "8.8",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "whitereaper",
-      "imagePath": "imgs/paste/whitereaper.jpeg",
-      "colour": "28,22,14"
-    },
-    {
-      "artist": "Screature",
-      "albumName": " Four Columns",
-      "image": "http://cdn.pastemagazine.com/www/articles/Screture%20Four%20Columns.jpg?635735005116332237",
-      "rating": "7.5",
-      "ratingRound": 8,
-      "stars": "four",
-      "idvalue": "screature",
-      "imagePath": "imgs/paste/screature.jpeg",
-      "colour": "201,198,187"
-    },
-    {
-      "artist": "Veruca Salt",
-      "albumName": " Ghost Notes",
-      "image": "http://cdn.pastemagazine.com/www/articles/veruca%20salt%20ghost%20notes.jpg?635735005116332237",
-      "rating": "9.1",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "idvalue": "verucasalt",
-      "imagePath": "imgs/paste/verucasalt.jpeg",
-      "colour": "192,176,133"
     }
   ]
 }

@@ -21,34 +21,38 @@ module.exports = function(grunt) {
 		execute: {
         target: {
             src: [
-	           'js/__api/api.js',
-	           'js/__api/spotify.js',
-	           'js/__api/spotifyPreveiw.js' 
-	            
-           /* 'js/__api/ADMimage.js', 
-            'js/__api/ADM.js', 
-            'js/__api/apiImages.js', 
-            'js/__api/api.js', 
-            'js/__api/COSApiImages.js', 
-            'js/__api/COSApi.js', 
-            'js/__api/pasteApiImages.js', 
-            'js/__api/pasteApi.js', 
-            'js/__api/rollingStoneApiImages.js', 
-            'js/__api/rollingStoneApi.js', 
-            'js/__api/TimeOutApiImages.js', 
-            'js/__api/TimeOutApi.js', 
-            'js/__api/UncutApiImages.js', 
-            'js/__api/UncutApi.js', 
-            'js/__api/AllMusicApiImages.js', 
-            'js/__api/AllMusicApi.js',
-            'js/__api/spotify.js',
+            'js/__api/__images/ADMimage.js', 
+            'js/__api/__data/ADM.js', 
             'js/__api/spotifyADM.js',
-            'js/__api/spotifyAM.js',
+            'js/__api/spotifyADMPreveiw.js',
+            'js/__api/__images/apiImages.js', 
+            'js/__api/__data/api.js',
+            'js/__api/spotify.js',
+	        'js/__api/spotifyPreveiw.js',  
+            'js/__api/__images/COSApiImages.js', 
+            'js/__api/__data/COSApi.js',
             'js/__api/spotifyCOS.js',
-            'js/__api/spotifyPaste.js',
+            'js/__api/spotifyCOSPreview.js', 
+            'js/__api/__images/pasteApiImages.js', 
+            'js/__api/__data/pasteApi.js',
+            'js/__api/spotifyPaste.js', 
+            'js/__api/spotifyPastePreview.js' ,
+            'js/__api/__images/rollingStoneApiImages.js', 
+            'js/__api/__data/rollingStoneApi.js',
             'js/__api/spotifyRolling.js',
+            'js/__api/spotifyRollingPreview.js', 
+            'js/__api/__images/TimeOutApiImages.js', 
+            'js/__api/__data/TimeOutApi.js',
             'js/__api/spotifyTimeOut.js',
-            'js/__api/spotifyUncut.js',*/
+            'js/__api/spotifyTimeOutPreview.js', 
+            'js/__api/__images/UncutApiImages.js', 
+            'js/__api/__data/UncutApi.js', 
+            'js/__api/spotifyUncut.js',
+            'js/__api/spotifyUncutPreview.js',
+            'js/__api/__images/AllMusicApiImages.js', 
+            'js/__api/__data/AllMusicApi.js',
+            'js/__api/spotifyAM.js',
+            'js/__api/spotifyAMPreview.js'
             ]
         		}
     	},
@@ -65,9 +69,10 @@ module.exports = function(grunt) {
                 dest: 'src/Datajson.js'
             }
         }
-    			
+            			
 	});
 	
+	grunt.loadNpmTasks('grunt-notify');
 	grunt.loadNpmTasks('grunt-execute');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
