@@ -20,6 +20,14 @@
 		
 		</div>
 	</div>
+	
+	<!--<div class="NowPlayingfooter">
+		<div class="NowPlayingTitle">
+			<h1>Now Previewing</h1>
+		</div>
+	</div>-->
+		
+		<!-- Start Pitchfork -->
 		
 		<ul id="music__container">
 			<script id="pitchfork__template" type="text/x-handlebars-template">
@@ -28,35 +36,12 @@
 			{{/provider}}
 			{{#artists}}
 				<li class="cover"><img src="{{imagePath}}">
+					{{#if previewURL}}
 					<div class="playing" style="color: rgb({{colour}})">
 						30
 					</div>
+					{{/if}}
 				</li>
-				<li class="album__details" style="background-color: rgb({{colour}})">
-				<h1>{{artist}}</h1>
-				<h2>{{albumName}}</h2>
-				<div class="stars {{stars}}">
-									</div>
-				<div class="links">
-					{{#if previewURL}}
-					<span class="play"><img src="assets/play-01.svg"></span>
-					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
-					<span class="social"><img src="assets/share.svg"></span>
-				</div>
-				<audio class="player" preload="true">
-					<source src="{{previewURL}}" type="audio/mpeg">	
-					</audio>
-				</li>
-				
-			{{/artists}}
-			</script>
-		</ul>	
-			<script id="ADM__template" type="text/x-handlebars-template">
-			{{#provider}}
-				<li class="provider"><h1>{{provider}}</h1></li>
-			{{/provider}}
-			{{#artists}}
-				<li class="cover"><img src="{{imagePath}}"></li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -69,18 +54,66 @@
 					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" data-artist-name="{{artist}}" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
+				</li>
+				
+			{{/artists}}
+			</script>
+		</ul>	
+		
+		<!-- Start ADM -->
+		
+			<script id="ADM__template" type="text/x-handlebars-template">
+			{{#provider}}
+				<li class="provider"><h1>{{provider}}</h1></li>
+			{{/provider}}
+			{{#artists}}
+				<li class="cover"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
+				<li class="album__details" style="background-color: rgb({{colour}})">
+				<h1>{{artist}}</h1>
+				<h2>{{albumName}}</h2>
+				<div class="stars {{stars}}">
+									</div>
+				<div class="links">
+					{{#if previewURL}}
+					<span class="play"><img src="assets/play-01.svg"></span>
+					{{/if}}
+					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
+					<span class="social"><img src="assets/share.svg"></span>
+				</div>
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
+					<source src="{{previewURL}}" type="audio/mpeg">	
+					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start Rolling -->
+			
 			<script id="rolling__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="cover"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -92,18 +125,29 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start Paste -->
+			
 			<script id="paste__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover paste"><img src="{{imagePath}}"></li>
+				<li class="cover paste"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -115,18 +159,29 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start Time -->
+			
 			<script id="time__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover timeout"><img src="{{imagePath}}"></li>
+				<li class="cover timeout"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -138,18 +193,29 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start COS -->
+			
 			<script id="COS__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li  class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="cover"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -161,18 +227,29 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start Uncut -->
+			
 			<script id="uncut__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover timeout"><img src="{{imagePath}}"></li>
+				<li class="cover timeout"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -184,18 +261,29 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
+			
+			<!-- Start All Music -->
+			
 			<script id="allMusic__template" type="text/x-handlebars-template">
 			{{#provider}}
 				<li class="provider"><h1>{{provider}}</h1></li>
 			{{/provider}}
 			{{#artists}}
-				<li class="cover"><img src="{{imagePath}}"></li>
+				<li class="cover"><img src="{{imagePath}}">
+				{{#if previewURL}}
+					<div class="playing" style="color: rgb({{colour}})">
+						30
+					</div>
+					{{/if}}
+				</li>
 				<li class="album__details" style="background-color: rgb({{colour}})">
 				<h1>{{artist}}</h1>
 				<h2>{{albumName}}</h2>
@@ -207,9 +295,11 @@
 					{{/if}}					<a target="_blank" href="https://play.spotify.com/artist/{{Id}}"><span class="share"></span></a>
 					<span class="social"><img src="assets/share.svg"></span>
 				</div>
-				<audio class="player" preload="true">
+				{{#if previewURL}}
+				<audio class="player" preload="auto">
 					<source src="{{previewURL}}" type="audio/mpeg">	
 					</audio>
+				{{/if}}	
 				</li>
 			{{/artists}}
 			</script>
@@ -244,7 +334,7 @@
 									</div>
 								</div>
 								<div class="player__container">
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 									<source src="{{previewURL}}" type="audio/mpeg">	
 									</audio>
 									</li>
@@ -286,7 +376,7 @@
 									</div>
 								</div>
 								<div class="player__container">
-									<audio class="player" preload="true" controls="">
+									<audio class="player" preload="auto" controls="">
 									<source src="{{previewURL}}" type="audio/mpeg">	
 									</audio>
 							</li>
@@ -325,7 +415,7 @@
 									<div class="stars {{stars}}">
 									</div>
 									</div>
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 									<source src="{{previewURL}}" type="audio/mpeg">	
 									</audio>
 								</li>
@@ -365,7 +455,7 @@
 									<div class="stars {{stars}}">
 									</div>
 									</div>
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 									<source src="{{previewURL}}" type="audio/mpeg">	
 									</audio>
 								</li>
@@ -405,7 +495,7 @@
 									<div class="stars {{stars}}">
 									</div>
 									</div>
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 									<source src="{{previewURL}}" type="audio/mpeg" >	
 									</audio>
 								</li>
@@ -444,7 +534,7 @@
 									<div class="stars {{stars}}">
 									</div>
 									</div>
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 									<source src="{{previewURL}}" type="audio/mpeg">	
 									</audio>
 								</li>
@@ -483,7 +573,7 @@
 									<div class="stars {{stars}}">
 									</div>
 								</div>
-								<audio class="player" preload="true" >
+								<audio class="player" preload="auto" >
 								<source src="{{previewURL}}" type="audio/mpeg">	
 								</audio>
 							</li>
@@ -523,7 +613,7 @@
 									<div class="stars {{stars}}">
 									</div>
 									</div>
-									<audio class="player" preload="true" >
+									<audio class="player" preload="auto" >
 								<source src="{{previewURL}}" type="audio/mpeg">	
 								</audio>
 								</li>
