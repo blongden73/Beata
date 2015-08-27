@@ -94,9 +94,43 @@ header {
 }
 
 #intro__section{
-	height: 150px;
-	width: 77.8%;
+	height: 620px;
+	width: 100%;
 	padding-top: 20px;
+	background-color: #252532;
+	position: relative;
+	
+	@include media("<desktop"){
+			height: 500px;
+		}
+		
+	@include media("<desktop"){
+		height: 400px;
+	}
+	
+	#intro__image{
+		background-image: url('../assets/background.png');
+		background-size: 100%;
+		height: 640px;
+		position: fixed;
+		top:0px;
+		width: 100%;
+		background-position:center top;
+
+		
+		@include media(">desktop"){
+		background-position:center center;
+	
+		}
+		
+		@include media("<tablet"){
+			height: 500px;
+		}
+		
+		@include media("<tablet"){
+			height: 500px;
+		}
+	}
 	
 	& #intro__left{
 	width: 50%;
@@ -155,10 +189,21 @@ header {
 		margin-right: auto;
 		}
 		
+		@include media("retina2x") { 
+		width: 90%;
+		height: 90vw;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
 		&.provider{
 		background-color: #ef4135;
 		text-align: center;
 		line-height: 11.11vw;
+		z-index: 10000;
+		position: relative;
 		
 		& h1{
 		display: inline-block;
