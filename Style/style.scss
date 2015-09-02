@@ -130,6 +130,26 @@ header {
 		@include media("<tablet"){
 			height: 500px;
 		}
+		
+		#logo{
+			width: 200px;
+			
+			img{
+				position: absolute;
+				width: 200px;
+				height: auto;
+				
+				&.logo{
+					z-index: 100000;
+				}
+				
+				&.logo__background{
+					z-index: 2000;
+				}
+			}
+			
+		}
+		
 	}
 	
 	& #intro__left{
@@ -189,7 +209,7 @@ header {
 		margin-right: auto;
 		}
 		
-		@include media("retina2x") { 
+		@include media("handheld") { 
 		width: 90%;
 		height: 90vw;
 		float: none;

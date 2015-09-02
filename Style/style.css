@@ -54,6 +54,16 @@ header {
     @media (max-width: 767px) {
       #intro__section #intro__image {
         height: 500px; } }
+    #intro__section #intro__image #logo {
+      width: 200px; }
+      #intro__section #intro__image #logo img {
+        position: absolute;
+        width: 200px;
+        height: auto; }
+        #intro__section #intro__image #logo img.logo {
+          z-index: 100000; }
+        #intro__section #intro__image #logo img.logo__background {
+          z-index: 2000; }
   #intro__section #intro__left {
     width: 50%;
     float: left;
@@ -100,7 +110,7 @@ header {
         display: block;
         margin-left: auto;
         margin-right: auto; } }
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @media handheld {
       #music__container li {
         width: 90%;
         height: 90vw;
