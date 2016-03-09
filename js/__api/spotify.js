@@ -4,6 +4,8 @@ var spotifyApi = new SpotifyWebApi({});
 var parsedJSON = require('./__json/data.json');
 var file = 'js/__api/__json/dataSpotify.json';
 var jf = require('jsonfile');
+var image = require('get-image-data')
+
 if (typeof localStorage === "undefined" || localStorage === null) {
     var LocalStorage = require('node-localstorage').LocalStorage;
     localStorage = new LocalStorage('./scratch');
@@ -20,7 +22,8 @@ for (var i = 0; i < parsedJSON.artists.length; i++) {
 			        console.log(parsedJSON.artists[j].artist , data.body.artists.items[0].name);
 			        //set names and ids from spotify
 			        parsedJSON.artists[j].Id = data.body.artists.items[0].id;
-					parsedJSON.artists[j].Spotnames = data.body.artists.items[0].name;  
+					parsedJSON.artists[j].Spotnames = data.body.artists.items[0].name; 
+					parsedJSON.artists[j].Images = data.body.artists.items[0].images;
 					//write to json
 					jf.writeFile(file, parsedJSON, function(err) {
 					console.log("this is not working", err)

@@ -26,7 +26,7 @@ request(url, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $("ul.object-list.bnm-list > li").each(function(index) {
-            var artistName = $(".info h1", this).html().replace("&apos;", "'").replace('&amp;', '&');
+            var artistName = $(".info h1", this).text();
             var imageLink = $("a .artwork .lazy", this).data('content').replace(" <img src=\"", "").replace("\" /> ", "").replace('\n', '').replace('" />\n','').trim();
             var id = artistName.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/pitchfork/' + id + ".jpeg";

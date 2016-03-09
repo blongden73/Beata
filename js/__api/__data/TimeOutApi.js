@@ -5,7 +5,7 @@ var request = require("request"),
 var jf = require('jsonfile');	
 var file = 'js/__api/__json/TimeOutData.json';
 var fs = require('fs');
-var ColorThief = require('color-thief');
+var ce = require('colour-extractor');
 
 	
 	request(clashurl, function (error, response, body) {
@@ -13,10 +13,14 @@ var ColorThief = require('color-thief');
 			var $ = cheerio.load(body),
 				//Set up output object
 					objTimeOut = {};
-		objTimeOut["provider"] = [{provider : 'Time Out'}] ;						
+		objTimeOut["provider"] = [{
+			provider : 'Time Out',
+            providerlink: 'http://www.timeout.com/london/music/album-reviews',
+            backgroundImage: '../assets/royal__blood.png'
+			}] ;						
 		objTimeOut["artists"] = [];
 		//create new object titles for albums 
-			function albumInfo(artist, albumName, image, rating, stars, soundcloud, idvalue, imagePath, colour){
+			function albumInfo(artist, albumName, image, rating, stars, soundcloud, idvalue, imagePath, coversionPath, date){
 	    		this.artist = artist
 				this.albumName = albumName
 				this.image = image
@@ -25,13 +29,14 @@ var ColorThief = require('color-thief');
 				this.soundcloud = soundcloud
 				this.idvalue = idvalue
 				this.imagePath = imagePath
-				this.colour = colour
+				this.conversionPath = coversionPath
+				this.date = date
 	}
 	
 	//loop through albums list and get individual parts
-	$(".four_column_grid .tiles .tile").each(function(index){
-		var artistName = $(".tile__content .tile__body .tile__text h3.tile__title", this).html().replace('\n\t\t\t\t\t\t', '').replace('&#x2013;', '-').replace('&#x2018;', '').replace('&#x2019;', '').replace('\n\t\t\t\t\t', '').replace('&amp;','&').replace('+', 'And').replace('/\s$/', '');
-		var artistNameSplit = artistName.split('-');
+	$(".four_column_grid .tiles .tile.category_5").each(function(index){
+		var artistName = $(".tile__content .tile__body .tile__text h3.tile__title", this).text()//.replace('\n\t\t\t\t\t\t', '').replace('&#x2013;', '-').replace('&#x2018;', '').replace('&#x2019;', '').replace('\n\t\t\t\t\t', '').replace('&amp;','&').replace('+', 'And').replace('/\s$/', '');
+		var artistNameSplit = artistName.split('–');
 		var artist = artistNameSplit[0].trim();
 		var albumName = artistNameSplit[1];
 		var imageLink = $(".tile__content .image_wrapper img", this).attr('src');
@@ -58,15 +63,42 @@ var ColorThief = require('color-thief');
 		var sClink = $(".text-wrap .node-title a", this).attr('href');
 		var id = artist.replace(/\s+/g, '').toLowerCase();
 		var imagePath = 'imgs/time__out/' + id + ".jpeg";
-		//get colours
-		var colorThief = new ColorThief();
-		var colourObj = colorThief.getColor(imagePath);
-		var colour = colourObj.toString();
-		objTimeOut.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, StarRating, sClink, id, imagePath, colour);
+        var coversionPath = 'imgs/time__out/ ' + id + ".png";
+        var date = new Date().toJSON().slice(0,10);
+        
+        //finds colours from images and then writes the JSON // This is ASYNC so does this last
+            ce.topColours(imagePath, true, function (colours) {
+				console.log(colours[0][1]);
+				var colourObj = colours[0][1]
+				var colour = JSON.stringify(colourObj);
+				var cleanColour = colour.replace("[", "").replace("]", "")
+				var r = colours[0][1][0];
+				var g = colours[0][1][1];
+				var b =colours[0][1][2];
+				var calc = r+r+b+g+g+g;
+				var brightness = calc/6;
+				var colorClass = 'white';
+				objTimeOut.artists[index].colorClass = colorClass;
+				objTimeOut.artists[index].colour = cleanColour;
+				objTimeOut.artists[index].bright = brightness;
+				if(brightness >= 159){
+					objTimeOut.artists[index].brightnessColor = '3,3,3';
+					objTimeOut.artists[index].colorClass = 'black';
+				}else{
+					objTimeOut.artists[index].brightnessColor = '255,255,255'
+					objTimeOut.artists[index].colorClass = 'white';
+				}
+				console.log(objTimeOut);
+				 jf.writeFile(file, objTimeOut, function(err) {
+					 console.log("this is not working", err)
+    			})
+			});
+        
+		objTimeOut.artists[index] = new albumInfo(artist, albumName, imageLink, ratingNo, StarRating, sClink, id, imagePath, coversionPath, date);
 		});
 
 
-		objBestTime = {};
+		/*objBestTime = {};
 	objBestTime["provider"] = [{provider : 'Time Out', url : 'http://www.timeout.com'}];
 	objBestTime["artists"] = [];
 			
@@ -78,17 +110,15 @@ var ColorThief = require('color-thief');
 		objBestTime.artists.push(objTimeOut.artists[i]);
 		}
 		
-	}		
+	}	*/	
 	
 		
-		console.log(objBestTime);
+		console.log(objTimeOut);
 	} else {
 		console.log("We’ve encountered an error: " + error);
 	}
 	
 	//write to json
-jf.writeFile(file, objBestTime, function(err) {
-	console.log("this is not working", err)
-})
+
 	
 });

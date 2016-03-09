@@ -1,0 +1,857 @@
+@import 'reset.css';
+@import 'bower_components/include-media/dist/_include-media.scss';
+@import 'animate.css';
+
+
+//structure
+
+
+
+body{
+	background-color: #ececec;
+}
+
+$time:0.5s;
+$time_fade:0.5s;
+$lines-to-show: 3;
+
+@mixin h1{
+font-family: 'apercubold';
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+line-height: 22px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;
+}
+
+@mixin h2{
+font-family: 'apercuregular';
+font-size: 20px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;
+}
+
+@mixin h3{
+font-family: 'apercubold';
+font-size: 28px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+}
+
+@mixin p{
+font-family: 'apercuregular';
+font-size: 18px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;	
+}
+
+@mixin transition{
+  	-webkit-transition: all $time ease-in-out;
+  	-moz-transition: all $time ease-in-out;
+  	-o-transition: all $time ease-in-out;
+  	transition: all $time ease-in-out;
+}
+
+@mixin transition_fade{
+  	-webkit-transition: all $time_fade ease-in-out;
+  	-moz-transition: all $time_fade ease-in-out;
+  	-o-transition: all $time_fade ease-in-out;
+  	transition: all $time_fade ease-in-out;
+}
+
+
+
+@mixin shadow{
+	box-shadow: -5px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+@mixin card{
+	width: 100px;
+	height: 100px;
+	background-color:fuchsia;
+	float: left;
+}
+
+.wrapper{
+	
+	width: 1260px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	 @include media("<desktop") { 
+	width: 960px;
+	}
+	
+    @include media("<=phone") { 
+	width: 100%;
+	}
+	
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    padding-bottom: 20px;
+    line-height: 60px;
+    background: rgba(255, 255, 255, 1);
+    color: #666;
+    z-index: 10000;
+    opacity: 0;
+    background-color: black;
+}
+
+.logo{
+	z-index: 100000;
+	position: fixed;
+	right: 20px;
+	bottom:20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+#intro__section{
+	height: 712px;
+	width: 100%;
+	padding-top: 20px;
+	background-color: rgba(37, 37, 51, 0.8);
+	position: relative;
+	
+	svg{
+		margin-top: -100px;
+	}
+	
+	@include media("<desktop"){
+			height: 500px;
+		}
+		
+	@include media("<desktop"){
+		height: 400px;
+	}
+	
+	#intro__image{
+		background-image: url('../assets/background.png');
+		background-size: 100%;
+		height: 640px;
+		position: fixed;
+		top:0px;
+		width: 100%;
+		background-position:center top;
+
+		
+		@include media(">desktop"){
+		background-position:center center;
+	
+		}
+		
+		@include media("<tablet"){
+			height: 500px;
+		}
+		
+		@include media("<tablet"){
+			height: 500px;
+		}
+		
+		#logo{
+			width: 200px;
+			
+			img{
+				position: absolute;
+				width: 200px;
+				height: auto;
+				
+				&.logo{
+					z-index: 100000;
+				}
+				
+				&.logo__background{
+					z-index: 2000;
+				}
+			}
+			
+		}
+		
+	}
+	
+	& #intro__left{
+	width: 50%;
+	@include h1;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 200000;
+	position: absolute;
+	left: 23%;
+	
+	h1{
+		color: white;
+	}
+	
+	& h1, h2{
+		font-size: 60px;
+		line-height: 50px;
+	}
+	
+	& h2{
+		color: #2c38dc;
+		width: 500px;
+	}
+	
+	
+	
+	}
+	
+	& #intro__right{
+	width: 50%;
+	height: 100px;
+	float: left;
+	@include h1;
+}
+
+}
+
+
+.image__fader{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0px;
+	top:0px;
+	overflow: hidden;
+	
+	img{
+	position:absolute;
+    opacity:0;
+    width: 100%;
+    height: auto;
+	}
+	
+	.one{
+	opacity:1;
+    z-index:-5;
+	}
+	
+	.two{
+	z-index:-10;
+	}
+	
+	.three{
+    z-index:-20;
+	}
+	
+	.four{
+    z-index:-30;
+	}
+	
+}
+
+#music__container{
+	@include h1;
+	@include h2;
+	text-align: center;
+	
+	.provider{
+		width: 100%;
+	}
+	
+	.albums__container{
+		
+		@include media("<=phone") { 
+			width: 320px;
+			background-color: blue;
+		}
+				
+		li.cover{
+			width: 33.3%;
+			height: 33.3vw;
+			float: left;
+		}
+		
+	}
+}
+
+/*
+
+#music__container{
+	float: left;
+	width: 100%;
+	
+	& li{
+		float: left;
+		width: 100%;
+		height: 700px;
+		color: white;
+		position: relative;
+		
+		.image__wrapper{
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 300px;
+			margin-top: 13%;
+			
+			.image{
+				width: 50%;
+				float: left;
+				height: 100%;
+			}
+			
+			.info__wrapper{
+				float: left;
+				width: 50%;
+				height: 100%;
+				position: relative;
+				
+				h1{
+					margin: 0px 0px 0px 10px;	
+				}
+				
+				h2{
+					margin: 0px 0px 0px 10px;
+					height: intrinsic;
+				}
+			}
+			
+			img{
+				width: 300px;
+				display: block;
+				height: auto;
+			}
+			
+		}
+		
+		.background{
+			position: absolute;
+			width: 100%;
+			background: center center no-repeat;
+			background-size: cover;
+			top:0px;
+			height: 700px;
+			z-index: -10000;
+			opacity: 0.2;
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+		}
+		
+		.background-color{
+			position: absolute;
+			width: 100%;
+			background: center center no-repeat;
+			background-size: cover;
+			top:0px;
+			height: 700px;
+			z-index: -20000;
+			opacity: 1;
+		}
+		
+		@include media("<desktop") { 
+		width: 20%;
+		height: 20vw;
+		}	
+		
+		@include media("<tablet") { 
+		width: 33.3%;
+		height: 33.3vw;
+		}
+		
+		@include media("<=phone") { 
+		width: 90%;
+		height: 90vw;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+		@include media("handheld") { 
+		width: 90%;
+		height: 90vw;
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+		&.provider{
+		padding: 20px 0 30px 0;
+		height: 10px;
+		background-color: #333;
+		text-align: center;
+		}
+		
+		
+		
+		&.cover{
+			overflow: hidden;
+			position: relative;
+			
+			& .playing{
+			z-index: 1000;
+			border-radius: 50%;
+			width: 30px;
+			height: 22px;
+			border: 1px solid white;
+			margin-right: 4px;
+			@include h3;
+			margin-left: 5px;
+			text-align: center;
+			padding-top: 8px;
+			opacity: 0.5;
+			color: white;
+			font-size: 12px;
+			float: left;
+				//display: none;
+			}
+		}
+		
+		&.album__details{
+			position: relative;
+		}
+		
+		
+		& h1{
+			margin: 5px 5px 0 5px;
+			@include h1;
+			
+		}
+		
+		& h2{
+			margin: 0px 5px;
+			-webkit-line-clamp: $lines-to-show;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;  
+			height: 50px;
+			overflow: hidden;
+			@include h2;
+		}
+		
+		& .stars{
+	    
+	    width: 100px;
+	    height: 30px;
+	    margin-left: 5px;
+	    background-position: right center;
+		background-repeat: no-repeat;
+		    
+	    
+	    &.four{
+		    background-image: url('../assets/stars-four.svg');
+		 
+	    }
+	    
+	    &.fourHalf{
+		    background-image: url('../assets/stars-fourHalf.svg');
+	    }
+	    
+	    &.five{
+		    background-image: url('../assets/stars-five.svg');
+	    }
+		}       
+
+		& .links{
+		height: 30px;
+		bottom: 0px;
+		margin-left: 5px;
+		position: absolute;
+		
+		& .play, .share, .social{
+			border-radius: 50%;
+			width: 30px;
+			height: 30px;
+			border: 1px solid rgba(255, 255, 255, 1);
+			float: left;
+			margin-right: 4px;
+			
+			& img{
+				display: block;
+				margin-left: auto;
+				margin-right:auto;
+				margin-top: 5px; 
+				width: 20px;
+			}
+
+			
+			&:hover{
+			border: 1px solid rgba(255, 255, 255, 0.5);
+			}
+		}
+		
+		}
+		
+	}
+	
+	
+	& .artist__card{
+	@include card;
+	}
+}*/
+
+#ADM__music__container{
+	background-color: aqua;
+	float: left;
+	
+	& .artist__card{
+		display: inline-block;
+	}
+}
+	
+
+
+
+@mixin col{
+	
+	width: 200px;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	
+	 @include media("<=phone") { 
+	width: 100%;
+	float: none;
+	}
+}
+
+	li{
+		
+	&.album{
+		margin-bottom: 10px;
+		
+		& .player__container{
+			
+			position: absolute;
+			
+			button.play{
+				background-color: none;
+				border: 2px solid white;
+			}
+		}
+		
+	}
+	
+	&.album:nth-child(7) {
+	margin-left: 210px;
+	}
+	
+	&.album:nth-child(12) {
+	margin-left: 210px;
+	}
+	
+	
+	
+}
+.album{
+	@include col;
+	
+	& .arrow{
+		font-family: arial;
+		height: 31px;
+		width: 40px;
+		padding-top: 9px;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid white;
+		background-color: transparent;
+		margin-top: 50px;
+	}
+	
+
+	
+}
+
+
+
+.album__list{
+		padding-bottom: 20px;
+		
+}
+
+.record__wrapper{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	@include transition;
+	
+	
+	
+	& img{
+		width: 105%;
+		margin-left: -10px;
+
+		
+		&.timeout{
+			width: 200% !important;
+			height: auto !important;
+			margin-left: -98px !important;
+		}
+		
+			&.clash{
+			width: 120% !important;
+			height: auto !important;
+			}
+					
+	}
+		
+	
+	&.title{
+		width: 190px !important;
+		padding-right:  10px;
+		background-color: #ef4135;
+		color: white;
+
+		
+			& h3{
+		@include h3;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 10px;
+		@include transition;
+
+		}
+		
+			}
+			
+			
+}
+
+.rating {
+	width: 80px;
+	height: 40px;
+    color: white;
+    text-align: center;
+    bottom: 10px;
+	position: absolute;
+	float: left;
+	padding-top: 10px;
+	
+	& h1{
+		@include h1;
+		margin-top: 13px;
+	}
+	
+	& button.play{
+		background-color: transparent;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 35px;
+		height: 35px;
+		float: left;
+	}
+	
+	& .artist__link{
+		background-color: transparent;
+		border: 2px solid white;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin-left: 5px;
+	}
+	
+}
+
+
+
+.album__title{
+	width: 190px;
+	height: 190px;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+    color: white;
+    
+    & h1{
+	    @include h1;
+    }
+    & h2{
+		@include h2;
+		color: white;
+	}
+	
+    
+    & .stars{
+	    
+	    width: 100px;
+	    height: 30px;
+	    float: left;
+	    position: absolute;
+	    bottom: 20px;
+	    right: 10px;
+	       background-position: right center;
+		    background-repeat: no-repeat;
+	    
+	    &.four{
+		    background-image: url('../assets/stars-four.svg');
+		 
+	    }
+	    
+	    &.fourHalf{
+		    background-image: url('../assets/stars-fourHalf.svg');
+	    }
+	    
+	    &.five{
+		    background-image: url('../assets/stars-five.svg');
+	    }
+    }       
+}
+    
+.pitchfork__container{
+	padding-bottom: 20px;
+}
+
+.clear{
+	clear: both;
+	}
+	
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #ececec url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }	
+
+
+#top__banner{
+	width: 100%;
+	height: 600px;
+	background-color:black;
+	overflow: hidden;
+
+& video{
+	width: 100%;
+	height: auto;
+	margin-top: -480px;
+}
+
+
+
+& #description{
+	z-index: 100000;
+	position: absolute;
+	left: 40%;
+	top:460px;
+	width: 410px;
+	
+	& h1{
+		@include h1;
+		color: white;
+	}
+	
+
+}
+
+}
+
+.top_logo{
+	width: 150px;
+}
+
+#logo_wrapper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1260px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	& .beata{
+	font-family: 'Beata';
+	font-size: 74px;
+	margin-top: 22px;
+	color: white;
+	margin-bottom: -32px;
+	height: 0;
+	}
+}
+
+#menu__container{
+	
+	float: right;
+	
+	& ul.list__container{
+		float: left;
+		margin-top: 10px;
+	}
+	
+	& li{
+		float: left;
+	    font-family: 'brandon_grotesqueblack';
+	    margin-left: 15px;
+
+	}
+	
+	
+	
+}
+
+#top__banner{
+	
+		& .beata{
+	font-family: 'Beata';
+	font-size: 270px;
+	color: white;
+	z-index: 100000;
+	position: absolute;
+	left: 40%;
+	top:150px;
+	}
+	
+}
+
+
+.NowPlayingfooter{
+	width: 100%;
+	height: 60px;
+	background-color: #2c38dc;
+	position: fixed;
+	bottom: 0px;
+	z-index: 100000;
+	
+	& h1{
+		color: white;
+		@include h1;
+	}
+	
+}
+
+	
+	
+// fonts
+
+@font-face {
+    font-family: 'Beata';
+    src: url('../assets/__typeface/Beata-Regular.eot');
+    src: url('../assets/__typeface/Beata-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/Beata-Regular.woff2') format('woff2'),
+         url('../assets/__typeface/Beata-Regular.woff') format('woff'),
+         url('../assets/__typeface/Beata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'apercuregular';
+    src: url('../assets/__typeface/apercu_regular-webfont.eot');
+    src: url('../assets/__typeface/apercu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/apercu_regular-webfont.woff') format('woff'),
+         url('../assets/__typeface/apercu_regular-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/apercu_regular-webfont.svg#apercuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'apercubold';
+    src: url('../assets/__typeface/apercu_bold-webfont.eot');
+    src: url('../assets/__typeface/apercu_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/apercu_bold-webfont.woff') format('woff'),
+         url('../assets/__typeface/apercu_bold-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/apercu_bold-webfont.svg#apercubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

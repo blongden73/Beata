@@ -10,6 +10,7 @@ if (typeof localStorage === "undefined" || localStorage === null) {
 }
 
 //console.log(parsedJSON);
+console.log(parsedJSON.artists[2].artist);
 
 
 //loop through data from website

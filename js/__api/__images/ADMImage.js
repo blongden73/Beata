@@ -27,7 +27,7 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $(".article ol.album_chart li").each(function(index) {
-            var artistName = $(".album_detail h4 a", this).html();
+            var artistName = $(".album_detail h4 a", this).text().replace('And', '&');;
             var imageLink = $(".album_detail a img", this).attr('src');
             var fullImage = 'http://www.anydecentmusic.com/' + imageLink;
             var imageflag;

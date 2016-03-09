@@ -9,7 +9,6 @@ module.exports = function(grunt) {
 			}
 		},
 		
-		
 		watch: {
 			css: {
 				files: '**/*.scss',
@@ -22,7 +21,7 @@ module.exports = function(grunt) {
 		execute: {
         target: {
             src: [
-          /*  'js/__api/__images/ADMimage.js', 
+           'js/__api/__images/ADMimage.js', 
             'js/__api/__data/ADM.js', 
             'js/__api/spotifyADM.js',
             'js/__api/spotifyADMPreveiw.js',
@@ -30,7 +29,7 @@ module.exports = function(grunt) {
             'js/__api/__data/api.js',
             'js/__api/spotify.js',
 	        'js/__api/spotifyPreveiw.js',  
-            'js/__api/__images/COSApiImages.js', 
+            'js/__api/__images/COSApiImages.js',
             'js/__api/__data/COSApi.js',
             'js/__api/spotifyCOS.js',
             'js/__api/spotifyCOSPreview.js', 
@@ -42,7 +41,7 @@ module.exports = function(grunt) {
             'js/__api/__data/rollingStoneApi.js',
             'js/__api/spotifyRolling.js',
             'js/__api/spotifyRollingPreview.js', 
-            'js/__api/__images/TimeOutApiImages.js', 
+            'js/__api/__images/TimeOutApiImages.js',
             'js/__api/__data/TimeOutApi.js',
             'js/__api/spotifyTimeOut.js',
             'js/__api/spotifyTimeOutPreview.js', 
@@ -53,7 +52,7 @@ module.exports = function(grunt) {
             'js/__api/__images/AllMusicApiImages.js', 
             'js/__api/__data/AllMusicApi.js',
             'js/__api/spotifyAM.js',
-            'js/__api/spotifyAMPreview.js' */
+            'js/__api/spotifyAMPreview.js' 
             ]
         		}
     	},

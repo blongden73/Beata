@@ -2,67 +2,60 @@
   "provider": [
     {
       "provider": "Time Out",
-      "url": "http://www.timeout.com"
+      "providerlink": "http://www.timeout.com/london/music/album-reviews",
+      "backgroundImage": "../assets/royal__blood.png"
     }
   ],
   "artists": [
     {
-      "artist": "Julio Bashmore",
-      "albumName": " Knockin Boots&#x2019;",
-      "image": "http://media.timeout.com/images/102802171/image.jpg",
-      "rating": "5",
-      "stars": "five",
-      "idvalue": "juliobashmore",
-      "imagePath": "imgs/time__out/juliobashmore.jpeg",
-      "colour": "228,223,222",
-      "Id": "0WAZJYudbUpl0EOjvdrnRG",
-      "Spotnames": "Julio Bashmore"
+      "artist": "Rihanna",
+      "albumName": " ‘Anti’ album review\n\t\t\t\t\t",
+      "image": "https://media.timeout.com/images/103106257/image.jpg",
+      "rating": "0",
+      "idvalue": "rihanna",
+      "imagePath": "imgs/time__out/rihanna.jpeg",
+      "conversionPath": "imgs/time__out/ rihanna.png",
+      "date": "2016-03-08",
+      "colorClass": "white",
+      "colour": "157,15,31",
+      "bright": 65,
+      "brightnessColor": "255,255,255",
+      "Id": "5pKCCKE2ajJHZ9KAiaK11H",
+      "Spotnames": "Rihanna"
     },
     {
-      "artist": "The Chemical Brothers",
-      "albumName": " Born in the Echoes",
-      "image": "http://media.timeout.com/images/102782693/image.jpg",
+      "artist": "Ellie Goulding",
+      "albumName": " ‘Delirium’\n\t\t\t\t\t",
+      "image": "https://media.timeout.com/images/102940051/image.jpg",
       "rating": "4",
       "stars": "four",
-      "idvalue": "thechemicalbrothers",
-      "imagePath": "imgs/time__out/thechemicalbrothers.jpeg",
-      "colour": "21,21,21",
-      "Id": "1GhPHrq36VKCY3ucVaZCfo",
-      "Spotnames": "The Chemical Brothers"
+      "idvalue": "elliegoulding",
+      "imagePath": "imgs/time__out/elliegoulding.jpeg",
+      "conversionPath": "imgs/time__out/ elliegoulding.png",
+      "date": "2016-03-08",
+      "colorClass": "white",
+      "colour": "129,112,89",
+      "bright": 113.83333333333333,
+      "brightnessColor": "255,255,255",
+      "Id": "0X2BH1fck6amBIoJhDVmmJ",
+      "Spotnames": "Ellie Goulding"
     },
     {
-      "artist": "Years & Years",
-      "albumName": " Communion",
-      "image": "http://media.timeout.com/images/102761858/image.jpg",
+      "artist": "Lana Del Rey",
+      "albumName": " ‘Honeymoon’\n\t\t\t\t\t",
+      "image": "https://media.timeout.com/images/102867751/image.jpg",
       "rating": "4",
       "stars": "four",
-      "idvalue": "years&years",
-      "imagePath": "imgs/time__out/years&years.jpeg",
-      "colour": "189,162,101",
-      "Id": "5vBSrE1xujD2FXYRarbAXc",
-      "Spotnames": "Years & Years"
-    },
-    {
-      "artist": "Wolf Alice",
-      "albumName": " My Love Is Cool",
-      "image": "http://media.timeout.com/images/102694341/image.jpg",
-      "rating": "5",
-      "stars": "five",
-      "idvalue": "wolfalice",
-      "imagePath": "imgs/time__out/wolfalice.jpeg",
-      "colour": "29,20,20",
-      "Id": "3btzEQD6sugImIHPMRgkwV",
-      "Spotnames": "Wolf Alice"
-    },
-    {
-      "artist": "Florence And The Machine",
-      "albumName": " How Big, How Blue, How Beautiful",
-      "image": "http://media.timeout.com/images/102537479/image.jpg",
-      "rating": "5",
-      "stars": "five",
-      "idvalue": "florenceandthemachine",
-      "imagePath": "imgs/time__out/florenceandthemachine.jpeg",
-      "colour": "251,251,243"
+      "idvalue": "lanadelrey",
+      "imagePath": "imgs/time__out/lanadelrey.jpeg",
+      "conversionPath": "imgs/time__out/ lanadelrey.png",
+      "date": "2016-03-08",
+      "colorClass": "white",
+      "colour": "163,146,145",
+      "bright": 151.5,
+      "brightnessColor": "255,255,255",
+      "Id": "00FQb4jTyendYWaN8pK0wa",
+      "Spotnames": "Lana Del Rey"
     }
   ]
 }

@@ -15,29 +15,38 @@ request(clashurl, function(error, response, body) {
         }];
         objAllMusic["artists"] = [];
         //create new object titles for albums 
-        function albumInfo(artist, image, idvalue, imagePath) {
+        function albumInfo(artist, image, idvalue, imageName, imagePath) {
             this.artist = artist
             this.image = image
             this.idvalue = idvalue
+            this.imageName = imageName
             this.imagePath = imagePath
         }
 
         //loop through albums list and get individual parts
         $(".featured-rows .row .featured").each(function(index) {
-            var artistName = $(".artist a", this).html().replace('&#xF6;', 'ö');;
+		   	var artistCheck = $(".artist a", this).html();  
+		   	if(artistCheck !== null){
+				var artistName = $(".artist a", this).text().replace(',',' ').replace('(',' ').replace(')', ' ');   	
+		   	}  
+            if (artistName == "") {
+                artistName = 'Various Artists'
+            };
             if (artistName == null) {
                 artistName = 'Various Artists'
             };
             if (artistName == "Anima Music&#xE6; Chamber Orchestra") {
                 artistName = "Anima Musicæ Chamber Orchestra"
             };
+            var imageCheck = $(".album-cover a img.lazy", this).data('original');
             var imageLink = $(".album-cover a img.lazy", this).data('original');
             var id = artistName.replace(/\s+/g, '').toLowerCase();
-            var imagePath = 'imgs/all__music/' + id + ".jpeg";
-            objAllMusic.artists[index] = new albumInfo(artistName, imageLink, id, imagePath);
+            var imageName = "allmusic" + index;
+            var imagePath = 'imgs/all__music/' + imageName + ".jpeg";
+            objAllMusic.artists[index] = new albumInfo(artistName, imageLink, id, imageName, imagePath);
         });
 
-        for (var i = 0; i < objAllMusic.artists.length; i++) {
+       for (var i = 0; i < objAllMusic.artists.length; i++) {
             var download = function(uri, filename, callback) {
                 request.head(uri, function(err, res, body) {
                     console.log('content-type:', res.headers['content-type']);
@@ -45,10 +54,10 @@ request(clashurl, function(error, response, body) {
                     request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
                 });
             };
-
-            download(objAllMusic.artists[i].image, 'imgs/all__music/' + objAllMusic.artists[i].idvalue + '.jpeg', function() {
+			if( objAllMusic.artists[i].image !== undefined){
+            download(objAllMusic.artists[i].image, 'imgs/all__music/' + objAllMusic.artists[i].imageName + '.jpeg', function() {
                 console.log('done');
-            });
+            });}
         };
 
 

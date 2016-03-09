@@ -1,9 +1,17 @@
     $(document).ready(function() {
-        var $header = $("header"),
-            $clone = $header.before($header.clone().addClass("clone"));
+		setTimeout(function(){	
+		  $('.provider__position').each(function(){
+	    	var top = 0;
+	    	var selection = $(this);	    	
+	    	$(window).scroll(function(){
+		    	var providerPos = selection.offset().top - $(window).scrollTop();
+		    	if(providerPos <= top){
+			    	selection.next().addClass('fixed');
+		    	}else{
+			    	selection.next().removeClass('fixed');
+		    	}
+	    	});
+    	  });  
+    	}, 2000);	
         
-        $(window).on("scroll", function() {
-            var fromTop = $(window).scrollTop();
-            $("body").toggleClass("down", (fromTop > 400));
-        });
     });

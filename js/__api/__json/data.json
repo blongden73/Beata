@@ -2,60 +2,86 @@
   "provider": [
     {
       "provider": "Pitchfork",
-      "url": "http://www.pitchfork.com",
-      "colour": "#ef4135"
+      "providerlink": "http://pitchfork.com/reviews/best/albums/",
+      "colour": "#ef4135",
+      "backgroundImage": "../assets/white__denim.png"
     }
   ],
   "artists": [
     {
-      "artist": "Dr. Dre",
-      "albumName": "Compton",
-      "image": "http://cdn3.pitchfork.com/albums/22197/list.8ef1a836.jpg",
-      "rating": "8.8",
+      "artist": "Kendrick Lamar",
+      "albumName": "untitled unmastered.",
+      "image": "http://cdn3.pitchfork.com/albums/23037/list.1bcdfd6b.jpg",
+      "rating": "8.6",
       "stars": "fourHalf",
-      "idvalue": "dr.dre",
-      "imagePath": "imgs/pitchfork/dr.dre.jpeg",
-      "colour": "114,109,103"
+      "idvalue": "kendricklamar",
+      "imagePath": "imgs/pitchfork/kendricklamar.jpeg",
+      "conversionPath": "imgs/pitchfork/ kendricklamar.png",
+      "date": "2016-03-08",
+      "colour": "47,49,1",
+      "bright": 40.333333333333336,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255"
     },
     {
-      "artist": "Future",
-      "albumName": "Dirty Sprite 2",
-      "image": "http://cdn4.pitchfork.com/albums/22071/list.3d56dd9d.jpg",
+      "artist": "Anna Meredith",
+      "albumName": "Varmints",
+      "image": "http://cdn.pitchfork.com/albums/22836/list.e5b46eb7.jpg",
       "rating": "8.4",
       "stars": "four",
-      "idvalue": "future",
-      "imagePath": "imgs/pitchfork/future.jpeg",
-      "colour": "38,81,126"
+      "idvalue": "annameredith",
+      "imagePath": "imgs/pitchfork/annameredith.jpeg",
+      "conversionPath": "imgs/pitchfork/ annameredith.png",
+      "date": "2016-03-08",
+      "colour": "203,203,203",
+      "bright": 203,
+      "colorClass": "black",
+      "brightnessColor": "3,3,3"
     },
     {
-      "artist": "Tame Impala",
-      "albumName": "Currents",
-      "image": "http://cdn3.pitchfork.com/albums/21842/list.04192b63.jpg",
-      "rating": "9.3",
+      "artist": "Esperanza Spalding",
+      "albumName": "Emily's D+Evolution",
+      "image": "http://cdn2.pitchfork.com/albums/22885/list.31d39fa4.jpg",
+      "rating": "8.6",
       "stars": "fourHalf",
-      "idvalue": "tameimpala",
-      "imagePath": "imgs/pitchfork/tameimpala.jpeg",
-      "colour": "98,82,103"
+      "idvalue": "esperanzaspalding",
+      "imagePath": "imgs/pitchfork/esperanzaspalding.jpeg",
+      "conversionPath": "imgs/pitchfork/ esperanzaspalding.png",
+      "date": "2016-03-08",
+      "colour": "171,138,123",
+      "bright": 146.5,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255"
     },
     {
-      "artist": "Miguel",
-      "albumName": "Wildheart",
-      "image": "http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg",
-      "rating": "8.9",
-      "stars": "fourHalf",
-      "idvalue": "miguel",
-      "imagePath": "imgs/pitchfork/miguel.jpeg",
-      "colour": "32,41,46"
+      "artist": "Moodymann",
+      "albumName": "DJ-Kicks",
+      "image": "http://cdn2.pitchfork.com/albums/22889/list.eaeea878.jpg",
+      "rating": "8.4",
+      "stars": "four",
+      "idvalue": "moodymann",
+      "imagePath": "imgs/pitchfork/moodymann.jpeg",
+      "conversionPath": "imgs/pitchfork/ moodymann.png",
+      "date": "2016-03-08",
+      "colour": "75,126,120",
+      "bright": 108,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255"
     },
     {
-      "artist": "Vince Staples",
-      "albumName": "Summertime &apos;06",
-      "image": "http://cdn4.pitchfork.com/albums/21977/list.97efc203.jpg",
-      "rating": "8.8",
+      "artist": "Kanye West",
+      "albumName": "The Life of Pablo",
+      "image": "http://cdn4.pitchfork.com/albums/22851/list.1192269b.jpg",
+      "rating": "9.0",
       "stars": "fourHalf",
-      "idvalue": "vincestaples",
-      "imagePath": "imgs/pitchfork/vincestaples.jpeg",
-      "colour": "215,212,195"
+      "idvalue": "kanyewest",
+      "imagePath": "imgs/pitchfork/kanyewest.jpeg",
+      "conversionPath": "imgs/pitchfork/ kanyewest.png",
+      "date": "2016-03-08",
+      "colour": "151,125,114",
+      "bright": 131.83333333333334,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255"
     }
   ]
 }

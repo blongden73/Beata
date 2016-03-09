@@ -16,6 +16,7 @@ request(clashurl, function(error, response, body) {
         objPaste["artists"] = [];
         //create new object titles for albums 
         function albumInfo(artist, image, idvalue, imagePath) {
+            /*this.test = test*/
             this.artist = artist
             this.image = image
             this.idvalue = idvalue
@@ -24,17 +25,20 @@ request(clashurl, function(error, response, body) {
         }
 
         //loop through albums list and get individual parts
-        $("form .tags-detail-wrapper #tags-detail-wrapper #landing-left-column ul.tagged-articles-list > li").each(function(index) {
-            var artistName = $("a.title", this).html().replace('&amp;', '&').replace('&apos;', "'").replace('&#x2019;', "'");
+        $("form .tags-detail-wrapper #tags-detail-wrapper #landing-left-column .tags-detail-container ul.tagged-articles-list li:not('.ad , .mobile-ad')").each(function(index) {
+            /*var test = $('a.title', this).html();
+            var imageLink = $("a.image", this).data('image-large'); 
+            console.log(imageLink);*/
+            var artistName = $("a.title", this).text();
             var artistNameSplit = artistName.split(':');
             var artist = artistNameSplit[0];
-            var imageLink = $("a.image img", this).attr('src').replace('\r\n        ', '').replace('\\', '');
+            var imageLink = $("a.image", this).data('image-large'); 
             var id = artist.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/paste/' + id + ".jpeg";
-            objPaste.artists[index] = new albumInfo(artist, imageLink, id, imagePath);
+	        objPaste.artists[index] = new albumInfo(artist, imageLink, id, imagePath);          
         });
 
-        for (var i = 0; i < objPaste.artists.length; i++) {
+       for (var i = 0; i < objPaste.artists.length; i++) {
 
             var download = function(uri, filename, callback) {
                 request.head(uri, function(err, res, body) {
@@ -48,7 +52,7 @@ request(clashurl, function(error, response, body) {
             download(objPaste.artists[i].image, 'imgs/paste/' + objPaste.artists[i].idvalue + '.jpeg', function() {
                 console.log('done');
             });
-        };
+        }; 
 
         console.log(objPaste);
     } else {

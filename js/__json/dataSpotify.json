@@ -2,75 +2,200 @@
   "provider": [
     {
       "provider": "Pitchfork",
-      "url": "http://www.pitchfork.com",
-      "colour": "#ef4135"
+      "providerlink": "http://pitchfork.com/reviews/best/albums/",
+      "colour": "#ef4135",
+      "backgroundImage": "../assets/white__denim.png"
     }
   ],
   "artists": [
     {
-      "artist": "Dr. Dre",
-      "albumName": "Compton",
-      "image": "http://cdn3.pitchfork.com/albums/22197/list.8ef1a836.jpg",
-      "rating": "8.8",
+      "artist": "Kendrick Lamar",
+      "albumName": "untitled unmastered.",
+      "image": "http://cdn3.pitchfork.com/albums/23037/list.1bcdfd6b.jpg",
+      "rating": "8.6",
       "stars": "fourHalf",
-      "idvalue": "dr.dre",
-      "imagePath": "imgs/pitchfork/dr.dre.jpeg",
-      "colour": "114,109,103",
-      "Id": "6DPYiyq5kWVQS4RGwxzPC7",
-      "Spotnames": "Dr. Dre",
-      "previewURL": "https://p.scdn.co/mp3-preview/70b2b5adb595c1aa1102e435df24535284d447a7"
+      "idvalue": "kendricklamar",
+      "imagePath": "imgs/pitchfork/kendricklamar.jpeg",
+      "conversionPath": "imgs/pitchfork/ kendricklamar.png",
+      "date": "2016-03-08",
+      "colour": "47,49,1",
+      "bright": 40.333333333333336,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
+      "Spotnames": "Kendrick Lamar",
+      "Images": [
+        {
+          "height": 1500,
+          "url": "https://i.scdn.co/image/710f327a57dff722909bbe1e85d7c8aef88c666e",
+          "width": 1000
+        },
+        {
+          "height": 960,
+          "url": "https://i.scdn.co/image/f29c0999c76f5b636c860a54e1fb67a5fb4dd911",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/eea253d03a4a352607ff22bd3a5ce6ada55fd4a0",
+          "width": 200
+        },
+        {
+          "height": 96,
+          "url": "https://i.scdn.co/image/f68365f703e91f2c1dc947ce5cc004db840f9b1d",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/adaf3bb4e8f58e3d3b8d1915c571586bbbd38a8e"
     },
     {
-      "artist": "Future",
-      "albumName": "Dirty Sprite 2",
-      "image": "http://cdn4.pitchfork.com/albums/22071/list.3d56dd9d.jpg",
+      "artist": "Anna Meredith",
+      "albumName": "Varmints",
+      "image": "http://cdn.pitchfork.com/albums/22836/list.e5b46eb7.jpg",
       "rating": "8.4",
       "stars": "four",
-      "idvalue": "future",
-      "imagePath": "imgs/pitchfork/future.jpeg",
-      "colour": "38,81,126",
-      "Id": "1RyvyyTE3xzB2ZywiAwp0i",
-      "Spotnames": "Future",
-      "previewURL": "https://p.scdn.co/mp3-preview/f59dd5c487b110d87a109712f2da224980688571"
+      "idvalue": "annameredith",
+      "imagePath": "imgs/pitchfork/annameredith.jpeg",
+      "conversionPath": "imgs/pitchfork/ annameredith.png",
+      "date": "2016-03-08",
+      "colour": "203,203,203",
+      "bright": 203,
+      "colorClass": "black",
+      "brightnessColor": "3,3,3",
+      "Id": "5zDUidkda0GoYHu2vMr3G2",
+      "Spotnames": "Anna Meredith",
+      "Images": [
+        {
+          "height": 920,
+          "url": "https://i.scdn.co/image/fb8516b42ad955c881d0a93d7f2d9ff152bee09f",
+          "width": 784
+        },
+        {
+          "height": 751,
+          "url": "https://i.scdn.co/image/ad7c9d7869df5364538d95a3a7d63d8b178eb5b2",
+          "width": 640
+        },
+        {
+          "height": 235,
+          "url": "https://i.scdn.co/image/f446992adc4bc1bd220ba1b00d32e8a58e3a2c92",
+          "width": 200
+        },
+        {
+          "height": 75,
+          "url": "https://i.scdn.co/image/78f181946157b899b6e12e4ea088baadbc08d84c",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/4e84d1c8de6db13e13ef1ff0640141360ed4224a"
     },
     {
-      "artist": "Tame Impala",
-      "albumName": "Currents",
-      "image": "http://cdn3.pitchfork.com/albums/21842/list.04192b63.jpg",
-      "rating": "9.3",
+      "artist": "Esperanza Spalding",
+      "albumName": "Emily's D+Evolution",
+      "image": "http://cdn2.pitchfork.com/albums/22885/list.31d39fa4.jpg",
+      "rating": "8.6",
       "stars": "fourHalf",
-      "idvalue": "tameimpala",
-      "imagePath": "imgs/pitchfork/tameimpala.jpeg",
-      "colour": "98,82,103",
-      "Id": "5INjqkS1o8h1imAzPqGZBb",
-      "Spotnames": "Tame Impala",
-      "previewURL": "https://p.scdn.co/mp3-preview/7198ae2b0c4b7bdd595194d181d1c47c3814757d"
+      "idvalue": "esperanzaspalding",
+      "imagePath": "imgs/pitchfork/esperanzaspalding.jpeg",
+      "conversionPath": "imgs/pitchfork/ esperanzaspalding.png",
+      "date": "2016-03-08",
+      "colour": "171,138,123",
+      "bright": 146.5,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "Id": "5bepW5vcdRzheNc0F8lHJ5",
+      "Spotnames": "Esperanza Spalding",
+      "Images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/0313bddd20ad15bb6bc410f5aa97dcb72ce11acb",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/a5c06aa7fdaa174b1df2788aba330d4d0c87efee",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/8ee64ae9dbe625fb437b15af0f717634ff079097",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/8572a25d0c9d8f44fec93be1df5803f723518e90",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/880991420d5f16b2f9a5361f36db5386286bab90"
     },
     {
-      "artist": "Miguel",
-      "albumName": "Wildheart",
-      "image": "http://cdn3.pitchfork.com/albums/21986/list.689223b5.jpg",
-      "rating": "8.9",
-      "stars": "fourHalf",
-      "idvalue": "miguel",
-      "imagePath": "imgs/pitchfork/miguel.jpeg",
-      "colour": "32,41,46",
-      "Id": "360IAlyVv4PCEVjgyMZrxK",
-      "Spotnames": "Miguel",
-      "previewURL": "https://p.scdn.co/mp3-preview/d3f867fb1b2d631e4142ba72ee734ebc1304c28d"
+      "artist": "Moodymann",
+      "albumName": "DJ-Kicks",
+      "image": "http://cdn2.pitchfork.com/albums/22889/list.eaeea878.jpg",
+      "rating": "8.4",
+      "stars": "four",
+      "idvalue": "moodymann",
+      "imagePath": "imgs/pitchfork/moodymann.jpeg",
+      "conversionPath": "imgs/pitchfork/ moodymann.png",
+      "date": "2016-03-08",
+      "colour": "75,126,120",
+      "bright": 108,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "Id": "6pohviZSNRueSX7uNu63ZX",
+      "Spotnames": "Moodymann",
+      "Images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/849e40b627748ad8daeb95c18e227fc605d1c9fb",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/45481b6db139971582e534b79c54c200531151dc",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/919e5830a9fd786239aec363a13d33bee0fab2aa",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/8d34077f4e2df3e4fa72531dcabb85398c7f454b"
     },
     {
-      "artist": "Vince Staples",
-      "albumName": "Summertime &apos;06",
-      "image": "http://cdn4.pitchfork.com/albums/21977/list.97efc203.jpg",
-      "rating": "8.8",
+      "artist": "Kanye West",
+      "albumName": "The Life of Pablo",
+      "image": "http://cdn4.pitchfork.com/albums/22851/list.1192269b.jpg",
+      "rating": "9.0",
       "stars": "fourHalf",
-      "idvalue": "vincestaples",
-      "imagePath": "imgs/pitchfork/vincestaples.jpeg",
-      "colour": "215,212,195",
-      "Id": "68kEuyFKyqrdQQLLsmiatm",
-      "Spotnames": "Vince Staples",
-      "previewURL": "https://p.scdn.co/mp3-preview/6bb1ceaf0fd579acc9d660f5e706ba50aea8f275"
+      "idvalue": "kanyewest",
+      "imagePath": "imgs/pitchfork/kanyewest.jpeg",
+      "conversionPath": "imgs/pitchfork/ kanyewest.png",
+      "date": "2016-03-08",
+      "colour": "151,125,114",
+      "bright": 131.83333333333334,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "Id": "5K4W6rqBFWDnAN6FQUkS6x",
+      "Spotnames": "Kanye West",
+      "Images": [
+        {
+          "height": 332,
+          "url": "https://i.scdn.co/image/fca17e83545e076fafb561569e8d5ec64f87eb8c",
+          "width": 331
+        },
+        {
+          "height": 201,
+          "url": "https://i.scdn.co/image/01405d36c7091a57b873ee5a91034ba7fc8eab8c",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/a2fe02386dcb76d7ecda994db995c3fb12694690",
+          "width": 64
+        }
+      ]
     }
   ]
 }

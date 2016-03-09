@@ -1,0 +1,554 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/blongden/.nvm/versions/node/v0.12.5/bin/node',
+1 verbose cli   '/Users/blongden/.nvm/versions/node/v0.12.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'canvas' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of /Users/blongden/Documents/Beata/package.json
+5 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/cheerio/package.json
+6 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/color-thief/package.json
+7 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt/package.json
+8 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-contrib-watch/package.json
+9 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-execute/package.json
+10 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-growl/package.json
+11 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-json/package.json
+12 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-notify/package.json
+13 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/grunt-sass/package.json
+14 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/handlebars/package.json
+15 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/http-get/package.json
+16 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/img-crawler/package.json
+17 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/json-update/package.json
+18 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/jsonfile/package.json
+19 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/localStorage/package.json
+20 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/node-fs/package.json
+21 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/node-localstorage/package.json
+22 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/promise/package.json
+23 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/request/package.json
+24 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/spotify-web-api-node/package.json
+25 verbose installManyTop reading scoped package data from /Users/blongden/Documents/Beata/node_modules/store/package.json
+26 info package.json grunt@0.4.5 No license field.
+27 info package.json grunt-contrib-watch@0.6.1 No license field.
+28 info package.json grunt-growl@0.1.5 No license field.
+29 info package.json grunt-notify@0.4.1 No license field.
+30 info package.json img-crawler@0.0.2 license should be a valid SPDX license expression
+31 info package.json jsonfile@2.0.0 No license field.
+32 info package.json node-fs@0.1.7 No license field.
+33 info package.json grunt-execute@0.2.2 No license field.
+34 info package.json http-get@0.5.10 No license field.
+35 info package.json json-update@1.2.0 No license field.
+36 info package.json localStorage@1.0.3 license should be a valid SPDX license expression
+37 info package.json node-localstorage@0.5.1 No license field.
+38 info package.json store@1.3.17 No license field.
+39 verbose readDependencies loading dependencies from /Users/blongden/Documents/Beata/package.json
+40 silly cache add args [ 'canvas', null ]
+41 verbose cache add spec canvas
+42 silly cache add parsed spec { raw: 'canvas',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'canvas',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: '*',
+42 silly cache add   type: 'range' }
+43 silly addNamed canvas@*
+44 verbose addNamed "*" is a valid semver range for canvas
+45 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+46 silly mapToRegistry name canvas
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/canvas
+50 verbose addNameRange registry:https://registry.npmjs.org/canvas not in flight; fetching
+51 verbose request uri https://registry.npmjs.org/canvas
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 11:38:32 AM
+54 verbose request id 54ba9597e08bc4f9
+55 verbose etag "2CLU9W5YI8G9A3DFKVCS7J0EK"
+56 http request GET https://registry.npmjs.org/canvas
+57 http 304 https://registry.npmjs.org/canvas
+58 silly get cb [ 304,
+58 silly get   { date: 'Fri, 02 Oct 2015 10:38:32 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     'cache-control': 'max-age=60',
+58 silly get     etag: '"2CLU9W5YI8G9A3DFKVCS7J0EK"',
+58 silly get     age: '0',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-lcy1127-LCY',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '1',
+58 silly get     'x-timer': 'S1443782312.828597,VS0,VE171',
+58 silly get     vary: 'Accept' } ]
+59 verbose etag https://registry.npmjs.org/canvas from cache
+60 verbose get saving canvas to /Users/blongden/.npm/registry.npmjs.org/canvas/.cache.json
+61 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+62 silly addNameRange versions [ 'canvas',
+62 silly addNameRange   [ '0.0.1',
+62 silly addNameRange     '0.0.2',
+62 silly addNameRange     '0.0.3',
+62 silly addNameRange     '0.0.4',
+62 silly addNameRange     '0.0.5',
+62 silly addNameRange     '0.0.6',
+62 silly addNameRange     '0.0.7',
+62 silly addNameRange     '0.0.8',
+62 silly addNameRange     '0.1.0',
+62 silly addNameRange     '0.2.0',
+62 silly addNameRange     '0.2.1',
+62 silly addNameRange     '0.3.0',
+62 silly addNameRange     '0.3.1',
+62 silly addNameRange     '0.3.2',
+62 silly addNameRange     '0.3.3',
+62 silly addNameRange     '0.4.0',
+62 silly addNameRange     '0.4.1',
+62 silly addNameRange     '0.4.2',
+62 silly addNameRange     '0.4.3',
+62 silly addNameRange     '0.5.0',
+62 silly addNameRange     '0.5.1',
+62 silly addNameRange     '0.5.2',
+62 silly addNameRange     '0.5.3',
+62 silly addNameRange     '0.5.4',
+62 silly addNameRange     '0.6.0',
+62 silly addNameRange     '0.7.0',
+62 silly addNameRange     '0.7.1',
+62 silly addNameRange     '0.7.2',
+62 silly addNameRange     '0.7.3',
+62 silly addNameRange     '0.8.0',
+62 silly addNameRange     '0.8.1',
+62 silly addNameRange     '0.8.2',
+62 silly addNameRange     '0.8.3',
+62 silly addNameRange     '0.9.0',
+62 silly addNameRange     '0.10.0',
+62 silly addNameRange     '0.10.1',
+62 silly addNameRange     '0.10.2',
+62 silly addNameRange     '0.10.3',
+62 silly addNameRange     '0.11.0',
+62 silly addNameRange     '0.11.1',
+62 silly addNameRange     '0.11.2',
+62 silly addNameRange     '0.11.3',
+62 silly addNameRange     '0.12.0',
+62 silly addNameRange     '0.12.1',
+62 silly addNameRange     '0.13.0',
+62 silly addNameRange     '0.13.1',
+62 silly addNameRange     '1.0.0',
+62 silly addNameRange     '1.0.1',
+62 silly addNameRange     '1.0.2',
+62 silly addNameRange     '1.0.3',
+62 silly addNameRange     '1.0.4',
+62 silly addNameRange     '1.1.0',
+62 silly addNameRange     '1.1.1',
+62 silly addNameRange     '1.1.2',
+62 silly addNameRange     '1.1.3',
+62 silly addNameRange     '1.1.4',
+62 silly addNameRange     '1.1.5',
+62 silly addNameRange     '1.1.6',
+62 silly addNameRange     '1.2.0',
+62 silly addNameRange     '1.2.1',
+62 silly addNameRange     '1.2.2',
+62 silly addNameRange     '1.2.3',
+62 silly addNameRange     '1.2.4',
+62 silly addNameRange     '1.2.5',
+62 silly addNameRange     '1.2.6',
+62 silly addNameRange     '1.2.7',
+62 silly addNameRange     '1.2.8',
+62 silly addNameRange     '1.2.9' ] ]
+63 silly addNamed canvas@1.2.9
+64 verbose addNamed "1.2.9" is a plain semver version for canvas
+65 silly cache afterAdd canvas@1.2.9
+66 verbose afterAdd /Users/blongden/.npm/canvas/1.2.9/package/package.json not in flight; writing
+67 verbose afterAdd /Users/blongden/.npm/canvas/1.2.9/package/package.json written
+68 silly install resolved [ { name: 'canvas',
+68 silly install resolved     description: 'Canvas graphics API backed by Cairo',
+68 silly install resolved     version: '1.2.9',
+68 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+68 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+68 silly install resolved     keywords:
+68 silly install resolved      [ 'canvas',
+68 silly install resolved        'graphic',
+68 silly install resolved        'graphics',
+68 silly install resolved        'pixman',
+68 silly install resolved        'cairo',
+68 silly install resolved        'image',
+68 silly install resolved        'images',
+68 silly install resolved        'pdf' ],
+68 silly install resolved     homepage: 'https://github.com/Automattic/node-canvas',
+68 silly install resolved     repository:
+68 silly install resolved      { type: 'git',
+68 silly install resolved        url: 'git://github.com/Automattic/node-canvas.git' },
+68 silly install resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+68 silly install resolved     dependencies: { nan: '^2.0.9' },
+68 silly install resolved     devDependencies:
+68 silly install resolved      { 'body-parser': '^1.13.3',
+68 silly install resolved        express: '^4.13.2',
+68 silly install resolved        jade: '^1.11.0',
+68 silly install resolved        mocha: '*' },
+68 silly install resolved     engines: { node: '>=0.8.0' },
+68 silly install resolved     main: './lib/canvas.js',
+68 silly install resolved     license: 'MIT',
+68 silly install resolved     gypfile: true,
+68 silly install resolved     gitHead: 'eb97ef838658ee7a9cafb44bb20f3253e044e42b',
+68 silly install resolved     bugs: { url: 'https://github.com/Automattic/node-canvas/issues' },
+68 silly install resolved     _id: 'canvas@1.2.9',
+68 silly install resolved     _shasum: '40f36e8f34bea2283c944511dfb575d168003061',
+68 silly install resolved     _from: 'canvas@*',
+68 silly install resolved     _npmVersion: '2.12.1',
+68 silly install resolved     _nodeVersion: '0.12.7',
+68 silly install resolved     _npmUser: { name: 'linusu', email: 'linus@folkdatorn.se' },
+68 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+68 silly install resolved     dist:
+68 silly install resolved      { shasum: '40f36e8f34bea2283c944511dfb575d168003061',
+68 silly install resolved        tarball: 'http://registry.npmjs.org/canvas/-/canvas-1.2.9.tgz' },
+68 silly install resolved     directories: {},
+68 silly install resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.2.9.tgz',
+68 silly install resolved     readme: 'ERROR: No README data found!' } ]
+69 info install canvas@1.2.9 into /Users/blongden/Documents/Beata
+70 info installOne canvas@1.2.9
+71 verbose installOne of canvas to /Users/blongden/Documents/Beata not in flight; installing
+72 verbose lock using /Users/blongden/.npm/_locks/canvas-d391015437a4359e.lock for /Users/blongden/Documents/Beata/node_modules/canvas
+73 silly install write writing canvas 1.2.9 to /Users/blongden/Documents/Beata/node_modules/canvas
+74 verbose unbuild node_modules/canvas
+75 silly gentlyRm /Users/blongden/Documents/Beata/node_modules/canvas is being purged from base /Users/blongden/Documents/Beata
+76 verbose gentlyRm don't care about contents; nuking /Users/blongden/Documents/Beata/node_modules/canvas
+77 verbose tar unpack /Users/blongden/.npm/canvas/1.2.9/package.tgz
+78 verbose tar unpacking to /Users/blongden/Documents/Beata/node_modules/canvas
+79 silly gentlyRm /Users/blongden/Documents/Beata/node_modules/canvas is being purged
+80 verbose gentlyRm don't care about contents; nuking /Users/blongden/Documents/Beata/node_modules/canvas
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry .npmignore
+84 silly gunzTarPerm extractEntry index.js
+85 silly gunzTarPerm extractEntry History.md
+86 silly gunzTarPerm extractEntry Makefile
+87 silly gunzTarPerm extractEntry Readme.md
+88 silly gunzTarPerm extractEntry binding.gyp
+89 silly gunzTarPerm extractEntry .gitmodules
+90 silly gunzTarPerm extractEntry install
+91 silly gunzTarPerm extractEntry lib/bindings.js
+92 silly gunzTarPerm extractEntry lib/canvas.js
+93 silly gunzTarPerm extractEntry lib/context2d.js
+94 silly gunzTarPerm extractEntry lib/image.js
+95 silly gunzTarPerm extractEntry lib/jpegstream.js
+96 silly gunzTarPerm extractEntry lib/pngstream.js
+97 silly gunzTarPerm extractEntry .travis.yml
+98 silly gunzTarPerm extractEntry src/Image.cc
+99 silly gunzTarPerm extractEntry src/Canvas.cc
+100 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+101 silly gunzTarPerm extractEntry src/CanvasGradient.h
+102 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+103 silly gunzTarPerm extractEntry src/CanvasPattern.h
+104 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+105 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+106 silly gunzTarPerm extractEntry src/FontFace.cc
+107 silly gunzTarPerm extractEntry src/FontFace.h
+108 silly gunzTarPerm extractEntry src/Canvas.h
+109 silly gunzTarPerm extractEntry src/Image.h
+110 silly gunzTarPerm extractEntry src/ImageData.cc
+111 silly gunzTarPerm extractEntry src/ImageData.h
+112 silly gunzTarPerm extractEntry src/JPEGStream.h
+113 silly gunzTarPerm extractEntry src/PNG.h
+114 silly gunzTarPerm extractEntry src/Point.h
+115 silly gunzTarPerm extractEntry src/closure.h
+116 silly gunzTarPerm extractEntry src/color.cc
+117 silly gunzTarPerm extractEntry src/color.h
+118 silly gunzTarPerm extractEntry src/init.cc
+119 silly gunzTarPerm extractEntry util/cairo_include.sh
+120 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+121 silly gunzTarPerm extractEntry util/has_lib.sh
+122 silly gunzTarPerm extractEntry util/lib_lookup.sh
+123 verbose write writing to /Users/blongden/Documents/Beata/node_modules/canvas/package.json
+124 info preinstall canvas@1.2.9
+125 verbose readDependencies loading dependencies from /Users/blongden/Documents/Beata/node_modules/canvas/package.json
+126 silly prepareForInstallMany adding nan@^2.0.9 from canvas dependencies
+127 verbose readDependencies loading dependencies from /Users/blongden/Documents/Beata/node_modules/canvas/package.json
+128 silly cache add args [ 'nan@^2.0.9', null ]
+129 verbose cache add spec nan@^2.0.9
+130 silly cache add parsed spec { raw: 'nan@^2.0.9',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'nan',
+130 silly cache add   rawSpec: '^2.0.9',
+130 silly cache add   spec: '>=2.0.9 <3.0.0',
+130 silly cache add   type: 'range' }
+131 silly addNamed nan@>=2.0.9 <3.0.0
+132 verbose addNamed ">=2.0.9 <3.0.0" is a valid semver range for nan
+133 silly addNameRange { name: 'nan', range: '>=2.0.9 <3.0.0', hasData: false }
+134 silly mapToRegistry name nan
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry uri https://registry.npmjs.org/nan
+138 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+139 verbose request uri https://registry.npmjs.org/nan
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 11:38:33 AM
+142 verbose etag "1L4RU1AM541YSVP1YQFXG1Y1J"
+143 http request GET https://registry.npmjs.org/nan
+144 http 304 https://registry.npmjs.org/nan
+145 silly get cb [ 304,
+145 silly get   { date: 'Fri, 02 Oct 2015 10:38:33 GMT',
+145 silly get     via: '1.1 varnish',
+145 silly get     'cache-control': 'max-age=60',
+145 silly get     etag: '"1L4RU1AM541YSVP1YQFXG1Y1J"',
+145 silly get     age: '38',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-served-by': 'cache-lcy1122-LCY',
+145 silly get     'x-cache': 'HIT',
+145 silly get     'x-cache-hits': '3',
+145 silly get     'x-timer': 'S1443782313.146532,VS0,VE0',
+145 silly get     vary: 'Accept' } ]
+146 verbose etag https://registry.npmjs.org/nan from cache
+147 verbose get saving nan to /Users/blongden/.npm/registry.npmjs.org/nan/.cache.json
+148 silly addNameRange number 2 { name: 'nan', range: '>=2.0.9 <3.0.0', hasData: true }
+149 silly addNameRange versions [ 'nan',
+149 silly addNameRange   [ '0.3.0-wip',
+149 silly addNameRange     '0.3.0-wip2',
+149 silly addNameRange     '0.3.0',
+149 silly addNameRange     '0.3.1',
+149 silly addNameRange     '0.3.2',
+149 silly addNameRange     '0.4.0',
+149 silly addNameRange     '0.4.1',
+149 silly addNameRange     '0.4.2',
+149 silly addNameRange     '0.4.3',
+149 silly addNameRange     '0.4.4',
+149 silly addNameRange     '0.5.0',
+149 silly addNameRange     '0.5.1',
+149 silly addNameRange     '0.5.2',
+149 silly addNameRange     '0.6.0',
+149 silly addNameRange     '0.7.0',
+149 silly addNameRange     '0.7.1',
+149 silly addNameRange     '0.8.0',
+149 silly addNameRange     '1.0.0',
+149 silly addNameRange     '1.1.0',
+149 silly addNameRange     '1.1.1',
+149 silly addNameRange     '1.1.2',
+149 silly addNameRange     '1.2.0',
+149 silly addNameRange     '1.3.0',
+149 silly addNameRange     '1.4.0',
+149 silly addNameRange     '1.4.1',
+149 silly addNameRange     '1.5.0',
+149 silly addNameRange     '1.4.2',
+149 silly addNameRange     '1.4.3',
+149 silly addNameRange     '1.5.1',
+149 silly addNameRange     '1.5.2',
+149 silly addNameRange     '1.6.0',
+149 silly addNameRange     '1.5.3',
+149 silly addNameRange     '1.6.1',
+149 silly addNameRange     '1.6.2',
+149 silly addNameRange     '1.7.0',
+149 silly addNameRange     '1.8.0',
+149 silly addNameRange     '1.8.1',
+149 silly addNameRange     '1.8.2',
+149 silly addNameRange     '1.8.3',
+149 silly addNameRange     '1.8.4',
+149 silly addNameRange     '1.9.0',
+149 silly addNameRange     '2.0.0',
+149 silly addNameRange     '2.0.1',
+149 silly addNameRange     '2.0.2',
+149 silly addNameRange     '2.0.3',
+149 silly addNameRange     '2.0.4',
+149 silly addNameRange     '2.0.5',
+149 silly addNameRange     '2.0.6',
+149 silly addNameRange     '2.0.7',
+149 silly addNameRange     '2.0.8',
+149 silly addNameRange     '2.0.9' ] ]
+150 silly addNamed nan@2.0.9
+151 verbose addNamed "2.0.9" is a plain semver version for nan
+152 silly cache afterAdd nan@2.0.9
+153 verbose afterAdd /Users/blongden/.npm/nan/2.0.9/package/package.json not in flight; writing
+154 verbose afterAdd /Users/blongden/.npm/nan/2.0.9/package/package.json written
+155 silly install resolved [ { name: 'nan',
+155 silly install resolved     version: '2.0.9',
+155 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 4 compatibility',
+155 silly install resolved     main: 'include_dirs.js',
+155 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+155 silly install resolved     scripts:
+155 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+155 silly install resolved        'rebuild-tests': 'pangyp rebuild --msvs_version=2013 --directory test',
+155 silly install resolved        docs: 'doc/.build.sh' },
+155 silly install resolved     contributors:
+155 silly install resolved      [ [Object],
+155 silly install resolved        [Object],
+155 silly install resolved        [Object],
+155 silly install resolved        [Object],
+155 silly install resolved        [Object],
+155 silly install resolved        [Object],
+155 silly install resolved        [Object] ],
+155 silly install resolved     devDependencies:
+155 silly install resolved      { bindings: '~1.2.1',
+155 silly install resolved        commander: '^2.8.1',
+155 silly install resolved        glob: '^5.0.14',
+155 silly install resolved        'node-gyp': '~2.0.2',
+155 silly install resolved        pangyp: '~2.2.0',
+155 silly install resolved        tap: '~0.7.1',
+155 silly install resolved        xtend: '~4.0.0' },
+155 silly install resolved     license: 'MIT',
+155 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+155 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+155 silly install resolved     _id: 'nan@2.0.9',
+155 silly install resolved     _shasum: 'd02a770f46778842cceb94e17cab31ffc7234a05',
+155 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.0.9.tgz',
+155 silly install resolved     _from: 'nan@>=2.0.9 <3.0.0',
+155 silly install resolved     _npmVersion: '2.14.2',
+155 silly install resolved     _nodeVersion: '4.0.0',
+155 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+155 silly install resolved     maintainers: [ [Object], [Object] ],
+155 silly install resolved     dist:
+155 silly install resolved      { shasum: 'd02a770f46778842cceb94e17cab31ffc7234a05',
+155 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.0.9.tgz' },
+155 silly install resolved     directories: {},
+155 silly install resolved     readme: 'ERROR: No README data found!' } ]
+156 info install nan@2.0.9 into /Users/blongden/Documents/Beata/node_modules/canvas
+157 info installOne nan@2.0.9
+158 verbose installOne of nan to /Users/blongden/Documents/Beata/node_modules/canvas not in flight; installing
+159 verbose lock using /Users/blongden/.npm/_locks/nan-26c01aa22e274e9c.lock for /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+160 silly install write writing nan 2.0.9 to /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+161 verbose unbuild node_modules/canvas/node_modules/nan
+162 silly gentlyRm /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan is being purged from base /Users/blongden/Documents/Beata
+163 verbose gentlyRm don't care about contents; nuking /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+164 verbose tar unpack /Users/blongden/.npm/nan/2.0.9/package.tgz
+165 verbose tar unpacking to /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+166 silly gentlyRm /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan is being purged
+167 verbose gentlyRm don't care about contents; nuking /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+168 silly gunzTarPerm modes [ '755', '644' ]
+169 silly gunzTarPerm extractEntry package.json
+170 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+171 silly gunzTarPerm extractEntry README.md
+172 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+173 silly gunzTarPerm extractEntry include_dirs.js
+174 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+175 silly gunzTarPerm extractEntry nan_converters.h
+176 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+177 silly gunzTarPerm extractEntry LICENSE.md
+178 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+179 silly gunzTarPerm extractEntry .dntrc
+180 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+181 silly gunzTarPerm extractEntry appveyor.yml
+182 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+183 silly gunzTarPerm extractEntry doc/new.md
+184 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+185 silly gunzTarPerm extractEntry doc/.build.sh
+186 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 493 ]
+187 silly gunzTarPerm extractEntry doc/buffers.md
+188 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+189 silly gunzTarPerm extractEntry doc/callback.md
+190 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+191 silly gunzTarPerm extractEntry doc/converters.md
+192 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+193 silly gunzTarPerm extractEntry doc/errors.md
+194 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+195 silly gunzTarPerm extractEntry doc/maybe_types.md
+196 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+197 silly gunzTarPerm extractEntry doc/methods.md
+198 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+199 silly gunzTarPerm extractEntry doc/asyncworker.md
+200 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+201 silly gunzTarPerm extractEntry doc/node_misc.md
+202 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+203 silly gunzTarPerm extractEntry doc/persistent.md
+204 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+205 silly gunzTarPerm extractEntry doc/scopes.md
+206 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+207 silly gunzTarPerm extractEntry doc/script.md
+208 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+209 silly gunzTarPerm extractEntry doc/string_bytes.md
+210 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+211 silly gunzTarPerm extractEntry doc/v8_internals.md
+212 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+213 silly gunzTarPerm extractEntry doc/v8_misc.md
+214 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+215 silly gunzTarPerm extractEntry nan.h
+216 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+217 silly gunzTarPerm extractEntry nan_callbacks.h
+218 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+219 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+220 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+221 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+222 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+223 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+224 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+225 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+226 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+227 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+228 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+229 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+230 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+231 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+232 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+233 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+234 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+235 silly gunzTarPerm extractEntry nan_new.h
+236 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+237 silly gunzTarPerm extractEntry nan_object_wrap.h
+238 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+239 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+240 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+241 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+242 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+243 silly gunzTarPerm extractEntry nan_string_bytes.h
+244 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+245 silly gunzTarPerm extractEntry nan_weak.h
+246 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+247 silly gunzTarPerm extractEntry CHANGELOG.md
+248 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+249 silly gunzTarPerm extractEntry tools/package.json
+250 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+251 silly gunzTarPerm extractEntry tools/README.md
+252 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+253 silly gunzTarPerm extractEntry tools/1to2.js
+254 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+255 verbose write writing to /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan/package.json
+256 info preinstall nan@2.0.9
+257 verbose readDependencies loading dependencies from /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan/package.json
+258 verbose readDependencies loading dependencies from /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan/package.json
+259 silly install resolved []
+260 verbose about to build /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+261 info build /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+262 info linkStuff nan@2.0.9
+263 silly linkStuff nan@2.0.9 has /Users/blongden/Documents/Beata/node_modules/canvas/node_modules as its parent node_modules
+264 verbose linkBins nan@2.0.9
+265 verbose linkMans nan@2.0.9
+266 verbose rebuildBundles nan@2.0.9
+267 info install nan@2.0.9
+268 info postinstall nan@2.0.9
+269 verbose unlock done using /Users/blongden/.npm/_locks/nan-26c01aa22e274e9c.lock for /Users/blongden/Documents/Beata/node_modules/canvas/node_modules/nan
+270 verbose about to build /Users/blongden/Documents/Beata/node_modules/canvas
+271 info build /Users/blongden/Documents/Beata/node_modules/canvas
+272 info linkStuff canvas@1.2.9
+273 silly linkStuff canvas@1.2.9 has /Users/blongden/Documents/Beata/node_modules as its parent node_modules
+274 verbose linkBins canvas@1.2.9
+275 verbose linkMans canvas@1.2.9
+276 verbose rebuildBundles canvas@1.2.9
+277 verbose rebuildBundles [ 'nan' ]
+278 info install canvas@1.2.9
+279 verbose unsafe-perm in lifecycle true
+280 info canvas@1.2.9 Failed to exec install script
+281 verbose unlock done using /Users/blongden/.npm/_locks/canvas-d391015437a4359e.lock for /Users/blongden/Documents/Beata/node_modules/canvas
+282 verbose stack Error: canvas@1.2.9 install: `node-gyp rebuild`
+282 verbose stack Exit status 1
+282 verbose stack     at EventEmitter.<anonymous> (/Users/blongden/.nvm/versions/node/v0.12.5/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+282 verbose stack     at EventEmitter.emit (events.js:110:17)
+282 verbose stack     at ChildProcess.<anonymous> (/Users/blongden/.nvm/versions/node/v0.12.5/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+282 verbose stack     at ChildProcess.emit (events.js:110:17)
+282 verbose stack     at maybeClose (child_process.js:1015:16)
+282 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+283 verbose pkgid canvas@1.2.9
+284 verbose cwd /Users/blongden/Documents/Beata/pixman-0.30.0/cairo-1.12.18
+285 error Darwin 15.0.0
+286 error argv "/Users/blongden/.nvm/versions/node/v0.12.5/bin/node" "/Users/blongden/.nvm/versions/node/v0.12.5/bin/npm" "install" "canvas"
+287 error node v0.12.5
+288 error npm  v2.11.2
+289 error code ELIFECYCLE
+290 error canvas@1.2.9 install: `node-gyp rebuild`
+290 error Exit status 1
+291 error Failed at the canvas@1.2.9 install script 'node-gyp rebuild'.
+291 error This is most likely a problem with the canvas package,
+291 error not with npm itself.
+291 error Tell the author that this fails on your system:
+291 error     node-gyp rebuild
+291 error You can get their info via:
+291 error     npm owner ls canvas
+291 error There is likely additional logging output above.
+292 verbose exit [ 1, true ]
+293 verbose unbuild node_modules/canvas
+294 info preuninstall canvas@1.2.9
+295 info uninstall canvas@1.2.9
+296 verbose unbuild rmStuff canvas@1.2.9 from /Users/blongden/Documents/Beata/node_modules
+297 info postuninstall canvas@1.2.9
+298 silly gentlyRm /Users/blongden/Documents/Beata/node_modules/canvas is being purged from base /Users/blongden/Documents/Beata
+299 verbose gentlyRm don't care about contents; nuking /Users/blongden/Documents/Beata/node_modules/canvas
+300 silly vacuum-fs purging /Users/blongden/Documents/Beata/node_modules/canvas
+301 silly vacuum-fs quitting because other entries in /Users/blongden/Documents/Beata/node_modules

@@ -27,11 +27,11 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $("#keystone-query-widget-id-2 .sections .section-style-grid-large .type-review").each(function(index) {
-            var artistName = $(".entry-header h2 a", this).html().replace('&#x2013;', '-').replace('&#x2013;', '-').replace('&amp;', '&').replace('&#xE9;', 'é').replace('&#x2028;','');
+            var artistName = $(".entry-header h2 a", this).text();
             var artistNameSplit = artistName.split('-');
             var artist = artistNameSplit[0].trim();
             var imageLink = $(".entry-media a img", this).attr('src');
-            var id = artistName.replace('-', '').replace('-', '').replace('/', '').replace(/\s+/g, '').toLowerCase().replace('&#x2019;', '').replace(':', '');
+            var id = artist.toLowerCase().replace(/\W+/g, "").replace('/', '');
             var imagePath = 'imgs/uncut/' + id + ".jpeg";
             objTimeOut.artists[index] = new albumInfo(artist, imageLink, id, imagePath);
         });

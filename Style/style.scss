@@ -1,6 +1,6 @@
-@import 'reset.css';
+@import 'reset';
 @import 'bower_components/include-media/dist/_include-media.scss';
-@import 'animate.css';
+@import 'animate';
 
 
 //structure
@@ -8,34 +8,50 @@
 
 
 body{
-	background-color: #ececec;
+	background-color: #333;
+	overflow-x: hidden;
 }
+
+button:focus {
+	outline:0;
+	}
 
 $time:0.5s;
 $time_fade:0.5s;
 $lines-to-show: 3;
 
 @mixin h1{
-font-family: 'biko__bold';
-font-size: 16px;
+font-family: 'apercuregular';
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+line-height: 22px;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 font-weight: normal;
 }
 
 @mixin h2{
-font-family: 'biko';
-font-size: 16px;
+font-family: 'apercuregular';
+font-size: 20px;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 font-weight: normal;
 }
 
 @mixin h3{
-font-family: 'galano_grotesque';
+font-family: 'apercubold';
 font-size: 28px;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
+}
+
+@mixin p{
+font-family: 'apercuregular';
+font-size: 18px;
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+font-weight: normal;	
 }
 
 @mixin transition{
@@ -52,641 +68,1024 @@ text-rendering: optimizeLegibility !important;
   	transition: all $time_fade ease-in-out;
 }
 
-
-
 @mixin shadow{
-	box-shadow: -5px 0px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.2);
 }
 
-@mixin card{
-	width: 100px;
-	height: 100px;
-	background-color:fuchsia;
+@mixin albums($size, $colour, $opacity, $top, $left, $radius, $margin){
+	width: $size;
+	height: $size;
+	background-color: $colour;
+	opacity: $opacity;
 	float: left;
+	border-radius: $radius;
+	margin-left: $margin;
 }
 
-.wrapper{
+@mixin wrapper($left, $top, $rotation){
+	left:$left;
+	top:$top;
+	-ms-transform: rotate($rotation); /* IE 9 */
+    -webkit-transform: rotate($rotation); /* Chrome, Safari, Opera */
+    transform: rotate($rotation);
+	position: absolute;
+}
+
+
+.nav{
 	
-	width: 1260px;
-	margin-left: auto;
-	margin-right: auto;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 10000;
 	
-	 @include media("<desktop") { 
-	width: 960px;
-	}
-	
-    @include media("<=phone") { 
+	p{
+			@include p;
+			font-size: 18px;
+			color: white;
+		}
+		
+	.about{
+		cursor: pointer;
+		&:hover{
+			text-decoration: underline;
+		}
+	}	
+}
+
+.overlay{
+	background-color: rgba(218,65,64, 0.95);
 	width: 100%;
+	height: 100vh;
+	position: fixed;
+	display: none;
+	z-index: 90000000;
+	
+	&.display{
+		display: block;
 	}
 	
-}
-
-header {
-    width: 100%;
-    height: 80px;
-    padding-bottom: 20px;
-    line-height: 60px;
-    background: rgba(255, 255, 255, 1);
-    color: #666;
-    z-index: 10000;
-    opacity: 0;
-    background-color: black;
-}
-
-#intro__section{
-	height: 620px;
-	width: 100%;
-	padding-top: 20px;
-	background-color: #252532;
-	position: relative;
-	
-	@include media("<desktop"){
-			height: 500px;
+	.info{
+		margin-left: 70px !important;
+		width: 600px;
+		display: block;
+		margin-top: 20px;
+		
+		a{
+			color: rgba(255, 255, 255, 0.58);
 		}
 		
-	@include media("<desktop"){
-		height: 400px;
-	}
-	
-	#intro__image{
-		background-image: url('../assets/background.png');
-		background-size: 100%;
-		height: 640px;
-		position: fixed;
-		top:0px;
-		width: 100%;
-		background-position:center top;
-
-		
-		@include media(">desktop"){
-		background-position:center center;
-	
-		}
-		
-		@include media("<tablet"){
-			height: 500px;
-		}
-		
-		@include media("<tablet"){
-			height: 500px;
-		}
-		
-		#logo{
-			width: 200px;
-			
-			img{
-				position: absolute;
-				width: 200px;
-				height: auto;
-				
-				&.logo{
-					z-index: 100000;
-				}
-				
-				&.logo__background{
-					z-index: 2000;
-				}
-			}
-			
-		}
-		
-	}
-	
-	& #intro__left{
-	width: 50%;
-	float: left;
-	@include h1;
-	
-	& h1, h2{
-		font-size: 30px;
-	}
-	
-	& h2{
-		color: #2c38dc;
-		width: 240px;
-	}
-	
-	
-	
-	}
-	
-	& #intro__right{
-	width: 50%;
-	height: 100px;
-	float: left;
-	@include h1;
-}
-
-}
-
-
-#music__container{
-	float: left;
-	
-	
-	& li{
-		float: left;
-		width: 14.25%;
-		height: 14.25vw;
-		color: white;
-		
-		@include media("<desktop") { 
-		width: 20%;
-		height: 20vw;
+		h1{
+			@include h1();
+			color: white;
+			font-size: 34px;
+			line-height: 36px;
 		}	
-		
-		@include media("<tablet") { 
-		width: 33.3%;
-		height: 33.3vw;
-		}
-		
-		@include media("<=phone") { 
-		width: 90%;
-		height: 90vw;
-		float: none;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		}
-		
-		@include media("handheld") { 
-		width: 90%;
-		height: 90vw;
-		float: none;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		}
-		
-		&.provider{
-		background-color: #ef4135;
-		text-align: center;
-		line-height: 11.11vw;
-		z-index: 10000;
-		position: relative;
-		
-		& h1{
-		display: inline-block;
-		vertical-align: middle;
-		line-height: normal;		
-		}
-		
-		}
-		
-		&.cover{
-			overflow: hidden;
-			position: relative;
-			
-			& .playing{
-			background-color: white;
-			position: absolute;
-			z-index: 1000;
-			bottom: 10px;
-			right: 10px;
-			border-radius: 50%;
-			width: 30px;
-			height: 22px;
-			border: 1px solid white;
-			margin-right: 4px;
-			@include h1;
-			text-align: center;
-			padding-top: 8px;
-			opacity: 0.5;
-				
-				//display: none;
-			}
-		}
-		
-		&.album__details{
-			position: relative;
-		}
-		
-		&.cover img{
-		width: 105%;
-		}
-		
-		&.timeout img{
-		width: 180% !important;
-		margin-left: -40%;
-		}
-		
-		&.paste img{			
-		margin-left: -4px;
-		margin-top: -4px;
-		}
-		
-		& h1{
-			margin: 5px 5px 0 5px;
-			@include h1;
-			
-		}
-		
-		& h2{
-			margin: 0px 5px;
-			-webkit-line-clamp: $lines-to-show;
-			display: -webkit-box;
-			-webkit-box-orient: vertical;  
-			height: 50px;
-			overflow: hidden;
-			@include h2;
-		}
-		
-		& .stars{
-	    
-	    width: 100px;
-	    height: 30px;
-	    bottom: 40px;
-	    left: 5px;
-	    background-position: right center;
-		background-repeat: no-repeat;
-		position: absolute;
-		    
-	    
-	    &.four{
-		    background-image: url('../assets/stars-four.svg');
-		 
-	    }
-	    
-	    &.fourHalf{
-		    background-image: url('../assets/stars-fourHalf.svg');
-	    }
-	    
-	    &.five{
-		    background-image: url('../assets/stars-five.svg');
-	    }
-		}       
-
-		& .links{
-		height: 30px;
-		position: absolute;
-		bottom: 10px;
-		left: 5px;
-		
-		& .play, .share, .social{
-			border-radius: 50%;
-			width: 30px;
-			height: 30px;
-			border: 1px solid rgba(255, 255, 255, 1);
-			float: left;
-			margin-right: 4px;
-			
-			& img{
-				display: block;
-				margin-left: auto;
-				margin-right:auto;
-				margin-top: 6px; 
-			}
-
-			
-			&:hover{
-			border: 1px solid rgba(255, 255, 255, 0.5);
-			}
-		}
-		
-		}
-		
 	}
 	
-	
-	& .artist__card{
-	@include card;
+	.close{
+		top:20px;
+		right: 20px;
+		position: absolute;
+		@include p;
+		font-size: 18px;
+		color: #333333;
+		cursor: pointer;
+		
+		&:hover{
+			text-decoration: underline;
+		}
 	}
 }
 
-#ADM__music__container{
-	background-color: aqua;
-	float: left;
-	
-	& .artist__card{
-		display: inline-block;
-	}
-}
-	
-
-
-
-@mixin col{
-	
-	width: 200px;
-	margin-right: 10px;
-	float: left;
+.introSlide{
 	position: relative;
-	
-	 @include media("<=phone") { 
+	height: 100vh;
 	width: 100%;
-	float: none;
-	}
-}
-
-	li{
+	background-color: #333;
+	
+	.intro__title{
+		position: absolute;
+		top:40vh;
+		left: 40px;
+		z-index: 400;
 		
-	&.album{
-		margin-bottom: 10px;
-		
-		& .player__container{
-			
-			position: absolute;
-			
-			button.play{
-				background-color: none;
-				border: 2px solid white;
-			}
+		@include media('<=phone') { 
+			top:40vh;
+			left: 9px;			
 		}
 		
-	}
-	
-	&.album:nth-child(7) {
-	margin-left: 210px;
-	}
-	
-	&.album:nth-child(12) {
-	margin-left: 210px;
-	}
-	
-	
-	
-}
-.album{
-	@include col;
-	
-	& .arrow{
-		font-family: arial;
-		height: 31px;
-		width: 40px;
-		padding-top: 9px;
-		border-radius: 50%;
-		margin-left: auto;
-		margin-right: auto;
-		border: 1px solid white;
-		background-color: transparent;
-		margin-top: 50px;
-	}
-	
-
-	
-}
-
-
-
-.album__list{
-		padding-bottom: 20px;
 		
-}
-
-.record__wrapper{
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	@include transition;
-	
-	
-	
-	& img{
-		width: 105%;
-		margin-left: -10px;
-
-		
-		&.timeout{
-			width: 200% !important;
-			height: auto !important;
-			margin-left: -98px !important;
+			.beata__title{
+				h1{	
+					opacity: 0.5;
+				}
 		}
 		
-			&.clash{
-			width: 120% !important;
-			height: auto !important;
-			}
-					
-	}
-		
-	
-	&.title{
-		width: 190px !important;
-		padding-right:  10px;
-		background-color: #ef4135;
-		color: white;
-
-		
-			& h3{
-		@include h3;
-		text-align: left;
-		margin-top: 10px;
-		margin-left: 10px;
-		@include transition;
-
+		h1{
+			@include h3;
+			font-size: 60px;
+			color: white;
+			
+			@include media('<=phone') { 
+				 font-size: 45px;
+			 }
+			
 		}
 		
-			}
+		p{
+			@include p;
+			font-size: 28px;
+			color: white;
+			margin-top: 100px;
+		}
+	}
+	
+	.record__wrapper__one{
+		@include wrapper(599px, 545px, 90deg);
+		
+		.album__one{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			background-color: #931661;
 			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__one{
+			@include albums(130px, #fff, 0.6, 75px, 100px, 50%, -196px);
+			background-color: rgba(0, 0, 0, 0.5);
+			animation-delay: 0.2s;
 			
-}
-
-.rating {
-	width: 80px;
-	height: 40px;
-    color: white;
-    text-align: center;
-    bottom: 10px;
-	position: absolute;
-	float: left;
-	padding-top: 10px;
-	
-	& h1{
-		@include h1;
-		margin-top: 13px;
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 	
-	& button.play{
-		background-color: transparent;
-		border: 2px solid white;
-		border-radius: 50%;
-		width: 35px;
-		height: 35px;
-		float: left;
+	.record__wrapper__two{
+		@include wrapper(300px, 700px, -130deg);
+		
+		.album__two{
+			@include albums(150px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__two{
+			@include albums(150px, #000, 0.6, 75px, 100px, 50%, -75px);
+			animation-delay: 0.3s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 	
-	& .artist__link{
-		background-color: transparent;
-		border: 2px solid white;
-		border-radius: 50%;
-		width: 30px;
-		height: 30px;
-		float: left;
-		margin-left: 5px;
+	.record__wrapper__three{
+		@include wrapper(420px, 10px, 130deg);
+		
+		.album__three{
+			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__three{
+			@include albums(50px, #000, 0.6, 75px, 100px, 50%, -25px);
+			animation-delay: 0.4s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 	
-}
-
-
-
-.album__title{
-	width: 190px;
-	height: 190px;
-	padding-left: 10px;
-	padding-top: 10px;
-	text-align: left;
-    color: white;
-    
-    & h1{
-	    @include h1;
-    }
-    & h2{
-		@include h2;
-		color: white;
+	.record__wrapper__four{
+		@include wrapper(50px, 480px, -45deg);
+		
+		.album__four{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__four{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 0.5s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 	
-    
-    & .stars{
-	    
-	    width: 100px;
-	    height: 30px;
-	    float: left;
-	    position: absolute;
-	    bottom: 20px;
-	    right: 10px;
-	       background-position: right center;
-		    background-repeat: no-repeat;
-	    
-	    &.four{
-		    background-image: url('../assets/stars-four.svg');
-		 
-	    }
-	    
-	    &.fourHalf{
-		    background-image: url('../assets/stars-fourHalf.svg');
-	    }
-	    
-	    &.five{
-		    background-image: url('../assets/stars-five.svg');
-	    }
-    }       
-}
-    
-.pitchfork__container{
-	padding-bottom: 20px;
-}
-
-.clear{
-	clear: both;
+	.record__wrapper__five{
+		@include wrapper(180px, 80px, 45deg);
+		
+		.album__five{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__five{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 0.6s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 	
-.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #ececec url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; }	
-
-
-#top__banner{
-	width: 100%;
-	height: 600px;
-	background-color:black;
-	overflow: hidden;
-
-& video{
-	width: 100%;
-	height: auto;
-	margin-top: -480px;
-}
-
-& .logo{
-	z-index: 100000;
-	position: absolute;
-	left: 40%;
-	top:150px;
-	width: 400px;
+	.record__wrapper__six{
+		@include wrapper(25px, 180px, 90deg);
+		
+		.album__six{
+			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__six{
+			@include albums(50px, #000, 0.6, 75px, 100px, 50%, -25px);
+			animation-delay: 0.7s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
 	
-	& img{
-		width: 100%;
-		height: auto;
+	.record__wrapper__seven{
+		@include wrapper(350px, 460px, 180deg);
+		
+		.album__seven{
+			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__seven{
+			@include albums(50px, #000, 0.6, 75px, 100px, 50%, -25px);
+			animation-delay: 0.8s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	
+		.record__wrapper__eight{
+		@include wrapper(1050px, 70px, 90deg);
+		
+		.album__eight{
+			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__eight{
+			@include albums(50px, #000, 0.6, 75px, 100px, 50%, -25px);
+			animation-delay: 0.9s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	
+		.record__wrapper__nine{
+		@include wrapper(1205px, 210px, 180deg);
+		
+		.album__nine{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__nine{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 1.0s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	
+	.record__wrapper__ten{
+		@include wrapper(1205px, 210px, 180deg);
+		
+		.album__ten{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__ten{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 1.1s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	
+	.record__wrapper__eleven{
+	@include wrapper(855px, 560px, 130deg);
+	
+		.album__eleven{
+			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__eleven{
+			@include albums(50px, #000, 0.6, 75px, 100px, 50%, -75px);
+			animation-delay: 1.2s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	
+		.record__wrapper__twelve{
+	@include wrapper(1038.5px, 620px, -90deg);
+	
+		.album__twelve{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__twelve{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 1.3s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	.record__wrapper__thirteen{
+		@include wrapper(875px, 300px, -130deg);
+	
+		.album__thirteen{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}
+		.record__thirteen{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 1.4s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
+	}
+	.record__wrapper__fourteen{
+		@include wrapper(605px, 100px, 130deg);
+	
+		.album__fourteen{
+			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+			
+		}
+		.record__fourteen{
+			@include albums(130px, #000, 0.6, 75px, 100px, 50%, -65px);
+			animation-delay: 1.5s;
+			background-color: rgba(0, 0, 0, 0.5);
+			
+			@include media('<=phone') { 
+				 display: none;
+			 }
+		}	
 	}
 }
 
-& #description{
-	z-index: 100000;
-	position: absolute;
-	left: 40%;
-	top:460px;
-	width: 410px;
-	
-	& h1{
-		@include h1;
-		color: white;
-	}
-	
-
-}
-
-}
-
-.top_logo{
-	width: 150px;
-}
-
-#logo_wrapper{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1260px;
-	padding-left: 20px;
-	padding-right: 20px;
-	
-	& .beata{
-	font-family: 'Beata';
-	font-size: 74px;
-	margin-top: 22px;
-	color: white;
-	margin-bottom: -32px;
-	height: 0;
-	}
-}
-
-#menu__container{
-	
-	float: right;
-	
-	& ul.list__container{
-		float: left;
-		margin-top: 10px;
-	}
-	
-	& li{
-		float: left;
-	    font-family: 'brandon_grotesqueblack';
-	    margin-left: 15px;
-
-	}
-	
-	
-	
-}
-
-#top__banner{
-	
-		& .beata{
-	font-family: 'Beata';
-	font-size: 270px;
-	color: white;
-	z-index: 100000;
-	position: absolute;
-	left: 40%;
-	top:150px;
-	}
-	
-}
-
-
-.NowPlayingfooter{
-	width: 100%;
-	height: 60px;
-	background-color: #2c38dc;
+.audio__player{
 	position: fixed;
 	bottom: 0px;
-	z-index: 100000;
+	height: 50px;
+	background-color: black;
+	width: 100%;
+	z-index: 30000;
+	margin-bottom: -50px;
 	
-	& h1{
-		color: white;
-		@include h1;
+	.global__player{
+		float: left;
+		
 	}
 	
+	.play__time{
+		float: left;
+		height: 40px;
+		width: 40px;
+		color: white;
+		
+		@include h2();
+		font-size: 35px;
+		margin-left: 15px;
+		margin-top: 8px;
+	}
+	
+	.play__button{
+		float: left;
+		height: 40px;
+		width: 40px;
+		border: 2px solid white;
+		color: white;
+		border-radius: 50%;
+		margin-left: 15px;
+		margin-top: 3px;
+		background: no-repeat center center;
+		background-image: url('../assets/play-01.svg');
+		cursor: pointer;
+		
+		&:hover{
+			border: 2px solid rgba(255,255,255,0.7);
+		}
+	}
+	
+	.playing__details{
+		float: left;
+		height: 50px;
+		width: 200px;
+		color: white;
+		margin-left: 15px;
+		margin-top: 5px;
+		
+		.global__album__name{
+			opacity: 0.5;
+		}
+		
+		@include p;
+		
+		@include media('<=phone'){
+			width: 190px;
+		}
+	}
+}
+
+.provider__title__section{
+	float: left;
+	height: 25vh;
+	width: 100%;
+	background-color: #252528;
+	@include h1;
+	position: relative;
+	overflow: hidden;
+	
+	a{
+		color: white;
+		text-decoration: none;
+		
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	
+	h1{
+		position: absolute;		
+		color: white;
+		margin-left: 5%;
+		font-size: 2rem;
+		padding-top: 20px;
+		z-index: 9000;
+		
+		
+		&.fixed{
+			position: fixed;
+			z-index: 10000;
+			padding-top: 20px;
+			top: 0px;
+			background-color: #252528;
+			width: 95%;
+			margin-left: 0;
+			padding-left: 5%;
+			padding-bottom: 20px;
+		}
+		
+	}
+	
+
+	.provider__background{
+		background-size: cover;	
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0.2;
+		background-position-y: -22vw;
+		
+	}
+}
+
+.provider__albums__container{
+	@include h1;
+	float: left;
+	margin-top: -5%;
+	width: 90%;
+	color: white;
+	padding: {
+		left: 5%;
+		right:5%;
+		top:1%;
+		bottom: 10%;
+	};
+
+	
+	ul{
+		list-style: none;
+		
+		li{
+			float: left;
+			width: 31%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+			position: relative;
+			@include shadow;
+			
+			 @include media("<desktop") { 
+			 	width: 48%;
+			 }
+			 
+			 @include media("<tablet") { 
+			 	width: 100%;
+			 }
+			 
+			 @include media('<=phone') { 
+				 width: 100%;
+			 }
+			
+			
+			.spine{
+				position: absolute;
+				left: 50%;
+				width: 5px;
+				height: 100.5%;
+			}
+			
+			img{
+				width: 101%;
+			}
+			
+			.album__image{
+				width: 50%;
+				float: left;
+				height: 14vw;
+				background-color: white;
+				position: relative;
+				overflow: hidden;
+				
+				@include media("<desktop") { 
+			 		height: 21.7vw;
+			 	}
+			 	
+			 	@include media("<tablet") { 
+			 		height: 43.7vw;
+			 	}
+			 	
+			 	@include media('<=phone'){
+				 	height: 43.7vw;
+			 	}
+			 	
+			 	img{
+				 	&.notsquare{
+					 	width: 116%;
+				 	}
+			 	}
+				
+				&.timeout{
+					img{
+						width: 180%;
+						margin-left: -40%;
+					}
+				}
+				
+				.playing{
+						border-radius: 50%;
+						width: 1.92vw;
+						height: 1.73vw;
+						float: left;
+						margin-right: 4px;
+						list-style: none;
+						position: absolute;
+						background-color: rgba(255,255,255, 0.5);
+						font-size: 12px;
+						text-align: center;
+						padding-top: 0.20vw;
+						bottom: 10px;
+						right: 10px;
+						display: none;
+						@include media("<desktop"){
+							width: 2.92vw;
+							height: 2.73vw;
+						}
+					}
+				
+			}
+			
+			.album__info__wrapper{
+				float: left;
+				height: 14vw;
+				width: 47%;				
+				background-color: #f1f1f1;
+				font-size: 1.6vw;
+				line-height: 1.8vw;
+				padding-left: 3%;
+				position: relative;
+				
+				@include media("<desktop") { 
+			 		height: 21.7vw;
+			 	}
+			 	
+			 	@include media("<tablet") { 
+			 		height: 43.7vw;
+			 	}
+			 	
+			 	@include media('<=phone'){
+				 	height: 43.7vw;
+			 	}
+				
+				.artist__name{
+					margin-top: 5px;
+					padding-right: 10px;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					max-height: 50px;
+					overflow: hidden;
+					
+					@include media("<tablet") { 
+			 		font-size: 30px !important;
+			 		line-height: 30px; 
+			 		}
+			 		
+			 		@include media("<smalltablet") { 
+			 		font-size: 25px !important;
+			 		line-height: 25px; 
+			 		}
+			 		
+			 		@include media('<=phone'){
+			 			font-size:18px !important;
+			 			line-height: 18px;
+					}
+				}
+				
+				.album__name{
+					opacity: 0.7;
+					display: -webkit-box;
+					-webkit-line-clamp: 2;
+					-webkit-box-orient: vertical;
+					max-height: 60px;
+					overflow: hidden;
+					
+					
+					@include media("<tablet") { 
+			 		font-size: 30px !important;
+			 		line-height: 30px; 
+			 		}
+			 		
+			 		@include media("<smalltablet") { 
+			 		font-size: 25px !important;
+			 		line-height: 25px; 
+			 		}
+			 		
+			 		@include media('<=phone'){
+			 			font-size:18px !important;
+			 			line-height: 18px;
+					}
+				}
+				
+				 
+				
+				.stars{    
+				    width: 100px;
+				    height: 30px;
+					background-repeat: no-repeat;
+					position: absolute;
+					bottom: 0vw; 
+					
+					@include media("<tablet"){
+							width: 60%;
+							background-size: 100%;
+							bottom: -5.5vw;
+							height: 55px;
+						} 
+					
+					@include media("<phone"){
+							width: 60%;
+							background-size: 100%;
+							bottom: 13vw;
+							height: 55px;
+						} 	
+					
+					
+					&.actions, &.id{
+						bottom:2.5vw;
+						
+						@include media("<tablet"){
+							width: 60%;
+							background-size: 100%;
+							bottom: 5.5vw;
+							height: 55px;
+						}
+						
+						@include media ("<=phone"){
+							bottom:13px;
+						}
+					}  
+				&.twoHalf{
+				    background-image: url('../assets/stars-twoHalf.svg');
+			    }
+	    
+				&.three{
+				    background-image: url('../assets/stars-three.svg');
+			    }
+				
+				&.threeHalf{
+				    background-image: url('../assets/stars-threeHalf.svg');
+			    }
+	    
+			    &.four{
+				    background-image: url('../assets/stars-four.svg');
+			    }
+			    
+			    &.fourHalf{
+				    background-image: url('../assets/stars-fourHalf.svg');
+			    }
+			    
+			    &.five{
+				    background-image: url('../assets/stars-five.svg');
+			    }
+			    
+			    &.black{
+						&.twoHalf{
+							background-image: url('../assets/stars-twoHalf-black.svg');
+					    }
+			    
+						&.three{
+						    background-image: url('../assets/stars-three-black.svg');
+					    }
+						
+						&.threeHalf{
+						    background-image: url('../assets/stars-threeHalf-black.svg');
+					    }
+			    
+					    &.four{
+						    background-image: url('../assets/stars-four-black.svg');
+					    }
+					    
+					    &.fourHalf{
+						    background-image: url('../assets/stars-fourHalf-black.svg');
+					    }
+					    
+					    &.five{
+						    background-image: url('../assets/stars-five-black.svg');
+					    }
+					}
+			    
+				}      
+				
+				.actions{
+					width: 55%;
+					position: absolute;
+					bottom: 10px;
+					
+					.play{
+						background: center center no-repeat;
+						background-image: url('../assets/play-01.svg');
+					}
+					
+					.social{
+						background: center center no-repeat;
+						background-image: url('../assets/spotify.svg');
+						background-size: 106%;
+						border: none;
+					}
+					
+					.play, .share, .social{
+						border-radius: 50%;
+						width: 30px;
+						height: 30px;
+						border: 1px solid rgba(255, 255, 255, 1);
+						float: left;
+						margin-right: 4px;
+						list-style: none;
+						cursor: pointer;
+						
+						
+						
+						
+						&.playng{
+							background-color: white;
+						}
+						
+						@include media("<desktop"){
+							width: 30px;
+							height: 30px;
+						}
+						
+						@include media("<tablet"){
+							width: 30px;
+							height: 30px;
+						}
+						
+							@include media("<tablet"){
+							width: 30px;
+							height: 30px;
+						}
+						
+						img{
+							width: 1.5vw;
+							margin-top: 3px;
+							display: block;
+							margin-left: auto;
+							margin-right:auto;
+							
+						
+						@include media("<desktop"){
+							width: 1.5vw;
+							display: block;
+							margin-left: auto;
+							margin-right:auto;
+						}	
+						
+						@include media("<tablet"){
+							width: 5.5vw;
+							margin-top: 5px;
+							display: block;
+							margin-left: auto;
+							margin-right:auto;
+						}
+							
+						}
+						
+						svg{
+							width: 1.4vw;
+						}
+					}
+					
+					&.black{
+						.play, .share, .social{
+						border: 1px solid rgba(0, 0, 0, 1);
+						
+							&.playng{
+								border: 1px solid rgba(255, 255, 255, 1);
+							}
+						}
+						.play{
+							background-image: url('../assets/play-black.svg');
+						}
+						
+						.social{
+							background-image: url('../assets/spotify-black.svg');
+							border: none;
+						}
+						
+					}
+				}
+				
+			}	
+		}
+		
+	}
+	
+}
+
+.logo{
+	z-index: 100000;
+	position: fixed;
+	right: 20px;
+	bottom:20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	
+	@include media('<=phone'){
+		height: 200px;
+		right: auto;
+		bottom: auto;
+		top:-2px;
+		right: 130px;
+		position: absolute;
+	}
+	
+	svg{
+		@include media('<=phone'){
+		 	width: 180px;
+		 	height: 180px;
+		}
+	}
+	
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 	
@@ -707,27 +1106,26 @@ header {
 
 
 @font-face {
-    font-family: 'biko';
-    src: url('../assets/__typeface/biko_regular-webfont.eot');
-    src: url('../assets/__typeface/biko_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/__typeface/biko_regular-webfont.woff2') format('woff2'),
-         url('../assets/__typeface/biko_regular-webfont.woff') format('woff'),
-         url('../assets/__typeface/biko_regular-webfont.ttf') format('truetype'),
-         url('../assets/__typeface/biko_regular-webfont.svgbiko') format('svg');
+    font-family: 'apercuregular';
+    src: url('../assets/__typeface/apercu_regular-webfont.eot');
+    src: url('../assets/__typeface/apercu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/apercu_regular-webfont.woff') format('woff'),
+         url('../assets/__typeface/apercu_regular-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/apercu_regular-webfont.svg#apercuregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'biko__bold';
-    src: url('../assets/__typeface/biko_bold-webfont.eot');
-    src: url('../assets/__typeface/biko_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../assets/__typeface/biko_bold-webfont.woff2') format('woff2'),
-         url('../assets/__typeface/biko_bold-webfont.woff') format('woff'),
-         url('../assets/__typeface/biko_bold-webfont.ttf') format('truetype'),
-         url('../assets/__typeface/biko_bold-webfont.svgbiko__bold') format('svg');
+    font-family: 'apercubold';
+    src: url('../assets/__typeface/apercu_bold-webfont.eot');
+    src: url('../assets/__typeface/apercu_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/__typeface/apercu_bold-webfont.woff') format('woff'),
+         url('../assets/__typeface/apercu_bold-webfont.ttf') format('truetype'),
+         url('../assets/__typeface/apercu_bold-webfont.svg#apercubold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+

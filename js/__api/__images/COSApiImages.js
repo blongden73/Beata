@@ -25,8 +25,8 @@ request(clashurl, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $(".modules-grid #tab-everything .post").each(function(index) {
-            var artistName = $(".content > h1 > a", this).html().replace('Album Review:', '').replace('&#x2013;', '-').replace('&#xA0;', ' ').replace('&#xF6;', 'ö');
-            var artistSplit = artistName.split('-');
+            var artistName = $(".content > h1 > a", this).text().replace('Album Review:', '');
+            var artistSplit = artistName.split('–');
             var artist = artistSplit[0].trim();
             var imageLink = $('a .image img', this).data('lazy-src');
             var id = artistName.replace(/\s+/g, '').toLowerCase();

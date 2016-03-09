@@ -10,13 +10,14 @@ if (typeof localStorage === "undefined" || localStorage === null) {
 }
 
 //console.log(parsedJSON);
-
+console.log(parsedJSON.artists[2].artist);
 
 //loop through data from website
 for (var i = 0; i < parsedJSON.artists.length; i++) {
 	//make call to spotify 
     spotifyApi.searchArtists(parsedJSON.artists[i].artist)
         .then(function(data) {
+	        console.log(data);
 	        //loop through paresed json to check if names match
 	        for (var j = 0; j < parsedJSON.artists.length; j++) {
 		        //check to see if the names match

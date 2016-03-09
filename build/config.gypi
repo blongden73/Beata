@@ -45,8 +45,10 @@
     "v8_random_seed": 0,
     "v8_use_snapshot": "false",
     "want_separate_host_toolset": 0,
-    "nodedir": "/Users/blongden/.node-gyp/0.12.3",
+    "nodedir": "/Users/blongden/.node-gyp/0.12.5",
     "copy_dev_lib": "true",
-    "standalone_static_library": 1
+    "standalone_static_library": 1,
+    "with_jpeg": "true",
+    "with_gif": "true"
   }
 }

@@ -22,7 +22,7 @@ request(rollingurl, function (error, response, body) {
 
 	//loop through albums list and get individual parts
 	$(".primary ul.primary-list > li").each(function(index){
-		var artistName = $("a .content .list-item-hd", this).html().replace('&apos;', '').replace('&apos;', '');
+		var artistName = $("a .content .list-item-hd", this).text().replace("'", "").replace("'", "");
 		var artistNameSplit = artistName.split(',');
 		var artist = artistNameSplit[0];
 		var imageLink = $(".primary-img-container .js-img-lazy", this).data('src');
