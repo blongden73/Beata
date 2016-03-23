@@ -12,37 +12,39 @@
       "artist": "Kendrick Lamar",
       "albumName": "untitled unmastered.",
       "image": "http://cdn3.pitchfork.com/albums/23037/list.1bcdfd6b.jpg",
-      "rating": "8.6",
-      "stars": "fourHalf",
       "idvalue": "kendricklamar",
       "imagePath": "imgs/pitchfork/kendricklamar.jpeg",
       "conversionPath": "imgs/pitchfork/ kendricklamar.png",
-      "date": "2016-03-08",
+      "albumPage": "/reviews/albums/21705-untitled-unmastered/",
+      "date": "2016-03-22",
       "colour": "47,49,1",
       "bright": 40.333333333333336,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
+      "score": "8.6",
+      "ratingRound": 9,
+      "StarRating": "fourHalf",
       "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
       "Spotnames": "Kendrick Lamar",
       "Images": [
         {
-          "height": 1500,
-          "url": "https://i.scdn.co/image/710f327a57dff722909bbe1e85d7c8aef88c666e",
+          "height": 1000,
+          "url": "https://i.scdn.co/image/b1947120c60a8f2886c98faf52a61895821c7cf0",
           "width": 1000
         },
         {
-          "height": 960,
-          "url": "https://i.scdn.co/image/f29c0999c76f5b636c860a54e1fb67a5fb4dd911",
+          "height": 640,
+          "url": "https://i.scdn.co/image/c50721f32900d561d44f38006208ab69717fe1f9",
           "width": 640
         },
         {
-          "height": 300,
-          "url": "https://i.scdn.co/image/eea253d03a4a352607ff22bd3a5ce6ada55fd4a0",
+          "height": 200,
+          "url": "https://i.scdn.co/image/762628b9c2bf991e6f9325522dab32c0cf7c06a2",
           "width": 200
         },
         {
-          "height": 96,
-          "url": "https://i.scdn.co/image/f68365f703e91f2c1dc947ce5cc004db840f9b1d",
+          "height": 64,
+          "url": "https://i.scdn.co/image/876101e8b1a981d5d6f9257f0f6ddd15087bdfd5",
           "width": 64
         }
       ]
@@ -51,16 +53,18 @@
       "artist": "Anna Meredith",
       "albumName": "Varmints",
       "image": "http://cdn.pitchfork.com/albums/22836/list.e5b46eb7.jpg",
-      "rating": "8.4",
-      "stars": "four",
       "idvalue": "annameredith",
       "imagePath": "imgs/pitchfork/annameredith.jpeg",
       "conversionPath": "imgs/pitchfork/ annameredith.png",
-      "date": "2016-03-08",
+      "albumPage": "/reviews/albums/21527-varmints/",
+      "date": "2016-03-22",
       "colour": "203,203,203",
       "bright": 203,
       "colorClass": "black",
       "brightnessColor": "3,3,3",
+      "score": "8.4",
+      "ratingRound": 8,
+      "StarRating": "four",
       "Id": "5zDUidkda0GoYHu2vMr3G2",
       "Spotnames": "Anna Meredith",
       "Images": [
@@ -90,16 +94,18 @@
       "artist": "Esperanza Spalding",
       "albumName": "Emily's D+Evolution",
       "image": "http://cdn2.pitchfork.com/albums/22885/list.31d39fa4.jpg",
-      "rating": "8.6",
-      "stars": "fourHalf",
       "idvalue": "esperanzaspalding",
       "imagePath": "imgs/pitchfork/esperanzaspalding.jpeg",
       "conversionPath": "imgs/pitchfork/ esperanzaspalding.png",
-      "date": "2016-03-08",
+      "albumPage": "/reviews/albums/21575-emilys-devolution/",
+      "date": "2016-03-22",
       "colour": "171,138,123",
       "bright": 146.5,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
+      "score": "8.6",
+      "ratingRound": 9,
+      "StarRating": "fourHalf",
       "Id": "5bepW5vcdRzheNc0F8lHJ5",
       "Spotnames": "Esperanza Spalding",
       "Images": [
@@ -129,16 +135,18 @@
       "artist": "Moodymann",
       "albumName": "DJ-Kicks",
       "image": "http://cdn2.pitchfork.com/albums/22889/list.eaeea878.jpg",
-      "rating": "8.4",
-      "stars": "four",
       "idvalue": "moodymann",
       "imagePath": "imgs/pitchfork/moodymann.jpeg",
       "conversionPath": "imgs/pitchfork/ moodymann.png",
-      "date": "2016-03-08",
+      "albumPage": "/reviews/albums/21580-dj-kicks/",
+      "date": "2016-03-22",
       "colour": "75,126,120",
       "bright": 108,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
+      "score": "8.4",
+      "ratingRound": 8,
+      "StarRating": "four",
       "Id": "6pohviZSNRueSX7uNu63ZX",
       "Spotnames": "Moodymann",
       "Images": [
@@ -163,16 +171,18 @@
       "artist": "Kanye West",
       "albumName": "The Life of Pablo",
       "image": "http://cdn4.pitchfork.com/albums/22851/list.1192269b.jpg",
-      "rating": "9.0",
-      "stars": "fourHalf",
       "idvalue": "kanyewest",
       "imagePath": "imgs/pitchfork/kanyewest.jpeg",
       "conversionPath": "imgs/pitchfork/ kanyewest.png",
-      "date": "2016-03-08",
+      "albumPage": "/reviews/albums/21542-the-life-of-pablo/",
+      "date": "2016-03-22",
       "colour": "151,125,114",
       "bright": 131.83333333333334,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
+      "score": "9.0",
+      "ratingRound": 9,
+      "StarRating": "fourHalf",
       "Id": "5K4W6rqBFWDnAN6FQUkS6x",
       "Spotnames": "Kanye West",
       "Images": [
@@ -189,6 +199,47 @@
         {
           "height": 64,
           "url": "https://i.scdn.co/image/a2fe02386dcb76d7ecda994db995c3fb12694690",
+          "width": 64
+        }
+      ]
+    },
+    {
+      "artist": "Porches",
+      "albumName": "Pool",
+      "image": "http://cdn.pitchfork.com/albums/22823/list.577ea3bd.jpg",
+      "idvalue": "porches",
+      "imagePath": "imgs/pitchfork/porches.jpeg",
+      "conversionPath": "imgs/pitchfork/ porches.png",
+      "albumPage": "/reviews/albums/21514-pool/",
+      "date": "2016-03-22",
+      "colour": "215,207,222",
+      "bright": 212.16666666666666,
+      "colorClass": "black",
+      "brightnessColor": "3,3,3",
+      "score": "8.3",
+      "ratingRound": 8,
+      "StarRating": "four",
+      "Id": "2JzhQYGos3RqV7MT5fWeek",
+      "Spotnames": "Porches",
+      "Images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/cff0f8961bf931df16a0bea2aecc115f8ea1ea49",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/e99c215b5898153d2f51fd03d48ce19c9c115f97",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/70bbe25d93d01a8dfe5091d20e818645f2d85ef8",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/b018038c01606683545afe9c0853e5d3d0108db8",
           "width": 64
         }
       ]

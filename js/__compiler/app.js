@@ -1,3 +1,17 @@
+$.getJSON("js/__json/trackIds.json", function(json) {
+	console.log(json);
+	
+	// Put the object into storage
+	localStorage.setItem('AllMusic', JSON.stringify(json));
+		
+	var clash__data = json;
+	var source   = $("#button__template").html();
+	var template = Handlebars.compile(source);
+	var data = clash__data;
+	$(".button").append(template(data));
+	
+});
+
 $.getJSON("js/__api/__json/rollingData.json", function(json) {
 	console.log(json);
 	

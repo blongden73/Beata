@@ -1,10 +1,9 @@
 var SpotifyWebApi = require('spotify-web-api-node');
 var spotifyApi = new SpotifyWebApi({});
 
-var parsedJSON = require('./__json/data.json');
+var parsedJSON = require('./__json/pitchforkScoreData.json');
 var file = 'js/__api/__json/dataSpotify.json';
 var jf = require('jsonfile');
-var image = require('get-image-data')
 
 if (typeof localStorage === "undefined" || localStorage === null) {
     var LocalStorage = require('node-localstorage').LocalStorage;

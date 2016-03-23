@@ -94,6 +94,27 @@ font-weight: normal;
 }
 
 
+.button{
+	position: absolute;
+	bottom: 50px;
+	left: 40px;
+	z-index: 30;
+	color: white;
+	
+	@include media('<=phone') { 
+				 left: 10px;
+				 bottom: 0px;
+			 }
+	
+	button{
+		background: none;
+		border: 2px solid rgba(255, 255, 255, 0.5);
+		height: 30px;
+		border-radius: 30px;
+		color: white;
+	}
+}
+
 .nav{
 	
 	position: fixed;
@@ -894,7 +915,7 @@ font-weight: normal;
 					.social{
 						background: center center no-repeat;
 						background-image: url('../assets/spotify.svg');
-						background-size: 106%;
+						background-size: 107%;
 						border: none;
 					}
 					

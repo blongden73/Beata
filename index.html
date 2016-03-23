@@ -5,6 +5,7 @@
 <script src="js/__libs/jquery-2.1.4.js"></script>
 <script src="js/__libs/handlebars-v3.0.3.js"></script>
 <script src="js/__libs/modernizr.custom.85180.js" type="text/javascript"></script>
+<script src="bower_components/jquery-spotify-add-playlist/js/jquery_spotify_add_playlist.js"></script>
 <link type="style/css" href="Style/style.css" rel="stylesheet">
 <head>
 <title>Beata | New music across the web</title>
@@ -49,7 +50,11 @@
 	<div class="nav">
 		<p class="about">About</p>
 	</div>
-	
+	<div class="button">
+		<script id="button__template" type="text/x-handlebars-template">
+			<button class="spotify__playlist" data-track="{{Ids}}">Get spotify playlist</button>	
+		</script>	
+	</div>
 	<div class="introSlide">
 		<script id="colour__template" type="text/x-handlebars-template">
 			<div class="intro__title">
@@ -468,6 +473,7 @@
 		<script src="js/__functions/format.js" type="text/javascript"></script>		
 		<script src="js/__functions/sticky.js" type="text/javascript"></script>
 		<script src="js/__functions/about.js" type="text/javascript"></script>
+		<script src="js/__functions/playlist.js" type="text/javascript"></script>
 		<script src="js/__libs/stellar.js-master/jquery.stellar.js" type="text/javascript"></script>
 		<script>
 		setTimeout(function(){	

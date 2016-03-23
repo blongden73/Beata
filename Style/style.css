@@ -2363,6 +2363,23 @@ body {
 button:focus {
   outline: 0; }
 
+.button {
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+  z-index: 30;
+  color: white; }
+  @media (max-width: 375px) {
+    .button {
+      left: 10px;
+      bottom: 0px; } }
+  .button button {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    height: 30px;
+    border-radius: 30px;
+    color: white; }
+
 .nav {
   position: fixed;
   top: 20px;
@@ -3226,7 +3243,7 @@ button:focus {
           .provider__albums__container ul li .album__info__wrapper .actions .social {
             background: center center no-repeat;
             background-image: url("../assets/spotify.svg");
-            background-size: 106%;
+            background-size: 107%;
             border: none; }
           .provider__albums__container ul li .album__info__wrapper .actions .play, .provider__albums__container ul li .album__info__wrapper .actions .share, .provider__albums__container ul li .album__info__wrapper .actions .social {
             border-radius: 50%;
