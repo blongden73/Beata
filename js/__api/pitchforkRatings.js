@@ -59,7 +59,7 @@ for(i = 0; i < json.artists.length; i++){
 		            if(artistName === json.artists[j].artist){
 			           json.artists[j].score = score;
 			           json.artists[j].ratingRound = ratingRound;
-			           json.artists[j].StarRating = StarRating;   
+			           json.artists[j].stars = StarRating;   
 			           console.log(artistName);
 			           console.log(json.artists[j].artist);
 			           console.log(json);

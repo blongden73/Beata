@@ -49,7 +49,11 @@ module.exports = function(grunt) {
             'js/__api/__images/AllMusicApiImages.js', 
             'js/__api/__data/AllMusicApi.js',
             'js/__api/spotifyAM.js',
-            'js/__api/spotifyAMPreview.js' 
+            'js/__api/spotifyAMPreview.js',
+            'js/jsonextractor.js',
+            'js/albumIds.js',
+            'js/trackIds.js',
+             
             ]
         		}
     	},
@@ -65,7 +69,31 @@ module.exports = function(grunt) {
                 src: ['js/__json/**/*.json'],
                 dest: 'src/Datajson.js'
             }
-        }
+        },
+        
+        'ftp-deploy': {
+		  build: {
+		    auth: {
+		      host: '107.180.4.39',
+		      port: 21,
+		      authKey: 'key1'
+		    },
+		    src: 'style',
+		    dest: '/Beata/Style',
+		    exclusions: ['path/to/source/folder/**/.DS_Store', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp']
+		  },
+		  
+		  js: {
+		    auth: {
+		      host: '107.180.4.39',
+		      port: 21,
+		      authKey: 'key1'
+		    },
+		    src: 'js',
+		    dest: '/Beata/js',
+		    exclusions: ['path/to/source/folder/**/.DS_Store', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp']
+		  }
+		},
             			
 	});
 	
@@ -73,6 +101,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-execute');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-ftp-deploy');
 	grunt.loadNpmTasks('grunt-json');
-	grunt.registerTask('default',['execute', 'sass', 'json', 'watch']);
+	grunt.registerTask('default',['execute', 'sass', 'json', 'watch', 'ftp-deploy', 'ftp-deploy-js']);
 }

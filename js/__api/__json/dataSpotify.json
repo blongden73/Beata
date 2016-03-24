@@ -9,6 +9,23 @@
   ],
   "artists": [
     {
+      "artist": "Sheer Mag",
+      "albumName": "III EP",
+      "image": "http://cdn4.pitchfork.com/albums/23045/list.3d3d68ba.jpg",
+      "idvalue": "sheermag",
+      "imagePath": "imgs/pitchfork/sheermag.jpeg",
+      "conversionPath": "imgs/pitchfork/ sheermag.png",
+      "albumPage": "/reviews/albums/21731-iii-ep/",
+      "date": "2016-03-23",
+      "colour": "80,80,80",
+      "bright": 80,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "score": "8.3",
+      "ratingRound": 8,
+      "stars": "four"
+    },
+    {
       "artist": "Kendrick Lamar",
       "albumName": "untitled unmastered.",
       "image": "http://cdn3.pitchfork.com/albums/23037/list.1bcdfd6b.jpg",
@@ -16,14 +33,14 @@
       "imagePath": "imgs/pitchfork/kendricklamar.jpeg",
       "conversionPath": "imgs/pitchfork/ kendricklamar.png",
       "albumPage": "/reviews/albums/21705-untitled-unmastered/",
-      "date": "2016-03-22",
+      "date": "2016-03-23",
       "colour": "47,49,1",
       "bright": 40.333333333333336,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
       "score": "8.6",
       "ratingRound": 9,
-      "StarRating": "fourHalf",
+      "stars": "fourHalf",
       "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
       "Spotnames": "Kendrick Lamar",
       "Images": [
@@ -57,14 +74,14 @@
       "imagePath": "imgs/pitchfork/annameredith.jpeg",
       "conversionPath": "imgs/pitchfork/ annameredith.png",
       "albumPage": "/reviews/albums/21527-varmints/",
-      "date": "2016-03-22",
+      "date": "2016-03-23",
       "colour": "203,203,203",
       "bright": 203,
       "colorClass": "black",
       "brightnessColor": "3,3,3",
       "score": "8.4",
       "ratingRound": 8,
-      "StarRating": "four",
+      "stars": "four",
       "Id": "5zDUidkda0GoYHu2vMr3G2",
       "Spotnames": "Anna Meredith",
       "Images": [
@@ -98,14 +115,14 @@
       "imagePath": "imgs/pitchfork/esperanzaspalding.jpeg",
       "conversionPath": "imgs/pitchfork/ esperanzaspalding.png",
       "albumPage": "/reviews/albums/21575-emilys-devolution/",
-      "date": "2016-03-22",
+      "date": "2016-03-23",
       "colour": "171,138,123",
       "bright": 146.5,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
       "score": "8.6",
       "ratingRound": 9,
-      "StarRating": "fourHalf",
+      "stars": "fourHalf",
       "Id": "5bepW5vcdRzheNc0F8lHJ5",
       "Spotnames": "Esperanza Spalding",
       "Images": [
@@ -139,14 +156,14 @@
       "imagePath": "imgs/pitchfork/moodymann.jpeg",
       "conversionPath": "imgs/pitchfork/ moodymann.png",
       "albumPage": "/reviews/albums/21580-dj-kicks/",
-      "date": "2016-03-22",
+      "date": "2016-03-23",
       "colour": "75,126,120",
       "bright": 108,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
       "score": "8.4",
       "ratingRound": 8,
-      "StarRating": "four",
+      "stars": "four",
       "Id": "6pohviZSNRueSX7uNu63ZX",
       "Spotnames": "Moodymann",
       "Images": [
@@ -175,14 +192,14 @@
       "imagePath": "imgs/pitchfork/kanyewest.jpeg",
       "conversionPath": "imgs/pitchfork/ kanyewest.png",
       "albumPage": "/reviews/albums/21542-the-life-of-pablo/",
-      "date": "2016-03-22",
+      "date": "2016-03-23",
       "colour": "151,125,114",
       "bright": 131.83333333333334,
       "colorClass": "white",
       "brightnessColor": "255,255,255",
       "score": "9.0",
       "ratingRound": 9,
-      "StarRating": "fourHalf",
+      "stars": "fourHalf",
       "Id": "5K4W6rqBFWDnAN6FQUkS6x",
       "Spotnames": "Kanye West",
       "Images": [
@@ -199,47 +216,6 @@
         {
           "height": 64,
           "url": "https://i.scdn.co/image/a2fe02386dcb76d7ecda994db995c3fb12694690",
-          "width": 64
-        }
-      ]
-    },
-    {
-      "artist": "Porches",
-      "albumName": "Pool",
-      "image": "http://cdn.pitchfork.com/albums/22823/list.577ea3bd.jpg",
-      "idvalue": "porches",
-      "imagePath": "imgs/pitchfork/porches.jpeg",
-      "conversionPath": "imgs/pitchfork/ porches.png",
-      "albumPage": "/reviews/albums/21514-pool/",
-      "date": "2016-03-22",
-      "colour": "215,207,222",
-      "bright": 212.16666666666666,
-      "colorClass": "black",
-      "brightnessColor": "3,3,3",
-      "score": "8.3",
-      "ratingRound": 8,
-      "StarRating": "four",
-      "Id": "2JzhQYGos3RqV7MT5fWeek",
-      "Spotnames": "Porches",
-      "Images": [
-        {
-          "height": 1000,
-          "url": "https://i.scdn.co/image/cff0f8961bf931df16a0bea2aecc115f8ea1ea49",
-          "width": 1000
-        },
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/e99c215b5898153d2f51fd03d48ce19c9c115f97",
-          "width": 640
-        },
-        {
-          "height": 200,
-          "url": "https://i.scdn.co/image/70bbe25d93d01a8dfe5091d20e818645f2d85ef8",
-          "width": 200
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/b018038c01606683545afe9c0853e5d3d0108db8",
           "width": 64
         }
       ]

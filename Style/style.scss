@@ -109,9 +109,24 @@ font-weight: normal;
 	button{
 		background: none;
 		border: 2px solid rgba(255, 255, 255, 0.5);
-		height: 30px;
+		height: 40px;
 		border-radius: 30px;
 		color: white;
+		@include h1();
+		padding-left: 10px;
+		padding-right: 10px;
+		cursor: pointer;
+		
+		img{
+			width: 20px;
+			float: left;
+			margin-right: 6px;
+		}
+		
+		&:hover{
+			border: 2px solid rgba(255, 255, 255, 1);
+
+		}
 	}
 }
 
@@ -225,7 +240,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__one{
-		@include wrapper(599px, 545px, 90deg);
+		@include wrapper(599px, 68%, 90deg);
 		
 		.album__one{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -247,7 +262,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__two{
-		@include wrapper(300px, 700px, -130deg);
+		@include wrapper(300px, 90%, -130deg);
 		
 		.album__two{
 			@include albums(150px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -268,7 +283,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__three{
-		@include wrapper(420px, 10px, 130deg);
+		@include wrapper(420px, 1%, 130deg);
 		
 		.album__three{
 			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -289,7 +304,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__four{
-		@include wrapper(50px, 480px, -45deg);
+		@include wrapper(50px, 60%, -45deg);
 		
 		.album__four{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -310,7 +325,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__five{
-		@include wrapper(180px, 80px, 45deg);
+		@include wrapper(180px, 10%, 45deg);
 		
 		.album__five{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -331,7 +346,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__six{
-		@include wrapper(25px, 180px, 90deg);
+		@include wrapper(25px, 23%, 90deg);
 		
 		.album__six{
 			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -352,7 +367,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__seven{
-		@include wrapper(350px, 460px, 180deg);
+		@include wrapper(350px, 57%, 180deg);
 		
 		.album__seven{
 			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -373,7 +388,7 @@ font-weight: normal;
 	}
 	
 		.record__wrapper__eight{
-		@include wrapper(1050px, 70px, 90deg);
+		@include wrapper(1050px, 9%, 90deg);
 		
 		.album__eight{
 			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -394,7 +409,7 @@ font-weight: normal;
 	}
 	
 		.record__wrapper__nine{
-		@include wrapper(1205px, 210px, 180deg);
+		@include wrapper(1205px, 24%, 180deg);
 		
 		.album__nine{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -436,7 +451,7 @@ font-weight: normal;
 	}
 	
 	.record__wrapper__eleven{
-	@include wrapper(855px, 560px, 130deg);
+	@include wrapper(855px, 70%, 130deg);
 	
 		.album__eleven{
 			@include albums(50px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -457,7 +472,7 @@ font-weight: normal;
 	}
 	
 		.record__wrapper__twelve{
-	@include wrapper(1038.5px, 620px, -90deg);
+	@include wrapper(1038.5px, 78%, -90deg);
 	
 		.album__twelve{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -477,7 +492,7 @@ font-weight: normal;
 		}	
 	}
 	.record__wrapper__thirteen{
-		@include wrapper(875px, 300px, -130deg);
+		@include wrapper(875px, 40%, -130deg);
 	
 		.album__thirteen{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -497,7 +512,7 @@ font-weight: normal;
 		}	
 	}
 	.record__wrapper__fourteen{
-		@include wrapper(605px, 100px, 130deg);
+		@include wrapper(605px, 15%, 130deg);
 	
 		.album__fourteen{
 			@include albums(130px, #fff, 0.9, 50px, 100px, 0, 0);
@@ -682,7 +697,7 @@ font-weight: normal;
 			}
 			
 			img{
-				width: 101%;
+				width: 102%;
 			}
 			
 			.album__image{
@@ -1109,7 +1124,25 @@ font-weight: normal;
   animation-name: fadeInRight;
 }
 
+//spotify callback
+.spotify-callback{
+	color: white;
+	@include h1();
 	
+	a{
+		color: white;
+	}
+	
+	.beata__logo{
+		margin-bottom: 20px;
+		margin-top: 20px;
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+		}
+	}
+}	
 	
 // fonts
 

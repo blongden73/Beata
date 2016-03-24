@@ -2376,9 +2376,26 @@ button:focus {
   .button button {
     background: none;
     border: 2px solid rgba(255, 255, 255, 0.5);
-    height: 30px;
+    height: 40px;
     border-radius: 30px;
-    color: white; }
+    color: white;
+    font-family: 'apercuregular';
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 22px;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer; }
+    .button button img {
+      width: 20px;
+      float: left;
+      margin-right: 6px; }
+    .button button:hover {
+      border: 2px solid white; }
 
 .nav {
   position: fixed;
@@ -2478,7 +2495,7 @@ button:focus {
       margin-top: 100px; }
   .introSlide .record__wrapper__one {
     left: 599px;
-    top: 545px;
+    top: 68%;
     -ms-transform: rotate(90deg);
     /* IE 9 */
     -webkit-transform: rotate(90deg);
@@ -2512,7 +2529,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__two {
     left: 300px;
-    top: 700px;
+    top: 90%;
     -ms-transform: rotate(-130deg);
     /* IE 9 */
     -webkit-transform: rotate(-130deg);
@@ -2545,7 +2562,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__three {
     left: 420px;
-    top: 10px;
+    top: 1%;
     -ms-transform: rotate(130deg);
     /* IE 9 */
     -webkit-transform: rotate(130deg);
@@ -2578,7 +2595,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__four {
     left: 50px;
-    top: 480px;
+    top: 60%;
     -ms-transform: rotate(-45deg);
     /* IE 9 */
     -webkit-transform: rotate(-45deg);
@@ -2611,7 +2628,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__five {
     left: 180px;
-    top: 80px;
+    top: 10%;
     -ms-transform: rotate(45deg);
     /* IE 9 */
     -webkit-transform: rotate(45deg);
@@ -2644,7 +2661,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__six {
     left: 25px;
-    top: 180px;
+    top: 23%;
     -ms-transform: rotate(90deg);
     /* IE 9 */
     -webkit-transform: rotate(90deg);
@@ -2677,7 +2694,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__seven {
     left: 350px;
-    top: 460px;
+    top: 57%;
     -ms-transform: rotate(180deg);
     /* IE 9 */
     -webkit-transform: rotate(180deg);
@@ -2710,7 +2727,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__eight {
     left: 1050px;
-    top: 70px;
+    top: 9%;
     -ms-transform: rotate(90deg);
     /* IE 9 */
     -webkit-transform: rotate(90deg);
@@ -2743,7 +2760,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__nine {
     left: 1205px;
-    top: 210px;
+    top: 24%;
     -ms-transform: rotate(180deg);
     /* IE 9 */
     -webkit-transform: rotate(180deg);
@@ -2809,7 +2826,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__eleven {
     left: 855px;
-    top: 560px;
+    top: 70%;
     -ms-transform: rotate(130deg);
     /* IE 9 */
     -webkit-transform: rotate(130deg);
@@ -2842,7 +2859,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__twelve {
     left: 1038.5px;
-    top: 620px;
+    top: 78%;
     -ms-transform: rotate(-90deg);
     /* IE 9 */
     -webkit-transform: rotate(-90deg);
@@ -2875,7 +2892,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__thirteen {
     left: 875px;
-    top: 300px;
+    top: 40%;
     -ms-transform: rotate(-130deg);
     /* IE 9 */
     -webkit-transform: rotate(-130deg);
@@ -2908,7 +2925,7 @@ button:focus {
           display: none; } }
   .introSlide .record__wrapper__fourteen {
     left: 605px;
-    top: 100px;
+    top: 15%;
     -ms-transform: rotate(130deg);
     /* IE 9 */
     -webkit-transform: rotate(130deg);
@@ -3373,6 +3390,26 @@ button:focus {
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight; }
+
+.spotify-callback {
+  color: white;
+  font-family: 'apercuregular';
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 22px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-weight: normal; }
+  .spotify-callback a {
+    color: white; }
+  .spotify-callback .beata__logo {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+    .spotify-callback .beata__logo img {
+      margin-left: auto;
+      margin-right: auto;
+      display: block; }
 
 @font-face {
   font-family: 'Beata';
