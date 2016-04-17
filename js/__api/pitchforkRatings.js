@@ -54,7 +54,7 @@ for(i = 0; i < json.artists.length; i++){
 	            } else if (ratingRound == 10) {
 	                StarRating = 'five'
 	            }
-	            var artistName = $("hgroup .artists ul li a", this).text();
+	            var artistName = $("hgroup .artists ul li a", this).text().replace('/', ' ');
 	            for(j = 0; j < json.artists.length; j++){
 		            if(artistName === json.artists[j].artist){
 			           json.artists[j].score = score;

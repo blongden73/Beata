@@ -26,7 +26,7 @@ request(url, function(error, response, body) {
 
         //loop through albums list and get individual parts
         $("#best-new-albums .container-fluid ul li .album-small").each(function(index) {
-            var artistName = $("a .artist-list li", this).text();
+            var artistName = $("a .artist-list li", this).text().replace('/', ' ');
             var imageLink = $("a .artwork img", this).attr('src')
             var id = artistName.replace(/\s+/g, '').toLowerCase();
             var imagePath = 'imgs/pitchfork/' + id + ".jpeg";

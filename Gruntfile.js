@@ -92,9 +92,7 @@ module.exports = function(grunt) {
 		    src: 'js',
 		    dest: '/Beata/js',
 		    exclusions: ['path/to/source/folder/**/.DS_Store', 'path/to/source/folder/**/Thumbs.db', 'path/to/dist/tmp']
-		  }
-		},
-            			
+		  } 			
 	});
 	
 	grunt.loadNpmTasks('grunt-notify');
@@ -103,5 +101,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-ftp-deploy');
 	grunt.loadNpmTasks('grunt-json');
-	grunt.registerTask('default',['execute', 'sass', 'json', 'watch', 'ftp-deploy', 'ftp-deploy-js']);
+	grunt.registerTask('default',['execute', 'sass', 'json', 'watch']);
+	grunt.registerTask('run', ['execute']);
+	grunt.registerTask('deploy', ['ftp-deploy']);
+	grunt.registerTask('changes', ['sass', 'watch']);
 }

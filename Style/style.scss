@@ -96,14 +96,14 @@ font-weight: normal;
 
 .button{
 	position: absolute;
-	bottom: 50px;
+	bottom: 75px;
 	left: 40px;
 	z-index: 30;
 	color: white;
 	
 	@include media('<=phone') { 
 				 left: 10px;
-				 bottom: 0px;
+				 bottom: 75px;
 			 }
 	
 	button{
@@ -148,6 +148,12 @@ font-weight: normal;
 		&:hover{
 			text-decoration: underline;
 		}
+	}
+	
+	@include media('<=phone'){
+		right: none;
+		left: 10px;
+		position: absolute;
 	}	
 }
 

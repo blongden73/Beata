@@ -2365,14 +2365,14 @@ button:focus {
 
 .button {
   position: absolute;
-  bottom: 50px;
+  bottom: 75px;
   left: 40px;
   z-index: 30;
   color: white; }
   @media (max-width: 375px) {
     .button {
       left: 10px;
-      bottom: 0px; } }
+      bottom: 75px; } }
   .button button {
     background: none;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -2414,6 +2414,11 @@ button:focus {
     cursor: pointer; }
     .nav .about:hover {
       text-decoration: underline; }
+  @media (max-width: 375px) {
+    .nav {
+      right: none;
+      left: 10px;
+      position: absolute; } }
 
 .overlay {
   background-color: rgba(218, 65, 64, 0.95);
@@ -3100,7 +3105,7 @@ button:focus {
         width: 5px;
         height: 100.5%; }
       .provider__albums__container ul li img {
-        width: 101%; }
+        width: 102%; }
       .provider__albums__container ul li .album__image {
         width: 50%;
         float: left;

@@ -9,6 +9,181 @@
   ],
   "artists": [
     {
+      "artist": "Parquet Courts",
+      "albumName": "Human Performance",
+      "image": "http://cdn4.pitchfork.com/albums/22909/list.3d7f0f9d.jpg",
+      "idvalue": "parquetcourts",
+      "imagePath": "imgs/pitchfork/parquetcourts.jpeg",
+      "conversionPath": "imgs/pitchfork/ parquetcourts.png",
+      "albumPage": "/reviews/albums/21597-human-performance/",
+      "date": "2016-04-17",
+      "colour": "213,177,102",
+      "bright": 176.5,
+      "colorClass": "black",
+      "brightnessColor": "3,3,3",
+      "score": "8.4",
+      "ratingRound": 8,
+      "stars": "four",
+      "Id": "23NIwARd4vPbxt3wwNnJ6k",
+      "Spotnames": "Parquet Courts",
+      "Images": [
+        {
+          "height": 667,
+          "url": "https://i.scdn.co/image/d9a51ff6e23411cecd02107f58c25a0513543068",
+          "width": 1000
+        },
+        {
+          "height": 427,
+          "url": "https://i.scdn.co/image/4eac87939ecb34d62a749b9eda74915e84ef93bc",
+          "width": 640
+        },
+        {
+          "height": 133,
+          "url": "https://i.scdn.co/image/803a3151f74d5b87c4521b283e7e5ea5b74baecc",
+          "width": 199
+        },
+        {
+          "height": 43,
+          "url": "https://i.scdn.co/image/ad8393db77f20b28decfb6a02a29485b96487568",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/e0d277649d96e1a5cf97df9f6912490915d63206"
+    },
+    {
+      "artist": "dvsn",
+      "albumName": "Sept. 5th",
+      "image": "http://cdn.pitchfork.com/albums/23090/list.cc30a921.jpg",
+      "idvalue": "dvsn",
+      "imagePath": "imgs/pitchfork/dvsn.jpeg",
+      "conversionPath": "imgs/pitchfork/ dvsn.png",
+      "albumPage": "/reviews/albums/21756-sept-5th/",
+      "date": "2016-04-17",
+      "colour": "64,2,158",
+      "bright": 48.666666666666664,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "score": "8.3",
+      "ratingRound": 8,
+      "stars": "four",
+      "Id": "7e1ICztHM2Sc4JNLxeMXYl",
+      "Spotnames": "dvsn",
+      "Images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/35d8e93b6a29bd15e6cbad56a8e4f777469e1a8d",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/d609584c62d5b07eba7d601a4bf5a86b946b0375",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/1f3fc4d6790197d5cd3d81e0b52557dafdd2703b",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/18f5ccd42ef9621f66d3b846436587ad0c5de6ab"
+    },
+    {
+      "artist": "Frankie Cosmos",
+      "albumName": "Next Thing",
+      "image": "http://cdn.pitchfork.com/albums/23100/list.e6f8e4d7.jpg",
+      "idvalue": "frankiecosmos",
+      "imagePath": "imgs/pitchfork/frankiecosmos.jpeg",
+      "conversionPath": "imgs/pitchfork/ frankiecosmos.png",
+      "albumPage": "/reviews/albums/21765-next-thing/",
+      "date": "2016-04-17",
+      "colour": "125,123,92",
+      "bright": 118.5,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "score": "8.5",
+      "ratingRound": 9,
+      "stars": "fourHalf",
+      "Id": "0x4xCoWaOFd3WsKarzaxnW",
+      "Spotnames": "Frankie Cosmos",
+      "Images": [
+        {
+          "height": 562,
+          "url": "https://i.scdn.co/image/92c28cfdeb8aa549c769d1328d2ba86c3ed601bb",
+          "width": 1000
+        },
+        {
+          "height": 360,
+          "url": "https://i.scdn.co/image/6dfd9fd38fb79b318221e45ffb39d571bcc14366",
+          "width": 640
+        },
+        {
+          "height": 112,
+          "url": "https://i.scdn.co/image/b6854991a77f4c633af0e7e3061b2686afa875c8",
+          "width": 199
+        },
+        {
+          "height": 36,
+          "url": "https://i.scdn.co/image/bf075091d362d77f00009500b98bf79c01062dde",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/1143f2e901d8ed3de3610ff956a63cb3ca623715"
+    },
+    {
+      "artist": "Kamaiyah",
+      "albumName": "A Good Night in the Ghetto",
+      "image": "http://cdn4.pitchfork.com/albums/23046/list.9682145a.jpg",
+      "idvalue": "kamaiyah",
+      "imagePath": "imgs/pitchfork/kamaiyah.jpeg",
+      "conversionPath": "imgs/pitchfork/ kamaiyah.png",
+      "albumPage": "/reviews/albums/21712-a-good-night-in-the-ghetto/",
+      "date": "2016-04-17",
+      "colour": "83,112,135",
+      "bright": 106.16666666666667,
+      "colorClass": "white",
+      "brightnessColor": "255,255,255",
+      "score": "8.2",
+      "ratingRound": 8,
+      "stars": "four",
+      "Id": "3XVpDdKav6C6zwlDXPhMEO",
+      "Spotnames": "Kamaiyah",
+      "Images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/0ee6fdea2d13b51f64a3400dac5a81eb26d0a270",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/c4efb5012f132c5e454f6467839f71c74a5cf29b",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/2a5b7fbab808aefec843df6ed911fb693e0af32d",
+          "width": 64
+        }
+      ],
+      "previewURL": "https://p.scdn.co/mp3-preview/7c66eca46dc9482032d514e09a69cd862fc50808"
+    },
+    {
+      "artist": "Vijay Iyer   Wadada Leo Smith",
+      "albumName": "A Cosmic Rhythm With Each Stroke",
+      "image": "http://cdn4.pitchfork.com/albums/22827/list.07bbdbe9.jpg",
+      "idvalue": "vijayiyerwadadaleosmith",
+      "imagePath": "imgs/pitchfork/vijayiyerwadadaleosmith.jpeg",
+      "conversionPath": "imgs/pitchfork/ vijayiyerwadadaleosmith.png",
+      "albumPage": "/reviews/albums/21518-a-cosmic-rhythm-with-each-stroke/",
+      "date": "2016-04-17",
+      "colour": "189,184,159",
+      "bright": 181.5,
+      "colorClass": "black",
+      "brightnessColor": "3,3,3",
+      "score": "8.5",
+      "ratingRound": 9,
+      "stars": "fourHalf"
+    },
+    {
       "artist": "Sheer Mag",
       "albumName": "III EP",
       "image": "http://cdn4.pitchfork.com/albums/23045/list.3d3d68ba.jpg",
@@ -16,7 +191,7 @@
       "imagePath": "imgs/pitchfork/sheermag.jpeg",
       "conversionPath": "imgs/pitchfork/ sheermag.png",
       "albumPage": "/reviews/albums/21731-iii-ep/",
-      "date": "2016-03-23",
+      "date": "2016-04-17",
       "colour": "80,80,80",
       "bright": 80,
       "colorClass": "white",
@@ -24,206 +199,6 @@
       "score": "8.3",
       "ratingRound": 8,
       "stars": "four"
-    },
-    {
-      "artist": "Kendrick Lamar",
-      "albumName": "untitled unmastered.",
-      "image": "http://cdn3.pitchfork.com/albums/23037/list.1bcdfd6b.jpg",
-      "idvalue": "kendricklamar",
-      "imagePath": "imgs/pitchfork/kendricklamar.jpeg",
-      "conversionPath": "imgs/pitchfork/ kendricklamar.png",
-      "albumPage": "/reviews/albums/21705-untitled-unmastered/",
-      "date": "2016-03-23",
-      "colour": "47,49,1",
-      "bright": 40.333333333333336,
-      "colorClass": "white",
-      "brightnessColor": "255,255,255",
-      "score": "8.6",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "Id": "2YZyLoL8N0Wb9xBt1NhZWg",
-      "Spotnames": "Kendrick Lamar",
-      "Images": [
-        {
-          "height": 1000,
-          "url": "https://i.scdn.co/image/b1947120c60a8f2886c98faf52a61895821c7cf0",
-          "width": 1000
-        },
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/c50721f32900d561d44f38006208ab69717fe1f9",
-          "width": 640
-        },
-        {
-          "height": 200,
-          "url": "https://i.scdn.co/image/762628b9c2bf991e6f9325522dab32c0cf7c06a2",
-          "width": 200
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/876101e8b1a981d5d6f9257f0f6ddd15087bdfd5",
-          "width": 64
-        }
-      ],
-      "previewURL": "https://p.scdn.co/mp3-preview/2285c489d0cab124a1f0bdc07588ee5468ef8475"
-    },
-    {
-      "artist": "Anna Meredith",
-      "albumName": "Varmints",
-      "image": "http://cdn.pitchfork.com/albums/22836/list.e5b46eb7.jpg",
-      "idvalue": "annameredith",
-      "imagePath": "imgs/pitchfork/annameredith.jpeg",
-      "conversionPath": "imgs/pitchfork/ annameredith.png",
-      "albumPage": "/reviews/albums/21527-varmints/",
-      "date": "2016-03-23",
-      "colour": "203,203,203",
-      "bright": 203,
-      "colorClass": "black",
-      "brightnessColor": "3,3,3",
-      "score": "8.4",
-      "ratingRound": 8,
-      "stars": "four",
-      "Id": "5zDUidkda0GoYHu2vMr3G2",
-      "Spotnames": "Anna Meredith",
-      "Images": [
-        {
-          "height": 920,
-          "url": "https://i.scdn.co/image/fb8516b42ad955c881d0a93d7f2d9ff152bee09f",
-          "width": 784
-        },
-        {
-          "height": 751,
-          "url": "https://i.scdn.co/image/ad7c9d7869df5364538d95a3a7d63d8b178eb5b2",
-          "width": 640
-        },
-        {
-          "height": 235,
-          "url": "https://i.scdn.co/image/f446992adc4bc1bd220ba1b00d32e8a58e3a2c92",
-          "width": 200
-        },
-        {
-          "height": 75,
-          "url": "https://i.scdn.co/image/78f181946157b899b6e12e4ea088baadbc08d84c",
-          "width": 64
-        }
-      ],
-      "previewURL": "https://p.scdn.co/mp3-preview/567e9db23bfec08624e7a7401e5b2d8198ea5755"
-    },
-    {
-      "artist": "Esperanza Spalding",
-      "albumName": "Emily's D+Evolution",
-      "image": "http://cdn2.pitchfork.com/albums/22885/list.31d39fa4.jpg",
-      "idvalue": "esperanzaspalding",
-      "imagePath": "imgs/pitchfork/esperanzaspalding.jpeg",
-      "conversionPath": "imgs/pitchfork/ esperanzaspalding.png",
-      "albumPage": "/reviews/albums/21575-emilys-devolution/",
-      "date": "2016-03-23",
-      "colour": "171,138,123",
-      "bright": 146.5,
-      "colorClass": "white",
-      "brightnessColor": "255,255,255",
-      "score": "8.6",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "Id": "5bepW5vcdRzheNc0F8lHJ5",
-      "Spotnames": "Esperanza Spalding",
-      "Images": [
-        {
-          "height": 1000,
-          "url": "https://i.scdn.co/image/0313bddd20ad15bb6bc410f5aa97dcb72ce11acb",
-          "width": 1000
-        },
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/a5c06aa7fdaa174b1df2788aba330d4d0c87efee",
-          "width": 640
-        },
-        {
-          "height": 200,
-          "url": "https://i.scdn.co/image/8ee64ae9dbe625fb437b15af0f717634ff079097",
-          "width": 200
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/8572a25d0c9d8f44fec93be1df5803f723518e90",
-          "width": 64
-        }
-      ],
-      "previewURL": "https://p.scdn.co/mp3-preview/0dc6ad51d6df87eae6b3b5c9fe2ec24aca5a9fcd"
-    },
-    {
-      "artist": "Moodymann",
-      "albumName": "DJ-Kicks",
-      "image": "http://cdn2.pitchfork.com/albums/22889/list.eaeea878.jpg",
-      "idvalue": "moodymann",
-      "imagePath": "imgs/pitchfork/moodymann.jpeg",
-      "conversionPath": "imgs/pitchfork/ moodymann.png",
-      "albumPage": "/reviews/albums/21580-dj-kicks/",
-      "date": "2016-03-23",
-      "colour": "75,126,120",
-      "bright": 108,
-      "colorClass": "white",
-      "brightnessColor": "255,255,255",
-      "score": "8.4",
-      "ratingRound": 8,
-      "stars": "four",
-      "Id": "6pohviZSNRueSX7uNu63ZX",
-      "Spotnames": "Moodymann",
-      "Images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/849e40b627748ad8daeb95c18e227fc605d1c9fb",
-          "width": 640
-        },
-        {
-          "height": 200,
-          "url": "https://i.scdn.co/image/45481b6db139971582e534b79c54c200531151dc",
-          "width": 200
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/919e5830a9fd786239aec363a13d33bee0fab2aa",
-          "width": 64
-        }
-      ],
-      "previewURL": "https://p.scdn.co/mp3-preview/a6af20498b1124e837479c87da78fb56d4963c18"
-    },
-    {
-      "artist": "Kanye West",
-      "albumName": "The Life of Pablo",
-      "image": "http://cdn4.pitchfork.com/albums/22851/list.1192269b.jpg",
-      "idvalue": "kanyewest",
-      "imagePath": "imgs/pitchfork/kanyewest.jpeg",
-      "conversionPath": "imgs/pitchfork/ kanyewest.png",
-      "albumPage": "/reviews/albums/21542-the-life-of-pablo/",
-      "date": "2016-03-23",
-      "colour": "151,125,114",
-      "bright": 131.83333333333334,
-      "colorClass": "white",
-      "brightnessColor": "255,255,255",
-      "score": "9.0",
-      "ratingRound": 9,
-      "stars": "fourHalf",
-      "Id": "5K4W6rqBFWDnAN6FQUkS6x",
-      "Spotnames": "Kanye West",
-      "Images": [
-        {
-          "height": 332,
-          "url": "https://i.scdn.co/image/fca17e83545e076fafb561569e8d5ec64f87eb8c",
-          "width": 331
-        },
-        {
-          "height": 201,
-          "url": "https://i.scdn.co/image/01405d36c7091a57b873ee5a91034ba7fc8eab8c",
-          "width": 200
-        },
-        {
-          "height": 64,
-          "url": "https://i.scdn.co/image/a2fe02386dcb76d7ecda994db995c3fb12694690",
-          "width": 64
-        }
-      ],
-      "previewURL": "https://p.scdn.co/mp3-preview/c8d8a129f707d88cedf70a56ae348073fe1ceb74"
     }
   ]
 }
